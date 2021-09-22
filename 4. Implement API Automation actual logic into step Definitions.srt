@@ -1,0 +1,687 @@
+1
+00:00:00,780 --> 00:00:04,560
+OK, so now let's bring Daccord from.
+
+2
+00:00:05,940 --> 00:00:07,270
+Our previous example.
+
+3
+00:00:08,100 --> 00:00:16,780
+So right now we are trying to add the book, so I guess this is the data related to adding book.
+
+4
+00:00:17,250 --> 00:00:21,720
+So let's carefully copy that and bring back to our definition files.
+
+5
+00:00:22,050 --> 00:00:25,770
+So now let's partition that code into different methods here.
+
+6
+00:00:26,340 --> 00:00:31,020
+OK, so the callback we wrote accomplishes all these three methods, right?
+
+7
+00:00:31,290 --> 00:00:36,630
+Because we have book details we executed and we also verified selectively pasted here once.
+
+8
+00:00:37,140 --> 00:00:39,540
+So let's quickly rearrange this properly.
+
+9
+00:00:40,140 --> 00:00:45,060
+So when we execute and a post-paid method executes this one.
+
+10
+00:00:45,060 --> 00:00:45,300
+Right.
+
+11
+00:00:45,450 --> 00:00:50,070
+So we are executing Polster method to get that response right.
+
+12
+00:00:50,100 --> 00:00:55,140
+So this step should go to that this folder.
+
+13
+00:00:57,870 --> 00:01:04,350
+And next, once you execute, you want to check whether the book is successfully added and you want
+
+14
+00:01:04,350 --> 00:01:05,480
+to book idea.
+
+15
+00:01:05,530 --> 00:01:08,100
+So let's assume that you want to get a book idea.
+
+16
+00:01:08,790 --> 00:01:16,300
+So once again, the response, everything else should be validated after you hit that request.
+
+17
+00:01:16,860 --> 00:01:19,820
+So let's not let's print here.
+
+18
+00:01:19,830 --> 00:01:20,430
+That's fine.
+
+19
+00:01:20,880 --> 00:01:22,490
+And let's not have this for now.
+
+20
+00:01:24,070 --> 00:01:30,760
+So how would you take a look is successfully added so you can verify a message that is an assertion
+
+21
+00:01:30,760 --> 00:01:36,320
+right to check book is successfully added because in response you get that message.
+
+22
+00:01:36,460 --> 00:01:38,110
+So let's have that assertion here.
+
+23
+00:01:39,640 --> 00:01:40,750
+So assert.
+
+24
+00:01:42,300 --> 00:01:48,120
+The response is what we got in that, let's verify what message.
+
+25
+00:01:49,320 --> 00:01:54,690
+So they should actually tell book is successfully added, so let success.
+
+26
+00:01:57,700 --> 00:02:00,020
+So this is the message it will take in response.
+
+27
+00:02:00,670 --> 00:02:05,980
+Now, if you have carefully observed that a lot of us here, let's try to fix all of them.
+
+28
+00:02:06,400 --> 00:02:12,760
+So now what we did is we have partition and divided code based upon the what we need here.
+
+29
+00:02:13,330 --> 00:02:19,870
+OK, so book verification code is here, execution codes here and all the inputs, the book details
+
+30
+00:02:19,870 --> 00:02:24,780
+we are storing in a variable rate header, Siwa and everything that is not required because we are not
+
+31
+00:02:24,790 --> 00:02:25,690
+going to be called here.
+
+32
+00:02:27,160 --> 00:02:35,110
+OK, so firstly, we can import this request so that Aregawi, why No one and next get config.
+
+33
+00:02:35,380 --> 00:02:40,570
+So if you remember this, get config, all these we are getting from these files.
+
+34
+00:02:40,900 --> 00:02:45,810
+OK, so let's also import these files into our definition.
+
+35
+00:02:47,150 --> 00:02:53,780
+So one thing you have to observe 70 percent of frame work related things we have already done under
+
+36
+00:02:53,800 --> 00:02:54,650
+previous section.
+
+37
+00:02:55,030 --> 00:03:01,870
+OK, so if you carefully observe we have utility's files and we store resources, we stored configurations.
+
+38
+00:03:02,140 --> 00:03:05,680
+And, you know, the data is not hardcoded here.
+
+39
+00:03:05,680 --> 00:03:09,190
+It is coming from D'Arte and they file like which endpoint you need.
+
+40
+00:03:09,340 --> 00:03:15,010
+And for resources you are getting from class payloaders constructing from pillar glasses, everything
+
+41
+00:03:15,010 --> 00:03:19,460
+is almost 70 percent of framework best practices.
+
+42
+00:03:19,490 --> 00:03:24,670
+We have already implemented in the previous sections the only one new thing, what we brought here is
+
+43
+00:03:24,670 --> 00:03:26,710
+fronton interface just like this.
+
+44
+00:03:27,010 --> 00:03:34,420
+OK, so we have added reedited flavor in this section so that our frontrunning in the first time sort
+
+45
+00:03:34,420 --> 00:03:41,350
+a behavior driven style, but back in the utilities, configurations, properties, resources, everything
+
+46
+00:03:41,350 --> 00:03:42,080
+we already made.
+
+47
+00:03:42,340 --> 00:03:48,550
+So that's why this section looks so simple for us, because the real core code is already ready.
+
+48
+00:03:48,580 --> 00:03:55,420
+We just need to partition that by creating one feature file and mapping the two step definitions are
+
+49
+00:03:55,420 --> 00:03:56,890
+step implementations, that's all.
+
+50
+00:03:57,400 --> 00:04:03,490
+OK, so now we'll see here the get config, everything else that's gone because we imported those packages.
+
+51
+00:04:04,330 --> 00:04:09,850
+So we are nicely bringing this end point from a centralized global file and add resources from there.
+
+52
+00:04:09,880 --> 00:04:10,240
+Great.
+
+53
+00:04:10,570 --> 00:04:11,940
+You all that is good.
+
+54
+00:04:12,190 --> 00:04:12,790
+What next?
+
+55
+00:04:13,150 --> 00:04:19,110
+So there is another here which you have to fix now you are.
+
+56
+00:04:20,140 --> 00:04:25,400
+So earlier we did not get that error because we have written everything as a single file.
+
+57
+00:04:25,450 --> 00:04:29,130
+So if you stored it in you are available, you can access here.
+
+58
+00:04:29,440 --> 00:04:36,070
+But in your step definition file the scope of this, you are the method variable will be inside this
+
+59
+00:04:36,070 --> 00:04:40,520
+matter only because if you close this, you see that variables are getting closed.
+
+60
+00:04:40,540 --> 00:04:43,790
+So that means the scope of this variable is inside this method only.
+
+61
+00:04:44,140 --> 00:04:47,920
+So that's why this method is not able to understand.
+
+62
+00:04:47,920 --> 00:04:49,270
+What is this you wanted?
+
+63
+00:04:50,090 --> 00:04:54,120
+Similarly, you got a response you stored in the response variable.
+
+64
+00:04:54,460 --> 00:05:00,550
+And now when you try to extract Jason from that response in the metro, new context isn't because scope
+
+65
+00:05:00,700 --> 00:05:03,510
+of that response variable lyson Duckmanton only.
+
+66
+00:05:03,520 --> 00:05:03,860
+Right.
+
+67
+00:05:04,150 --> 00:05:05,200
+So how do you fix that?
+
+68
+00:05:05,440 --> 00:05:07,960
+So he had a bit of context comes into the picture.
+
+69
+00:05:08,530 --> 00:05:16,040
+So context is one variable which will be activated in the future level or in the scenario level.
+
+70
+00:05:16,540 --> 00:05:22,720
+So when you run this entire future five on a single scenario, any time when you start planning one
+
+71
+00:05:22,720 --> 00:05:26,590
+variable context will be assigned to your total execution.
+
+72
+00:05:26,980 --> 00:05:31,600
+OK, so that variable will be sent to all your methods.
+
+73
+00:05:32,200 --> 00:05:39,460
+So in this variable context variable, in this context, you will actually have this as a property.
+
+74
+00:05:39,670 --> 00:05:40,630
+You will store this.
+
+75
+00:05:40,630 --> 00:05:42,310
+You are own property in this variable.
+
+76
+00:05:42,490 --> 00:05:44,850
+OK, let's do like this context that you are.
+
+77
+00:05:45,460 --> 00:05:50,510
+So if you do like this, we are sending a property of you all to this context object.
+
+78
+00:05:51,070 --> 00:05:54,290
+OK, so you can call it as a variable or object.
+
+79
+00:05:54,580 --> 00:06:02,260
+So basically we are sending a new property to this object right now as this context is global.
+
+80
+00:06:02,500 --> 00:06:03,610
+And I told you.
+
+81
+00:06:03,610 --> 00:06:04,900
+Right it will be.
+
+82
+00:06:05,990 --> 00:06:12,340
+Activated when you start running this entire future scenario and it will be ended only when you are
+
+83
+00:06:12,380 --> 00:06:19,100
+going to do a session, so this session context object will be available to all Democrats until your
+
+84
+00:06:19,100 --> 00:06:20,220
+program of execution is done.
+
+85
+00:06:20,570 --> 00:06:22,220
+So here it is available now.
+
+86
+00:06:22,910 --> 00:06:24,370
+But how to retrieve that?
+
+87
+00:06:24,440 --> 00:06:27,760
+You want to you can simply retrieve it by calling on to dark.
+
+88
+00:06:28,100 --> 00:06:29,660
+You are perfect.
+
+89
+00:06:29,660 --> 00:06:30,840
+You see that error is gone.
+
+90
+00:06:31,370 --> 00:06:37,430
+So here as our current, what we are doing to share the variables between a different astep implementation
+
+91
+00:06:37,430 --> 00:06:41,360
+methods, we are relying on context because context is global.
+
+92
+00:06:41,630 --> 00:06:48,570
+So you are assigning a new property of your order to this object and using that property anywhere,
+
+93
+00:06:48,740 --> 00:06:55,790
+because context looks every bit OK, that that's how we manage variables, objects, anything, and
+
+94
+00:06:55,790 --> 00:06:57,680
+shared across different methods.
+
+95
+00:06:57,710 --> 00:07:00,170
+In reality, we have a framework.
+
+96
+00:07:00,530 --> 00:07:02,360
+OK, that's an important point.
+
+97
+00:07:02,790 --> 00:07:04,430
+OK, so we have a role here Aspell.
+
+98
+00:07:05,760 --> 00:07:11,490
+Because in this matter, the book details which needs to be added, so we got you all we got ahead of
+
+99
+00:07:11,870 --> 00:07:15,480
+us also let's place like this context to not hate us.
+
+100
+00:07:17,130 --> 00:07:20,910
+OK, now you can use this context started us.
+
+101
+00:07:22,390 --> 00:07:23,920
+In your execution at the.
+
+102
+00:07:26,180 --> 00:07:33,860
+Also, this looks super clean now and response, one last thing and for this context object, let's
+
+103
+00:07:33,860 --> 00:07:40,430
+also assign and response property so you can reuse it wherever you want.
+
+104
+00:07:44,830 --> 00:07:48,530
+Cool, I guess all the errors are resolved.
+
+105
+00:07:49,180 --> 00:07:54,930
+Everything looks good now, OK, so if you go back to Earth a fine, this is exactly what it is doing.
+
+106
+00:07:55,240 --> 00:07:57,070
+So given the details, let's see.
+
+107
+00:07:57,620 --> 00:07:58,660
+Let's go to here.
+
+108
+00:07:59,030 --> 00:08:01,380
+Yeah, these are the details.
+
+109
+00:08:01,390 --> 00:08:02,530
+You have everything here.
+
+110
+00:08:03,540 --> 00:08:04,920
+Nice and.
+
+111
+00:08:05,900 --> 00:08:10,530
+Let's do one thing, this ad hoc payroll also, so this isn't over in detail, right?
+
+112
+00:08:10,730 --> 00:08:12,360
+Let's have all the details here.
+
+113
+00:08:12,530 --> 00:08:16,810
+So let's confine this executable post matter only for execution.
+
+114
+00:08:17,270 --> 00:08:26,750
+So I don't think I'll copy this iron book payload and write it here context and create a new property
+
+115
+00:08:27,230 --> 00:08:27,810
+payload.
+
+116
+00:08:28,830 --> 00:08:30,860
+It will stop and you will.
+
+117
+00:08:32,250 --> 00:08:34,850
+Let's get some random variables so that it will be unique.
+
+118
+00:08:34,850 --> 00:08:37,550
+And it creates for us the context at payload.
+
+119
+00:08:37,850 --> 00:08:40,430
+And you can reuse it here instead of having it here.
+
+120
+00:08:40,610 --> 00:08:43,420
+You can see there's an equal stuff on the stock.
+
+121
+00:08:43,430 --> 00:08:45,060
+Baylor right now.
+
+122
+00:08:45,110 --> 00:08:54,680
+This way you have segregated that in a very nice way so that all the details, Baylor headers, everything,
+
+123
+00:08:54,680 --> 00:09:00,590
+what all you need for your API Hick's, everything will be executed in the step.
+
+124
+00:09:01,280 --> 00:09:07,100
+OK, so if someone wants to know what exactly this step is doing, they can simply control press control
+
+125
+00:09:07,100 --> 00:09:13,900
+and select this so that they get here and see what's happening and next when we execute Adbul.
+
+126
+00:09:14,480 --> 00:09:14,870
+Right.
+
+127
+00:09:15,350 --> 00:09:17,950
+So, yeah, this is what it's happening.
+
+128
+00:09:18,140 --> 00:09:21,140
+We are executing post matter and the last one is verified.
+
+129
+00:09:21,200 --> 00:09:29,480
+Then book is successfully added and we have validation assumption to see if book is successfully added.
+
+130
+00:09:30,140 --> 00:09:30,530
+All right.
+
+131
+00:09:30,950 --> 00:09:37,010
+So let's run this test again and see if that's really adding a book or not.
+
+132
+00:09:37,220 --> 00:09:46,040
+OK, again, so if you want to run this entire future of this folder, you can simply say here, but
+
+133
+00:09:46,040 --> 00:09:54,380
+if you are interested only to run one single feature file instead of running all, so then you can give
+
+134
+00:09:54,380 --> 00:09:55,390
+the future filename.
+
+135
+00:09:55,550 --> 00:09:57,630
+So right now there is only one feature file here.
+
+136
+00:09:57,650 --> 00:10:02,920
+So by default, even if you give this only one builder, but you can say like this also future slash
+
+137
+00:10:03,770 --> 00:10:06,530
+the folder because you are already in project level, right.
+
+138
+00:10:06,860 --> 00:10:09,080
+In that project level field of slash.
+
+139
+00:10:09,410 --> 00:10:10,750
+Give you a feature name.
+
+140
+00:10:11,000 --> 00:10:11,870
+It's a book.
+
+141
+00:10:13,320 --> 00:10:21,030
+A dark future, OK, and this is how you can run the one single feature file.
+
+142
+00:10:21,050 --> 00:10:27,050
+What you need here by default, human last, see the logs in the output if you want to see the logs
+
+143
+00:10:27,050 --> 00:10:28,990
+in the output when you want to be here.
+
+144
+00:10:29,510 --> 00:10:30,380
+When I say logs.
+
+145
+00:10:30,410 --> 00:10:32,820
+So here you are printing mcadie all these, right.
+
+146
+00:10:33,080 --> 00:10:35,130
+So those will be suppressed by default.
+
+147
+00:10:35,420 --> 00:10:44,690
+You can make them not suppressed by giving this flag no capture so that we behave will not capture and
+
+148
+00:10:44,690 --> 00:10:45,670
+storage in any file.
+
+149
+00:10:45,680 --> 00:10:48,410
+It will simply show for you in the console output.
+
+150
+00:10:48,890 --> 00:10:49,150
+Right.
+
+151
+00:10:49,580 --> 00:10:55,580
+So syntax here, right here is a file you want to run and lock up the flag to see output.
+
+152
+00:10:55,730 --> 00:10:58,760
+If you want to run, all of these files simply won't be here.
+
+153
+00:10:58,880 --> 00:10:59,740
+Don't give anything.
+
+154
+00:11:00,080 --> 00:11:01,610
+All right, let's run this.
+
+155
+00:11:05,010 --> 00:11:11,940
+OK, so you see that one filter passed, that means one filter, the interest rate is color feature
+
+156
+00:11:12,330 --> 00:11:13,940
+in that there is only one scenario.
+
+157
+00:11:13,950 --> 00:11:20,490
+So it's this one scenario is passed and then there are three steps given when then three steps past.
+
+158
+00:11:20,730 --> 00:11:26,730
+When we say three steps past, that means the cord, which is tied up to these three steps past without
+
+159
+00:11:26,730 --> 00:11:27,750
+any issues.
+
+160
+00:11:27,960 --> 00:11:33,060
+OK, so if you scroll up, you can see the logs message successfully added.
+
+161
+00:11:33,240 --> 00:11:36,480
+And this is the book we are printing in the output.
+
+162
+00:11:37,000 --> 00:11:37,470
+Awesome.
+
+163
+00:11:38,010 --> 00:11:45,570
+So we have successfully converted our python test to be dedi behav framework.
+
+164
+00:11:45,840 --> 00:11:47,190
+OK, so same test.
+
+165
+00:11:47,370 --> 00:11:52,530
+We are now able to write with nice user interface by connecting with the star definition.
+
+166
+00:11:52,830 --> 00:11:57,630
+One great thing here is that our work became easy because in the last election itself we have done a
+
+167
+00:11:57,630 --> 00:11:59,460
+lot of framework optimizations.
+
+168
+00:11:59,790 --> 00:12:05,700
+OK, so if you say utilities, we have resources to collect all the resources, class files, properties
+
+169
+00:12:05,700 --> 00:12:08,730
+where it takes the detailed configurations, everything we have done.
+
+170
+00:12:08,940 --> 00:12:13,830
+So that's why our code is easily migrated now to build a cucumber style.
+
+171
+00:12:14,400 --> 00:12:17,250
+OK, let's continue our discussion in the next election.
+
+172
+00:12:17,670 --> 00:12:18,150
+Thank you.

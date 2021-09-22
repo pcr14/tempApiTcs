@@ -1,0 +1,615 @@
+1
+00:00:01,200 --> 00:00:01,890
+Welcome, guys.
+
+2
+00:00:02,460 --> 00:00:05,620
+Let us try to solve one more tricky scenario here.
+
+3
+00:00:06,840 --> 00:00:17,370
+Let's say I want to get the price of Arpit, OK, so there is a course called RPI and I want to get
+
+4
+00:00:17,370 --> 00:00:18,190
+that title.
+
+5
+00:00:18,870 --> 00:00:21,810
+I just want to get the price of that goes.
+
+6
+00:00:22,080 --> 00:00:30,350
+But the problem here is this goes Makumbe in the third place or second place or first place again.
+
+7
+00:00:30,420 --> 00:00:34,400
+Right now I have to go to three courses here and it's on the third place.
+
+8
+00:00:35,100 --> 00:00:42,260
+So tomorrow if I do another course and alphabetic order may change and it might come on any place.
+
+9
+00:00:42,270 --> 00:00:47,960
+So I'm not sure where exactly this title comes in, this causus list.
+
+10
+00:00:48,510 --> 00:00:52,190
+So basically I want to get the price of this title.
+
+11
+00:00:52,440 --> 00:00:53,940
+So that's my overall goal.
+
+12
+00:00:54,270 --> 00:01:01,170
+And you should not go buy indexes because in the previous session we went through indexing of one.
+
+13
+00:01:01,860 --> 00:01:10,560
+But let's assume that order is not guaranteed and you may get any order based upon new courses addition
+
+14
+00:01:11,070 --> 00:01:11,720
+after that.
+
+15
+00:01:12,540 --> 00:01:17,160
+So now how would you write a logic which will give you the price?
+
+16
+00:01:17,790 --> 00:01:19,080
+Of course.
+
+17
+00:01:21,150 --> 00:01:22,510
+OK, right.
+
+18
+00:01:22,530 --> 00:01:23,300
+Let's all this.
+
+19
+00:01:23,340 --> 00:01:24,420
+Again, it's very simple.
+
+20
+00:01:24,420 --> 00:01:26,490
+Let's throw the question looks complex.
+
+21
+00:01:26,700 --> 00:01:30,080
+And that's what beauty pythonesque whatever.
+
+22
+00:01:30,090 --> 00:01:35,280
+B the challenge question you have, the answer would be is in Python.
+
+23
+00:01:36,150 --> 00:01:37,900
+That's why I really love this language.
+
+24
+00:01:38,580 --> 00:01:38,970
+OK.
+
+25
+00:01:40,060 --> 00:01:42,580
+Again, let's stick to our basics.
+
+26
+00:01:42,990 --> 00:01:44,560
+That's all I can tell you every time.
+
+27
+00:01:45,490 --> 00:01:49,720
+So first of all, our goal is to extract this causus right.
+
+28
+00:01:49,750 --> 00:01:50,430
+Let's do that.
+
+29
+00:01:50,590 --> 00:01:54,430
+And you know how to get that, because you already took that into a dictionary.
+
+30
+00:01:54,430 --> 00:01:57,760
+And dictionary, of course, will give you that list, isn't it?
+
+31
+00:01:57,910 --> 00:01:59,500
+Because the output of this is a list.
+
+32
+00:02:00,250 --> 00:02:07,620
+So you can write one simple step data coarsest, which will give you the list.
+
+33
+00:02:07,960 --> 00:02:08,550
+That's fine.
+
+34
+00:02:08,920 --> 00:02:09,850
+No issues with that.
+
+35
+00:02:13,360 --> 00:02:15,820
+OK, so there is one called indentation as.
+
+36
+00:02:16,150 --> 00:02:20,890
+Please do remember, you are opening the file and reading it, right.
+
+37
+00:02:21,160 --> 00:02:26,370
+So the next line, whatever you write, should come exactly with a tap space here.
+
+38
+00:02:26,740 --> 00:02:32,310
+If you started from the beginning, then this matter will be independent of this file.
+
+39
+00:02:33,740 --> 00:02:34,520
+Object, OK?
+
+40
+00:02:34,550 --> 00:02:40,220
+So you will run into a so-called indentation matters, so do one tap and you will be exactly looting
+
+41
+00:02:40,220 --> 00:02:40,460
+their.
+
+42
+00:02:41,680 --> 00:02:46,930
+As we are working on this fire as a fire object, the scope of this object will light only when you
+
+43
+00:02:46,930 --> 00:02:47,700
+are inside of this.
+
+44
+00:02:48,160 --> 00:02:50,940
+So if you are inside, you should be exactly with this step.
+
+45
+00:02:50,950 --> 00:02:56,590
+If you come and write it on the first line, then it will read that you are outside and the object will
+
+46
+00:02:56,590 --> 00:02:57,820
+not be applicable to this.
+
+47
+00:02:58,090 --> 00:03:00,930
+If it's not applicable, then you can't work.
+
+48
+00:03:01,150 --> 00:03:04,870
+But in this case, I don't think we really require, isn't it?
+
+49
+00:03:04,870 --> 00:03:09,040
+We are not working with any object because we already have a data file here.
+
+50
+00:03:09,280 --> 00:03:10,510
+OK, so we are just reusing.
+
+51
+00:03:11,650 --> 00:03:12,890
+So it's up to you.
+
+52
+00:03:12,910 --> 00:03:14,470
+You can right from the start of the beginning.
+
+53
+00:03:14,470 --> 00:03:16,360
+That doesn't matter, at least for this case.
+
+54
+00:03:17,550 --> 00:03:24,450
+OK, so this returns what again, I want to see what it returns.
+
+55
+00:03:29,730 --> 00:03:31,650
+Because I just access to my dictionary.
+
+56
+00:03:33,110 --> 00:03:36,920
+OK, I saw the list, so what can we do once we understand this is list?
+
+57
+00:03:36,950 --> 00:03:45,460
+I basically want to iterate over each and every element of my list and to see if title is Arpit or not.
+
+58
+00:03:45,590 --> 00:03:46,290
+That's my goal.
+
+59
+00:03:46,610 --> 00:03:49,890
+So basically in the list, there are totally three items, right?
+
+60
+00:03:50,210 --> 00:03:52,100
+So how would I know what list?
+
+61
+00:03:52,670 --> 00:03:55,210
+I have already discussed this in my previous lectures.
+
+62
+00:03:55,550 --> 00:04:00,960
+So if you want to either you can use follow Foud, take any variable.
+
+63
+00:04:00,980 --> 00:04:05,960
+In this case, let's take a course in.
+
+64
+00:04:07,840 --> 00:04:11,080
+The list what is the list data causes?
+
+65
+00:04:11,680 --> 00:04:15,070
+So this is the list, so when you read this, they're basically.
+
+66
+00:04:16,220 --> 00:04:24,530
+False starts and it iterate over each and every element in the list and for every iteration, every
+
+67
+00:04:24,830 --> 00:04:28,520
+list item will be stored in this course variable.
+
+68
+00:04:31,170 --> 00:04:36,300
+Now, if I try to bring to what happens here, let's see, Brent goes.
+
+69
+00:04:37,860 --> 00:04:45,600
+So now when I run this particular file, every time, one item in this list will be retrieved.
+
+70
+00:04:45,900 --> 00:04:49,070
+So in our case, we know that list to have three items.
+
+71
+00:04:49,320 --> 00:04:54,860
+So that means it in the first iteration, a dictionary will be printed in second division.
+
+72
+00:04:54,930 --> 00:04:58,310
+Second dictionary will be printer let's controls after 10.
+
+73
+00:04:58,830 --> 00:05:05,890
+And you'll see that so far every iteration it has been internal one item of that list because data,
+
+74
+00:05:05,910 --> 00:05:11,880
+of course, this is what we are iterating now and we have successfully printed these three items.
+
+75
+00:05:11,880 --> 00:05:12,120
+Right.
+
+76
+00:05:12,600 --> 00:05:19,410
+So now in every iteration, this course variable holds a dictionary, isn't it?
+
+77
+00:05:19,410 --> 00:05:22,570
+Because the item of that list is nothing but a dictionary.
+
+78
+00:05:23,070 --> 00:05:27,970
+So our goal is to print if title is our right.
+
+79
+00:05:28,350 --> 00:05:32,770
+So once we get the dictionary, you can write this print course.
+
+80
+00:05:32,940 --> 00:05:38,760
+So after you print your course, we will carefully check because this variable is now dictionary is
+
+81
+00:05:38,780 --> 00:05:40,650
+isn't it goes off.
+
+82
+00:05:42,930 --> 00:05:43,190
+Right.
+
+83
+00:05:43,410 --> 00:05:54,570
+So if I'm reading one step, which will tell us if course title equals to R B, so when you run this,
+
+84
+00:05:55,350 --> 00:05:57,060
+make sure to have an indentation.
+
+85
+00:05:57,270 --> 00:05:58,300
+So this is important.
+
+86
+00:05:58,320 --> 00:05:59,570
+So you start off a here.
+
+87
+00:05:59,940 --> 00:06:04,020
+So as these steps belong to the outlook, make sure you know exactly.
+
+88
+00:06:04,020 --> 00:06:07,860
+Starts from this C not from the beginning.
+
+89
+00:06:07,860 --> 00:06:10,900
+So called in addition to having this must in paper.
+
+90
+00:06:11,520 --> 00:06:11,670
+Right.
+
+91
+00:06:11,760 --> 00:06:13,920
+Because you don't have any calibrates like in Java.
+
+92
+00:06:13,930 --> 00:06:14,150
+Right.
+
+93
+00:06:14,640 --> 00:06:22,550
+OK, so what is the step now so far the nation once it printed then it will quickly say Kosoff title.
+
+94
+00:06:22,560 --> 00:06:28,230
+So this dict study of title, it will retrieve selenium python if equals to Arpey.
+
+95
+00:06:28,380 --> 00:06:33,970
+No, then you can skip it when there is a match like this then.
+
+96
+00:06:34,260 --> 00:06:37,500
+Now let's say it will come back for the first list.
+
+97
+00:06:37,540 --> 00:06:38,870
+And secondly, there is no match.
+
+98
+00:06:39,150 --> 00:06:45,530
+But when it lópez-istúriz in third time then goes matches with RPI right at that time when there is
+
+99
+00:06:45,540 --> 00:06:46,230
+match.
+
+100
+00:06:46,860 --> 00:06:53,400
+OK then come inside the safe condition because at the match time this course variable is calling the
+
+101
+00:06:53,400 --> 00:06:54,440
+third dictionary right.
+
+102
+00:06:54,870 --> 00:06:57,090
+So then only it matches.
+
+103
+00:06:57,090 --> 00:07:01,590
+So when it title matches without fear, that means discourse is now holding the third dictionary.
+
+104
+00:07:01,920 --> 00:07:10,500
+So now your goal is to get price so you can simply course get me the price so that you, if condition
+
+105
+00:07:10,500 --> 00:07:12,900
+will go into the step only when there is a match.
+
+106
+00:07:12,900 --> 00:07:15,660
+So then it will reach refortify in your output.
+
+107
+00:07:16,090 --> 00:07:16,300
+Right.
+
+108
+00:07:16,380 --> 00:07:23,520
+So this is how you can simply write a logic to tell your python to extract based upon your requirement
+
+109
+00:07:23,670 --> 00:07:24,300
+supplies.
+
+110
+00:07:24,300 --> 00:07:25,550
+Of course, Arpit.
+
+111
+00:07:26,160 --> 00:07:28,200
+OK, so let me run this loop.
+
+112
+00:07:28,260 --> 00:07:29,510
+Sorry, I gave a wrong step.
+
+113
+00:07:29,820 --> 00:07:31,790
+Control shift after.
+
+114
+00:07:33,350 --> 00:07:38,540
+You see that finally it printed 45 five, so let's come in the spring because it's no more required
+
+115
+00:07:38,540 --> 00:07:41,320
+for us and perfect.
+
+116
+00:07:41,600 --> 00:07:44,700
+So the RBA title is 45.
+
+117
+00:07:44,720 --> 00:07:52,250
+Let's compare it with this character, not it finally got in second index 30 index.
+
+118
+00:07:52,280 --> 00:07:54,510
+You see that title RBA is forty five.
+
+119
+00:07:55,130 --> 00:08:00,230
+So basically this is it's reading from which Philco to start descent rate.
+
+120
+00:08:00,470 --> 00:08:02,190
+I will make one modification here.
+
+121
+00:08:02,480 --> 00:08:08,230
+So instead of having this title at the end, I will write it in the beginning.
+
+122
+00:08:08,420 --> 00:08:14,660
+So we will see if this costs, if this score is still valid, because our overall goal is to get rid
+
+123
+00:08:14,660 --> 00:08:18,350
+of that index and use the concept of decent rate.
+
+124
+00:08:18,830 --> 00:08:20,410
+So this is dynamic basically.
+
+125
+00:08:20,420 --> 00:08:21,650
+So it varies every day.
+
+126
+00:08:21,950 --> 00:08:23,490
+Let me make sure everything is correct.
+
+127
+00:08:23,930 --> 00:08:24,370
+All right.
+
+128
+00:08:24,680 --> 00:08:26,390
+So I have saved this file.
+
+129
+00:08:26,480 --> 00:08:32,000
+Now, RBA will come in the beginning, but still Cordwell smartly identify when the title matches and
+
+130
+00:08:32,000 --> 00:08:35,110
+it will print your output so the value should not change.
+
+131
+00:08:38,360 --> 00:08:47,300
+So that means good, our test is now not depending upon any kind of indexes, so you can start having
+
+132
+00:08:47,300 --> 00:08:53,540
+some sessions to see if it is the actual price, because in real time, when you start reading test
+
+133
+00:08:53,540 --> 00:09:00,410
+cases, because if you want to validate the coastal regions fortified, then you would assert and cause
+
+134
+00:09:00,410 --> 00:09:00,980
+price.
+
+135
+00:09:01,190 --> 00:09:06,300
+Whatever you have matters with whatever you can say equals two forty five.
+
+136
+00:09:07,190 --> 00:09:07,550
+All right.
+
+137
+00:09:07,560 --> 00:09:10,480
+So let me run this and you'll see that test is pass.
+
+138
+00:09:10,910 --> 00:09:13,070
+You don't see any failures.
+
+139
+00:09:13,070 --> 00:09:19,700
+But if you try to write any for 50 or some other value and try to run it again, then it will definitely
+
+140
+00:09:19,700 --> 00:09:21,840
+fail, saying that is an assertion error.
+
+141
+00:09:22,160 --> 00:09:24,290
+So this is how you can put validations.
+
+142
+00:09:24,300 --> 00:09:26,140
+But if you want to do and string.
+
+143
+00:09:26,610 --> 00:09:30,150
+OK, so I have shown you the logic of accessing the elements, right?
+
+144
+00:09:30,410 --> 00:09:36,170
+So once you access the content, you can start using the assumptions to test your ideas and find out
+
+145
+00:09:36,170 --> 00:09:40,090
+if it is returning as expected with this asset statements.
+
+146
+00:09:40,810 --> 00:09:47,690
+So that's how you can actually use the logic and validate without depending upon indexes in your words
+
+147
+00:09:47,930 --> 00:09:48,430
+and fight.
+
+148
+00:09:49,220 --> 00:09:54,470
+OK, so the days and whatever we have used as a tool of the complex and if you are able to pass this,
+
+149
+00:09:54,470 --> 00:09:56,570
+you can pass any kind of dissent.
+
+150
+00:09:57,320 --> 00:10:03,950
+OK, so in the next election I will show you how to compare two different files and confirm if they
+
+151
+00:10:03,950 --> 00:10:05,210
+are same or not.
+
+152
+00:10:05,400 --> 00:10:06,880
+It should be very simple.
+
+153
+00:10:07,490 --> 00:10:08,630
+We'll see that in the next lecture.
+
+154
+00:10:08,870 --> 00:10:09,350
+Thank you.

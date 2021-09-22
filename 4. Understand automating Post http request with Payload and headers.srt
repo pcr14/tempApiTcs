@@ -1,0 +1,875 @@
+1
+00:00:00,930 --> 00:00:01,540
+Welcome back.
+
+2
+00:00:01,920 --> 00:00:07,440
+I hope you have figured out that issue, so basically let's try to see this for a loop.
+
+3
+00:00:08,040 --> 00:00:11,860
+If it matches with ESPN, it prints the actual book.
+
+4
+00:00:12,220 --> 00:00:16,240
+OK, but for Loop is not stopping here.
+
+5
+00:00:16,680 --> 00:00:19,270
+OK, so it's still continuing, right, though?
+
+6
+00:00:19,290 --> 00:00:20,310
+It matters.
+
+7
+00:00:20,590 --> 00:00:28,320
+We were not insisting any way to exit, so it just found and it went into a condition and printed the
+
+8
+00:00:28,320 --> 00:00:30,000
+actual book thereafter.
+
+9
+00:00:30,000 --> 00:00:35,910
+It continued to iterate through every list and finally it either rated this Java withdrawal should be
+
+10
+00:00:36,330 --> 00:00:39,510
+like the last item of this response.
+
+11
+00:00:39,990 --> 00:00:41,040
+It either deleted.
+
+12
+00:00:41,040 --> 00:00:47,690
+And now I tell bookstore's this last response, OK, but we thought we are looking at this response.
+
+13
+00:00:47,940 --> 00:00:54,420
+So basically, once you find your actual book, you need to give the statement break and then it comes
+
+14
+00:00:54,420 --> 00:00:55,680
+out of this loop.
+
+15
+00:00:56,010 --> 00:01:01,020
+If not, it will still continue iterating through other items present in the list.
+
+16
+00:01:01,140 --> 00:01:04,610
+And finally, it got stopped somewhere at the step.
+
+17
+00:01:05,570 --> 00:01:12,150
+And that item list is stored in your actual book, and if you are comparing that with your idea, it's
+
+18
+00:01:12,170 --> 00:01:14,150
+been obviously that will be a failure.
+
+19
+00:01:14,570 --> 00:01:17,570
+OK, so that's the simple trick we have missed, right.
+
+20
+00:01:18,020 --> 00:01:20,260
+So now let's try to run this program again.
+
+21
+00:01:22,890 --> 00:01:24,820
+And you see that there is no error.
+
+22
+00:01:24,840 --> 00:01:32,640
+Now everything looks smooth, so this is how you can retrieve the specific values from response by writing
+
+23
+00:01:32,640 --> 00:01:38,430
+the logic and compare that items with your expected response lists.
+
+24
+00:01:38,790 --> 00:01:41,040
+OK, and we have also seen headers.
+
+25
+00:01:41,460 --> 00:01:44,570
+You can do cookies as well, state escorts and passengers and crew.
+
+26
+00:01:44,880 --> 00:01:51,240
+So that's about get ready for request and let's do it under his stewardship request, which is a post.
+
+27
+00:01:52,490 --> 00:01:54,320
+Right by Tom.
+
+28
+00:01:55,820 --> 00:01:58,190
+First AP example.
+
+29
+00:02:01,020 --> 00:02:06,850
+All right, so let's go back to the documentation or we can use our postman also at the book.
+
+30
+00:02:07,230 --> 00:02:08,660
+Now, two things let's do here.
+
+31
+00:02:08,910 --> 00:02:12,000
+We will at the book and we will delete the book.
+
+32
+00:02:12,420 --> 00:02:18,120
+OK, we will go back to back these two operations and post is the history method supported for these
+
+33
+00:02:18,120 --> 00:02:19,080
+two operations.
+
+34
+00:02:19,470 --> 00:02:21,150
+OK, so let's get started.
+
+35
+00:02:21,180 --> 00:02:22,230
+It's also very easy.
+
+36
+00:02:22,260 --> 00:02:22,590
+Yes.
+
+37
+00:02:23,370 --> 00:02:23,820
+So.
+
+38
+00:02:26,840 --> 00:02:32,540
+So the same documentation, what you'll see in the academy outcome is what I have written in this post
+
+39
+00:02:32,540 --> 00:02:35,760
+manual, so you can either refer this or that doesn't matter.
+
+40
+00:02:36,080 --> 00:02:39,740
+So if you want to refer this story to our test, let's do that.
+
+41
+00:02:40,920 --> 00:02:44,670
+So can't I open with Google Docs?
+
+42
+00:02:49,980 --> 00:02:52,780
+OK, so this is our best you all so far.
+
+43
+00:02:52,800 --> 00:02:58,350
+Now I'm writing it here, but in later letters based on what else could come from any global properties.
+
+44
+00:02:58,560 --> 00:02:59,610
+OK, we'll see that soon.
+
+45
+00:02:59,970 --> 00:03:03,650
+So first, you need to import the question again, the first step.
+
+46
+00:03:04,050 --> 00:03:09,070
+And remember, because we have used to because that has to do with metal.
+
+47
+00:03:09,360 --> 00:03:12,320
+And this time or GDP method is forced.
+
+48
+00:03:13,090 --> 00:03:17,540
+OK, so it goes dark, forced.
+
+49
+00:03:17,970 --> 00:03:19,920
+And please observe here.
+
+50
+00:03:19,980 --> 00:03:25,070
+First one is that you are basically water and the resource and next the data.
+
+51
+00:03:25,650 --> 00:03:31,490
+So basically enforced, you will send the data in the form of decent payload.
+
+52
+00:03:32,010 --> 00:03:34,350
+OK, and get in this location.
+
+53
+00:03:34,350 --> 00:03:35,630
+We got parameters right.
+
+54
+00:03:35,640 --> 00:03:39,360
+We have used balance query parameters in get tested equipment.
+
+55
+00:03:39,360 --> 00:03:41,570
+That data is sent in parameters.
+
+56
+00:03:41,580 --> 00:03:43,260
+So that's why we use up bottom here.
+
+57
+00:03:43,680 --> 00:03:47,690
+But importantly, we make that data is sent as a decent.
+
+58
+00:03:47,970 --> 00:03:50,790
+So that's why you are seeing another parameter called data here.
+
+59
+00:03:52,130 --> 00:03:53,870
+All right, and next.
+
+60
+00:03:55,560 --> 00:04:03,660
+You can pass the head all this stuff, just like I have done here, so see post and first one is to
+
+61
+00:04:03,660 --> 00:04:04,260
+provide.
+
+62
+00:04:06,870 --> 00:04:10,410
+The basic moral value service services hosted.
+
+63
+00:04:12,670 --> 00:04:13,160
+Slash.
+
+64
+00:04:14,270 --> 00:04:18,160
+And then library slash, what is that?
+
+65
+00:04:18,260 --> 00:04:19,940
+You can simply copy this resource.
+
+66
+00:04:19,960 --> 00:04:23,080
+This is a resource which you are trying to access, right?
+
+67
+00:04:25,450 --> 00:04:32,380
+So I will soon change this with you are to who should be Economy.com next second parameter should be
+
+68
+00:04:32,380 --> 00:04:32,980
+the Jason.
+
+69
+00:04:33,900 --> 00:04:38,880
+So there are multiple ways you can send this, you can see that data is one parameter, but you can
+
+70
+00:04:38,880 --> 00:04:40,680
+ignore that and you can use.
+
+71
+00:04:41,560 --> 00:04:48,010
+Evalu value colleges and also you can see that you can simply pass this, Jason, equal to automatically,
+
+72
+00:04:48,010 --> 00:04:50,230
+it will detect the input request.
+
+73
+00:04:50,230 --> 00:04:52,360
+Whatever you are sending as a Jason.
+
+74
+00:04:53,170 --> 00:04:54,640
+So use this decision equals two.
+
+75
+00:04:55,120 --> 00:04:58,190
+And here you have to give the payload.
+
+76
+00:04:58,570 --> 00:05:06,670
+So as I told you, for any forced request, you will have a decent payloaders input.
+
+77
+00:05:06,970 --> 00:05:08,630
+In our case, we need to add a book.
+
+78
+00:05:08,680 --> 00:05:08,940
+Right.
+
+79
+00:05:09,250 --> 00:05:13,040
+So all the details like what is the name of that book, ISBN?
+
+80
+00:05:13,450 --> 00:05:17,770
+I'll remember that after everything is present in your work, Jason.
+
+81
+00:05:18,460 --> 00:05:24,990
+So this data you have to send with your ad so that Saravanan will store these details in their database.
+
+82
+00:05:25,300 --> 00:05:28,570
+So that's the overall point of this resource.
+
+83
+00:05:28,570 --> 00:05:32,590
+So our book is the API, which will add book into the database.
+
+84
+00:05:33,070 --> 00:05:37,000
+Which book you need to add is what you have to send from your payload.
+
+85
+00:05:37,720 --> 00:05:38,040
+Right.
+
+86
+00:05:38,200 --> 00:05:41,550
+And this is the decision you have to send for post coast.
+
+87
+00:05:41,550 --> 00:05:42,490
+We will come like this.
+
+88
+00:05:43,380 --> 00:05:48,490
+OK, so let's go back to editor and you'll need to simply based this Jason here.
+
+89
+00:05:48,970 --> 00:05:50,110
+You can pass it here.
+
+90
+00:05:50,110 --> 00:05:51,490
+And this is Jason.
+
+91
+00:05:51,640 --> 00:05:52,000
+Right.
+
+92
+00:05:52,360 --> 00:05:53,950
+And this is the second argument.
+
+93
+00:05:55,230 --> 00:05:55,590
+Right.
+
+94
+00:05:55,830 --> 00:05:57,150
+So what we need now.
+
+95
+00:05:57,170 --> 00:06:06,440
+We have given the payload and the base you order, but in our earlier lecture we have given parameters
+
+96
+00:06:06,450 --> 00:06:08,160
+but had to be given as a destination.
+
+97
+00:06:08,790 --> 00:06:15,560
+And do remember that when you pass through our Jason here, so you will get some errors in this fashion.
+
+98
+00:06:16,080 --> 00:06:23,190
+So if you think that it's accurate, then you can say, ah, enter and then say ignore errors like this
+
+99
+00:06:23,460 --> 00:06:25,290
+so that, you know, this will go away.
+
+100
+00:06:25,740 --> 00:06:32,000
+OK, but make sure you exactly paste however you get from your word document.
+
+101
+00:06:32,520 --> 00:06:38,300
+So if you go any spaces here and there, then Jason's structure will change and you may not get expected
+
+102
+00:06:38,310 --> 00:06:38,720
+results.
+
+103
+00:06:39,090 --> 00:06:45,690
+So whenever you based any Jason, get this copy from that word document and exactly.
+
+104
+00:06:45,690 --> 00:06:51,660
+Start from here, Jason equals two and then based it control of so that it will come in this fashion.
+
+105
+00:06:51,660 --> 00:06:54,030
+Do not disturb or give any spaces here.
+
+106
+00:06:54,240 --> 00:07:01,080
+If you see any errors like this underlain just type of error, you just cannot enter and you can ignore
+
+107
+00:07:01,080 --> 00:07:01,360
+them.
+
+108
+00:07:01,380 --> 00:07:02,840
+OK, but you can keep it.
+
+109
+00:07:02,850 --> 00:07:03,460
+That's fine.
+
+110
+00:07:03,990 --> 00:07:04,890
+Those are not real.
+
+111
+00:07:05,250 --> 00:07:07,770
+It's just like a Bible stuff loaded with it.
+
+112
+00:07:08,370 --> 00:07:08,680
+All right.
+
+113
+00:07:09,090 --> 00:07:10,280
+And the next one is ahead.
+
+114
+00:07:10,830 --> 00:07:13,230
+So if you see your postman.
+
+115
+00:07:14,580 --> 00:07:22,190
+Are the documentation so here is not mandatory to pass, first of all, but just let's pass the as well.
+
+116
+00:07:22,470 --> 00:07:28,500
+So it's good to pass a header with content type applications like Jason, because here you are sending
+
+117
+00:07:29,160 --> 00:07:30,690
+content and Jason format.
+
+118
+00:07:30,690 --> 00:07:30,920
+Right.
+
+119
+00:07:31,080 --> 00:07:35,940
+So you have to clearly tell in your request header that the content, whatever we are sending, is a
+
+120
+00:07:35,940 --> 00:07:37,530
+decent and as a tool.
+
+121
+00:07:37,530 --> 00:07:44,790
+If you need to give any hurdles, you can simply say, hey, this equals two and all that you need to
+
+122
+00:07:44,790 --> 00:07:50,100
+pass in a dictionary format, just like how we have passed all parameters in a dictionary.
+
+123
+00:07:50,520 --> 00:07:51,660
+Similarly, Hidatsa.
+
+124
+00:07:51,660 --> 00:07:53,780
+So you have to send in a dictionary format.
+
+125
+00:07:53,980 --> 00:07:55,380
+OK, so one here.
+
+126
+00:07:55,410 --> 00:07:56,820
+What we have is a content type.
+
+127
+00:08:01,340 --> 00:08:08,090
+And in addition to that, you have to give a column and then password and other key value of that dictionary.
+
+128
+00:08:09,080 --> 00:08:15,380
+So if you wondered, like, how would I know that Heather should be passed in the dictionary, all this
+
+129
+00:08:15,380 --> 00:08:21,230
+stuff, then you can go through the official documentation request, start read the dogs, start over.
+
+130
+00:08:21,530 --> 00:08:26,260
+So this is the library we are using to automate EPA testing and Python.
+
+131
+00:08:26,570 --> 00:08:31,280
+So they have given clear documentation on how to automate using this reckless celebrity.
+
+132
+00:08:31,310 --> 00:08:38,070
+OK, so I'm showing you some examples, but later you can leverage your process and based upon your
+
+133
+00:08:39,140 --> 00:08:44,780
+project requirements, you can go through this document if you think that you could not find anything
+
+134
+00:08:44,780 --> 00:08:45,250
+over there.
+
+135
+00:08:45,690 --> 00:08:47,840
+See now, for example, headers, right?
+
+136
+00:08:48,090 --> 00:08:53,650
+So you can come to customers and you see that these guys have passed in the dictionary.
+
+137
+00:08:54,050 --> 00:08:57,470
+They created one variable and sent these head of some dictionary.
+
+138
+00:08:57,680 --> 00:09:00,590
+And finally they sent this variable inside of this.
+
+139
+00:09:01,070 --> 00:09:02,690
+OK, same thing we have done.
+
+140
+00:09:02,870 --> 00:09:05,500
+So we directly copied this and we pasted here.
+
+141
+00:09:06,140 --> 00:09:08,860
+OK, so there is a concept of optimization yet.
+
+142
+00:09:09,110 --> 00:09:12,460
+So right now I'm copying it everything in this argument.
+
+143
+00:09:12,680 --> 00:09:18,740
+But in the next lecture I will neatly bring all this you all headers from different places by building
+
+144
+00:09:18,740 --> 00:09:19,280
+a framework.
+
+145
+00:09:19,700 --> 00:09:20,110
+All right.
+
+146
+00:09:20,300 --> 00:09:25,220
+So if you want to like how would I know all this, then this is not official documentation where you
+
+147
+00:09:25,220 --> 00:09:34,130
+can go, but based upon your customized requirements on some days and the last parameter is now optional
+
+148
+00:09:34,670 --> 00:09:41,620
+if you want to give any arguments so you can just leave blank by giving come on and close this record.
+
+149
+00:09:41,660 --> 00:09:43,880
+So it's here that exploded on the same step.
+
+150
+00:09:44,730 --> 00:09:50,970
+And that's say you have successfully provided that you are and where you are, the cost is present and
+
+151
+00:09:50,970 --> 00:09:56,620
+you are treating that request with this spillar and you are also adding headers to your request.
+
+152
+00:09:56,640 --> 00:10:00,450
+If you have any excuse to add, you can just go ahead and add cookies as well.
+
+153
+00:10:01,030 --> 00:10:06,060
+OK, but in our case, we don't have any cookies to send as part of our input request.
+
+154
+00:10:06,720 --> 00:10:14,150
+So when you hit this and run your program, this will submit our book and the book will be created.
+
+155
+00:10:14,430 --> 00:10:20,980
+So the response was carefully captured and book response into one variable.
+
+156
+00:10:21,790 --> 00:10:25,440
+Let's convert that response into this.
+
+157
+00:10:25,440 --> 00:10:29,880
+And you know that there is a method which will help you to get a response.
+
+158
+00:10:29,880 --> 00:10:34,620
+And Jason, because when you add a book, this is how you should get a response, successfully added
+
+159
+00:10:35,040 --> 00:10:37,470
+an idea of that book.
+
+160
+00:10:37,860 --> 00:10:38,880
+This is what we need.
+
+161
+00:10:39,120 --> 00:10:47,100
+OK, so first, let's bring this response up and make sure this book is unique and it's not already
+
+162
+00:10:47,100 --> 00:10:49,830
+present in database, as I have given this format.
+
+163
+00:10:50,410 --> 00:10:54,150
+Obviously, there are many people who maybe already submitted this book details.
+
+164
+00:10:54,600 --> 00:10:59,390
+So ESPN and this combination should be unique for you to create a book.
+
+165
+00:10:59,400 --> 00:11:01,500
+If not, it will give you an interesting book.
+
+166
+00:11:01,500 --> 00:11:02,600
+Already exist.
+
+167
+00:11:03,000 --> 00:11:05,910
+Now, for example, if I try to run this again.
+
+168
+00:11:08,670 --> 00:11:09,910
+This is the new book, right?
+
+169
+00:11:10,140 --> 00:11:14,980
+Submit this book again and you'll see that ad book, Operation Fail, looks like a book already exist.
+
+170
+00:11:15,770 --> 00:11:19,230
+So let's make some changes so that it's the unique.
+
+171
+00:11:20,330 --> 00:11:26,420
+And others book, we should be small, little, OK, so that's all.
+
+172
+00:11:26,630 --> 00:11:28,150
+So let's run this program now.
+
+173
+00:11:29,560 --> 00:11:37,240
+And they should and the book perfect, you say that you got a message saying book is successfully added
+
+174
+00:11:37,570 --> 00:11:39,560
+and this is the book idea.
+
+175
+00:11:39,850 --> 00:11:48,220
+OK, now you see you can clearly see that this time the response of the decent print that has a dictionary
+
+176
+00:11:49,120 --> 00:11:54,490
+in the previous lecture, it printed as a list, isn't it?
+
+177
+00:11:54,520 --> 00:11:57,630
+So if you see where did we use that?
+
+178
+00:11:57,670 --> 00:11:58,020
+Yeah.
+
+179
+00:11:58,390 --> 00:12:04,020
+So when we try to retrieve all the books then it retrieval in the list format with square bracket.
+
+180
+00:12:04,360 --> 00:12:09,370
+But when you add a new book this time that came as a dictionary, OK, you need not worry about all
+
+181
+00:12:09,370 --> 00:12:10,150
+this automatically.
+
+182
+00:12:10,160 --> 00:12:13,840
+This matter will take it based upon the response of our readers.
+
+183
+00:12:14,260 --> 00:12:18,700
+So now what type of this and response are decent is the dictionary.
+
+184
+00:12:19,120 --> 00:12:20,880
+OK, let's compare.
+
+185
+00:12:21,730 --> 00:12:32,920
+I would take this into one variable response, Jason, and if you try to print the type of this, let's
+
+186
+00:12:32,920 --> 00:12:34,300
+see what it returns.
+
+187
+00:12:34,420 --> 00:12:36,340
+It should be dictionary now.
+
+188
+00:12:37,660 --> 00:12:44,400
+So based upon the nature of your Jason format, it will decide what kind of data it can give you.
+
+189
+00:12:46,150 --> 00:12:52,840
+They see that it's dictionary now your goal is to extract irony of that book, it should be simple,
+
+190
+00:12:52,840 --> 00:12:53,120
+right?
+
+191
+00:12:53,140 --> 00:12:54,210
+You'll know how to do that.
+
+192
+00:12:54,790 --> 00:12:59,050
+So in response to our Jason, you can simply idea and that's it.
+
+193
+00:12:59,350 --> 00:13:01,840
+And you can stop that and Sivak book.
+
+194
+00:13:04,240 --> 00:13:05,740
+ID equals to.
+
+195
+00:13:07,390 --> 00:13:08,260
+This one, right?
+
+196
+00:13:08,280 --> 00:13:13,880
+So this way you will get into this variable now you are going next is to delete this book.
+
+197
+00:13:14,140 --> 00:13:18,370
+So now you have successfully written a code to test advocate.
+
+198
+00:13:18,640 --> 00:13:19,100
+OK.
+
+199
+00:13:19,120 --> 00:13:21,220
+When I say testing, you can add validations.
+
+200
+00:13:21,610 --> 00:13:24,840
+So I'm not going in depth again and having all validations.
+
+201
+00:13:24,850 --> 00:13:27,770
+It's up to your imagination, like how many validations you can add.
+
+202
+00:13:28,000 --> 00:13:29,290
+So I'm showing the process.
+
+203
+00:13:29,500 --> 00:13:37,210
+You can then have a session on status score like Ad Respon starts data score, Darksiders Dargis and
+
+204
+00:13:37,210 --> 00:13:41,500
+you can do whatever validations and put a session and you call it asset testing.
+
+205
+00:13:41,630 --> 00:13:41,920
+Right.
+
+206
+00:13:42,110 --> 00:13:45,370
+But I'm showing you the process and concept of automation here.
+
+207
+00:13:46,180 --> 00:13:48,560
+So my next goal, after writing a book.
+
+208
+00:13:48,580 --> 00:13:51,260
+Yes, we have successfully added we need to delete the book.
+
+209
+00:13:52,000 --> 00:13:55,480
+OK, and for delete it will alienate.
+
+210
+00:13:56,430 --> 00:14:00,660
+So if you want to delete the book, it will simply ask, give me the irony of the book, which I want
+
+211
+00:14:00,660 --> 00:14:01,110
+to delete.
+
+212
+00:14:01,530 --> 00:14:04,650
+So I have added this book and I have grabbed the itinerate.
+
+213
+00:14:04,860 --> 00:14:10,890
+So basically I want to, again, immediately delete the book with the same idea, whatever I added here,
+
+214
+00:14:11,430 --> 00:14:14,190
+so that it should add and it should get delete immediately.
+
+215
+00:14:14,640 --> 00:14:15,630
+So not next picture.
+
+216
+00:14:15,630 --> 00:14:22,260
+Let's like the code to delete the book so that it will be like an end to an automation script for EPA
+
+217
+00:14:22,260 --> 00:14:22,680
+testing.
+
+218
+00:14:23,130 --> 00:14:23,480
+All right.
+
+219
+00:14:23,760 --> 00:14:24,270
+Thank you.

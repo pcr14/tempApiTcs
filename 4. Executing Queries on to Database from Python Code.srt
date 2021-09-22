@@ -1,0 +1,479 @@
+1
+00:00:01,000 --> 00:00:08,710
+All right, so now to hit our execute any comedy so fast, you have to create Calzada object.
+
+2
+00:00:09,100 --> 00:00:11,710
+So using we already have a connection object.
+
+3
+00:00:12,220 --> 00:00:15,790
+So connection dot that is another matter called Castle.
+
+4
+00:00:16,150 --> 00:00:23,820
+So basically this method will help you to form a streamlined connection to talk to the database tables.
+
+5
+00:00:24,070 --> 00:00:26,080
+So here you establish the connection.
+
+6
+00:00:26,590 --> 00:00:28,510
+OK, so draw that connection.
+
+7
+00:00:28,510 --> 00:00:32,350
+You have to send queries and get the results back.
+
+8
+00:00:32,350 --> 00:00:32,620
+Right.
+
+9
+00:00:32,890 --> 00:00:40,570
+So the castle object will help you to form a stream between your python and your sequel database draw
+
+10
+00:00:40,600 --> 00:00:41,580
+connection object.
+
+11
+00:00:41,920 --> 00:00:48,070
+So you have to mandatorily first create that streamline between your python and the database using this
+
+12
+00:00:48,070 --> 00:00:48,820
+custom method.
+
+13
+00:00:49,180 --> 00:00:55,960
+And you can get that into another variable, the object, what you get from here.
+
+14
+00:00:56,500 --> 00:00:56,930
+All right.
+
+15
+00:00:57,250 --> 00:01:05,200
+So as you have fun, extremely streamlined with that database now using this segment, then you can
+
+16
+00:01:05,200 --> 00:01:06,950
+execute your queries.
+
+17
+00:01:07,450 --> 00:01:13,330
+Now, for example, I want to run this query and I want to know how the results are displayed.
+
+18
+00:01:13,480 --> 00:01:18,800
+OK, so select this and consult dart execute.
+
+19
+00:01:19,120 --> 00:01:24,520
+You see that this is the method which will help you to execute any queries on the database which you
+
+20
+00:01:24,520 --> 00:01:25,300
+got connected.
+
+21
+00:01:26,170 --> 00:01:32,560
+OK, so instead of this just passed the query, no need of giving semicolon and that's it.
+
+22
+00:01:32,590 --> 00:01:34,660
+So that will execute query.
+
+23
+00:01:35,020 --> 00:01:35,370
+Right.
+
+24
+00:01:35,500 --> 00:01:38,980
+And the results will be read to the right.
+
+25
+00:01:39,010 --> 00:01:40,750
+So once you run this, you will get the results.
+
+26
+00:01:41,020 --> 00:01:48,730
+All the results will present in that streamlined Kazar object to fit results from this streamlined Calzada
+
+27
+00:01:48,760 --> 00:01:49,120
+object.
+
+28
+00:01:49,420 --> 00:01:53,610
+You have a method called Casser Dart Fetch.
+
+29
+00:01:53,950 --> 00:02:00,100
+You see that it's all self explanatory when you say it fits all, it will fit all the rules written
+
+30
+00:02:00,100 --> 00:02:00,880
+by that table.
+
+31
+00:02:01,450 --> 00:02:06,820
+And when you say Freda's one, this will return the first row written by the team.
+
+32
+00:02:07,210 --> 00:02:08,970
+OK, now let's start with the first.
+
+33
+00:02:09,520 --> 00:02:13,190
+So when you run this query, total phytoestrogen.
+
+34
+00:02:13,480 --> 00:02:19,050
+So when you say Fêtes one, this will simply give the first record return.
+
+35
+00:02:20,940 --> 00:02:25,330
+So let's throw it into one variable and this is the rule.
+
+36
+00:02:25,980 --> 00:02:31,980
+Now we have in our hands, so let's bring this through and see what it is showing up.
+
+37
+00:02:32,480 --> 00:02:32,910
+OK.
+
+38
+00:02:34,280 --> 00:02:36,800
+Let me run this control plosive this after.
+
+39
+00:02:38,040 --> 00:02:46,320
+Perfect, you'll see that it has in selenium and the date, so because it's the date objects, all you
+
+40
+00:02:46,320 --> 00:02:53,520
+have got like this and 120 and Africa, the first Vegard is successfully retrieved.
+
+41
+00:02:53,820 --> 00:02:54,160
+Right.
+
+42
+00:02:54,690 --> 00:02:56,820
+So if you observe carefully.
+
+43
+00:02:58,140 --> 00:03:01,320
+Death row is nothing but Apple.
+
+44
+00:03:02,080 --> 00:03:05,260
+OK, it's not a square brackets here.
+
+45
+00:03:05,790 --> 00:03:10,320
+So when you have like this and you have brackets like this, that's the list.
+
+46
+00:03:10,320 --> 00:03:10,590
+Right.
+
+47
+00:03:10,830 --> 00:03:12,680
+But this time you have something like this.
+
+48
+00:03:13,290 --> 00:03:16,630
+So that means it's Apple.
+
+49
+00:03:17,160 --> 00:03:18,870
+It's an audition for Apple.
+
+50
+00:03:19,170 --> 00:03:21,950
+OK, it's still the same.
+
+51
+00:03:21,960 --> 00:03:26,930
+If you want to access any elements from the list, that double the mechanism is still the same.
+
+52
+00:03:27,180 --> 00:03:35,070
+Now in you at Apple, if you are interested to know what is the location of the first of the card reader.
+
+53
+00:03:35,730 --> 00:03:37,200
+OK, so how do you do that?
+
+54
+00:03:37,410 --> 00:03:41,100
+As you understand, this is the table so you can simply throw off.
+
+55
+00:03:44,740 --> 00:03:53,200
+Zero, one, two, three, starting next week, you can settle off three, OK, and print it and this
+
+56
+00:03:53,200 --> 00:03:54,310
+will print you the.
+
+57
+00:03:57,230 --> 00:03:59,260
+Third index, which is nothing but Africa.
+
+58
+00:04:01,010 --> 00:04:06,830
+We see that, so basically, once you get that record, you can access the each and every element of
+
+59
+00:04:06,830 --> 00:04:09,650
+that role with the help of index.
+
+60
+00:04:09,830 --> 00:04:12,320
+So you just need to understand what is the return type.
+
+61
+00:04:12,500 --> 00:04:17,300
+OK, so once you understand it and so you should figure out how you should pass it.
+
+62
+00:04:17,300 --> 00:04:20,120
+If it is a dictionary, that is the one way to handle it.
+
+63
+00:04:20,130 --> 00:04:24,410
+If the list are double, you can just give the index for the dictionary will go value.
+
+64
+00:04:24,800 --> 00:04:31,280
+OK, so one thing you should understand here is that sequel database results are written in form of
+
+65
+00:04:31,290 --> 00:04:32,810
+apples now.
+
+66
+00:04:33,850 --> 00:04:39,960
+So now you understood how to read The Faster the car and you also understood from the fossil record,
+
+67
+00:04:39,970 --> 00:04:45,970
+if you want to retrieve this particular column value, that also you can do with that Semtex.
+
+68
+00:04:47,340 --> 00:04:48,010
+What next?
+
+69
+00:04:48,420 --> 00:04:54,990
+So let's try to fix all the records system, concertante fetch all.
+
+70
+00:04:57,620 --> 00:04:59,810
+And I would say all.
+
+71
+00:05:01,780 --> 00:05:04,510
+And let's bring all these.
+
+72
+00:05:10,520 --> 00:05:18,170
+You see that it has printed all the rules, but all the rules are present in the list.
+
+73
+00:05:19,230 --> 00:05:23,890
+Because the notation is different here in the list, there are apples.
+
+74
+00:05:24,060 --> 00:05:28,560
+So that means it written a list of apples.
+
+75
+00:05:29,160 --> 00:05:29,440
+OK.
+
+76
+00:05:29,460 --> 00:05:34,110
+When you ask for a single roll, it just gave you a single example.
+
+77
+00:05:34,470 --> 00:05:40,860
+But when you ask for it all, so all the staples are wrapped up in one list.
+
+78
+00:05:41,550 --> 00:05:48,900
+So now if you want to access the second drawer, OK, so in the list added to the list, you can set
+
+79
+00:05:48,980 --> 00:05:50,530
+all of one.
+
+80
+00:05:50,550 --> 00:05:52,230
+So that second row will be.
+
+81
+00:05:54,180 --> 00:05:57,930
+This is nothing but second table, so this is how you can play with the results.
+
+82
+00:05:58,140 --> 00:06:03,520
+OK, you want overall goal is to access any data, right?
+
+83
+00:06:03,840 --> 00:06:09,990
+So now with this steps, you are able to access all the records, not only accessing all the records
+
+84
+00:06:09,990 --> 00:06:16,440
+from all the records, you should be able to travel and pass each individual value by giving index this
+
+85
+00:06:16,770 --> 00:06:17,160
+nice.
+
+86
+00:06:17,460 --> 00:06:23,110
+But one thing, if you absol selenium is the fitter faster.
+
+87
+00:06:23,280 --> 00:06:23,530
+Right?
+
+88
+00:06:23,940 --> 00:06:28,560
+And when you ask for it on, it started from Secondo, not from the festival.
+
+89
+00:06:28,920 --> 00:06:35,190
+You see that it started from protractive ytterbium and web services.
+
+90
+00:06:35,190 --> 00:06:37,740
+Daym totally for results are written.
+
+91
+00:06:37,750 --> 00:06:38,570
+But he had to fight.
+
+92
+00:06:39,270 --> 00:06:39,900
+So why.
+
+93
+00:06:40,810 --> 00:06:49,000
+So when you say Sadaat fits one forecaster, control is here first, right, and now when you subfertile,
+
+94
+00:06:49,180 --> 00:06:51,840
+it will fit all the remaining records.
+
+95
+00:06:52,480 --> 00:06:59,020
+So it starts from where your control is presently there from there, if you will recall this now when
+
+96
+00:06:59,020 --> 00:07:05,710
+you go on the third one and from here, if you're safe at all, it will just return next to do OK.
+
+97
+00:07:05,920 --> 00:07:09,510
+So you have got to run the single roll, right?
+
+98
+00:07:09,640 --> 00:07:16,950
+And when you repeat this step one more time, the control will immediately go to the next door whenever
+
+99
+00:07:16,960 --> 00:07:20,080
+you call Fitzsimon, every time it moves to the next stop.
+
+100
+00:07:20,260 --> 00:07:20,560
+Right.
+
+101
+00:07:20,920 --> 00:07:24,580
+So from right now, you are here step number 11.
+
+102
+00:07:25,060 --> 00:07:26,770
+And from that step, you call the feds.
+
+103
+00:07:26,770 --> 00:07:27,180
+All right.
+
+104
+00:07:27,370 --> 00:07:30,290
+So it will fix the remaining three, but not again all.
+
+105
+00:07:30,760 --> 00:07:35,040
+So now run this again so you will not see protractive this time.
+
+106
+00:07:35,410 --> 00:07:35,860
+Let's see.
+
+107
+00:07:38,940 --> 00:07:40,550
+You see that it started from Avium.
+
+108
+00:07:41,550 --> 00:07:42,910
+OK, so do remember that.
+
+109
+00:07:43,170 --> 00:07:48,020
+So if you want to simplify it, all of them don't use this one method, OK?
+
+110
+00:07:48,840 --> 00:07:49,220
+Right.
+
+111
+00:07:50,010 --> 00:07:52,530
+So let's do one program here.
+
+112
+00:07:52,950 --> 00:08:03,650
+So your goal is to fit all the records of the customer and some of that amount of using Python.
+
+113
+00:08:03,660 --> 00:08:09,270
+You should be able to hit the query, get all the results and some one point forty five and give that
+
+114
+00:08:09,270 --> 00:08:09,610
+total.
+
+115
+00:08:09,930 --> 00:08:10,810
+So that's remarkable.
+
+116
+00:08:11,250 --> 00:08:14,910
+So you can do this with your query database query as well.
+
+117
+00:08:14,940 --> 00:08:20,220
+You can use aggregate functions of select some of amount which will simply give you the thumb.
+
+118
+00:08:20,550 --> 00:08:27,720
+But for practice and to get you some handson, let's do it from above the python code.
+
+119
+00:08:27,900 --> 00:08:29,370
+OK, we'll see that in our next lecture.
+
+120
+00:08:29,700 --> 00:08:30,060
+Thank you.
