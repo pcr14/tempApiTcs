@@ -1,0 +1,755 @@
+1
+00:00:00,670 --> 00:00:07,570
+All right, so if you don't want to write this in multiple lines, you can all just write it in one
+
+2
+00:00:07,570 --> 00:00:08,160
+single line.
+
+3
+00:00:08,350 --> 00:00:15,520
+So once you know this is dictionary and study, once you know this is a list and why do we need to store
+
+4
+00:00:15,520 --> 00:00:17,550
+it in separate variable and call zero index?
+
+5
+00:00:17,560 --> 00:00:20,350
+You can call it directly zero zero and that's it.
+
+6
+00:00:20,500 --> 00:00:22,020
+You can get rid of all these steps.
+
+7
+00:00:22,360 --> 00:00:24,640
+Isn't it also the same output?
+
+8
+00:00:25,180 --> 00:00:30,640
+OK, so let me write it in the bottom and show you you can skip all these lengths.
+
+9
+00:00:30,650 --> 00:00:31,690
+I'm commenting it out.
+
+10
+00:00:33,300 --> 00:00:33,810
+So.
+
+11
+00:00:34,680 --> 00:00:40,020
+If I simply call this, this will return the list and in the list I want zero index.
+
+12
+00:00:40,410 --> 00:00:44,670
+So once you get familiarized with all the data types, then you can directly use like this.
+
+13
+00:00:44,980 --> 00:00:50,580
+But if you are confused, then step by step, how I have done in my previous lecture, take into one
+
+14
+00:00:50,580 --> 00:00:52,170
+variable and finally decoded.
+
+15
+00:00:55,420 --> 00:01:04,450
+You see that it's still OK now this is one design, but in most of times you will not have this design
+
+16
+00:01:04,450 --> 00:01:04,900
+like this.
+
+17
+00:01:04,900 --> 00:01:06,580
+You will have this in the file.
+
+18
+00:01:07,060 --> 00:01:10,090
+OK, so now what I am doing, I have my design file here.
+
+19
+00:01:10,540 --> 00:01:16,510
+I copied the content in my design firm and stored it as a string in one variable rate.
+
+20
+00:01:16,810 --> 00:01:18,420
+This is one approach of passing.
+
+21
+00:01:18,760 --> 00:01:25,780
+What if you have this in file with you externally in your system and Python should automatically open
+
+22
+00:01:25,780 --> 00:01:30,420
+you file, extract the content out of it and then pass it?
+
+23
+00:01:31,150 --> 00:01:33,730
+OK, so that would be also one of the scenario, right?
+
+24
+00:01:33,740 --> 00:01:39,420
+Most of them will have a face and it might not be ideal to copy here every day.
+
+25
+00:01:39,880 --> 00:01:45,310
+It's it's referred, but it's the government that when you have a smaller design with this static.
+
+26
+00:01:46,250 --> 00:01:52,940
+So now to extract files and pass it, there is another method in Python so far that I would go back
+
+27
+00:01:52,940 --> 00:01:56,180
+to one of my days and file.
+
+28
+00:01:56,690 --> 00:02:00,320
+Yeah, so this is the DNA file and this is a little complex.
+
+29
+00:02:00,890 --> 00:02:06,620
+And I learned first of all, copy this into the DNA, a for clear visibility.
+
+30
+00:02:08,210 --> 00:02:15,000
+All right, so this is the distance and you see that key Mustafah, let's see, what are the keys?
+
+31
+00:02:15,680 --> 00:02:17,180
+Oh, there are only two keys.
+
+32
+00:02:17,180 --> 00:02:22,820
+Technically, when you convert that's in the dictionary because that's where we can do it.
+
+33
+00:02:22,820 --> 00:02:24,100
+Right, using method.
+
+34
+00:02:24,680 --> 00:02:31,250
+And ideally, you have only two keys and the value of our stickies, again, dignity by seeing this
+
+35
+00:02:31,250 --> 00:02:31,610
+Kalume.
+
+36
+00:02:31,610 --> 00:02:37,310
+This, as you can understand that there is one more dictionary, but value of this courses squared bracket,
+
+37
+00:02:37,310 --> 00:02:38,180
+that means the list.
+
+38
+00:02:38,910 --> 00:02:43,760
+OK, so like this step by step, you can be good, you can minimize it and understand what's happening
+
+39
+00:02:43,760 --> 00:02:44,300
+inside it.
+
+40
+00:02:45,090 --> 00:02:46,480
+OK, all right.
+
+41
+00:02:46,490 --> 00:02:54,040
+So I have this in external file location, Goldstar Jason and this is my Pottsy users on our document.
+
+42
+00:02:54,050 --> 00:02:57,200
+So I click I can copy the part from here.
+
+43
+00:02:57,890 --> 00:02:59,870
+Full file to clipboard.
+
+44
+00:02:59,900 --> 00:03:00,260
+Good.
+
+45
+00:03:00,980 --> 00:03:03,170
+So I will go back to my editor.
+
+46
+00:03:05,900 --> 00:03:12,170
+And this time our goal is to open the file and then pass it.
+
+47
+00:03:12,200 --> 00:03:15,470
+We don't want to deliberately mention everything here.
+
+48
+00:03:19,040 --> 00:03:29,720
+Bus content present in decent flight to remember the difference in the previously with part of the content
+
+49
+00:03:29,720 --> 00:03:32,240
+present in decent strength and now five.
+
+50
+00:03:33,160 --> 00:03:36,220
+First of all, you have to open that file, right?
+
+51
+00:03:36,490 --> 00:03:40,560
+So basically Baynton has to open the file and read the content.
+
+52
+00:03:41,230 --> 00:03:45,310
+So as we discussed in our previous sections, so that's what I say.
+
+53
+00:03:45,310 --> 00:03:52,600
+I always refer to watch my python basics, because if you skip those section videos, then you may not
+
+54
+00:03:52,600 --> 00:03:57,110
+be understanding what I am talking now because I already took some good amount of time to understand
+
+55
+00:03:57,110 --> 00:03:57,330
+those.
+
+56
+00:03:57,700 --> 00:04:02,650
+So there is one lecture I explained how to read and write files using Python.
+
+57
+00:04:02,950 --> 00:04:04,940
+OK, we are going to use the same concept here.
+
+58
+00:04:05,620 --> 00:04:13,240
+So our first goal is to open the file and read so far that there is a very important you can open the
+
+59
+00:04:13,240 --> 00:04:20,710
+file with this method open and you have to give the part of your file.
+
+60
+00:04:22,430 --> 00:04:25,910
+Right, soccer star, Jason, so you can give the courts.
+
+61
+00:04:30,170 --> 00:04:39,140
+So this is the part where my desk and files do it and I want to open this so I have an open method as
+
+62
+00:04:39,560 --> 00:04:41,510
+let's give any object if.
+
+63
+00:04:42,220 --> 00:04:42,660
+Five.
+
+64
+00:04:45,670 --> 00:04:54,830
+Now, so this F object have the ability to read your and file because you have opened it and read more.
+
+65
+00:04:55,150 --> 00:04:59,100
+So if you don't mention any parameter by default, this will open and read more.
+
+66
+00:04:59,500 --> 00:05:04,090
+If you want to write it, you have to give it another parameter called WQ, which we will see in our
+
+67
+00:05:04,090 --> 00:05:04,720
+next letters.
+
+68
+00:05:05,260 --> 00:05:12,710
+OK, so next step, Jason Dot, you see that there are two methods available here.
+
+69
+00:05:13,480 --> 00:05:16,570
+Lourdes is what we have seen in our previous letter.
+
+70
+00:05:16,710 --> 00:05:20,550
+Lourdes will take a string as an argument.
+
+71
+00:05:20,890 --> 00:05:24,080
+But in our case this time, we don't have this string.
+
+72
+00:05:24,100 --> 00:05:25,570
+We have file object.
+
+73
+00:05:26,010 --> 00:05:32,290
+OK, so our final object then is another method in Python to use, which is the Lord Lord.
+
+74
+00:05:32,290 --> 00:05:39,430
+And you have to simply pass your file object because this object have permission to open you up a decent
+
+75
+00:05:39,430 --> 00:05:39,760
+file.
+
+76
+00:05:40,390 --> 00:05:47,730
+OK, so then it will open and Lord Method will read all the content accessed by this object.
+
+77
+00:05:48,070 --> 00:05:54,220
+So you will again get all over this file content now in the dictionary.
+
+78
+00:05:54,520 --> 00:05:57,610
+So I'm just storing that into another variable.
+
+79
+00:05:57,910 --> 00:06:05,020
+OK, so this data available is nothing but dictionary again, just like how you have started into one
+
+80
+00:06:05,020 --> 00:06:05,650
+variable here.
+
+81
+00:06:05,650 --> 00:06:07,210
+Also we are studying in data.
+
+82
+00:06:08,160 --> 00:06:15,840
+Right now, once you get that into the dictionary, let's bring this just to make sure you get a dictionary
+
+83
+00:06:15,840 --> 00:06:22,470
+back or not, and I would also print tape so that you will know the written type.
+
+84
+00:06:22,500 --> 00:06:24,180
+What you have is a dictionary.
+
+85
+00:06:25,310 --> 00:06:31,990
+So control shift, if then you can just right click and sarandos this and passing anything is fine.
+
+86
+00:06:32,690 --> 00:06:33,950
+You see that last two lines.
+
+87
+00:06:34,280 --> 00:06:37,280
+This is dictionary and everything you have here.
+
+88
+00:06:38,900 --> 00:06:44,660
+In this study for the same reason, but now you can access with your dictionary methods.
+
+89
+00:06:45,140 --> 00:06:46,790
+OK, now let's go back to our ED.
+
+90
+00:06:48,100 --> 00:06:50,320
+As I told you, I'll treat it as a dictionary.
+
+91
+00:06:50,770 --> 00:06:53,020
+So now your goal is to print.
+
+92
+00:06:54,030 --> 00:06:55,530
+The second course course.
+
+93
+00:06:56,940 --> 00:06:58,590
+OK, so this is the real question.
+
+94
+00:06:59,690 --> 00:07:07,340
+I have given you the system and I have asked you to bring a second class of at the academy.
+
+95
+00:07:07,820 --> 00:07:08,730
+What is the second class?
+
+96
+00:07:09,050 --> 00:07:13,330
+So basically, if you scroll down, these are the courses in the design file.
+
+97
+00:07:13,850 --> 00:07:15,740
+And this is the first class, right?
+
+98
+00:07:16,280 --> 00:07:19,130
+Yeah, this is the first class and this is a second class.
+
+99
+00:07:19,430 --> 00:07:22,130
+So you have to print Cyprus in your output.
+
+100
+00:07:23,110 --> 00:07:28,750
+And the next requirement is that you have to print a website now, which is set up, which would be
+
+101
+00:07:28,750 --> 00:07:29,500
+a miracle.
+
+102
+00:07:29,800 --> 00:07:33,560
+OK, so these two you have to do now, let's pass them carefully.
+
+103
+00:07:33,880 --> 00:07:36,750
+Now, first, we have to get second class status, right?
+
+104
+00:07:37,480 --> 00:07:41,050
+So minimize them to understand the hierarchy.
+
+105
+00:07:42,670 --> 00:07:45,160
+So basically when you minimize them.
+
+106
+00:07:46,650 --> 00:07:51,010
+First of all, this is a dictionary, however, and there are two items.
+
+107
+00:07:51,780 --> 00:08:01,140
+So my actual title is present in this crate, so I will start from basic first at data to access the
+
+108
+00:08:01,140 --> 00:08:02,400
+value of key.
+
+109
+00:08:02,950 --> 00:08:09,540
+I can use courses because this is the key which will help you to access like.
+
+110
+00:08:09,900 --> 00:08:14,460
+So now if I print this, it will print all the.
+
+111
+00:08:15,570 --> 00:08:16,020
+Three.
+
+112
+00:08:17,080 --> 00:08:17,760
+Complete list.
+
+113
+00:08:17,870 --> 00:08:18,890
+Basically, this is the list.
+
+114
+00:08:18,910 --> 00:08:21,340
+OK, so this dictionary is holding the list.
+
+115
+00:08:22,850 --> 00:08:24,590
+Right now, let's spread this.
+
+116
+00:08:31,790 --> 00:08:33,750
+OK, so this is how it retained me.
+
+117
+00:08:33,950 --> 00:08:37,730
+So basically it retains the value of this courses, which is nothing but list.
+
+118
+00:08:38,570 --> 00:08:45,950
+So once you understand this is the list and in the list there are three items or square bracket.
+
+119
+00:08:46,220 --> 00:08:51,800
+And this is the first item and this is the second item of the list and this is the third item of the
+
+120
+00:08:51,800 --> 00:08:52,070
+list.
+
+121
+00:08:52,580 --> 00:08:57,280
+But interesting thing here is first item in the list is what is that string?
+
+122
+00:08:57,530 --> 00:09:04,910
+No, if you see on my previous example, this is also a list like this is on the list, but items in
+
+123
+00:09:04,910 --> 00:09:07,150
+the list are simple strings here.
+
+124
+00:09:07,400 --> 00:09:11,020
+So you will just access the width of the zero index otherwise written.
+
+125
+00:09:11,660 --> 00:09:15,920
+But here in my zeroth index, it's not string.
+
+126
+00:09:15,930 --> 00:09:18,470
+There is one more dictionary present in the list.
+
+127
+00:09:18,650 --> 00:09:21,460
+Well, this is complicated, but that's fine.
+
+128
+00:09:21,980 --> 00:09:22,270
+Right?
+
+129
+00:09:22,460 --> 00:09:27,450
+So in the zeroth item, one dictionary is present in the first item and other dictionaries present.
+
+130
+00:09:27,710 --> 00:09:30,170
+So our goal is to print the second item.
+
+131
+00:09:30,290 --> 00:09:34,670
+So that means the next in the first index, because index I start from zero.
+
+132
+00:09:35,270 --> 00:09:45,410
+OK, so that means in this dictionary we have to as a list, we have to access first item so that we
+
+133
+00:09:45,770 --> 00:09:49,670
+can will come here so it successfully access to this.
+
+134
+00:09:49,960 --> 00:09:55,960
+OK, now when you print this, it will just return the second item, which is a dictionary.
+
+135
+00:09:56,780 --> 00:10:00,070
+So dictionary will be one output now because you are accessing the second element.
+
+136
+00:10:00,740 --> 00:10:01,220
+Let's see.
+
+137
+00:10:03,830 --> 00:10:06,140
+You see that perfectly dictionary is written.
+
+138
+00:10:06,650 --> 00:10:10,490
+OK, now let's create this other dictionary and this dictionary.
+
+139
+00:10:10,490 --> 00:10:13,650
+If you want to get title, how would you access it?
+
+140
+00:10:14,510 --> 00:10:17,110
+So initially, this is dictionary like data.
+
+141
+00:10:17,270 --> 00:10:23,260
+And if you want to access the key data, of course, a civil right now, in our case, this whole is
+
+142
+00:10:23,270 --> 00:10:23,810
+a dictionary.
+
+143
+00:10:24,350 --> 00:10:29,710
+And if you want to access a lot of it, you can simply say them and that's it.
+
+144
+00:10:31,020 --> 00:10:32,910
+And we understand this will return.
+
+145
+00:10:34,290 --> 00:10:37,600
+OK, so that's how step by step you have to proceed.
+
+146
+00:10:37,890 --> 00:10:44,600
+So once you see the Decem, you have to scan in your mind about what all these like what is the last
+
+147
+00:10:44,610 --> 00:10:47,930
+what is a dictionary and then start passing from the base.
+
+148
+00:10:48,150 --> 00:10:52,240
+And it would be easy for you to pass any Jason right now.
+
+149
+00:10:52,260 --> 00:10:53,160
+This is very complex.
+
+150
+00:10:53,290 --> 00:10:59,300
+Some days you'll see that there are mysteries inside it, but they have simply passed it and extracted
+
+151
+00:10:59,300 --> 00:11:04,090
+the whatever item you want with the concept of list and andexanet is OK.
+
+152
+00:11:04,380 --> 00:11:09,750
+And next, our next goal is to access this website.
+
+153
+00:11:10,170 --> 00:11:14,100
+OK, so how do you access the academic outcome again?
+
+154
+00:11:14,100 --> 00:11:15,350
+Now minimize everything.
+
+155
+00:11:16,020 --> 00:11:24,090
+Let's start from the basics again and our website details are present inside of this Plastiki item of
+
+156
+00:11:24,090 --> 00:11:24,600
+big study.
+
+157
+00:11:24,600 --> 00:11:24,790
+Right.
+
+158
+00:11:25,200 --> 00:11:28,960
+So this is the parent, the extended data support data.
+
+159
+00:11:29,280 --> 00:11:32,160
+This time you have to go inside dashboard.
+
+160
+00:11:32,760 --> 00:11:34,980
+So dashboard awesome.
+
+161
+00:11:35,400 --> 00:11:38,650
+And here where you can access the item.
+
+162
+00:11:38,670 --> 00:11:41,520
+So when you do this, then you will get the output.
+
+163
+00:11:43,310 --> 00:11:49,310
+What do you get the output, so output also here is the dictionary, OK, so key is that dashboard and
+
+164
+00:11:49,310 --> 00:11:51,560
+value this time is returning one more extended.
+
+165
+00:11:51,570 --> 00:11:52,460
+This is not list.
+
+166
+00:11:52,460 --> 00:11:53,900
+You see that calibrations are there.
+
+167
+00:11:54,170 --> 00:11:54,490
+Right?
+
+168
+00:11:54,830 --> 00:12:04,090
+So output is also on because they can form print dictionary and you can also print the type of this.
+
+169
+00:12:04,910 --> 00:12:05,390
+So.
+
+170
+00:12:06,660 --> 00:12:08,610
+You will now understand that our put.
+
+171
+00:12:12,420 --> 00:12:15,070
+OK, so you see that in the dictionary and this is what you present.
+
+172
+00:12:15,480 --> 00:12:21,240
+So in my dictionary, if I want to access website key value, it's simple, you know.
+
+173
+00:12:21,240 --> 00:12:21,560
+Right.
+
+174
+00:12:22,230 --> 00:12:25,810
+You just need to access the key website.
+
+175
+00:12:26,160 --> 00:12:27,360
+So given column.
+
+176
+00:12:29,040 --> 00:12:30,070
+Svetlana Binsted.
+
+177
+00:12:33,270 --> 00:12:36,150
+Right, so inside this loops what happened.
+
+178
+00:12:40,240 --> 00:12:40,960
+Oh, that's right.
+
+179
+00:12:41,290 --> 00:12:42,970
+So let me complete website.
+
+180
+00:12:44,270 --> 00:12:48,080
+So now when you bring this, bring our Web site me.
+
+181
+00:12:50,630 --> 00:12:52,900
+So that Travelocity Economy.com.
+
+182
+00:12:53,360 --> 00:12:57,560
+So this is how you can access any and it meant you knew about this.
+
+183
+00:12:57,560 --> 00:13:02,780
+And so the difference between the previous example and this is in previous example, we have used a
+
+184
+00:13:02,780 --> 00:13:07,100
+string and here we have a file and we have successfully done that.
+
+185
+00:13:07,340 --> 00:13:14,120
+And that's how you can pick any complex and whatever you have and use the concepts.
+
+186
+00:13:14,130 --> 00:13:18,350
+What I have told in these two lectures, and you can just do it on the fly.
+
+187
+00:13:18,800 --> 00:13:19,240
+All right.
+
+188
+00:13:19,790 --> 00:13:21,270
+So that's pretty much a worthless lecture.
+
+189
+00:13:21,360 --> 00:13:22,520
+Guys, thank you.

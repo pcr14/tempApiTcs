@@ -1,0 +1,167 @@
+1
+00:00:01,000 --> 00:00:11,200
+All right, so this video is for Mac users to give a quick update that you need not set any by on part
+
+2
+00:00:11,320 --> 00:00:15,150
+or part in your system variables.
+
+3
+00:00:15,160 --> 00:00:23,530
+If you are working in Mac OS, when you install Python in your system, automatically, Mac will set
+
+4
+00:00:23,530 --> 00:00:25,480
+that in your part variable.
+
+5
+00:00:25,870 --> 00:00:32,830
+OK, so after you install Python successfully, just click on whatever it prompts, then it will tell
+
+6
+00:00:32,830 --> 00:00:41,710
+that Python is successfully installed there after you just need to type which python to let me maximize.
+
+7
+00:00:45,130 --> 00:00:50,410
+Right, you can see that it got in stark slash user slash been slashed.
+
+8
+00:00:51,250 --> 00:00:56,620
+So you already have by in your path without doing anything.
+
+9
+00:00:57,220 --> 00:01:04,630
+But do remember that you should have only one version of Python that is three plus anything after three.
+
+10
+00:01:05,170 --> 00:01:12,460
+If you have older version, which is less than three, then you need to be a little cautious because
+
+11
+00:01:12,460 --> 00:01:19,210
+if you have multiple versions of Python, you'll never know which was enough Python, your system is
+
+12
+00:01:19,210 --> 00:01:20,230
+being pointed to.
+
+13
+00:01:20,710 --> 00:01:30,000
+OK, so in that case, if you still have any older version, then which Python three, because the version
+
+14
+00:01:30,010 --> 00:01:33,230
+what you have downloaded is a greater than three, however.
+
+15
+00:01:34,480 --> 00:01:40,620
+So in my system, I just want to show you that I do also have previous version to that seven.
+
+16
+00:01:41,230 --> 00:01:45,390
+So that's the reason to know which version I have in my system.
+
+17
+00:01:45,790 --> 00:01:53,260
+I have added a word three so that Python triggered in start here, use the local bin.
+
+18
+00:01:54,070 --> 00:01:58,360
+So if you have only one version of Python, you really need not worry about that.
+
+19
+00:01:58,360 --> 00:02:02,800
+Number three, just like how we have seen in our previous video on Windows.
+
+20
+00:02:03,130 --> 00:02:08,740
+But if you think that if you have any older versions, then to know which version you have, just add
+
+21
+00:02:08,740 --> 00:02:11,790
+to this or that, it will show where exactly that is located.
+
+22
+00:02:12,490 --> 00:02:19,330
+But if you are still interested to know where exactly this python guard stored in your system.
+
+23
+00:02:20,280 --> 00:02:28,050
+This is the part, OK, go to library frameworks and here where you will see open the terminal.
+
+24
+00:02:28,450 --> 00:02:30,780
+Let's open the tunnel very quick.
+
+25
+00:02:31,500 --> 00:02:35,970
+And so to go to that part, I can simply say open.
+
+26
+00:02:37,780 --> 00:02:45,100
+Slash celebrity, let's go to that patency, and that will take you to this spot from here, library
+
+27
+00:02:45,100 --> 00:02:52,870
+frameworks, frameworks by standard framework versions and here where you will see the version, what
+
+28
+00:02:52,870 --> 00:02:53,900
+you got downloaded.
+
+29
+00:02:54,220 --> 00:02:59,380
+So this is exact part where exactly your python gets stored.
+
+30
+00:02:59,920 --> 00:03:06,190
+But you might be wondered that if this is the part why I am seeing here local been.
+
+31
+00:03:06,640 --> 00:03:13,000
+So basically we need executable files to set it in our system variables.
+
+32
+00:03:13,270 --> 00:03:22,390
+So automatically come all this bin folder is copied into this user user local folder.
+
+33
+00:03:22,870 --> 00:03:30,100
+We'll get this complete folder of executable files which are required to run Python are automatically
+
+34
+00:03:30,100 --> 00:03:37,270
+copied to the spot and your Mac mission will listen to this part by default.
+
+35
+00:03:37,780 --> 00:03:40,590
+OK, so that's the reason you need not write anything.
+
+36
+00:03:41,380 --> 00:03:47,410
+So if you still see any issues that Python is not being recognized, please let me know.
+
+37
+00:03:47,800 --> 00:03:53,380
+Post a question in the discussion board related to my configuration and I will help you.
+
+38
+00:03:53,800 --> 00:03:56,800
+Overall, I just want to tell you that you need not do anything.
+
+39
+00:03:56,920 --> 00:04:01,780
+And if you really need to know Python is stored, this is the location.
+
+40
+00:04:02,500 --> 00:04:02,900
+All right.
+
+41
+00:04:03,280 --> 00:04:04,180
+That's all I have.
+
+42
+00:04:04,330 --> 00:04:04,900
+Thank you.

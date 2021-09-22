@@ -1,0 +1,407 @@
+1
+00:00:00,960 --> 00:00:02,710
+All right, guys, let's get started.
+
+2
+00:00:02,940 --> 00:00:09,360
+So we have successfully completed the first of two steps launching in an instant and update configurations
+
+3
+00:00:09,720 --> 00:00:11,440
+to accept, as I said, the connection.
+
+4
+00:00:11,850 --> 00:00:15,620
+And now third one is bellbottom because, as I said, connection.
+
+5
+00:00:16,020 --> 00:00:24,660
+So what is this about is one Python library which will help you to connect remotely to another server.
+
+6
+00:00:24,990 --> 00:00:26,780
+OK, so let's install this level.
+
+7
+00:00:27,120 --> 00:00:31,270
+So using this library, we will be able to communicate with our Linux server.
+
+8
+00:00:31,770 --> 00:00:39,240
+So we will go back to our browser and then say, but let me go install Python.
+
+9
+00:00:41,380 --> 00:00:43,660
+So this is their official website.
+
+10
+00:00:45,280 --> 00:00:52,450
+Or you can go to the Python Library and just provide the install paramedical from here, I will go back
+
+11
+00:00:52,450 --> 00:00:53,680
+to our ED.
+
+12
+00:00:55,500 --> 00:00:56,790
+And from terminal.
+
+13
+00:00:58,850 --> 00:01:00,140
+But installed by Michael.
+
+14
+00:01:02,050 --> 00:01:02,320
+Right.
+
+15
+00:01:02,350 --> 00:01:05,350
+So you can go to their official website and understand about it.
+
+16
+00:01:05,740 --> 00:01:08,470
+So this is a library for making such connections.
+
+17
+00:01:08,740 --> 00:01:09,790
+That's what I tell you, right.
+
+18
+00:01:10,760 --> 00:01:11,310
+All right.
+
+19
+00:01:11,320 --> 00:01:12,360
+So let's see what happens.
+
+20
+00:01:12,640 --> 00:01:13,900
+It is installing.
+
+21
+00:01:14,660 --> 00:01:15,730
+We are almost there.
+
+22
+00:01:17,570 --> 00:01:23,180
+OK, successfully installed, Greg, so I will now create a new five.
+
+23
+00:01:24,960 --> 00:01:28,370
+And so it's connect demo.
+
+24
+00:01:29,930 --> 00:01:31,100
+It's very simple, yes.
+
+25
+00:01:31,600 --> 00:01:34,220
+So here onwards, it's very easy to understand.
+
+26
+00:01:36,120 --> 00:01:42,930
+OK, now you need to import paramedical, this is the library.
+
+27
+00:01:44,660 --> 00:01:49,800
+So from here, you can import that as one variable by calling paramedical, right?
+
+28
+00:01:51,190 --> 00:01:54,370
+So this is the more lamebrained.
+
+29
+00:01:58,950 --> 00:02:07,320
+DARD, you see that you got all the matters here, SSX claimed so fast, you have to tell to your library
+
+30
+00:02:07,320 --> 00:02:09,570
+that I have to make a sausage connection.
+
+31
+00:02:10,120 --> 00:02:12,600
+So there are different protocol connections are there?
+
+32
+00:02:12,600 --> 00:02:14,730
+In our case, we just need such a line.
+
+33
+00:02:15,120 --> 00:02:16,260
+So let's select that.
+
+34
+00:02:18,870 --> 00:02:21,930
+New capital as Glenn, this one.
+
+35
+00:02:24,890 --> 00:02:29,780
+So it will create one stream of connection so that you can store that in one variable.
+
+36
+00:02:30,620 --> 00:02:39,590
+OK, next, you can directly start connection because you have enabled this glass metal, right, with
+
+37
+00:02:39,590 --> 00:02:40,250
+this object.
+
+38
+00:02:40,700 --> 00:02:45,960
+So as I said, Dart and there is a method called connect, that's all.
+
+39
+00:02:46,280 --> 00:02:54,650
+So this expects for parameters, IP address, board member, user name, password, and that's all you
+
+40
+00:02:54,650 --> 00:02:56,420
+will be connected to your bottleneck server.
+
+41
+00:02:56,810 --> 00:02:57,890
+It's very easy.
+
+42
+00:02:58,130 --> 00:03:01,280
+You can all do this with one single method called Connect.
+
+43
+00:03:03,430 --> 00:03:11,330
+OK, and here you can start giving your all details, but I would prefer you to in properties that I
+
+44
+00:03:11,370 --> 00:03:16,570
+and I find and you can say you are Lennix or just so.
+
+45
+00:03:19,370 --> 00:03:25,400
+And host equals to IP address of that host.
+
+46
+00:03:25,790 --> 00:03:26,900
+So where do you get that?
+
+47
+00:03:27,410 --> 00:03:34,910
+There are multiple ways to figure out that you can go to your console and for that selected instance
+
+48
+00:03:34,910 --> 00:03:36,160
+here where you will find it.
+
+49
+00:03:37,950 --> 00:03:39,170
+Come back and.
+
+50
+00:03:41,170 --> 00:03:49,570
+Will, it's not required if united in an effort both so by default, all this stuff will start in 2022.
+
+51
+00:03:50,180 --> 00:03:58,160
+Wendy, to put no user name, we have created one user named ADC to hyphen user that comes by default.
+
+52
+00:03:58,520 --> 00:04:04,710
+And the password we have set in the last lecture to the same you see to and it as a password.
+
+53
+00:04:05,270 --> 00:04:05,760
+Awesome.
+
+54
+00:04:05,930 --> 00:04:12,010
+So these are the details needed because our server is this IP address.
+
+55
+00:04:12,020 --> 00:04:18,080
+It is not my idea to run for one night free and we have given username password to login and all configurations
+
+56
+00:04:18,080 --> 00:04:20,130
+we already done in our previous list.
+
+57
+00:04:21,050 --> 00:04:22,100
+So now let's come back.
+
+58
+00:04:23,420 --> 00:04:28,610
+Suppost equals two and we should drive it from our config properties.
+
+59
+00:04:28,610 --> 00:04:28,880
+Right.
+
+60
+00:04:29,540 --> 00:04:32,960
+I think there is a way we did already the shortcut.
+
+61
+00:04:34,310 --> 00:04:39,410
+So I will simply import these configurations, because the way to get config method is present.
+
+62
+00:04:40,320 --> 00:04:49,480
+So that way we can use that so from configurations, imports start so that all methods will be imported.
+
+63
+00:04:49,980 --> 00:04:52,530
+So this is present in utilities, right?
+
+64
+00:04:53,760 --> 00:04:55,080
+Utilities start.
+
+65
+00:04:58,660 --> 00:05:05,080
+Now, host equals two, you can basically call this matter just like how we have given get config user
+
+66
+00:05:05,080 --> 00:05:05,610
+password.
+
+67
+00:05:05,680 --> 00:05:07,180
+I think I can use this.
+
+68
+00:05:13,920 --> 00:05:21,390
+All right, so it's a just a variable, so you need not give in courts, so this is a use name and get
+
+69
+00:05:21,390 --> 00:05:24,780
+config this time we were getting it from Sarovar S..
+
+70
+00:05:28,190 --> 00:05:32,000
+Server and user name here.
+
+71
+00:05:33,870 --> 00:05:35,780
+So this is how you have to drive it.
+
+72
+00:05:40,080 --> 00:05:41,370
+And next is a bus for.
+
+73
+00:05:43,780 --> 00:05:48,400
+And will the courts, at least we have given in court because we are storing that into the dictionary.
+
+74
+00:05:54,150 --> 00:05:56,110
+So I think that's the right word here.
+
+75
+00:05:56,880 --> 00:06:00,360
+Yeah, next port, no coast to more details.
+
+76
+00:06:01,050 --> 00:06:02,810
+So we have already closed here.
+
+77
+00:06:03,720 --> 00:06:09,000
+See, now there are multiple properties are post in the in this page here.
+
+78
+00:06:09,000 --> 00:06:10,380
+We have Woolston here also.
+
+79
+00:06:10,380 --> 00:06:13,620
+We have but based upon the sections we are differentiating.
+
+80
+00:06:14,130 --> 00:06:15,720
+OK, so.
+
+81
+00:06:18,320 --> 00:06:21,170
+Host, where did we go, did we delay that?
+
+82
+00:06:22,790 --> 00:06:23,110
+OK.
+
+83
+00:06:29,250 --> 00:06:31,590
+So one last one we have is a support, No.
+
+84
+00:06:32,980 --> 00:06:34,060
+I will call this.
+
+85
+00:06:47,420 --> 00:06:48,270
+All right, good.
+
+86
+00:06:48,650 --> 00:06:51,320
+So username, password, all the four already.
+
+87
+00:06:51,530 --> 00:06:54,050
+Now let's send it in to the Connect method.
+
+88
+00:06:54,440 --> 00:07:03,680
+OK, so this method first accepts Hosta parameter and next board number and next username and password.
+
+89
+00:07:05,310 --> 00:07:11,390
+So all the details will be used now to connect to the line server.
+
+90
+00:07:11,970 --> 00:07:14,290
+But one more step you have to add here.
+
+91
+00:07:14,580 --> 00:07:23,970
+Basically, it will try to authenticate with public and private keys so we don't have public key of
+
+92
+00:07:23,970 --> 00:07:24,770
+that server.
+
+93
+00:07:25,050 --> 00:07:28,540
+So you can suppress that check by writing one step.
+
+94
+00:07:28,560 --> 00:07:29,470
+Let me read it here.
+
+95
+00:07:29,910 --> 00:07:32,330
+So this is presenting their official documentation.
+
+96
+00:07:32,610 --> 00:07:36,500
+It clearly says that set the missing key policy AHTO.
+
+97
+00:07:36,510 --> 00:07:42,810
+And so by default at runtime, Python will generate one public key and it will added, OK, you need
+
+98
+00:07:42,810 --> 00:07:47,250
+not do anything from your code, so make sure you add the step.
+
+99
+00:07:47,250 --> 00:07:50,670
+If not, you might run into some keys related a.
+
+100
+00:07:52,150 --> 00:07:52,460
+Great.
+
+101
+00:07:52,630 --> 00:07:58,660
+So if you're not aware of how we have to go parameters, you can just, as I said, start Ganek and
+
+102
+00:07:58,660 --> 00:08:01,960
+here you see you have a description how you can connect.

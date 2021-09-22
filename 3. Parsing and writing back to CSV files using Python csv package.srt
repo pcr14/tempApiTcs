@@ -1,0 +1,331 @@
+1
+00:00:01,230 --> 00:00:01,950
+Welcome back.
+
+2
+00:00:02,460 --> 00:00:10,050
+Now let us see how can we write back to see as we file and you need to open that file again, but this
+
+3
+00:00:10,050 --> 00:00:16,590
+time as Whitemoor more so you have already have the syntax to open the file.
+
+4
+00:00:16,590 --> 00:00:16,830
+Right.
+
+5
+00:00:17,730 --> 00:00:21,700
+So by default, if you don't provide any argument, it opens in, read more.
+
+6
+00:00:21,720 --> 00:00:25,040
+But if you want to write it, you have to open and write more.
+
+7
+00:00:25,710 --> 00:00:33,210
+But problem here is when you put the value that will scrap and erase all the existing content and write
+
+8
+00:00:33,210 --> 00:00:33,740
+freshly.
+
+9
+00:00:34,480 --> 00:00:35,780
+OK, so that is one scenario.
+
+10
+00:00:35,970 --> 00:00:41,570
+But in our case, let's have it use case that it should add another rule.
+
+11
+00:00:41,730 --> 00:00:44,660
+Basically, it should happen to the existing data.
+
+12
+00:00:45,000 --> 00:00:52,260
+It should not scrap the already data we just presented so far that you have to have a flat quality which
+
+13
+00:00:52,260 --> 00:00:53,490
+stands for APPEND.
+
+14
+00:00:54,420 --> 00:01:02,130
+OK, so the file you can see right file, this is an object reference, so then it will be available
+
+15
+00:01:02,130 --> 00:01:02,430
+to.
+
+16
+00:01:02,440 --> 00:01:02,980
+Right.
+
+17
+00:01:03,630 --> 00:01:06,600
+OK, so there is a system, a package between important.
+
+18
+00:01:06,630 --> 00:01:11,820
+Right in that there is one more method called write the simple dice, that's all.
+
+19
+00:01:12,270 --> 00:01:14,320
+So there is nothing science here.
+
+20
+00:01:14,880 --> 00:01:18,120
+So Python again, I stress Python is very, very easy.
+
+21
+00:01:18,600 --> 00:01:26,340
+If I take a mouse to explain in Java or C shop, a JavaScript, I can take only two hours to explain
+
+22
+00:01:26,340 --> 00:01:27,090
+that python.
+
+23
+00:01:27,510 --> 00:01:28,650
+OK, so that's the proof.
+
+24
+00:01:28,650 --> 00:01:33,030
+Take out my other courses in Java and to show how to read from CSC files are.
+
+25
+00:01:33,030 --> 00:01:37,560
+Except that is a lot of things are involved, but in Python it's very easy.
+
+26
+00:01:39,030 --> 00:01:44,640
+So right now is a matter and why do you want to write so basically.
+
+27
+00:01:45,800 --> 00:01:48,010
+You have to write into this file, right?
+
+28
+00:01:49,310 --> 00:01:50,420
+OK, so.
+
+29
+00:01:51,740 --> 00:01:59,840
+Then you can throw it into one object or variable rate of variable, so this variable is now having
+
+30
+00:01:59,840 --> 00:02:04,370
+permission to write because we have gained permission by clearly saying that.
+
+31
+00:02:04,370 --> 00:02:05,300
+Right, right.
+
+32
+00:02:05,360 --> 00:02:09,300
+There is a method which will help to tell on which file we have to write.
+
+33
+00:02:09,650 --> 00:02:14,690
+Yes, we have a reference to the right object and right dot.
+
+34
+00:02:15,350 --> 00:02:16,460
+Right wrote.
+
+35
+00:02:17,840 --> 00:02:18,220
+Michelle.
+
+36
+00:02:21,660 --> 00:02:29,290
+Our position is not coming, but this is the matter which will help you to add neutral, OK, you can
+
+37
+00:02:29,290 --> 00:02:34,930
+either directly write it here, right or wrong, but I'm just taking that into one variable by breaking
+
+38
+00:02:34,930 --> 00:02:35,750
+into two legs.
+
+39
+00:02:36,240 --> 00:02:38,200
+OK, so that's what you need to do, right?
+
+40
+00:02:38,230 --> 00:02:39,220
+You have to add neutral.
+
+41
+00:02:39,550 --> 00:02:48,730
+But if you remember how the roll is being added or how the law is being read using this iest reader
+
+42
+00:02:48,730 --> 00:02:49,150
+object.
+
+43
+00:02:49,630 --> 00:02:52,440
+OK, so we are we have written as a list of Ahmat.
+
+44
+00:02:52,450 --> 00:02:52,700
+Right.
+
+45
+00:02:52,930 --> 00:02:56,640
+If you remember, we got all this wrong in the list of Arment.
+
+46
+00:02:56,950 --> 00:03:02,440
+So even to write the new rule, you should make sure you send that Murong in the list of Ahmat only
+
+47
+00:03:02,860 --> 00:03:06,860
+now if I want to give new list, another rule.
+
+48
+00:03:07,450 --> 00:03:08,560
+So let me add that.
+
+49
+00:03:10,130 --> 00:03:19,790
+Bob and his status is also projected that road I'm sending as a list, that's how this writer accepts
+
+50
+00:03:20,090 --> 00:03:22,760
+and reading also that gives us back in list only.
+
+51
+00:03:23,000 --> 00:03:26,870
+So everyone now should be treated as the list in CFB standards.
+
+52
+00:03:28,030 --> 00:03:32,200
+That's all I know when you run this, you will see new law added into your CSP file.
+
+53
+00:03:32,680 --> 00:03:33,040
+OK.
+
+54
+00:03:33,070 --> 00:03:36,000
+There is nothing logic behind that.
+
+55
+00:03:36,040 --> 00:03:37,950
+It's all about having writers matter.
+
+56
+00:03:38,140 --> 00:03:43,260
+And on that object, you will have another matter called Lytro and send all the list.
+
+57
+00:03:43,840 --> 00:03:52,990
+Now, run this program and we will see what happens of it failed because permission or permission denied
+
+58
+00:03:52,990 --> 00:03:54,280
+to access.
+
+59
+00:03:55,090 --> 00:03:55,950
+Interesting.
+
+60
+00:03:56,440 --> 00:03:58,600
+Where did I place this file to get this?
+
+61
+00:04:00,930 --> 00:04:07,800
+Oh, it's because this file isn't already open more so when you want to write it back, make sure you
+
+62
+00:04:07,800 --> 00:04:10,980
+close all the CSP files where you want to write it back.
+
+63
+00:04:11,220 --> 00:04:18,420
+So close this Excel document, because that is stopping us to write into that.
+
+64
+00:04:18,750 --> 00:04:19,620
+So we got into.
+
+65
+00:04:20,490 --> 00:04:24,050
+So as I closed now, we should not run into any permanent denial errors.
+
+66
+00:04:24,360 --> 00:04:26,780
+So let me run this file again.
+
+67
+00:04:28,060 --> 00:04:34,930
+OK, so this time I don't see any error, so let's see if that new rule is added or not, so you can
+
+68
+00:04:34,990 --> 00:04:39,620
+simply go it alone and NSV and here you go, Bob rejected.
+
+69
+00:04:39,910 --> 00:04:47,560
+You see, that new rule is added because we are adding it from here and you can start writing a number
+
+70
+00:04:47,560 --> 00:04:50,590
+of rules by simply giving this matter again and again.
+
+71
+00:04:50,590 --> 00:04:53,530
+Like write one more rule with one more debate.
+
+72
+00:04:54,110 --> 00:04:54,480
+All right.
+
+73
+00:04:54,700 --> 00:04:56,920
+So that's how you can read and write in to see us.
+
+74
+00:04:57,580 --> 00:05:02,090
+So with this knowledge, let's switch back to the associates connection.
+
+75
+00:05:02,680 --> 00:05:06,680
+So this is one of the important topic in backend automation.
+
+76
+00:05:07,120 --> 00:05:16,840
+So from our Python code, we should be able to connect to another Linux server and execute the commands
+
+77
+00:05:16,840 --> 00:05:20,860
+in that Linux server from our local mission, Python code.
+
+78
+00:05:21,280 --> 00:05:28,930
+OK, so we will see how to do all this and then we will bring this concept again, because there is
+
+79
+00:05:28,930 --> 00:05:35,950
+one batch file which generates CSFI file and we should be able to run that batch file in Linux from
+
+80
+00:05:35,950 --> 00:05:39,460
+our Python code and the parts that say, yes, we fight.
+
+81
+00:05:39,680 --> 00:05:43,510
+OK, it will be very interesting and of course, easy as it should.
+
+82
+00:05:44,080 --> 00:05:45,880
+So we'll start that from our next section.
+
+83
+00:05:46,420 --> 00:05:46,960
+Thank you.

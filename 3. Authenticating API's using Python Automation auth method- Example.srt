@@ -1,0 +1,643 @@
+1
+00:00:01,080 --> 00:00:01,740
+Welcome back.
+
+2
+00:00:02,310 --> 00:00:10,500
+So if there is any authentication required in sending the request to an AP, then how can we handle
+
+3
+00:00:10,500 --> 00:00:12,540
+it through by automation?
+
+4
+00:00:13,410 --> 00:00:21,200
+So far that if you check out their official documentation, so they have clearly given that that is
+
+5
+00:00:21,210 --> 00:00:23,640
+a basic authentication with username and password.
+
+6
+00:00:23,970 --> 00:00:31,490
+So this is how you can send just like how you have sent jesson equals two headers.
+
+7
+00:00:31,920 --> 00:00:35,700
+Similarly, there is another parameter, which I always say miscellaneous.
+
+8
+00:00:35,700 --> 00:00:36,000
+Right.
+
+9
+00:00:36,300 --> 00:00:40,040
+And I will leave it blank after the last argument.
+
+10
+00:00:40,380 --> 00:00:46,110
+So the argument you can pass out and you can provide your username and password.
+
+11
+00:00:46,350 --> 00:00:52,380
+So that way it will hit this API with these credentials so that you will be securely logged in.
+
+12
+00:00:53,160 --> 00:00:53,490
+Right.
+
+13
+00:00:53,490 --> 00:00:58,590
+So not all APIs will be given access to directly get the response.
+
+14
+00:00:58,590 --> 00:01:05,280
+So you should authenticate yourself if there is any such kind of mechanism for your API, you can do
+
+15
+00:01:05,280 --> 00:01:07,230
+that by providing these details.
+
+16
+00:01:07,740 --> 00:01:12,820
+So now to do an example, let's switch to the GitHub.
+
+17
+00:01:13,440 --> 00:01:19,020
+So to access any API in the GitHub, you can directly use this.
+
+18
+00:01:20,190 --> 00:01:21,380
+You want to land on this?
+
+19
+00:01:21,420 --> 00:01:23,100
+Get now, now.
+
+20
+00:01:23,400 --> 00:01:25,860
+So there are a lot of apps exposed by these case.
+
+21
+00:01:26,430 --> 00:01:33,510
+But still, if you want to access any API, you need to authenticate yourself.
+
+22
+00:01:33,970 --> 00:01:41,310
+OK, so without authentication, you cannot access any hub repository you can access like water repositories
+
+23
+00:01:41,310 --> 00:01:43,380
+available in complete GitHub.
+
+24
+00:01:43,800 --> 00:01:45,950
+But finally, you are a specific user.
+
+25
+00:01:46,350 --> 00:01:49,650
+Let's say you want to know repositories of your account.
+
+26
+00:01:50,130 --> 00:01:54,330
+Then obviously you should login, right, without providing your login details.
+
+27
+00:01:54,540 --> 00:01:59,460
+GitHub will not give you the details of your account.
+
+28
+00:01:59,760 --> 00:02:01,890
+So that's what you have the example Artosis.
+
+29
+00:02:02,160 --> 00:02:08,220
+So if you want to log into your account, then provide the details so that you will be securely authenticated
+
+30
+00:02:08,430 --> 00:02:09,630
+through your request.
+
+31
+00:02:10,170 --> 00:02:15,450
+OK, now, so make sure you create one GitHub account, right.
+
+32
+00:02:15,640 --> 00:02:20,010
+And then we will try to login securely using an API.
+
+33
+00:02:20,280 --> 00:02:22,700
+OK, so this is the example they have given.
+
+34
+00:02:23,160 --> 00:02:24,750
+So this is an end point.
+
+35
+00:02:26,070 --> 00:02:35,460
+To access any user GitHub account, so if it returns 200 documents, you securely access that account.
+
+36
+00:02:35,820 --> 00:02:39,540
+So it depends upon what credentials you provide, username and password.
+
+37
+00:02:40,570 --> 00:02:48,370
+OK, if you provide wrong credentials, then it will give 404 to this status based upon the value provided.
+
+38
+00:02:48,720 --> 00:02:49,440
+So let's do that.
+
+39
+00:02:49,440 --> 00:02:54,060
+Let's try to understand this by writing the code here so that, you know, you will get some idea on
+
+40
+00:02:54,060 --> 00:02:55,080
+how to work on this.
+
+41
+00:02:55,530 --> 00:02:55,860
+Right.
+
+42
+00:02:56,520 --> 00:02:58,440
+So we have direct example here.
+
+43
+00:02:59,140 --> 00:03:00,390
+Let me go back to.
+
+44
+00:03:03,050 --> 00:03:04,410
+So they create one more file.
+
+45
+00:03:04,790 --> 00:03:07,040
+So this is just two lines of code, right?
+
+46
+00:03:07,060 --> 00:03:12,950
+So I will try to write that he had itself in that post example itself.
+
+47
+00:03:13,370 --> 00:03:15,410
+Let me put a comment.
+
+48
+00:03:16,070 --> 00:03:17,060
+Authentication.
+
+49
+00:03:19,160 --> 00:03:22,870
+Right, so it was dark, you get.
+
+50
+00:03:24,040 --> 00:03:28,860
+So there you are and you can identify it in that conflict, Parcell file.
+
+51
+00:03:28,910 --> 00:03:29,560
+It's up to you.
+
+52
+00:03:29,560 --> 00:03:32,220
+You can declare the property, start in and give it there.
+
+53
+00:03:32,500 --> 00:03:34,680
+But you understand that concept, right?
+
+54
+00:03:34,700 --> 00:03:36,010
+Let's not again do that.
+
+55
+00:03:36,010 --> 00:03:42,970
+All so simply, I will create one variable again, you Aurel and GitHub user.
+
+56
+00:03:43,720 --> 00:03:44,530
+This is the user.
+
+57
+00:03:45,880 --> 00:03:52,090
+So you can now use any GitHub API, you can read the documentation and using it have AIPA by giving
+
+58
+00:03:52,090 --> 00:03:52,930
+these credentials.
+
+59
+00:03:56,470 --> 00:03:56,840
+Right.
+
+60
+00:03:56,860 --> 00:03:59,170
+So that I can simply provide you all here.
+
+61
+00:04:01,280 --> 00:04:07,310
+Mixed art is where you have to provide your username and password, right?
+
+62
+00:04:08,060 --> 00:04:10,820
+So if you log in to GitHub dot com.
+
+63
+00:04:12,680 --> 00:04:17,900
+So sign and take your username and password, so once you sign up, you get these details right.
+
+64
+00:04:18,110 --> 00:04:21,620
+So I will just pass these details into my test that's on.
+
+65
+00:04:22,780 --> 00:04:24,620
+So first you have to produce a name.
+
+66
+00:04:24,960 --> 00:04:27,160
+Here it is, Rahul's at the Academy.
+
+67
+00:04:32,430 --> 00:04:33,910
+OK, next is the password.
+
+68
+00:04:34,230 --> 00:04:42,060
+So basically, I don't want to showcase my password by writing here so that I will write a letter like
+
+69
+00:04:42,060 --> 00:04:43,050
+this get past.
+
+70
+00:04:44,780 --> 00:04:46,170
+I can still get a password.
+
+71
+00:04:46,550 --> 00:04:53,210
+So this is the matter which will get the password for me, so I will clear this password somewhere in
+
+72
+00:04:53,390 --> 00:04:56,150
+another file so that I can take it from there.
+
+73
+00:04:56,250 --> 00:04:56,600
+OK.
+
+74
+00:04:58,630 --> 00:05:00,740
+So we have different files important here, right?
+
+75
+00:05:01,390 --> 00:05:06,890
+So let me go to resources is for classes configurations.
+
+76
+00:05:06,910 --> 00:05:08,390
+Yeah, I can have it here.
+
+77
+00:05:12,310 --> 00:05:13,260
+Get password.
+
+78
+00:05:18,040 --> 00:05:27,760
+So right, and I can enter some password here, OK, but actual password, I will enter offline.
+
+79
+00:05:28,270 --> 00:05:33,940
+So basically that password will be now directly accessible here in your post API example, you see that
+
+80
+00:05:33,940 --> 00:05:34,690
+at Alesco.
+
+81
+00:05:36,780 --> 00:05:42,720
+Now, so when you hear this request, you have securely authenticated, right, so you take the response
+
+82
+00:05:42,720 --> 00:05:43,140
+back.
+
+83
+00:05:45,970 --> 00:05:47,110
+Good response.
+
+84
+00:05:47,590 --> 00:05:53,680
+Similarly, in your company as well, you may be asked to provide these credentials, obviously basic
+
+85
+00:05:53,680 --> 00:05:59,800
+authentication will be there so you can simply use this parameter and get a response to see the status
+
+86
+00:05:59,800 --> 00:05:59,950
+quo.
+
+87
+00:05:59,980 --> 00:06:00,520
+You know, right.
+
+88
+00:06:00,530 --> 00:06:01,440
+Darte status.
+
+89
+00:06:02,020 --> 00:06:04,150
+So this will give you the status.
+
+90
+00:06:04,180 --> 00:06:04,410
+Good.
+
+91
+00:06:04,690 --> 00:06:08,860
+So I'll print this and see what kind of output I get for this.
+
+92
+00:06:11,400 --> 00:06:17,360
+Control shift of tempo, this will run out of oil and gas, and that's fine, you see that 200 status.
+
+93
+00:06:17,760 --> 00:06:24,500
+So if I change any user name this time, I have given wrong a name and went out on this again.
+
+94
+00:06:25,140 --> 00:06:28,620
+It should throw in a little bit of state, a score of four zero one.
+
+95
+00:06:28,620 --> 00:06:32,180
+That is that means you have not successfully authorized.
+
+96
+00:06:32,580 --> 00:06:32,870
+Right.
+
+97
+00:06:33,150 --> 00:06:40,440
+So this is how you can play around with authorization and sometimes you might get some SSL connection
+
+98
+00:06:40,440 --> 00:06:40,750
+error.
+
+99
+00:06:41,340 --> 00:06:50,500
+OK, so by default, when you are accessing any history BP related websites, they may have imposed
+
+100
+00:06:50,520 --> 00:06:51,930
+some SSL certifications.
+
+101
+00:06:52,170 --> 00:06:59,880
+So when you are talking to those servers which have SSL certification enabled, then when you try to
+
+102
+00:06:59,880 --> 00:07:01,880
+access this, then you might run into error.
+
+103
+00:07:02,280 --> 00:07:10,140
+So to fix that issue, whenever you encounter any SSL certification, you can add one more attribute
+
+104
+00:07:10,140 --> 00:07:10,410
+here.
+
+105
+00:07:10,410 --> 00:07:13,770
+Verify, verify equals to false.
+
+106
+00:07:16,410 --> 00:07:23,010
+So if you give this barometer, though, they are sarvodaya expecting as a barometer, you are compressing
+
+107
+00:07:23,010 --> 00:07:27,270
+that condition and you are submitting your request.
+
+108
+00:07:27,750 --> 00:07:35,850
+OK, so make sure you add this barometer if you run into any errors on a certification on SSN and read.
+
+109
+00:07:36,750 --> 00:07:37,950
+So that's all.
+
+110
+00:07:37,950 --> 00:07:39,360
+That's how you can authenticate.
+
+111
+00:07:39,360 --> 00:07:41,840
+And based upon the apps you can have, you can try it.
+
+112
+00:07:42,150 --> 00:07:46,460
+And there is one more API handling of file uploading.
+
+113
+00:07:46,860 --> 00:07:47,760
+So let's see that.
+
+114
+00:07:47,770 --> 00:07:49,710
+István, right now.
+
+115
+00:07:49,710 --> 00:07:52,590
+I don't have examples for that, but we can discuss here.
+
+116
+00:07:53,130 --> 00:07:59,310
+So basically there are some apps available where you can upload file by calling the request.
+
+117
+00:07:59,730 --> 00:08:03,970
+OK, so here there is an Excel sheet report, Dot Exelis.
+
+118
+00:08:04,320 --> 00:08:08,420
+So you have to upload that file to upload that file.
+
+119
+00:08:08,580 --> 00:08:12,300
+You see that there is already one example here, his GDP bindert, OAG.
+
+120
+00:08:12,720 --> 00:08:16,400
+So this is also one of the good AIPA where you can do some practice.
+
+121
+00:08:16,680 --> 00:08:18,990
+So take this example in practice.
+
+122
+00:08:19,210 --> 00:08:23,520
+OK, so basically this is the file and we need to upload this to anyone.
+
+123
+00:08:23,940 --> 00:08:26,460
+So they have created one file object.
+
+124
+00:08:26,670 --> 00:08:34,020
+You see that it's a dictionary, key values a file, and then we are opening the file in rewritable.
+
+125
+00:08:34,830 --> 00:08:41,010
+OK, so we have taken that into an object and we are passing that into file sequels to that object.
+
+126
+00:08:41,520 --> 00:08:49,620
+OK, so this is the key value here, just like how you have header cookies and what we have used in
+
+127
+00:08:49,620 --> 00:08:51,690
+our as a parameter.
+
+128
+00:08:51,690 --> 00:08:52,050
+Right.
+
+129
+00:08:52,050 --> 00:08:54,870
+And Paramount is one of the key word we have used for.
+
+130
+00:08:57,000 --> 00:09:03,540
+Get request made, similarly, that is one more call filed, so that will take argumentum files object,
+
+131
+00:09:03,540 --> 00:09:08,240
+which comes as a dictionary like this Arezzo you can upload file assman.
+
+132
+00:09:08,640 --> 00:09:11,130
+So these are the commonly used APIs.
+
+133
+00:09:11,340 --> 00:09:16,860
+So we have discussed pretty much about get forced and if it is a delayed then you can just change it
+
+134
+00:09:16,860 --> 00:09:17,390
+to delete.
+
+135
+00:09:17,730 --> 00:09:18,060
+Right.
+
+136
+00:09:18,240 --> 00:09:24,630
+And we have also seen how to pass this with the logic, how to see the state escort's, how to validate
+
+137
+00:09:24,630 --> 00:09:31,950
+the headers and how to drive the values externally and all.
+
+138
+00:09:31,950 --> 00:09:33,780
+And we have also seen authorization.
+
+139
+00:09:34,020 --> 00:09:38,560
+So these are the common scenarios first across our API testing in Python.
+
+140
+00:09:38,850 --> 00:09:45,170
+So if you come across any new issue on API, which you think that can be automated through Python,
+
+141
+00:09:45,480 --> 00:09:48,170
+so this documentation will be a friend for you.
+
+142
+00:09:48,690 --> 00:09:52,260
+So search for that specific request and you will get a response.
+
+143
+00:09:52,560 --> 00:09:56,780
+And if you want to practice a few more, then I would recommend you to go to his TDP.
+
+144
+00:09:56,810 --> 00:10:02,580
+But already there you have are different APIs available for practice.
+
+145
+00:10:03,270 --> 00:10:08,730
+OK, but I have shown you one real time library API which I have designed so delayed get.
+
+146
+00:10:08,730 --> 00:10:11,670
+But a lot of things here for you to practice.
+
+147
+00:10:11,880 --> 00:10:16,590
+And these guys are also provided examples like what request and data.
+
+148
+00:10:17,040 --> 00:10:19,920
+And you can use this and here how to parse parameters.
+
+149
+00:10:20,340 --> 00:10:21,750
+Obviously we discussed all this.
+
+150
+00:10:21,750 --> 00:10:24,600
+So you really need not go anything here.
+
+151
+00:10:24,990 --> 00:10:28,180
+But if there is something which is missed, this is always different for you.
+
+152
+00:10:28,590 --> 00:10:29,000
+All right.
+
+153
+00:10:29,250 --> 00:10:31,380
+So that's pretty much about this letter.
+
+154
+00:10:32,070 --> 00:10:34,980
+In the next lecture, I will introduce database.
+
+155
+00:10:35,490 --> 00:10:39,810
+So we will delicately discuss about database for sometime.
+
+156
+00:10:40,050 --> 00:10:48,030
+Once you get familiar about how to access data from database using Python code, then we will come back
+
+157
+00:10:48,030 --> 00:10:57,090
+to this API examples again and then build Jassam, whatever we are sending as an input here from the
+
+158
+00:10:57,090 --> 00:10:58,200
+database queries.
+
+159
+00:10:58,540 --> 00:11:02,130
+OK, but before that, first we need to understand how to query from Python.
+
+160
+00:11:02,130 --> 00:11:04,530
+Right, which we will be seeing in our next section.
+
+161
+00:11:04,980 --> 00:11:05,460
+Thank you.

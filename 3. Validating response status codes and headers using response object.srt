@@ -1,0 +1,603 @@
+1
+00:00:00,880 --> 00:00:01,570
+Welcome back.
+
+2
+00:00:02,200 --> 00:00:09,040
+So now you can also check the status of your response, so in the last lecture, we have seen how to
+
+3
+00:00:09,040 --> 00:00:11,660
+retrieve the decent response and pass it right.
+
+4
+00:00:12,100 --> 00:00:19,620
+Similarly, if you want to see the status, call what your surveys have written, then it's very simple.
+
+5
+00:00:19,630 --> 00:00:21,280
+You can still use this response.
+
+6
+00:00:21,280 --> 00:00:25,820
+Object response, star status code.
+
+7
+00:00:26,350 --> 00:00:26,710
+Right.
+
+8
+00:00:27,100 --> 00:00:29,610
+So this will give you your response status quo.
+
+9
+00:00:30,490 --> 00:00:36,280
+So this will help you to actually check if it has gotten successfully or not.
+
+10
+00:00:36,700 --> 00:00:40,420
+Basically, people will have a solution for this in testing.
+
+11
+00:00:40,900 --> 00:00:43,600
+So first, let's try to see what is the status quo.
+
+12
+00:00:43,630 --> 00:00:44,800
+We are getting the output.
+
+13
+00:00:44,980 --> 00:00:46,230
+You see, it's 200.
+
+14
+00:00:46,780 --> 00:00:53,920
+So what you can do is set response status score equals to 200.
+
+15
+00:00:54,130 --> 00:01:01,450
+So this way, if something goes wrong, you will get another status called apart from two hundred and
+
+16
+00:01:01,450 --> 00:01:03,130
+you can report failure.
+
+17
+00:01:03,580 --> 00:01:09,100
+OK, and you can also monitor headers of your response like Wartell.
+
+18
+00:01:09,460 --> 00:01:12,910
+And as you receive with your response, let's see.
+
+19
+00:01:13,270 --> 00:01:15,130
+It's again same object response.
+
+20
+00:01:15,130 --> 00:01:16,420
+Dart Pelops.
+
+21
+00:01:17,500 --> 00:01:23,920
+And all this we singing Postman Man, will you see that status, 200 similar thing we have seen with
+
+22
+00:01:24,550 --> 00:01:29,120
+this star status today and the head of the line of heroes present here.
+
+23
+00:01:29,500 --> 00:01:29,800
+Right.
+
+24
+00:01:30,100 --> 00:01:32,680
+So all these heroes now we can access.
+
+25
+00:01:34,750 --> 00:01:40,230
+That's does matter with this object, subtrend response, Darksiders.
+
+26
+00:01:45,380 --> 00:01:50,900
+You see that all these are headers, so one interesting thing here is that these headers are written
+
+27
+00:01:50,900 --> 00:01:51,900
+as a dictionary.
+
+28
+00:01:52,460 --> 00:02:03,830
+So my goal is to verify that the header of what is that content type is application jassam or not.
+
+29
+00:02:04,100 --> 00:02:06,960
+So that is my goal of verification.
+
+30
+00:02:07,220 --> 00:02:09,510
+So this is the content type header, right?
+
+31
+00:02:09,680 --> 00:02:11,480
+So in postwoman also, you have that.
+
+32
+00:02:12,430 --> 00:02:21,400
+So most of the times you might be asked to verify if content type what you have received is just an
+
+33
+00:02:21,400 --> 00:02:22,200
+opinion, right?
+
+34
+00:02:22,660 --> 00:02:23,840
+So this is the content type.
+
+35
+00:02:24,190 --> 00:02:27,390
+Now, let's for the check point and A to validate.
+
+36
+00:02:28,030 --> 00:02:31,540
+So when you do respond to start headers, it received the complete dictionary.
+
+37
+00:02:31,540 --> 00:02:31,760
+Right.
+
+38
+00:02:32,320 --> 00:02:36,410
+So in that if you want to access only content type, you know how easy it is.
+
+39
+00:02:37,000 --> 00:02:42,440
+So basically the respon start headers is a dictionary in that dictionary.
+
+40
+00:02:42,440 --> 00:02:44,170
+Key value is content type.
+
+41
+00:02:46,330 --> 00:02:51,850
+OK, content so equal, you can have this.
+
+42
+00:02:56,360 --> 00:02:58,200
+Right, and then give an assessment.
+
+43
+00:03:00,140 --> 00:03:05,360
+So basically it will extract that value and come past with this, what matters then?
+
+44
+00:03:06,100 --> 00:03:07,520
+Our test will pass.
+
+45
+00:03:07,880 --> 00:03:08,200
+Let's.
+
+46
+00:03:10,660 --> 00:03:18,070
+But that is an item if you're trying to ride a camel here and then from here, you will definitely see
+
+47
+00:03:18,070 --> 00:03:20,380
+another, because that is a deviation.
+
+48
+00:03:20,500 --> 00:03:22,900
+You see that that is an assertion at all.
+
+49
+00:03:23,200 --> 00:03:30,640
+So this is how you can validate not only response distance, but also that heads and state escorts.
+
+50
+00:03:31,150 --> 00:03:31,570
+OK.
+
+51
+00:03:34,780 --> 00:03:41,170
+Similarly, you can do for as assessment, but as one start, you will get cookies, OK, you can retrieve
+
+52
+00:03:41,170 --> 00:03:48,340
+the cookies and that will also bring the dictionary and use this key value pair to retrieve any response
+
+53
+00:03:48,340 --> 00:03:49,110
+cookie you need.
+
+54
+00:03:49,900 --> 00:03:50,250
+Great.
+
+55
+00:03:50,770 --> 00:03:53,580
+So this is one kind of validations next.
+
+56
+00:03:53,800 --> 00:03:55,780
+So let's do one logical validation here.
+
+57
+00:03:56,400 --> 00:03:59,110
+Now, I would try to get results.
+
+58
+00:04:01,360 --> 00:04:04,020
+Get out there, and I would just said.
+
+59
+00:04:04,840 --> 00:04:06,160
+Let's see how many results we get.
+
+60
+00:04:09,620 --> 00:04:11,610
+OK, so I have a bunch of results here.
+
+61
+00:04:11,960 --> 00:04:18,140
+So my goal here is to retrieve the ISBN with the value of Djihad Cissie.
+
+62
+00:04:19,640 --> 00:04:21,260
+So I would write the.
+
+63
+00:04:24,990 --> 00:04:29,700
+Comments here, so retrieve the book details
+
+64
+00:04:32,340 --> 00:04:33,510
+with ISBN.
+
+65
+00:04:37,520 --> 00:04:38,560
+So how do you get that?
+
+66
+00:04:38,570 --> 00:04:45,270
+So once you get that response, you will obviously see a lot of books with that order when you buy property.
+
+67
+00:04:45,980 --> 00:04:53,690
+So now your goal is to pass this response either through each and every book and see if the ISBN name
+
+68
+00:04:53,690 --> 00:04:56,270
+is matching with or whatever you want.
+
+69
+00:04:56,270 --> 00:05:00,880
+Or if there is a match, then you have to return that whole book list.
+
+70
+00:05:01,280 --> 00:05:10,520
+OK, for that, first of all, we will take this complete response and we would put in our Jessan Ed.
+
+71
+00:05:12,090 --> 00:05:15,030
+So this way we will Vitalogy two percent.
+
+72
+00:05:16,070 --> 00:05:19,420
+OK, so first of all, this isn't list, right?
+
+73
+00:05:19,460 --> 00:05:23,160
+So, however, we can get the complete list details here.
+
+74
+00:05:23,810 --> 00:05:27,770
+So when you do response to our Jason, you have the complete list here.
+
+75
+00:05:28,190 --> 00:05:33,920
+OK, so now basically you have to either read through each and every element in this list, OK, in
+
+76
+00:05:33,920 --> 00:05:35,060
+this square bracket list.
+
+77
+00:05:35,150 --> 00:05:36,230
+This is one element.
+
+78
+00:05:36,230 --> 00:05:38,310
+This is another element, and this is another element.
+
+79
+00:05:38,690 --> 00:05:42,590
+So it looks like simple for loop to isolate each and every element of the list.
+
+80
+00:05:43,300 --> 00:05:50,390
+And when we access that iteration for that specific list, we will grab the ISBN name and see if that
+
+81
+00:05:50,390 --> 00:05:51,920
+matches with our requirement.
+
+82
+00:05:52,250 --> 00:05:53,090
+It's very simple.
+
+83
+00:05:53,120 --> 00:05:54,860
+Yes, let's do that.
+
+84
+00:05:56,230 --> 00:05:57,460
+So how do I direct and.
+
+85
+00:05:58,150 --> 00:06:04,400
+You already know that we saw in our previous lecture, so syntax that is for a new variable name.
+
+86
+00:06:04,420 --> 00:06:07,580
+Let's take a look in listing it.
+
+87
+00:06:07,600 --> 00:06:08,570
+What is your list?
+
+88
+00:06:08,620 --> 00:06:12,760
+This is the list right here where you will get your complete response list.
+
+89
+00:06:14,170 --> 00:06:14,450
+Right.
+
+90
+00:06:14,710 --> 00:06:24,010
+So now when you print book, it will print each and every item in that list for every iteration of the
+
+91
+00:06:24,010 --> 00:06:24,280
+book.
+
+92
+00:06:24,300 --> 00:06:31,390
+How in the first iteration, this book, how access to this first item and when you run for second,
+
+93
+00:06:31,390 --> 00:06:33,770
+third loop, your book have access to the second Bigum.
+
+94
+00:06:34,220 --> 00:06:34,540
+Right.
+
+95
+00:06:34,930 --> 00:06:44,970
+So when we are accessing that each and every item in the list, our goal here is to see if book.
+
+96
+00:06:45,430 --> 00:06:51,220
+That means that particular item in that item, this is each item is no dictionary.
+
+97
+00:06:51,220 --> 00:06:51,450
+Right.
+
+98
+00:06:51,940 --> 00:06:55,740
+So then list access to each item in every iteration.
+
+99
+00:06:55,990 --> 00:06:58,130
+What is the data type of that item?
+
+100
+00:06:58,360 --> 00:07:03,060
+Let's first see that type of book.
+
+101
+00:07:04,150 --> 00:07:05,380
+And that's printed.
+
+102
+00:07:09,810 --> 00:07:14,920
+Every item in that list is nothing but a dictionary, you'll see that every item.
+
+103
+00:07:14,950 --> 00:07:17,540
+Well, it says there's a dictionary, right?
+
+104
+00:07:17,950 --> 00:07:22,940
+Then of course the dictionary and you want to do is to be a it should be simple, right?
+
+105
+00:07:26,110 --> 00:07:26,900
+Biosphere.
+
+106
+00:07:27,280 --> 00:07:36,600
+OK, so it'll just keep if condition if ISBN equals two or hit hits, right.
+
+107
+00:07:37,710 --> 00:07:46,090
+So if this matches, then our goal is to read the complete book details, OK, you can then say for
+
+108
+00:07:46,260 --> 00:07:46,740
+the book.
+
+109
+00:07:48,860 --> 00:07:56,620
+OK, so basically, you don't want to see all the details, your goal here is to get only the book details,
+
+110
+00:07:56,990 --> 00:08:05,480
+OK, and let's say there is one test case where you want to compare that whatever book you got on the
+
+111
+00:08:05,660 --> 00:08:09,740
+head, CISPA, that should be equal to your expected book.
+
+112
+00:08:10,220 --> 00:08:15,770
+OK, so this is the actual received from the response for Arjay Head, S.C..
+
+113
+00:08:15,770 --> 00:08:17,300
+I am speaking now.
+
+114
+00:08:17,300 --> 00:08:19,370
+Let's build our expected book.
+
+115
+00:08:20,900 --> 00:08:25,190
+Come out of this look because if you write here, this will be part of your condition.
+
+116
+00:08:25,820 --> 00:08:26,100
+Right?
+
+117
+00:08:26,450 --> 00:08:29,210
+And if you write, it will be part of for loop.
+
+118
+00:08:29,600 --> 00:08:37,100
+So come to the first point so that you will be out of this complete block and define your expected book.
+
+119
+00:08:39,220 --> 00:08:46,280
+Let's have another dictionary so that the actual whatever you really all should be equal to the expected
+
+120
+00:08:46,280 --> 00:08:47,540
+book, what you are expecting.
+
+121
+00:08:48,880 --> 00:08:53,380
+So there is that already had secret.
+
+122
+00:08:55,180 --> 00:08:57,850
+Yeah, here, so let me copy this dictionary.
+
+123
+00:08:57,940 --> 00:09:00,400
+This is what we are expecting.
+
+124
+00:09:03,290 --> 00:09:06,350
+OK, simple, and this is what you get.
+
+125
+00:09:08,280 --> 00:09:10,740
+Let's write a actual book.
+
+126
+00:09:11,760 --> 00:09:18,150
+You see that the book, whatever it is based upon condition of that, is, that's what we need, right?
+
+127
+00:09:18,790 --> 00:09:24,470
+OK, so how you can compare an actual book is one dictionary you have expected.
+
+128
+00:09:24,480 --> 00:09:26,030
+Book is one dictionary you have.
+
+129
+00:09:26,850 --> 00:09:31,040
+So basically you can compare two dictionaries.
+
+130
+00:09:31,050 --> 00:09:39,530
+I told you it's very simple and you need to simply use the actual book equals two expected book.
+
+131
+00:09:39,540 --> 00:09:43,680
+And that said, have an assertion and if something goes wrong, your test will fail.
+
+132
+00:09:44,220 --> 00:09:46,410
+OK, let's run this program.
+
+133
+00:09:50,100 --> 00:09:52,450
+Awesome, there's something gone.
+
+134
+00:09:52,600 --> 00:09:59,280
+Let's try to understand this, OK, line 27, it clearly says Assertion do not match.
+
+135
+00:10:00,870 --> 00:10:05,050
+Let's try to read this dictionary and see where it went wrong.
+
+136
+00:10:05,070 --> 00:10:06,330
+So like this, you should be OK.
+
+137
+00:10:06,600 --> 00:10:09,540
+OK, so you printed the actual book, right?
+
+138
+00:10:09,810 --> 00:10:16,210
+Actual book is printed with book name, Lenape Automation, ISBN, IAL.
+
+139
+00:10:16,260 --> 00:10:21,750
+Everything looks good, but when you try to compare it shows an assertion.
+
+140
+00:10:24,920 --> 00:10:26,030
+What would be the error?
+
+141
+00:10:26,540 --> 00:10:27,450
+Any guesses?
+
+142
+00:10:28,040 --> 00:10:35,390
+So I want you to guess this so carefully, observe this logic and you will figure out what is the error
+
+143
+00:10:35,390 --> 00:10:35,700
+here.
+
+144
+00:10:36,440 --> 00:10:39,190
+So if not, I can show you in the next lecture.
+
+145
+00:10:39,500 --> 00:10:43,460
+But again, I'm I'm just giving you a hint that is something wrong.
+
+146
+00:10:43,460 --> 00:10:45,550
+And the if condition here, that's fine.
+
+147
+00:10:45,560 --> 00:10:47,300
+We are getting a failure.
+
+148
+00:10:47,900 --> 00:10:50,420
+OK, so before you print.
+
+149
+00:10:51,440 --> 00:10:58,050
+I try to bring to this actual book an expected book before this assassination and see what will be different.
+
+150
+00:10:58,490 --> 00:11:01,640
+So try to on a and then we will see this in the next lecture.
+
+151
+00:11:02,150 --> 00:11:02,570
+Thank you.

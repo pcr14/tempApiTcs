@@ -1,0 +1,895 @@
+1
+00:00:01,220 --> 00:00:07,880
+All right, so we have completed upload files and now let's run the comments again, and this is the
+
+2
+00:00:07,880 --> 00:00:12,280
+command which will help you to trigger, right.
+
+3
+00:00:12,560 --> 00:00:21,020
+So I will again copy the same comment once you uploaded files, triggered the batch of the batch.
+
+4
+00:00:21,020 --> 00:00:21,410
+Come on.
+
+5
+00:00:23,090 --> 00:00:30,580
+And the what you have to learn is Python, and it's going to be very.
+
+6
+00:00:31,430 --> 00:00:38,180
+I think by default, when you're working with a mission, Python will be in start in general if you
+
+7
+00:00:38,180 --> 00:00:40,650
+don't have Python installed in your server.
+
+8
+00:00:41,000 --> 00:00:46,160
+This command will not make any sense because ultimately we are executing this command in terminal only.
+
+9
+00:00:46,160 --> 00:00:46,400
+Right.
+
+10
+00:00:46,770 --> 00:00:50,630
+If there is no python here that will not work, it will drain.
+
+11
+00:00:51,590 --> 00:00:59,440
+So by default, I guess anybody else will give the python to see that there is a version already.
+
+12
+00:00:59,450 --> 00:01:00,920
+So that means Python is installed.
+
+13
+00:01:01,280 --> 00:01:09,410
+So if I run this command now, let's see what happens and then we will investigate our CSP file one
+
+14
+00:01:09,410 --> 00:01:11,770
+more time and see if the status is updated.
+
+15
+00:01:12,640 --> 00:01:19,100
+OK, in real time, we will have some command to execute that batch that could be controlling jobs basically.
+
+16
+00:01:19,220 --> 00:01:22,310
+And back in you will have jobs like controller jobs.
+
+17
+00:01:22,610 --> 00:01:25,490
+You can execute those jobs with some long commands.
+
+18
+00:01:25,970 --> 00:01:32,110
+So you just ask a developer, what is that command and that command, that batsmen's and read some files.
+
+19
+00:01:32,390 --> 00:01:35,800
+So you have to open that files and validate that file.
+
+20
+00:01:35,810 --> 00:01:39,640
+Can be Jason, that file can be CSFI, that file can be text file.
+
+21
+00:01:39,890 --> 00:01:43,370
+So using your python, you should be able to pass them and do a lot of things.
+
+22
+00:01:43,770 --> 00:01:46,490
+Look at all these are like salvarsan and back in automation.
+
+23
+00:01:47,520 --> 00:01:52,740
+OK, so I'm giving you some scenarios, example, because you know how to parse this and also you know
+
+24
+00:01:52,740 --> 00:01:54,120
+how to handle a request.
+
+25
+00:01:54,150 --> 00:01:57,660
+You know how to handle text files which were discussed in Python basic section.
+
+26
+00:01:57,810 --> 00:02:00,620
+And now we also nosiest these are like common files.
+
+27
+00:02:01,050 --> 00:02:02,920
+So don't think that Excel will be there.
+
+28
+00:02:03,210 --> 00:02:10,050
+OK, Excel isn't like Microsoft application in 99 percent gives us all the bad shit back and jobs will
+
+29
+00:02:10,050 --> 00:02:13,710
+generate 60 files or DNS symbols but not accept.
+
+30
+00:02:17,020 --> 00:02:19,170
+Right, I will run this one more time.
+
+31
+00:02:20,900 --> 00:02:23,530
+So this will replace as it's already present, right?
+
+32
+00:02:23,570 --> 00:02:27,190
+These files are already present, but when you run again, this will replace with music.
+
+33
+00:02:28,450 --> 00:02:29,220
+OK.
+
+34
+00:02:30,710 --> 00:02:38,630
+So come on has run and you see that we executed this comment as well earlier, when you don't get to
+
+35
+00:02:38,630 --> 00:02:43,820
+see the contenders discovered displayed right, I will run this comment one more time and you'll see
+
+36
+00:02:43,820 --> 00:02:54,140
+that uproar rejected and this bad up have communicated with the proper database and then give you the
+
+37
+00:02:54,140 --> 00:02:54,590
+results.
+
+38
+00:02:54,870 --> 00:02:56,590
+But in our case, there is no proper database.
+
+39
+00:02:56,600 --> 00:02:59,900
+I return some logic that will randomly select a.
+
+40
+00:03:00,890 --> 00:03:06,220
+OK, so I just returned one python file, which will randomly fill the files in real time.
+
+41
+00:03:06,230 --> 00:03:09,770
+Just assume this is how you get OK.
+
+42
+00:03:10,130 --> 00:03:12,850
+Now, there is no point of using the results here.
+
+43
+00:03:12,860 --> 00:03:20,450
+You want this CSP file back to your system now because you need to validate and see now, for example.
+
+44
+00:03:20,450 --> 00:03:21,810
+Three, two, three, two, one, go.
+
+45
+00:03:22,120 --> 00:03:30,410
+OK, you definitely know this guy alone should reject because these guys have no minimum balance maintained
+
+46
+00:03:30,410 --> 00:03:31,080
+from two years.
+
+47
+00:03:31,460 --> 00:03:36,220
+So when you send this file to your batch, you will expect the output, the redacted.
+
+48
+00:03:36,470 --> 00:03:40,620
+So then you can say that, hey, this batch job is working as expected.
+
+49
+00:03:40,640 --> 00:03:47,300
+One test case suddenly, if you see approved by any way, then you can fail the test and say something
+
+50
+00:03:47,300 --> 00:03:48,550
+is wrong with this bad job.
+
+51
+00:03:48,800 --> 00:03:55,470
+Because when we give this account in GSV, we made sure that this is rejected because we verify that
+
+52
+00:03:55,470 --> 00:03:58,450
+there are no account balances or no credit card payments.
+
+53
+00:03:58,820 --> 00:04:02,580
+So that way you can validate and show your your results.
+
+54
+00:04:03,740 --> 00:04:06,140
+OK, so your file is ready.
+
+55
+00:04:07,830 --> 00:04:17,060
+Now, the next step is to download uploading is done now download the file to your local to local system.
+
+56
+00:04:19,500 --> 00:04:21,450
+It's also very simple, yes.
+
+57
+00:04:25,520 --> 00:04:28,880
+Right, there is a method, again, to download also.
+
+58
+00:04:29,840 --> 00:04:31,190
+But it just the reverse.
+
+59
+00:04:32,930 --> 00:04:34,880
+So this time we are getting the file right.
+
+60
+00:04:34,910 --> 00:04:38,240
+Earlier we were putting the file in the cell, but now we are getting back.
+
+61
+00:04:38,600 --> 00:04:42,950
+So as we are getting back the file, we should use get better, that's all.
+
+62
+00:04:43,970 --> 00:04:50,330
+And from there, you are getting you have to give the part where exactly you have to file is located
+
+63
+00:04:50,330 --> 00:04:51,140
+in the server.
+
+64
+00:04:51,590 --> 00:04:54,950
+So in the sidebar, it's on the home only and the home.
+
+65
+00:04:54,950 --> 00:04:56,540
+But the CSFI file.
+
+66
+00:04:57,660 --> 00:04:59,250
+This is our destination, Patrick.
+
+67
+00:05:00,310 --> 00:05:07,540
+From here, we were getting back to our local system and to where do you want that, you have to give
+
+68
+00:05:07,540 --> 00:05:08,030
+that part.
+
+69
+00:05:08,500 --> 00:05:11,110
+So let's right here in the backfills only.
+
+70
+00:05:12,040 --> 00:05:18,370
+Batch files or should we create one package called output folder?
+
+71
+00:05:21,290 --> 00:05:26,150
+So I'll create one more directory and call US output files.
+
+72
+00:05:29,510 --> 00:05:36,830
+OK, and you can access those output files, output files, so you are giving the part where exactly
+
+73
+00:05:36,830 --> 00:05:43,610
+you will see as we file should get stored in the box first to have input file and output file.
+
+74
+00:05:44,000 --> 00:05:45,720
+You should get back from your server.
+
+75
+00:05:45,920 --> 00:05:50,900
+That's all guys get is a method to get back from destination to your source.
+
+76
+00:05:51,740 --> 00:05:52,190
+All right.
+
+77
+00:05:52,200 --> 00:05:59,210
+So this is an end to end, which will connect to your system and make a connection, send you a batch
+
+78
+00:05:59,210 --> 00:06:04,550
+file, then send you a loan files, CSFI, and then run this batch file once it ran.
+
+79
+00:06:04,880 --> 00:06:10,640
+And it will pick the CSP file from there and it gets into your local system.
+
+80
+00:06:13,050 --> 00:06:14,310
+So I would run this test.
+
+81
+00:06:18,900 --> 00:06:23,820
+OK, execution is finished, and when you open this, you'll see that there is an output file.
+
+82
+00:06:24,510 --> 00:06:27,180
+OK, double click on that and here you go.
+
+83
+00:06:27,180 --> 00:06:33,750
+You got back all your status, so you sent an input file with the blank details.
+
+84
+00:06:34,050 --> 00:06:36,750
+You see input and output.
+
+85
+00:06:36,960 --> 00:06:41,660
+You got back with all the filling the details.
+
+86
+00:06:41,790 --> 00:06:43,610
+So bad job has to fill all this.
+
+87
+00:06:43,620 --> 00:06:45,300
+This is what we call back end.
+
+88
+00:06:45,960 --> 00:06:46,250
+Right.
+
+89
+00:06:46,620 --> 00:06:49,650
+And this is how all salvarsan automation happens.
+
+90
+00:06:49,970 --> 00:06:50,270
+Great.
+
+91
+00:06:50,490 --> 00:06:53,700
+Now, you got back your file successfully.
+
+92
+00:06:53,940 --> 00:06:54,600
+What next?
+
+93
+00:06:55,110 --> 00:07:02,970
+So once you got back everything, now you have to validate whether this user what is that user three
+
+94
+00:07:02,970 --> 00:07:03,810
+to three to write.
+
+95
+00:07:05,370 --> 00:07:11,270
+Three, two, three, two, one is rejected or not, but this is Random Day, so sometimes you'll see
+
+96
+00:07:11,280 --> 00:07:13,250
+director or sometimes you'll see abroad.
+
+97
+00:07:13,260 --> 00:07:18,030
+I have written the script in such a way that it randomly places one value for everyone.
+
+98
+00:07:18,510 --> 00:07:22,520
+But anyway, now you know how to read to be fine.
+
+99
+00:07:22,860 --> 00:07:30,150
+So once you get your CSP file, let me open this in Excel so that you will have some clear vision.
+
+100
+00:07:38,070 --> 00:07:43,740
+So that is why in the last section, I have explained to you how to relax before it's OK, everything
+
+101
+00:07:43,740 --> 00:07:45,450
+is properly streamlined.
+
+102
+00:07:47,910 --> 00:07:51,300
+I'm just writing everything in one single file so that you can have a good reference.
+
+103
+00:07:52,750 --> 00:07:56,800
+But I would file CSB.
+
+104
+00:07:59,770 --> 00:08:02,090
+OK, you know, you asked need to open the file.
+
+105
+00:08:02,380 --> 00:08:03,640
+Where does that file is present?
+
+106
+00:08:03,820 --> 00:08:06,360
+That file is present in this location.
+
+107
+00:08:12,220 --> 00:08:17,110
+And you are opening as I read more, so give any reference, our particular skills.
+
+108
+00:08:17,180 --> 00:08:17,830
+Yes, we've.
+
+109
+00:08:18,910 --> 00:08:19,330
+File.
+
+110
+00:08:21,620 --> 00:08:29,300
+OK, so you need to import one package called import CSFI, because that have a method called reader
+
+111
+00:08:29,690 --> 00:08:34,970
+with which you will be able to read the three dot reader.
+
+112
+00:08:36,400 --> 00:08:42,040
+So you have to read this file, so you have to give the reference of that and the delimiter what we
+
+113
+00:08:42,040 --> 00:08:44,870
+have used this summer.
+
+114
+00:08:45,250 --> 00:08:45,530
+Right.
+
+115
+00:08:46,060 --> 00:08:52,360
+So I hope you have gone through all my previous B.S. So assuming that I'm writing the things very faster,
+
+116
+00:08:52,540 --> 00:08:58,180
+if not, I would refer you to go back and see how we have passed and learned about reading and writing
+
+117
+00:08:58,180 --> 00:08:59,020
+to see us to be fine.
+
+118
+00:09:00,540 --> 00:09:07,230
+OK, so we sent file object and this is our delimiter, everything looks good, and now this will read
+
+119
+00:09:07,230 --> 00:09:10,330
+the entire content and we will get in one real object, right?
+
+120
+00:09:10,770 --> 00:09:12,150
+So, yes, we read it.
+
+121
+00:09:12,780 --> 00:09:13,140
+Yes.
+
+122
+00:09:13,500 --> 00:09:15,110
+It's not in the real object.
+
+123
+00:09:15,540 --> 00:09:23,610
+So this is nothing but a list now to iterate through each and every arrow in that list you can write
+
+124
+00:09:23,610 --> 00:09:26,200
+for looked for in a spirit.
+
+125
+00:09:28,570 --> 00:09:33,070
+OK, so basically in every iteration, one rule will be picked.
+
+126
+00:09:34,880 --> 00:09:39,550
+So in the first iteration, this is the second iteration, this third iteration, for reason, like
+
+127
+00:09:39,560 --> 00:09:42,360
+each and every rule is, that is how we did it.
+
+128
+00:09:42,920 --> 00:09:46,310
+OK, so we have to do for Loop also to understand how this happens.
+
+129
+00:09:47,240 --> 00:09:55,580
+I would recommend you to refresh if you don't remember that now, once we got the list, this is how
+
+130
+00:09:55,580 --> 00:09:56,390
+it really is, right?
+
+131
+00:09:56,600 --> 00:10:02,300
+Our goal is to see if this account number status is rejected or not.
+
+132
+00:10:02,840 --> 00:10:05,750
+So, once again, the rule, this is how the list will be there.
+
+133
+00:10:05,960 --> 00:10:09,520
+Ralf's zero will with this guy and no one will win this game.
+
+134
+00:10:10,570 --> 00:10:15,190
+OK, so I will write a condition like if all of zero.
+
+135
+00:10:16,830 --> 00:10:17,720
+Equals to.
+
+136
+00:10:20,190 --> 00:10:21,450
+Three, two, three, two, one.
+
+137
+00:10:32,150 --> 00:10:36,170
+If the rheumatiz, we need to extractable off one.
+
+138
+00:10:37,910 --> 00:10:41,710
+No one should be equal, still rejected.
+
+139
+00:10:44,480 --> 00:10:46,100
+And I am giving a speech in front of that.
+
+140
+00:10:48,680 --> 00:10:52,280
+OK, I hope you understand here sort of zero.
+
+141
+00:10:53,350 --> 00:10:58,570
+In addition, there will be this one, this will be a big one, two, three, two, as one, two, three
+
+142
+00:10:58,570 --> 00:10:59,800
+do is not equal to this.
+
+143
+00:10:59,800 --> 00:11:06,340
+It will skip asserting it and it will run again next time for three to four three zero zero NO-MATCH
+
+144
+00:11:06,460 --> 00:11:11,710
+And third time there is a match because this respect rule of zero three two, three, two, one, when
+
+145
+00:11:11,710 --> 00:11:17,530
+that matches with this immediately in the same list of Varnum accessing OK, when the match happens,
+
+146
+00:11:17,530 --> 00:11:19,570
+then only I am going inside the condition.
+
+147
+00:11:19,730 --> 00:11:24,910
+So obviously this calls that particular only when I'm going in said only when it matches.
+
+148
+00:11:25,180 --> 00:11:27,280
+So in that row first index.
+
+149
+00:11:28,340 --> 00:11:34,960
+And you are marching with if it is rejected or not, so same kind of example we did in case we demo,
+
+150
+00:11:34,970 --> 00:11:42,470
+but we did in different fashion, we actually captured all these items in one list and all these items
+
+151
+00:11:42,470 --> 00:11:44,620
+in one list and we got index number.
+
+152
+00:11:44,810 --> 00:11:47,240
+And with that index number we verified in this list.
+
+153
+00:11:47,480 --> 00:11:55,780
+OK, that is one way of doing and the same logic I did in another way with simple optimist.
+
+154
+00:11:56,110 --> 00:12:01,460
+OK, so my whole intention is to show multiple ways of passing it instead of going blindly with one
+
+155
+00:12:01,460 --> 00:12:02,360
+logic every time.
+
+156
+00:12:03,660 --> 00:12:10,230
+So make sure you close your CSFI Excel sheet and you can delete all these output files even if it is
+
+157
+00:12:10,230 --> 00:12:10,420
+there.
+
+158
+00:12:10,440 --> 00:12:12,570
+Don't worry, it will replace with the new set file.
+
+159
+00:12:13,100 --> 00:12:14,890
+OK, even the old results are there.
+
+160
+00:12:15,270 --> 00:12:17,740
+That's OK because that word replaces.
+
+161
+00:12:17,760 --> 00:12:19,350
+But anyhow, I will delete this.
+
+162
+00:12:20,850 --> 00:12:22,140
+To factor everything.
+
+163
+00:12:24,010 --> 00:12:24,520
+All right.
+
+164
+00:12:28,830 --> 00:12:31,680
+It will do an end to end its.
+
+165
+00:12:32,880 --> 00:12:33,670
+Rejected.
+
+166
+00:12:34,080 --> 00:12:39,690
+But that is an assertion, and I think this time that bad job gave you approval.
+
+167
+00:12:39,960 --> 00:12:40,350
+Yes.
+
+168
+00:12:40,350 --> 00:12:44,050
+You got a buck in your back job, isn't it?
+
+169
+00:12:44,310 --> 00:12:49,650
+So you clearly know that this user, this account number should always be rejected.
+
+170
+00:12:49,950 --> 00:12:53,270
+If there is something wrong that is bad job is not working as expected.
+
+171
+00:12:53,700 --> 00:12:56,780
+So you have to your back in the batch job.
+
+172
+00:12:56,790 --> 00:13:00,730
+It is sitting somewhere in the Linux server using your Python.
+
+173
+00:13:01,460 --> 00:13:03,300
+OK, that's what we call automation.
+
+174
+00:13:03,300 --> 00:13:05,030
+Instead of saying, OK, why?
+
+175
+00:13:05,040 --> 00:13:05,650
+What's the issue?
+
+176
+00:13:05,670 --> 00:13:11,970
+Let's open the file output file and you'll see that for this guy, this came back as a broad.
+
+177
+00:13:12,820 --> 00:13:17,980
+OK, well, then again, this time you might see the correct one, because, as I told you, that I
+
+178
+00:13:17,980 --> 00:13:21,790
+have written logic in such a way that it will go trajector that approved.
+
+179
+00:13:24,500 --> 00:13:25,320
+I will go back.
+
+180
+00:13:25,350 --> 00:13:26,470
+Finally, one more time.
+
+181
+00:13:27,380 --> 00:13:29,720
+And then let's change to approve.
+
+182
+00:13:33,300 --> 00:13:34,560
+I will run one more time.
+
+183
+00:13:39,540 --> 00:13:43,920
+But this time it passed because that doesn't give you a back as approved.
+
+184
+00:13:44,700 --> 00:13:47,510
+OK, so this is how you can automate.
+
+185
+00:13:47,670 --> 00:13:51,870
+So I'll go back to the document and let's see if we covered all the stuff or not.
+
+186
+00:13:52,260 --> 00:13:59,250
+And also before that, now, you were ready to prepare your resume with all the skills you learned from
+
+187
+00:13:59,250 --> 00:14:04,380
+this course so you can showcase your resume with Pythonesque skills.
+
+188
+00:14:04,680 --> 00:14:09,600
+But the utilities, what you have learned until this lecture, because we have tested various points
+
+189
+00:14:09,600 --> 00:14:16,290
+of all back automation related things, so you can proudly showcase all these skills in your résumé.
+
+190
+00:14:16,560 --> 00:14:22,890
+And that will really help you to short list an interview, because these are unique skills not many
+
+191
+00:14:22,890 --> 00:14:25,040
+of people have in the market.
+
+192
+00:14:25,410 --> 00:14:32,010
+So I request you to add this, because then only you will get real value for what you did if you need
+
+193
+00:14:32,010 --> 00:14:34,470
+any assistance for your resume.
+
+194
+00:14:34,470 --> 00:14:40,050
+Update regarding Python backend automation points they taught me here and I will send you points and
+
+195
+00:14:40,050 --> 00:14:42,010
+you can plainly add into your resume.
+
+196
+00:14:42,600 --> 00:14:46,710
+OK, now let's just recap what we did in this section.
+
+197
+00:14:47,310 --> 00:14:53,190
+We ran the comments from our local python bulimics via, as I said, what is the command and execute
+
+198
+00:14:53,190 --> 00:14:53,550
+command.
+
+199
+00:14:53,550 --> 00:14:53,720
+Right.
+
+200
+00:14:54,030 --> 00:14:57,630
+This is the command method which help you to execute commands.
+
+201
+00:14:57,990 --> 00:15:04,920
+And we also know how to read the output from the next mission using a study out one commands and you
+
+202
+00:15:04,920 --> 00:15:09,480
+read the output with the red matter and you can read all the output given by that command.
+
+203
+00:15:10,490 --> 00:15:16,970
+And how to transfer files from local server to Unix on Linux, whatever of it, and for that also upload
+
+204
+00:15:16,970 --> 00:15:23,280
+files, we have understood that there isn't a safety protocol which you can open with openness of people
+
+205
+00:15:23,360 --> 00:15:25,010
+matter and then destination.
+
+206
+00:15:25,020 --> 00:15:30,040
+But local park and put metal will help you to put your files in destination.
+
+207
+00:15:30,080 --> 00:15:30,380
+But.
+
+208
+00:15:31,430 --> 00:15:34,250
+And running Python bats files and Linux server.
+
+209
+00:15:34,280 --> 00:15:36,830
+Yes, we did that batch file we ran.
+
+210
+00:15:37,650 --> 00:15:42,190
+Next, download the files from limits to your local mission via SFD.
+
+211
+00:15:42,210 --> 00:15:43,120
+We did that, too.
+
+212
+00:15:43,140 --> 00:15:46,440
+We have successfully downloaded with getting better CSP.
+
+213
+00:15:46,440 --> 00:15:47,640
+We find this present in the server.
+
+214
+00:15:47,920 --> 00:15:54,900
+You brought it to your local output files and finally validated batch files output through passing.
+
+215
+00:15:54,900 --> 00:15:56,110
+You want to see Ussery files?
+
+216
+00:15:56,370 --> 00:16:01,010
+Yes, we passed our output files and we are telling you to fill that post.
+
+217
+00:16:01,380 --> 00:16:08,490
+So that's pretty much about how you can make such connections to server from your Python code using
+
+218
+00:16:08,490 --> 00:16:09,960
+the paramedical library.
+
+219
+00:16:10,500 --> 00:16:12,750
+I hope you really enjoyed the section.
+
+220
+00:16:12,990 --> 00:16:20,490
+And as I told the assignment for you to use to write reusable components for upload, download and connection,
+
+221
+00:16:20,520 --> 00:16:25,530
+just like how I have written for the database and then make this framework more optimized.
+
+222
+00:16:26,370 --> 00:16:28,320
+So that's all I have thus far.
+
+223
+00:16:28,320 --> 00:16:28,920
+The section.
+
+224
+00:16:29,460 --> 00:16:30,030
+Thank you.

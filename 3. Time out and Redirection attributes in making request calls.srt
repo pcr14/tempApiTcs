@@ -1,0 +1,391 @@
+1
+00:00:00,900 --> 00:00:07,050
+OK, so in this short lecture, let us try to understand what is redirection and payment and how to
+
+2
+00:00:07,050 --> 00:00:09,480
+use that concept in your API testing.
+
+3
+00:00:10,620 --> 00:00:18,330
+So here, when you actually hit this city Economy.com so fast, it will hit.
+
+4
+00:00:19,240 --> 00:00:25,050
+It will go to one wall from that you are in it will redirect to this of a bit.
+
+5
+00:00:25,430 --> 00:00:28,220
+OK, it's not directly hitting Rovelstad at the academy dot com.
+
+6
+00:00:28,420 --> 00:00:30,730
+So before that, there is one redirection happening.
+
+7
+00:00:31,060 --> 00:00:35,000
+So then there is the redirection happens from one quarter to another.
+
+8
+00:00:35,020 --> 00:00:39,040
+You are in your response fast will show three, not two.
+
+9
+00:00:39,670 --> 00:00:45,800
+And then so because it is frustrating when you are in and then it is redirecting to this Web page.
+
+10
+00:00:46,120 --> 00:00:49,210
+So after learning this Web page only, you will get a response back.
+
+11
+00:00:49,300 --> 00:00:49,550
+Right.
+
+12
+00:00:49,840 --> 00:00:52,300
+So then you will see 200 or so.
+
+13
+00:00:52,310 --> 00:00:56,070
+But before that I am making one redirection with the NewLink.
+
+14
+00:00:56,230 --> 00:01:02,970
+So if there is any redirection for your API calls, then you will not directly see 200.
+
+15
+00:01:03,070 --> 00:01:06,670
+You will first see three, not two straight EZCORP because of redirection.
+
+16
+00:01:06,940 --> 00:01:09,690
+And then after loading actually what you will see 200.
+
+17
+00:01:10,000 --> 00:01:16,360
+But in the output when you set up on Star Status Code, you will see the latest and the final status
+
+18
+00:01:16,360 --> 00:01:19,960
+code, what it reported, but it will not show all the history.
+
+19
+00:01:20,620 --> 00:01:22,570
+So you can still get the history.
+
+20
+00:01:22,990 --> 00:01:30,750
+And if you in the response, if you a response star, that is a third call history.
+
+21
+00:01:31,120 --> 00:01:35,890
+So if you use history, then it will tell you if there are any redirections for forever.
+
+22
+00:01:36,220 --> 00:01:38,150
+And point what you have called.
+
+23
+00:01:38,560 --> 00:01:39,640
+OK, let's see this.
+
+24
+00:01:43,190 --> 00:01:49,850
+So redirection is very common in the waters, if they want to have some security implementation or anything,
+
+25
+00:01:50,300 --> 00:01:52,090
+they'll just go on this redirections.
+
+26
+00:01:52,340 --> 00:01:54,370
+Yeah, in this case, redirections three.
+
+27
+00:01:54,380 --> 00:01:59,570
+Not so any state ascorbic starts with 300 will be used as a redirection.
+
+28
+00:01:59,750 --> 00:02:02,510
+So here it's a three, not one, which is initially happening.
+
+29
+00:02:02,800 --> 00:02:04,550
+OK, this is the History Channel for us.
+
+30
+00:02:04,730 --> 00:02:08,410
+And then it is loading the actual euro and Gambir 200.
+
+31
+00:02:08,840 --> 00:02:11,480
+So as I told explicitly, it will not show you.
+
+32
+00:02:11,780 --> 00:02:16,670
+But if you see the history, it will show that there is a redirection here.
+
+33
+00:02:20,030 --> 00:02:28,160
+So if you don't want to redirect, so let's say this is the how you are functionality is currently working
+
+34
+00:02:28,400 --> 00:02:35,020
+and then our developer bought a new project and they was told that you should not redirect from another
+
+35
+00:02:35,120 --> 00:02:42,590
+water to this page going directly to should be Economy.com and delete all redirections because they
+
+36
+00:02:42,590 --> 00:02:45,380
+have implemented all security directly in this Web page only.
+
+37
+00:02:45,620 --> 00:02:48,110
+So they would ask you to delete all redirections.
+
+38
+00:02:48,440 --> 00:02:49,490
+So how would you take that?
+
+39
+00:02:49,730 --> 00:02:55,800
+Because when your response starts to scored, even when there is a redirection, you are getting 200.
+
+40
+00:02:56,540 --> 00:02:59,810
+So after they fix this issue, still you get 200.
+
+41
+00:03:00,110 --> 00:03:05,750
+So one way of seeing the history, OK, and by saying the history, you will verify whether three,
+
+42
+00:03:05,750 --> 00:03:07,100
+not one, is present or not.
+
+43
+00:03:07,100 --> 00:03:08,360
+Based upon that, you decide.
+
+44
+00:03:08,780 --> 00:03:15,350
+Another way is that there is one attribute you can pass and you've got to get call, which is a low
+
+45
+00:03:16,390 --> 00:03:20,090
+redirects if you set it to false.
+
+46
+00:03:26,060 --> 00:03:34,490
+OK, so if you said this, attribute a redirect to funds, so it will just stop after it receives Fuster
+
+47
+00:03:34,490 --> 00:03:34,910
+status.
+
+48
+00:03:35,600 --> 00:03:39,010
+So in our case it will just stop at three zero one.
+
+49
+00:03:39,650 --> 00:03:45,950
+It will not do any redirection, because we are saying that while you think this request, if there
+
+50
+00:03:45,950 --> 00:03:47,300
+is redirections stopping.
+
+51
+00:03:48,130 --> 00:03:54,100
+OK, so by default, it is redirecting from 300 to 200, but in our case, our response will stop here
+
+52
+00:03:54,100 --> 00:03:56,150
+because we are not allowed to redirect.
+
+53
+00:03:56,560 --> 00:04:01,990
+So if the developer fixed it, when you give this attribute, it should directly show 200 because we
+
+54
+00:04:01,990 --> 00:04:02,720
+are doing this.
+
+55
+00:04:03,250 --> 00:04:05,590
+So now let's see what is the output we get?
+
+56
+00:04:06,370 --> 00:04:06,520
+OK.
+
+57
+00:04:06,560 --> 00:04:08,790
+Let me comment this response, our history.
+
+58
+00:04:09,040 --> 00:04:14,100
+I'm just giving this data earlier when I tried this without redirection, false.
+
+59
+00:04:14,110 --> 00:04:14,920
+We got 200.
+
+60
+00:04:14,920 --> 00:04:15,130
+Right.
+
+61
+00:04:15,850 --> 00:04:16,930
+Let me try this again.
+
+62
+00:04:19,500 --> 00:04:26,120
+And you see now you got this little one only there is not one right here because we are stopping the
+
+63
+00:04:26,270 --> 00:04:27,230
+election to force.
+
+64
+00:04:27,540 --> 00:04:33,270
+So after developing to fix the bulk of redirection, we are expecting now 200 directly.
+
+65
+00:04:33,420 --> 00:04:40,290
+If you still see that in action, you can feel it by riding a dinosaur equals two three zero one, which
+
+66
+00:04:40,290 --> 00:04:43,010
+we already seen having assertions in my previous lectures.
+
+67
+00:04:43,740 --> 00:04:50,520
+So this way you can test the direction for your other apes using a low redirects attribute next.
+
+68
+00:04:51,000 --> 00:04:52,710
+So once you hit the request.
+
+69
+00:04:53,750 --> 00:05:00,980
+Let's say it takes one or two seconds to get a response back, but ideally your response variable will
+
+70
+00:05:00,980 --> 00:05:05,210
+not wait once this hit and let's say it takes two seconds to get a response.
+
+71
+00:05:05,900 --> 00:05:14,210
+So you will get a blank object in the response because you never told do your request get going to wait
+
+72
+00:05:14,210 --> 00:05:19,000
+for two seconds for response and this will not have any idea of waiting.
+
+73
+00:05:19,010 --> 00:05:19,260
+Right.
+
+74
+00:05:19,580 --> 00:05:21,850
+So they know what they have done.
+
+75
+00:05:22,130 --> 00:05:23,720
+So we got an instant response.
+
+76
+00:05:23,720 --> 00:05:26,900
+So we did not feel the heat of waiting synchronization.
+
+77
+00:05:27,290 --> 00:05:33,350
+But if you hit an end points which have heavy load in realtime e-commerce, so the response might be
+
+78
+00:05:33,350 --> 00:05:34,910
+delayed two or three seconds.
+
+79
+00:05:35,210 --> 00:05:42,280
+So you have to give some mechanism, do your best to wait until three seconds and then get a response.
+
+80
+00:05:42,650 --> 00:05:44,390
+OK, so to give that weight.
+
+81
+00:05:47,000 --> 00:05:48,510
+Or you can write back here.
+
+82
+00:05:49,430 --> 00:05:52,280
+So there isn't another attribute called timeout.
+
+83
+00:05:57,800 --> 00:06:00,850
+OK, payment equals two can give seconds.
+
+84
+00:06:01,260 --> 00:06:02,690
+Let's let me get one second.
+
+85
+00:06:03,230 --> 00:06:10,730
+So basically this will wait one second and then it will take the response back, OK?
+
+86
+00:06:10,740 --> 00:06:12,220
+This is very important, guys.
+
+87
+00:06:12,500 --> 00:06:17,570
+If you're working as I don't have a lot of real time projects, you might get a response back within
+
+88
+00:06:17,570 --> 00:06:25,220
+three or four seconds and you respond very well picking before that and you won't see proper history
+
+89
+00:06:25,220 --> 00:06:27,580
+or proper response back that's there.
+
+90
+00:06:27,590 --> 00:06:32,300
+You no waiting issues comes over so that you can provide payment.
+
+91
+00:06:32,570 --> 00:06:37,910
+So this is a tribute and give the number of seconds you want to wait and then it will wait and then
+
+92
+00:06:37,910 --> 00:06:39,290
+grab the correct response.
+
+93
+00:06:39,650 --> 00:06:42,830
+OK, this will come very handy while testing.
+
+94
+00:06:44,130 --> 00:06:48,660
+OK, so it will not have any impact, you can run a game.
+
+95
+00:06:49,680 --> 00:06:53,580
+You see that just waited one second and grabbed the response.
+
+96
+00:06:54,090 --> 00:06:59,040
+OK, so this is how we can work with time up and redirects in your method.
+
+97
+00:07:00,120 --> 00:07:02,520
+We'll continue with another topic in the next lecture.
+
+98
+00:07:02,910 --> 00:07:03,390
+Thank you.

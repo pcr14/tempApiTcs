@@ -1,0 +1,675 @@
+1
+00:00:01,250 --> 00:00:01,910
+Welcome back.
+
+2
+00:00:02,270 --> 00:00:09,230
+So now let's start step by step process, so we will first try to print all the titles displayed in
+
+3
+00:00:09,230 --> 00:00:09,950
+this page.
+
+4
+00:00:10,370 --> 00:00:14,770
+OK, let's try to scrap this Web page and get the all titles.
+
+5
+00:00:15,320 --> 00:00:17,870
+So for that, let's go back to our editor.
+
+6
+00:00:18,110 --> 00:00:27,050
+And you are clear that now the soap object is now holding all the rest of that page.
+
+7
+00:00:27,050 --> 00:00:27,380
+Right?
+
+8
+00:00:28,050 --> 00:00:31,760
+So there is a method called.
+
+9
+00:00:32,830 --> 00:00:33,460
+Fined.
+
+10
+00:00:35,300 --> 00:00:44,390
+So basically, this method will help you to extract the data based upon the attributes, what you provide.
+
+11
+00:00:45,470 --> 00:00:48,150
+So this method will take two arguments.
+
+12
+00:00:48,740 --> 00:00:53,930
+So if you were, our goal is to, first of all, find.
+
+13
+00:00:55,160 --> 00:01:01,340
+This entire table, so let's start scrapping, I would spy on this trailer.
+
+14
+00:01:04,390 --> 00:01:09,100
+Like, so the entire content is actually starting in one table, it seems.
+
+15
+00:01:10,800 --> 00:01:11,370
+You see that?
+
+16
+00:01:15,200 --> 00:01:20,870
+You can see finalist table glass equals two, so this is a table.
+
+17
+00:01:21,870 --> 00:01:26,450
+So now let's dig and get access to this table now.
+
+18
+00:01:26,940 --> 00:01:31,310
+So now about a soap object is having access to international right?
+
+19
+00:01:31,710 --> 00:01:39,230
+So let's limit and shrink our solution by narrowing our search results, by first accessing only the
+
+20
+00:01:39,250 --> 00:01:43,790
+stable content, because this table content have all the data right.
+
+21
+00:01:43,830 --> 00:01:47,190
+Everything is wrapped under this table and in there are rules.
+
+22
+00:01:47,820 --> 00:01:49,230
+Each room have one title.
+
+23
+00:01:49,710 --> 00:01:54,120
+So now to narrow down our results so you can see.
+
+24
+00:01:55,610 --> 00:02:02,810
+So this object is having the access to entire content from entire history and content find, so it accepts
+
+25
+00:02:02,810 --> 00:02:03,560
+two arguments.
+
+26
+00:02:03,560 --> 00:02:05,990
+First argument you can give that Tagami.
+
+27
+00:02:07,250 --> 00:02:14,540
+OK, so table is a tag, name and second argument to access this.
+
+28
+00:02:15,460 --> 00:02:23,830
+They will uniquely you can pass some attributes, like there is a actable called class finalist, so
+
+29
+00:02:23,830 --> 00:02:29,310
+this attribute class will help you to identify this table uniquely now.
+
+30
+00:02:29,380 --> 00:02:35,020
+For example, let's say there are two tables on this Web page, one table here and one, they will decide
+
+31
+00:02:35,500 --> 00:02:37,150
+to get all the titles.
+
+32
+00:02:37,300 --> 00:02:44,230
+Now, when you say so, not fine with the table, then it will blindly find out.
+
+33
+00:02:45,380 --> 00:02:50,920
+That tag name timetable, so if you find multiple, then we don't know which one to use.
+
+34
+00:02:51,260 --> 00:02:58,340
+So that's why to give it more filters, to tell it with more information, you can pass attributes so
+
+35
+00:02:58,340 --> 00:03:00,910
+that it can uniquely identify your table.
+
+36
+00:03:01,550 --> 00:03:07,280
+So and it works out nothing but what you see here, there is one attribute called class, so you can
+
+37
+00:03:07,520 --> 00:03:12,070
+pass attributes in a dictionary like this class column.
+
+38
+00:03:13,690 --> 00:03:15,930
+So what is your name?
+
+39
+00:03:18,100 --> 00:03:18,820
+Finalist.
+
+40
+00:03:20,260 --> 00:03:25,810
+So this way, you are properly starting with the attribute and they will show that you are SoPE object
+
+41
+00:03:25,810 --> 00:03:33,670
+and I will identify this table and it will reach here so you can store it into one variable, you can
+
+42
+00:03:33,670 --> 00:03:34,200
+say.
+
+43
+00:03:36,320 --> 00:03:37,970
+Movies, they will.
+
+44
+00:03:45,690 --> 00:03:50,490
+That's fine, you can put the caps are just asking naming conventions, right?
+
+45
+00:03:50,910 --> 00:03:54,210
+So what is the difference between these two variables and mobility?
+
+46
+00:03:54,240 --> 00:03:57,530
+Will this have the access to entire statement on the page?
+
+47
+00:03:57,810 --> 00:04:01,320
+Now, this movie star will have access to this table content.
+
+48
+00:04:01,800 --> 00:04:06,330
+OK, because our goal is starting off scrapping this present in this table.
+
+49
+00:04:06,570 --> 00:04:09,430
+So we narrow down our results and we are starting here.
+
+50
+00:04:10,110 --> 00:04:16,530
+Now, I will print a game and see if we have successfully narrowed down our results.
+
+51
+00:04:18,060 --> 00:04:22,020
+Will this table not prettify this time?
+
+52
+00:04:22,020 --> 00:04:25,320
+It should not give me the entire Hesterman content on the page.
+
+53
+00:04:25,500 --> 00:04:28,800
+It should give me the Hesterman content related to that table.
+
+54
+00:04:28,800 --> 00:04:31,380
+Only Lizzi.
+
+55
+00:04:37,430 --> 00:04:43,730
+OK, so you got the results and you'll see that it's ending with a table back, his statement, which
+
+56
+00:04:43,730 --> 00:04:48,710
+started with a table tag and it ended with a table.
+
+57
+00:04:49,400 --> 00:04:55,610
+So that means we have successfully narrowed down and we are now holding of history and content of this
+
+58
+00:04:55,790 --> 00:04:59,240
+table only with the help of this variable movies table.
+
+59
+00:04:59,660 --> 00:04:59,980
+Right.
+
+60
+00:05:00,260 --> 00:05:07,040
+And now what I can do so because we are doing all this because our ultimate goal is to first get the
+
+61
+00:05:07,040 --> 00:05:08,420
+title of this Web pages.
+
+62
+00:05:09,940 --> 00:05:11,290
+So this is one Titan.
+
+63
+00:05:12,400 --> 00:05:23,320
+And you'll see that I can see if you find that there is a class called the text and at the same time
+
+64
+00:05:23,320 --> 00:05:25,030
+in this table there are those.
+
+65
+00:05:26,540 --> 00:05:29,690
+So basically, every movie have one protea.
+
+66
+00:05:30,990 --> 00:05:33,670
+Right, so let's narrow it down further.
+
+67
+00:05:34,330 --> 00:05:36,000
+Now, I will use this movie stable.
+
+68
+00:05:38,190 --> 00:05:47,880
+And I would say dard find all that is another matter, can't find all, so when you find it will return
+
+69
+00:05:47,880 --> 00:05:48,910
+only one result.
+
+70
+00:05:49,080 --> 00:05:52,830
+But when you just find out, it will return all the matching results.
+
+71
+00:05:53,310 --> 00:05:53,850
+You know that.
+
+72
+00:05:53,850 --> 00:05:54,390
+Find out.
+
+73
+00:05:54,420 --> 00:05:58,260
+Find out will take first argument, which is a mandatory diagne.
+
+74
+00:05:58,860 --> 00:06:04,190
+And second argument is optional if you want to get an identify uniquely.
+
+75
+00:06:04,740 --> 00:06:09,720
+So in our case, when I do movies, they will not find all the searches will happen.
+
+76
+00:06:10,080 --> 00:06:11,640
+Now inside this table.
+
+77
+00:06:11,640 --> 00:06:17,750
+Only when you do not find out, then such will happen an entire history and will continue.
+
+78
+00:06:18,060 --> 00:06:19,080
+But we still don't.
+
+79
+00:06:19,120 --> 00:06:21,750
+Our results and we placed on this movie stable.
+
+80
+00:06:21,750 --> 00:06:22,020
+Right.
+
+81
+00:06:22,200 --> 00:06:23,430
+And now we are quiting.
+
+82
+00:06:23,430 --> 00:06:26,010
+Find out on that narrowed down results.
+
+83
+00:06:26,430 --> 00:06:29,820
+So now search will happen on this table part.
+
+84
+00:06:30,090 --> 00:06:35,790
+So we are simply asking, get me all the data with the tag name pick.
+
+85
+00:06:36,510 --> 00:06:39,840
+OK, so all these rules now will be retrieved.
+
+86
+00:06:40,200 --> 00:06:47,220
+So when you say find, then it will retrieve only the faster trailer you are seeing here.
+
+87
+00:06:47,220 --> 00:06:47,490
+Right.
+
+88
+00:06:47,970 --> 00:06:49,140
+That will be retrieved.
+
+89
+00:06:49,410 --> 00:06:53,250
+But when you just mentioned final, then it will return all the rules.
+
+90
+00:06:54,030 --> 00:06:58,100
+So if you have knowledge on selenium, it will be easy for you to grab all these.
+
+91
+00:06:58,860 --> 00:07:01,200
+OK, when I say easy, it will be quick.
+
+92
+00:07:01,410 --> 00:07:03,000
+You can quickly correlate things.
+
+93
+00:07:03,930 --> 00:07:05,760
+So get out.
+
+94
+00:07:05,760 --> 00:07:06,660
+I can say those.
+
+95
+00:07:07,860 --> 00:07:08,310
+Nice.
+
+96
+00:07:08,580 --> 00:07:11,320
+So all the rules are present in this.
+
+97
+00:07:11,350 --> 00:07:13,730
+Rules are variable.
+
+98
+00:07:15,030 --> 00:07:21,450
+OK, now you can I trade over this rules and pull out each and every rule.
+
+99
+00:07:22,080 --> 00:07:26,910
+OK, so all the rules are successfully retrieved right now.
+
+100
+00:07:26,910 --> 00:07:31,080
+I will write one simple for fun rule in the rules.
+
+101
+00:07:31,560 --> 00:07:38,490
+So in Python, if you want to have a follow up from all the rules because it returns a list of rules
+
+102
+00:07:39,090 --> 00:07:45,510
+in every iteration, one rule will be picked and that can be acted inside this for condition.
+
+103
+00:07:46,360 --> 00:07:52,200
+OK, so in the first iteration it will be the first row and that will get stored in this rule.
+
+104
+00:07:52,870 --> 00:07:58,110
+OK, now what you should do when you got this first rule here.
+
+105
+00:07:59,560 --> 00:08:05,450
+So you have to, again, apply one more condition here.
+
+106
+00:08:05,470 --> 00:08:12,790
+So you are so that results are still not all down here until this step you got a table, but from table,
+
+107
+00:08:12,790 --> 00:08:15,400
+your first results are matter to all the rules.
+
+108
+00:08:15,670 --> 00:08:19,200
+And now you're iterating through each and every rule using follow.
+
+109
+00:08:19,690 --> 00:08:23,920
+So in the first iteration, your search results will be on exactly this row.
+
+110
+00:08:24,790 --> 00:08:25,110
+Right.
+
+111
+00:08:25,900 --> 00:08:33,980
+And now inside, if you want to get the title of this movie, this is presenting Teletech.
+
+112
+00:08:34,270 --> 00:08:37,540
+So that means there are two digit tags inside Israel.
+
+113
+00:08:37,810 --> 00:08:42,190
+And so its results are now pointing to this one block only with this row.
+
+114
+00:08:42,610 --> 00:08:45,720
+So let's do one thing, because in this row, there are two theories, right?
+
+115
+00:08:46,150 --> 00:08:49,000
+I would say Rawda find all.
+
+116
+00:08:52,420 --> 00:08:53,020
+Diddies.
+
+117
+00:08:54,380 --> 00:08:56,540
+OK, and I would say.
+
+118
+00:08:58,550 --> 00:09:00,710
+Columns are rawData.
+
+119
+00:09:05,330 --> 00:09:05,710
+Right.
+
+120
+00:09:06,020 --> 00:09:10,400
+So this rawData variable is now storing these two values.
+
+121
+00:09:10,610 --> 00:09:14,960
+You see that how smartly we are drilling from our main hits.
+
+122
+00:09:14,960 --> 00:09:19,680
+Demel so content to finally to foster these two data.
+
+123
+00:09:19,970 --> 00:09:20,490
+OK.
+
+124
+00:09:20,810 --> 00:09:24,310
+It starts to be revealed right now.
+
+125
+00:09:24,320 --> 00:09:30,680
+Your goal is that you are actual title is present in second degree.
+
+126
+00:09:30,710 --> 00:09:30,960
+Right.
+
+127
+00:09:31,430 --> 00:09:37,130
+So first data can be accessed with zero index and second data will be accessed is using first index.
+
+128
+00:09:38,520 --> 00:09:46,110
+So once you start there, you can see the raw data if you want to get second so fast it in zero, you
+
+129
+00:09:46,110 --> 00:09:49,900
+can rotate out of one because the raw data will get stored in the list.
+
+130
+00:09:50,430 --> 00:09:56,190
+So when you say raw data often, so this you will have control on this second data.
+
+131
+00:09:56,820 --> 00:09:59,010
+Alsammarae, you finally leads to here.
+
+132
+00:09:59,310 --> 00:10:06,000
+From here, you have to do one more step to reach this point because here ventrilo title is present
+
+133
+00:10:06,000 --> 00:10:09,690
+for you to extract or scrap your data.
+
+134
+00:10:10,320 --> 00:10:12,560
+So from here to here, how would you go?
+
+135
+00:10:12,930 --> 00:10:22,200
+You can again say on this find off air so that it will reach this point or one shortcut you have.
+
+136
+00:10:22,710 --> 00:10:30,630
+If you think there is only one or two tags present inside your parent tag, you can simply access that
+
+137
+00:10:30,630 --> 00:10:37,590
+with a dot the tag, name it so that automatically this will start from here.
+
+138
+00:10:37,680 --> 00:10:39,140
+Raw Data one is here, right?
+
+139
+00:10:39,150 --> 00:10:44,400
+When you say data, it will try to find out the tag with the air inside this.
+
+140
+00:10:45,180 --> 00:10:45,510
+Right.
+
+141
+00:10:45,510 --> 00:10:46,370
+It will reach here.
+
+142
+00:10:46,410 --> 00:10:47,300
+This is a shortcut.
+
+143
+00:10:47,790 --> 00:10:51,120
+Apply this only when you have one or more bags.
+
+144
+00:10:51,420 --> 00:10:57,810
+But if you have so much of a statement that instead of dot the use dot, find out for you so that on
+
+145
+00:10:57,810 --> 00:11:05,310
+this road, that one it will search now with the dot, be it you are at this point rate success.
+
+146
+00:11:05,310 --> 00:11:06,660
+Ultimately you reach to this.
+
+147
+00:11:07,170 --> 00:11:09,030
+But what is your goal?
+
+148
+00:11:09,810 --> 00:11:18,570
+Your goal is to extract text which is present here, OK, to extract text, you can apply a method called
+
+149
+00:11:18,570 --> 00:11:19,820
+dart the text.
+
+150
+00:11:20,400 --> 00:11:28,620
+So this method will help you to get the text present on that anchor where you currently stored.
+
+151
+00:11:29,070 --> 00:11:34,170
+And here is where you are and when you extract will be output.
+
+152
+00:11:34,890 --> 00:11:38,520
+So now this loop repeats for each and every rule.
+
+153
+00:11:39,030 --> 00:11:44,040
+For the first iteration, it will do all these operations and give you a thriller and then the loop
+
+154
+00:11:44,180 --> 00:11:50,700
+right next time, because it have all that straight, it will be second data and it will again open
+
+155
+00:11:50,700 --> 00:11:55,380
+this graph to dot yet dot content and this will be printed.
+
+156
+00:11:55,860 --> 00:12:02,850
+So like that for each and every row it will loop and it will give you that title of.
+
+157
+00:12:04,060 --> 00:12:12,400
+The movie, so this where we are scrapping the entire page to get paid bills of all the TV shows displayed
+
+158
+00:12:12,760 --> 00:12:18,840
+on this Euron, and we are doing this using beautiful soap, right?
+
+159
+00:12:21,640 --> 00:12:27,670
+So let me run this full control shift, often on your page, out of my way to run any python fight and
+
+160
+00:12:27,670 --> 00:12:28,650
+let's see what happens.
+
+161
+00:12:29,080 --> 00:12:34,880
+You'll see that as we are printing get it printed all the titles on the beat.
+
+162
+00:12:35,800 --> 00:12:36,260
+Great.
+
+163
+00:12:37,150 --> 00:12:42,280
+So you also learned Hesterman because we are printing that also.
+
+164
+00:12:42,310 --> 00:12:43,840
+Let me come it and Branigin.
+
+165
+00:12:48,030 --> 00:12:53,280
+And this time you should only see titles, so all these are patents, so you have successfully written
+
+166
+00:12:53,280 --> 00:13:00,620
+a crafting Python script to retrieve all the titles of a bit, and you have not used any front test
+
+167
+00:13:00,630 --> 00:13:03,690
+automation frameworks like selenium to achieve this.
+
+168
+00:13:04,320 --> 00:13:04,500
+OK.
+
+169
+00:13:04,610 --> 00:13:08,580
+There's still a lot more scenarios out there, which we'll see in the next lecture.

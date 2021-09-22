@@ -1,0 +1,387 @@
+1
+00:00:00,900 --> 00:00:01,580
+Welcome back.
+
+2
+00:00:02,160 --> 00:00:08,430
+In this letter, I will show you how to connect your scenarios with actual implementation of the code.
+
+3
+00:00:08,790 --> 00:00:09,990
+So now for this.
+
+4
+00:00:11,090 --> 00:00:17,310
+Get in line, given the details, which needs to add library, so that means all the book details should
+
+5
+00:00:17,310 --> 00:00:17,690
+be here.
+
+6
+00:00:18,090 --> 00:00:19,800
+So let's see how to do that.
+
+7
+00:00:20,070 --> 00:00:25,400
+In the futures file folder you have right under this folder, you have to create another directory.
+
+8
+00:00:25,980 --> 00:00:33,390
+So make sure you create your new directory under feature directory only don't create outside because
+
+9
+00:00:33,870 --> 00:00:36,820
+we have cannot understand if it is somewhere outside.
+
+10
+00:00:37,260 --> 00:00:44,160
+OK, so inside the steps, let's go and create one file.
+
+11
+00:00:45,790 --> 00:00:49,270
+That could be your Python file only because the code is in Python, right?
+
+12
+00:00:49,290 --> 00:00:53,200
+So obviously you have to end up writing Python file only by don't file.
+
+13
+00:00:55,210 --> 00:01:01,870
+You can suspend implementation, something like this, so we are implementing for each and every step
+
+14
+00:01:01,870 --> 00:01:02,570
+of scenario.
+
+15
+00:01:02,600 --> 00:01:04,840
+So let's call it as a step implementation.
+
+16
+00:01:06,240 --> 00:01:12,330
+So Behave treats that each and every line here as a step and implementation, real code implementation
+
+17
+00:01:12,330 --> 00:01:13,560
+of that steps comes here.
+
+18
+00:01:14,040 --> 00:01:16,310
+OK, so we are in the python file now.
+
+19
+00:01:16,770 --> 00:01:17,740
+So what should we do?
+
+20
+00:01:19,200 --> 00:01:21,870
+So let's create one method.
+
+21
+00:01:23,560 --> 00:01:29,470
+Define, let's call it again, step implementation like this.
+
+22
+00:01:34,170 --> 00:01:38,770
+Now, so you can take up your step, which is here.
+
+23
+00:01:38,790 --> 00:01:40,620
+So right now this is your step, right?
+
+24
+00:01:40,950 --> 00:01:44,580
+And this step is tied up to the given tag here.
+
+25
+00:01:45,450 --> 00:01:53,480
+OK, so given that you have this length, so in your step implementation, you can say Abdulle given
+
+26
+00:01:54,240 --> 00:01:58,140
+and inside this box, that and tideline.
+
+27
+00:01:58,410 --> 00:02:00,590
+OK, so you have this line here, right?
+
+28
+00:02:00,600 --> 00:02:07,290
+Given the details, copy this line and come to your step definition as it is tied up with the given
+
+29
+00:02:07,290 --> 00:02:11,110
+back, give the giving back and give like this and that's OK.
+
+30
+00:02:11,340 --> 00:02:16,470
+So automatically now when you run your code first, it will try to execute the scenario.
+
+31
+00:02:16,710 --> 00:02:24,210
+OK, so once it encounters this first line, OK, this we have things that ask, OK, there is one given
+
+32
+00:02:24,210 --> 00:02:26,740
+back and this is the step for that.
+
+33
+00:02:26,970 --> 00:02:31,460
+Now let me check what I want to execute for this first step.
+
+34
+00:02:31,740 --> 00:02:34,930
+Then it will find out first steps for that.
+
+35
+00:02:34,930 --> 00:02:36,160
+Is it one step further?
+
+36
+00:02:36,180 --> 00:02:42,360
+It will go inside and now it will filter with all given tags as it found given back.
+
+37
+00:02:42,600 --> 00:02:44,270
+Let's say there are five different acts here.
+
+38
+00:02:44,490 --> 00:02:50,070
+It will first filters given back from when and then because the first step is given here.
+
+39
+00:02:50,310 --> 00:02:51,580
+One second giving back.
+
+40
+00:02:51,600 --> 00:02:54,610
+Next, it looks for the string, right?
+
+41
+00:02:55,140 --> 00:02:59,700
+So once the string matches, then it will blindly execute this method.
+
+42
+00:02:59,710 --> 00:03:02,290
+So whatever you write inside will get executed.
+
+43
+00:03:03,030 --> 00:03:03,900
+It's very simple.
+
+44
+00:03:04,200 --> 00:03:08,640
+OK, so here where we will write actual code, which is tying up with this length.
+
+45
+00:03:08,670 --> 00:03:15,820
+So this way it will come and execute the method which is tied up to this given and it's all right.
+
+46
+00:03:16,230 --> 00:03:19,750
+And this method expects a variable called context.
+
+47
+00:03:20,190 --> 00:03:21,930
+This is very, very important.
+
+48
+00:03:22,080 --> 00:03:28,020
+I will soon explain how this context variable helps us to try variables across each and every step.
+
+49
+00:03:28,770 --> 00:03:30,210
+So now first let's import.
+
+50
+00:03:31,380 --> 00:03:32,580
+We have not given.
+
+51
+00:03:33,990 --> 00:03:39,060
+I think let's talk from behaving Footstar, so this way our tax will get imported.
+
+52
+00:03:41,530 --> 00:03:50,320
+Now, so similarly, you can do it for then and then also now, if you don't want to do on your own
+
+53
+00:03:50,320 --> 00:03:54,830
+and if you want some readymade methods available to copy paste, you can still do that.
+
+54
+00:03:55,090 --> 00:03:55,860
+You can run.
+
+55
+00:03:56,170 --> 00:03:58,520
+You were caught with a jab here.
+
+56
+00:03:59,260 --> 00:04:01,450
+Sorry, let me go to terminal.
+
+57
+00:04:02,320 --> 00:04:05,580
+OK, I can still run this feature file right now.
+
+58
+00:04:05,620 --> 00:04:07,050
+We don't have any data, right?
+
+59
+00:04:07,360 --> 00:04:14,590
+If I tried to execute this test case, nothing will happen, but it will complain that there is no implementation
+
+60
+00:04:14,590 --> 00:04:15,400
+for these two.
+
+61
+00:04:15,820 --> 00:04:18,650
+So we have written a method for this.
+
+62
+00:04:19,030 --> 00:04:22,850
+If I give just pass, that means it just skips this method.
+
+63
+00:04:23,110 --> 00:04:25,550
+OK, but at least you have integration back.
+
+64
+00:04:25,840 --> 00:04:27,660
+So this court also will skip it.
+
+65
+00:04:27,910 --> 00:04:34,900
+But when it tries to execute these two lines, it will quickly go and search for when and then text
+
+66
+00:04:34,900 --> 00:04:35,680
+and this text.
+
+67
+00:04:36,070 --> 00:04:37,740
+We still did not write this right.
+
+68
+00:04:38,020 --> 00:04:44,470
+Then it will complain in the output logs that go and implement those methods, like let's see how it
+
+69
+00:04:44,470 --> 00:04:44,770
+does.
+
+70
+00:04:45,100 --> 00:04:49,180
+So to execute your best guess, you can simply pass him.
+
+71
+00:04:49,750 --> 00:04:56,390
+When you give this behave come, it will come and sat for all future files which have to feature the
+
+72
+00:04:56,400 --> 00:04:57,010
+extension.
+
+73
+00:04:57,280 --> 00:04:59,230
+So right now we have only one feature file.
+
+74
+00:05:01,270 --> 00:05:01,640
+Right.
+
+75
+00:05:01,960 --> 00:05:08,130
+So if you see the output, it clearly given that syntax for us, so you need not manually like this
+
+76
+00:05:08,130 --> 00:05:15,080
+Staggs and create method with doorless that you can implement these definitions for undefined steps.
+
+77
+00:05:15,490 --> 00:05:21,870
+So it's complaining that I am trying to execute, but I did not find the connection to its code to execute.
+
+78
+00:05:22,270 --> 00:05:25,790
+OK, for the first step, it did not complain.
+
+79
+00:05:25,960 --> 00:05:30,990
+The book details which needs to be added to library because to be redundant, but it complained for
+
+80
+00:05:31,010 --> 00:05:32,130
+another two minutes.
+
+81
+00:05:32,530 --> 00:05:38,840
+So instead of you writing it, you can just blindly copy this and pasted here.
+
+82
+00:05:39,880 --> 00:05:43,960
+So this way you can save some time and this is how that happens.
+
+83
+00:05:43,970 --> 00:05:46,930
+So for the next one, it is a Wintek.
+
+84
+00:05:47,260 --> 00:05:48,850
+So we are finding it when.
+
+85
+00:05:49,950 --> 00:05:55,710
+So reformat and this is the DenTek, you see that every line, what you have written is successful argument
+
+86
+00:05:55,710 --> 00:05:55,930
+here.
+
+87
+00:05:56,700 --> 00:05:57,780
+You can ignore this.
+
+88
+00:05:57,780 --> 00:05:59,620
+You it's not required.
+
+89
+00:06:00,030 --> 00:06:01,470
+I don't know why that's Kim.
+
+90
+00:06:02,490 --> 00:06:04,800
+OK, so right now we did not implement anything.
+
+91
+00:06:04,810 --> 00:06:07,400
+So that's why it's complaining that not implemented.
+
+92
+00:06:07,420 --> 00:06:09,020
+Edit we can remove all this.
+
+93
+00:06:09,900 --> 00:06:15,480
+So in the next letter, let's bring out our actual code inside these three details and get started.
+
+94
+00:06:16,200 --> 00:06:20,040
+OK, so I will just stop this lecture by writing Boscawen.
+
+95
+00:06:22,130 --> 00:06:28,400
+Now we will bring real court from our post API example and then push it into our step, definitions
+
+96
+00:06:29,000 --> 00:06:29,630
+will continue.
+
+97
+00:06:29,930 --> 00:06:30,350
+Thank you.
