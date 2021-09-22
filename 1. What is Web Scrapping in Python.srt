@@ -1,0 +1,251 @@
+1
+00:00:01,140 --> 00:00:01,860
+Welcome, guys.
+
+2
+00:00:02,250 --> 00:00:10,410
+So in this section, we will see what is Web scrapping and how to achieve that in Python using one of
+
+3
+00:00:10,410 --> 00:00:13,510
+the famous packets called Beautiful Soap.
+
+4
+00:00:14,220 --> 00:00:16,750
+OK, so beautiful is not adjective here.
+
+5
+00:00:17,010 --> 00:00:18,330
+It is the package name.
+
+6
+00:00:18,840 --> 00:00:21,980
+We call it a beautiful soap, which is available in Python.
+
+7
+00:00:22,500 --> 00:00:22,790
+Right.
+
+8
+00:00:23,130 --> 00:00:25,740
+So first, what is Web scrapping?
+
+9
+00:00:26,070 --> 00:00:29,000
+Let's try to understand some basics behind it.
+
+10
+00:00:29,370 --> 00:00:36,570
+So it's all about extracting the data, all you can say content from any webpage.
+
+11
+00:00:37,290 --> 00:00:46,320
+OK, so in general, people use Web automation frameworks like selenium when they want to get the data
+
+12
+00:00:46,320 --> 00:00:47,160
+from the pages.
+
+13
+00:00:47,610 --> 00:00:54,090
+But there is a concept called web scrapping where you can do it without relying on any front end automation
+
+14
+00:00:54,090 --> 00:00:54,750
+frameworks.
+
+15
+00:00:55,320 --> 00:01:06,120
+OK, so basically the scrapping is used in researchers like if you want to get some on topic from the
+
+16
+00:01:06,150 --> 00:01:10,310
+Internet, so you have to resource that from the various websites.
+
+17
+00:01:10,320 --> 00:01:10,590
+Right.
+
+18
+00:01:10,950 --> 00:01:18,360
+So you can use the web scrapping concept to scan the data content from different Web applications and
+
+19
+00:01:18,510 --> 00:01:22,840
+get your data based upon your filters, what you apply.
+
+20
+00:01:23,250 --> 00:01:23,480
+Right.
+
+21
+00:01:23,820 --> 00:01:32,430
+So this is highly used in data science to extract the data based upon the logic, what you ask to get.
+
+22
+00:01:32,730 --> 00:01:41,160
+And using that data, we analyze and prepare metrics like prepare pie charts, diagrams based upon what
+
+23
+00:01:41,160 --> 00:01:43,670
+we analyzed the data from VEP.
+
+24
+00:01:44,270 --> 00:01:49,890
+OK, so you know, one of the common principles, what we have in data science projects, it's like
+
+25
+00:01:49,890 --> 00:01:52,320
+find the data and play with it.
+
+26
+00:01:53,220 --> 00:02:00,000
+So basically, when you want to analyze the data, like it could be like how frequently user is researching
+
+27
+00:02:00,000 --> 00:02:04,430
+something on the web or there is so much of data analyzing it.
+
+28
+00:02:04,770 --> 00:02:09,750
+So to analyze data first, we want to extracted from any Web application now, for example.
+
+29
+00:02:11,280 --> 00:02:13,220
+So let me take you to the third IMDB.
+
+30
+00:02:13,590 --> 00:02:21,480
+You know, this is a famous website where you can find ratings reviews of many movies internationally.
+
+31
+00:02:21,870 --> 00:02:22,150
+Right.
+
+32
+00:02:22,350 --> 00:02:28,710
+So now here you want to get all the movies list, which are part of Thriller.
+
+33
+00:02:29,650 --> 00:02:37,130
+So I would select TV episodes and get me all the movies with the word cult.
+
+34
+00:02:37,900 --> 00:02:41,240
+So all the pythons with me will be retrieved here.
+
+35
+00:02:41,500 --> 00:02:45,490
+So your goal is to get all the movie titles in your output.
+
+36
+00:02:46,300 --> 00:02:53,290
+OK, you can scrap this page and get all the titles of movies into your output.
+
+37
+00:02:53,650 --> 00:02:58,480
+Once you get the data, you can do some research and you can get some analytics.
+
+38
+00:02:58,780 --> 00:03:02,240
+So that's where, you know, the scrapping comes into picture.
+
+39
+00:03:02,560 --> 00:03:09,410
+So this subscribing help you to get data based upon your input so you can ask anything here and you
+
+40
+00:03:09,430 --> 00:03:16,030
+are scrapping, can pull the content from your webpage based upon what you provide and then you can
+
+41
+00:03:16,030 --> 00:03:19,090
+further use it for your research purposes.
+
+42
+00:03:19,300 --> 00:03:24,220
+So that is what one key principle, what we use in data science, is finding the data and playing with
+
+43
+00:03:24,220 --> 00:03:25,810
+it for any research.
+
+44
+00:03:26,470 --> 00:03:33,160
+Finding data can be done with Python scrapping, which is one of the most common technique we use.
+
+45
+00:03:33,520 --> 00:03:39,990
+And for that we use a utility called Beautiful Soap, which we going to discuss in this section.
+
+46
+00:03:40,660 --> 00:03:40,960
+Right.
+
+47
+00:03:41,140 --> 00:03:44,710
+And here we will not use any Front-End testing frameworks to do that.
+
+48
+00:03:45,130 --> 00:03:48,800
+That can be achieved on later note with the help of beautiful soap.
+
+49
+00:03:49,240 --> 00:03:51,340
+So let's get started and see.
+
+50
+00:03:51,940 --> 00:03:57,660
+And that way you can understand more about scrapping when we do some practical examples.
+
+51
+00:03:58,300 --> 00:04:01,440
+So, as I said, you can do a number of filters here.
+
+52
+00:04:01,840 --> 00:04:08,220
+So our ultimate goal from the section is that, you know, you have to go to each and every movie here.
+
+53
+00:04:08,320 --> 00:04:10,180
+So there are a lot of movies present on the.
+
+54
+00:04:10,930 --> 00:04:19,840
+So your goal is to scan each and every movie from this page and go to that specific movie and see what
+
+55
+00:04:19,840 --> 00:04:25,790
+is the gender of that comedy documentary or news or whatever.
+
+56
+00:04:25,900 --> 00:04:28,180
+So every movie have one gender, right?
+
+57
+00:04:29,460 --> 00:04:36,840
+So you should figure out what it is now, for example, if you see another link here, it is comedy
+
+58
+00:04:36,840 --> 00:04:37,200
+gener.
+
+59
+00:04:40,670 --> 00:04:43,310
+And here it is, crime fantasy, horror thriller.
+
+60
+00:04:44,420 --> 00:04:50,420
+OK, so like that, you have to get all the genders of each and every title displayed in this speech.
+
+61
+00:04:50,870 --> 00:04:53,870
+And the next lecture I will show you how to do that.
+
+62
+00:04:54,110 --> 00:04:57,380
+Using but scrapping with the help of beautiful soap.
+
+63
+00:04:58,400 --> 00:04:58,850
+Thank you.

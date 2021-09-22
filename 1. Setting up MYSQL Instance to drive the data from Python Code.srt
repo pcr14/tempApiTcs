@@ -1,0 +1,255 @@
+1
+00:00:01,140 --> 00:00:01,830
+Welcome, guys.
+
+2
+00:00:02,220 --> 00:00:10,440
+So in this lecture, we will first see how to install my second in our system because we will be using
+
+3
+00:00:10,440 --> 00:00:17,160
+MySQL database to interact with the data present in database tables from our Python code.
+
+4
+00:00:17,460 --> 00:00:23,490
+So to solve this assignment and project, we need MySQL database in our local system.
+
+5
+00:00:23,760 --> 00:00:29,580
+OK, so in this lecture I will quickly show how to install it in your system so that from next lecture
+
+6
+00:00:29,580 --> 00:00:32,670
+we can start our proceedings to implement this project.
+
+7
+00:00:32,820 --> 00:00:33,150
+Right.
+
+8
+00:00:33,900 --> 00:00:35,910
+And just click down Glaube.
+
+9
+00:00:38,580 --> 00:00:40,020
+My sequel In Stonham.
+
+10
+00:00:42,420 --> 00:00:48,780
+Just Google search with my sequel installer, and then you will have their official link where you can
+
+11
+00:00:48,780 --> 00:00:50,550
+go and download here.
+
+12
+00:00:51,690 --> 00:00:59,280
+OK, so this is not MSA extension, which you can download anything worth, I guess, but this have
+
+13
+00:00:59,280 --> 00:01:04,650
+324 million downloads, so probably this could be the stable one.
+
+14
+00:01:05,250 --> 00:01:11,490
+OK, so once you download, you will have in your machine the dart extension.
+
+15
+00:01:11,640 --> 00:01:15,090
+You need to run that and then it will ask some questions.
+
+16
+00:01:15,090 --> 00:01:16,710
+Just click on next, next, next.
+
+17
+00:01:16,950 --> 00:01:20,620
+That will complete the installation of my sequel in your mission.
+
+18
+00:01:21,270 --> 00:01:22,690
+I have a screenshots.
+
+19
+00:01:23,460 --> 00:01:25,950
+OK, so it might ask you to.
+
+20
+00:01:27,110 --> 00:01:29,570
+Select what type of account you need.
+
+21
+00:01:29,810 --> 00:01:34,320
+You can just go with a default account, what it's already selected.
+
+22
+00:01:34,920 --> 00:01:39,710
+OK, because we need all the software developer default one.
+
+23
+00:01:40,940 --> 00:01:47,600
+And it will check if all the installations, what needed to download this are present in your system.
+
+24
+00:01:47,750 --> 00:01:50,360
+If not, it will try to solve all that for you.
+
+25
+00:01:51,240 --> 00:01:55,750
+OK, and then after finally before that, there are some instructions.
+
+26
+00:01:55,760 --> 00:01:59,810
+It will then it will take whether Python is present or not, it will install it.
+
+27
+00:02:00,080 --> 00:02:02,690
+Just follow the instructions and click on next.
+
+28
+00:02:03,080 --> 00:02:10,060
+Thereafter, you will release configuration page where you will be asked to set a password, then set
+
+29
+00:02:10,070 --> 00:02:10,900
+any password.
+
+30
+00:02:10,910 --> 00:02:17,420
+And please remember it because you're going to use that in do our best to connect to our database through
+
+31
+00:02:17,580 --> 00:02:18,290
+Java code.
+
+32
+00:02:18,950 --> 00:02:22,490
+So desperate as the route so that you can remember.
+
+33
+00:02:24,080 --> 00:02:24,860
+OK, that's OK.
+
+34
+00:02:24,900 --> 00:02:32,210
+So and then after just click on your next and then you will see this, my sequel will be installed in
+
+35
+00:02:32,210 --> 00:02:34,600
+your mission after installation.
+
+36
+00:02:34,790 --> 00:02:36,590
+You can find it in program files.
+
+37
+00:02:36,920 --> 00:02:37,940
+Let me show you that.
+
+38
+00:02:39,830 --> 00:02:40,340
+S..
+
+39
+00:02:41,600 --> 00:02:42,620
+Program funds.
+
+40
+00:02:44,470 --> 00:02:47,710
+And then here you will find my sequel's.
+
+41
+00:02:48,870 --> 00:02:57,870
+Yeah, this one, but make sure that if you have any existing sequel instances, uninstall all of them
+
+42
+00:02:57,990 --> 00:03:00,330
+before you install this, my sequel.
+
+43
+00:03:00,990 --> 00:03:01,390
+OK.
+
+44
+00:03:01,410 --> 00:03:07,800
+So if there are any existing sequels in your mission and then if you try to install my sequel on top
+
+45
+00:03:07,800 --> 00:03:13,610
+of it, you may see that workbench folder missing in my sequel folder.
+
+46
+00:03:14,310 --> 00:03:17,730
+That happens if there is already some server running in your mission.
+
+47
+00:03:18,330 --> 00:03:23,490
+Okay, go to program files and uninstall our control panel.
+
+48
+00:03:23,490 --> 00:03:30,210
+You'll have an option where you can uninstall the programs from there and install all existing and then
+
+49
+00:03:30,210 --> 00:03:33,180
+try to install a freshly so that we will have this workbench.
+
+50
+00:03:33,840 --> 00:03:39,000
+If you already have my zip code in your mission with this setup, then you can skip this installation.
+
+51
+00:03:39,300 --> 00:03:48,800
+You can click onto this workbench further and start this or my sequel file so that it gets open.
+
+52
+00:03:50,610 --> 00:03:58,200
+Basically, this is an editor where you will write sequel queries either to insert the records in database
+
+53
+00:03:58,200 --> 00:04:01,410
+or retrieve them or to perform any sequel operations.
+
+54
+00:04:01,980 --> 00:04:05,880
+You have a neat editor inform of the workbench.
+
+55
+00:04:06,900 --> 00:04:13,860
+OK, so when you connect for the first time, it might ask you that credentials, your username is root
+
+56
+00:04:14,370 --> 00:04:20,160
+and password is whatever you give there, if you give them password, also will be rude and see that
+
+57
+00:04:20,490 --> 00:04:22,640
+this sequel is started.
+
+58
+00:04:22,870 --> 00:04:26,960
+Sarut started on three three zero six support in your mission.
+
+59
+00:04:27,780 --> 00:04:33,980
+OK, if there is any other project started, just not on the sport, no one will be using that later,
+
+60
+00:04:35,160 --> 00:04:35,550
+OK.
+
+61
+00:04:35,600 --> 00:04:39,780
+So simply select this and that will ask you the password.
+
+62
+00:04:39,990 --> 00:04:41,990
+Give the password and that's it.
+
+63
+00:04:42,270 --> 00:04:47,190
+Just click on OK, and then you will be taken to the workbench.
+
+64
+00:04:47,190 --> 00:04:49,680
+Ed Perfect.

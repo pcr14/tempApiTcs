@@ -1,0 +1,615 @@
+1
+00:00:01,080 --> 00:00:01,740
+Welcome back.
+
+2
+00:00:01,980 --> 00:00:10,150
+So in this lecture, let us see how to send cookies through your API requests for that, I will create
+
+3
+00:00:10,350 --> 00:00:11,190
+one more new.
+
+4
+00:00:12,520 --> 00:00:13,570
+Biton Fionn.
+
+5
+00:00:14,860 --> 00:00:18,120
+And say miscellaneous.
+
+6
+00:00:22,710 --> 00:00:25,460
+So let's start with import the question.
+
+7
+00:00:27,740 --> 00:00:33,050
+So you all on my website, there is one on my website with his GDP.
+
+8
+00:00:36,270 --> 00:00:38,250
+Well, who's your Economy.com, right?
+
+9
+00:00:41,580 --> 00:00:49,800
+So my website has one cookie, so basically when people land, we will see what is the visit month that
+
+10
+00:00:49,800 --> 00:00:51,600
+they visited last year.
+
+11
+00:00:51,620 --> 00:00:59,580
+OK, so if their visit is let's say this is August and if they have listed this in June, so if there
+
+12
+00:00:59,580 --> 00:01:06,570
+are no site changes after June, we will lower the website from the cash, what they already have.
+
+13
+00:01:06,810 --> 00:01:08,810
+So that response time will be fast.
+
+14
+00:01:09,270 --> 00:01:09,570
+OK?
+
+15
+00:01:09,780 --> 00:01:16,110
+And if you have updated our website after June and if the visit month is June, so then we will bring
+
+16
+00:01:16,110 --> 00:01:19,390
+this website from the real summer without caching.
+
+17
+00:01:19,860 --> 00:01:23,760
+So that's where we use cash in our website and.
+
+18
+00:01:24,720 --> 00:01:26,660
+To track what is the visit month?
+
+19
+00:01:26,880 --> 00:01:34,350
+We use cookies, so whenever people land on the page, we use a cookie called Visit the Month.
+
+20
+00:01:35,700 --> 00:01:41,970
+So this is a common like every website have a number of cookies to give the best experience to the users.
+
+21
+00:01:42,360 --> 00:01:45,330
+So whenever they land, they use a cookie called visit month.
+
+22
+00:01:46,510 --> 00:01:50,850
+So we will read this cookie, and based upon that, as I told you, we will launch our webpage.
+
+23
+00:01:51,520 --> 00:01:56,700
+Now, you want to send a call to this.
+
+24
+00:01:56,710 --> 00:02:01,550
+You are all this is an end point and you can make one request part to this end point.
+
+25
+00:02:01,890 --> 00:02:10,390
+OK, so while making if you don't pass any cookie, it will load up the bits from the actual server.
+
+26
+00:02:10,990 --> 00:02:19,120
+OK, so if you want to load the website from the cache, then to this you will expect a cookie from
+
+27
+00:02:19,120 --> 00:02:20,530
+you from your browser.
+
+28
+00:02:20,770 --> 00:02:23,230
+It expects a cookie called Visit Munt.
+
+29
+00:02:23,560 --> 00:02:27,640
+So based upon that, it might learn that Olegas, you are all for you.
+
+30
+00:02:27,890 --> 00:02:29,770
+OK, all cache web page.
+
+31
+00:02:30,580 --> 00:02:32,760
+So let's try to send first.
+
+32
+00:02:32,770 --> 00:02:33,820
+Let's try to fill this.
+
+33
+00:02:34,830 --> 00:02:38,100
+Oh, you are telling us this is a.
+
+34
+00:02:39,060 --> 00:02:43,430
+Bows to God, you can make that call also, that does not matter.
+
+35
+00:02:46,140 --> 00:02:50,400
+Because we are just hitting the seawall without any logic behind that.
+
+36
+00:02:53,020 --> 00:02:59,530
+OK, so you make the call here and there is one cookie which you have to send, if you don't send,
+
+37
+00:02:59,530 --> 00:03:00,910
+it would be just like normal.
+
+38
+00:03:02,980 --> 00:03:03,610
+Slinked.
+
+39
+00:03:04,610 --> 00:03:11,630
+So if you want to send any cookies from your pipeline automation testing, then you have to send those
+
+40
+00:03:11,630 --> 00:03:13,660
+cookies in a big study format.
+
+41
+00:03:14,450 --> 00:03:21,410
+Now, you know, this is enough syntax and dictionary and I have my cookie like this visit.
+
+42
+00:03:23,730 --> 00:03:24,390
+Munt.
+
+43
+00:03:25,660 --> 00:03:31,890
+Right, and this is a cookie collar and let's say I have written for brevity.
+
+44
+00:03:36,580 --> 00:03:38,410
+On second spelling mistake.
+
+45
+00:03:40,590 --> 00:03:41,160
+Philip.
+
+46
+00:03:44,090 --> 00:03:48,560
+OK, so I will start this dictionary in one variable, let's call this cookie.
+
+47
+00:03:50,140 --> 00:03:58,450
+OK, and just like have you have sent headers in your get that similarly, you can send cookies also
+
+48
+00:03:58,840 --> 00:04:03,710
+so you can say cookies equal to and send your cookie.
+
+49
+00:04:03,770 --> 00:04:04,340
+That's OK.
+
+50
+00:04:04,510 --> 00:04:11,050
+That's all you need to do if you want to send any FBI request all along with the cookies.
+
+51
+00:04:11,740 --> 00:04:18,480
+OK, so earlier, if you want to send headers, you have used headers equals two and then you sent headers
+
+52
+00:04:18,490 --> 00:04:19,500
+as a dictionary.
+
+53
+00:04:19,780 --> 00:04:23,330
+Similarly for cookies, you have to use cookies equals to give any name here.
+
+54
+00:04:23,500 --> 00:04:28,270
+It's up to you that we're able to send here and make sure this we're able to have the extended format
+
+55
+00:04:28,270 --> 00:04:32,250
+with key value pairs of cookie, cookie and cookie value.
+
+56
+00:04:32,710 --> 00:04:33,120
+Right.
+
+57
+00:04:33,940 --> 00:04:34,890
+And that's it, guys.
+
+58
+00:04:35,050 --> 00:04:36,930
+So I want to make this request call.
+
+59
+00:04:37,150 --> 00:04:41,020
+You can see the status print.
+
+60
+00:04:42,200 --> 00:04:50,630
+You will get the status and the response variable after you make this call and you can say, but in
+
+61
+00:04:50,750 --> 00:04:54,600
+response status score, it should be 200.
+
+62
+00:04:55,400 --> 00:04:59,510
+OK, so in this, like, my goal is to just show you how to send cookies.
+
+63
+00:04:59,660 --> 00:05:04,640
+If you are, you all are important demands to have them as part of their request.
+
+64
+00:05:10,100 --> 00:05:14,990
+You see that status is 200, so now you understand how to send cookies, so let's do now.
+
+65
+00:05:15,020 --> 00:05:19,820
+Another example that is has traditionally been cookies.
+
+66
+00:05:20,500 --> 00:05:23,120
+So there is one.
+
+67
+00:05:23,300 --> 00:05:24,460
+Let's take a call.
+
+68
+00:05:25,400 --> 00:05:30,190
+So here you are, not sure if it really sent cookies to Starbright.
+
+69
+00:05:30,440 --> 00:05:32,000
+We just got status 200.
+
+70
+00:05:32,000 --> 00:05:38,840
+But you don't know if it is actually accepted by the server so far that that is another way for you
+
+71
+00:05:38,840 --> 00:05:39,630
+to practice.
+
+72
+00:05:40,010 --> 00:05:44,830
+So basically, you see that this is a get called with the cookies.
+
+73
+00:05:45,050 --> 00:05:51,890
+So if you hit this end point, this will give you the response back with the cookies, what you sent
+
+74
+00:05:52,160 --> 00:05:53,180
+through your input.
+
+75
+00:05:54,080 --> 00:05:54,860
+Let me show you.
+
+76
+00:05:57,250 --> 00:05:57,590
+Right.
+
+77
+00:05:57,790 --> 00:06:04,330
+So you see here responsibility, so right now you did not send any cookies with this to request you
+
+78
+00:06:04,330 --> 00:06:04,600
+all.
+
+79
+00:06:04,660 --> 00:06:06,190
+So this is one Rustaveli I got.
+
+80
+00:06:06,910 --> 00:06:08,320
+So you did not send them cookies.
+
+81
+00:06:08,320 --> 00:06:10,050
+So responsively, how blind?
+
+82
+00:06:10,630 --> 00:06:12,510
+Basically this independent.
+
+83
+00:06:12,520 --> 00:06:13,300
+What does it do?
+
+84
+00:06:13,510 --> 00:06:17,860
+It will see what cookies I received that cookies.
+
+85
+00:06:17,860 --> 00:06:21,140
+It will wrap in the responsible party and send it back.
+
+86
+00:06:21,520 --> 00:06:29,170
+So if you try to automate this API call and if you check if you get response back as Cookie, then you
+
+87
+00:06:29,170 --> 00:06:35,410
+will understand that my cookies are successfully submitted because only successfully submitted cookies
+
+88
+00:06:35,410 --> 00:06:37,060
+are returned back in response.
+
+89
+00:06:37,420 --> 00:06:40,780
+So what do you send us in for the request you should see in the response.
+
+90
+00:06:41,330 --> 00:06:46,360
+OK, so let's do this example so that you can be better practice with these cookies.
+
+91
+00:06:47,800 --> 00:06:49,690
+So this is the end point we need to track.
+
+92
+00:06:49,700 --> 00:06:51,790
+And this is a get request, right?
+
+93
+00:06:53,750 --> 00:06:54,880
+So let me go back.
+
+94
+00:07:02,550 --> 00:07:04,170
+So it was dark.
+
+95
+00:07:05,740 --> 00:07:15,880
+Get and this is the end point, so either you can store your cookies in variable in dictionary and pass
+
+96
+00:07:15,880 --> 00:07:19,470
+that variable here or you can directly give that extended itself.
+
+97
+00:07:19,750 --> 00:07:27,220
+Sorry, let's it visit month for then you can send any of your cookies you can to visit them.
+
+98
+00:07:27,610 --> 00:07:29,030
+So this cookie is valid.
+
+99
+00:07:29,200 --> 00:07:36,220
+Not that you need not worry because of this end point is saying whatever new cookies you send, I will
+
+100
+00:07:36,220 --> 00:07:42,520
+give you back again in response so that when we know that these cookies are accepted by this end point.
+
+101
+00:07:42,850 --> 00:07:43,120
+Right.
+
+102
+00:07:43,510 --> 00:07:48,370
+So one way of storing these cookies in one variable and then giving that variable.
+
+103
+00:07:49,480 --> 00:07:53,160
+OK, you can say 2022 to visit here.
+
+104
+00:07:54,190 --> 00:07:56,860
+All you can basically give that big story here.
+
+105
+00:08:01,660 --> 00:08:02,500
+Response.
+
+106
+00:08:03,070 --> 00:08:10,360
+OK, so now let's try to bring the response response dot text, so this will give you the days and back.
+
+107
+00:08:10,630 --> 00:08:15,460
+So if you have this cookie in you this and so, that means you can conclude that you have successfully
+
+108
+00:08:15,460 --> 00:08:17,680
+submitted this end point with the cookie.
+
+109
+00:08:19,300 --> 00:08:20,550
+Let's run this again.
+
+110
+00:08:24,260 --> 00:08:31,040
+Perfect, you see that this is the response, what you got, and it clearly told that I had this cookie
+
+111
+00:08:31,190 --> 00:08:32,040
+with my input.
+
+112
+00:08:33,680 --> 00:08:40,100
+So this is how you can know that if you are cookies accepted, so does anyone have the capability of
+
+113
+00:08:40,100 --> 00:08:41,150
+giving the cookies back?
+
+114
+00:08:41,580 --> 00:08:44,030
+Now, you can also use session manager here.
+
+115
+00:08:44,240 --> 00:08:52,550
+Let's say visit is one of the common cookie used for this has been OK.
+
+116
+00:08:52,670 --> 00:08:57,190
+So visit here is something which may change for every call you make.
+
+117
+00:08:57,440 --> 00:09:00,290
+So you are passing it as a parameter explicitly.
+
+118
+00:09:00,470 --> 00:09:06,110
+But if you think that resentment is the common cookie, OK, just imagine.
+
+119
+00:09:06,350 --> 00:09:12,230
+So in that case, let's make a session, the dart session.
+
+120
+00:09:18,230 --> 00:09:24,110
+We had one very lengthy session, and for this session, let's add the common cookies so that automatically
+
+121
+00:09:24,110 --> 00:09:27,140
+that cookie will be applied to every call to make.
+
+122
+00:09:27,770 --> 00:09:30,560
+So right now, you can now call this request.
+
+123
+00:09:30,560 --> 00:09:32,530
+Don't get started.
+
+124
+00:09:33,080 --> 00:09:33,870
+OK, perfect.
+
+125
+00:09:34,040 --> 00:09:40,040
+You can still make it because voters see him and now you can give some additional capabilities for this.
+
+126
+00:09:40,280 --> 00:09:46,100
+In the last lecture, we give the capabilities related to authentication.
+
+127
+00:09:46,100 --> 00:09:46,350
+Right.
+
+128
+00:09:46,700 --> 00:09:51,950
+So here what I will little session dot the odds we have given you.
+
+129
+00:09:51,950 --> 00:09:53,540
+Can you come and help us also?
+
+130
+00:09:53,870 --> 00:09:58,920
+Similarly, there is cookies here, OK, cookies dard update.
+
+131
+00:09:59,120 --> 00:10:06,340
+So basically you have to say update cookies with this information so you can send this dictionary inside
+
+132
+00:10:06,350 --> 00:10:07,880
+this update argument.
+
+133
+00:10:09,000 --> 00:10:12,810
+Perfect, so now this session is loaded with this cookie.
+
+134
+00:10:13,470 --> 00:10:20,430
+Now, when you hear this request session, doGet, basically you hit this wall and you have this cookie
+
+135
+00:10:20,550 --> 00:10:27,960
+and this cookie will be automatically added by default because you are using session and this session
+
+136
+00:10:27,960 --> 00:10:30,130
+is already loaded with this cookie.
+
+137
+00:10:30,480 --> 00:10:35,610
+OK, now, when you're on this program, what is the response you expect in this disembody?
+
+138
+00:10:36,270 --> 00:10:43,020
+So you should see two cookies not visit a 2022 and visit months, but also because you are in session
+
+139
+00:10:43,020 --> 00:10:45,870
+and session have already cookie loaded Lizzi.
+
+140
+00:10:50,850 --> 00:10:54,880
+Perfect, you see, that was it, Monday, February 20, 2010.
+
+141
+00:10:55,170 --> 00:10:59,820
+So if you have something like this common cookie, common head, a common authentication which will
+
+142
+00:10:59,820 --> 00:11:05,770
+be used frequently across all your end points, you can create session manager and update that.
+
+143
+00:11:06,060 --> 00:11:08,180
+So if you write requests back.
+
+144
+00:11:08,970 --> 00:11:11,460
+So this have no idea of a month.
+
+145
+00:11:11,550 --> 00:11:14,330
+And now when you run this, it will not return this month.
+
+146
+00:11:14,340 --> 00:11:16,590
+It will just return what you have written for a it.
+
+147
+00:11:16,590 --> 00:11:17,410
+Did you see that?
+
+148
+00:11:17,880 --> 00:11:24,690
+So I hope now you understand how the U.S. manages and how to also send cookies with your input request.
+
+149
+00:11:25,600 --> 00:11:28,110
+OK, so that's pretty much about dealing with cookies.
+
+150
+00:11:28,140 --> 00:11:32,790
+So one thing you want to you have to remember here is you can just send cookies as a second argument
+
+151
+00:11:32,790 --> 00:11:37,090
+and it expects all cookie value in this format.
+
+152
+00:11:37,110 --> 00:11:37,440
+That's.
+
+153
+00:11:38,130 --> 00:11:38,540
+All right.
+
+154
+00:11:38,850 --> 00:11:39,330
+Thank you.

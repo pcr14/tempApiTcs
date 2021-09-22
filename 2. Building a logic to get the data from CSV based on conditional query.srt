@@ -1,0 +1,207 @@
+1
+00:00:01,000 --> 00:00:07,280
+All right, so we have printed two lists, and now if you carefully observe in this list, they don't
+
+2
+00:00:07,300 --> 00:00:09,180
+index first index.
+
+3
+00:00:09,430 --> 00:00:15,290
+So there is a mapping, first index of them is a second index of some is rejected.
+
+4
+00:00:15,490 --> 00:00:16,940
+So there is a mapping here, right.
+
+5
+00:00:17,590 --> 00:00:18,780
+So that's how these are there.
+
+6
+00:00:19,030 --> 00:00:26,890
+Now, let's write one logic that we will first find out which index is present in this names list,
+
+7
+00:00:27,140 --> 00:00:27,480
+OK?
+
+8
+00:00:27,970 --> 00:00:34,810
+And on that index, let's go to stats and see if it is approved or rejected because there is one to
+
+9
+00:00:34,810 --> 00:00:35,390
+one mapping.
+
+10
+00:00:35,830 --> 00:00:43,960
+So if you see the two list and compare with your CSP name status, one, two, one mapping is there
+
+11
+00:00:43,960 --> 00:00:44,410
+for two.
+
+12
+00:00:44,410 --> 00:00:46,590
+List them abroad, some rejected.
+
+13
+00:00:46,870 --> 00:00:47,130
+Right.
+
+14
+00:00:47,350 --> 00:00:52,210
+So the name and the status will come in the same index for that particular group.
+
+15
+00:00:52,930 --> 00:00:53,890
+OK, so don't.
+
+16
+00:00:53,920 --> 00:01:02,440
+So now to understand if some case is rejected or not, first we will try to see in which your next exam
+
+17
+00:01:02,440 --> 00:01:05,320
+is present in this names list.
+
+18
+00:01:05,800 --> 00:01:06,830
+OK, how do you do that?
+
+19
+00:01:07,150 --> 00:01:14,680
+So if you want to know the index of any item in your list, there is a method called list, which is
+
+20
+00:01:14,680 --> 00:01:17,060
+names here, DOT Index.
+
+21
+00:01:17,710 --> 00:01:21,740
+OK, so it will give the index of your element name.
+
+22
+00:01:21,940 --> 00:01:24,700
+So here you want to know the index of the same.
+
+23
+00:01:25,000 --> 00:01:28,390
+Right, and you can store it in one variable.
+
+24
+00:01:30,310 --> 00:01:30,650
+Right.
+
+25
+00:01:31,030 --> 00:01:38,440
+So this will give you the zero one two second right and address one to one mapping.
+
+26
+00:01:38,710 --> 00:01:44,790
+If you can grab the second index of stats, that will be nothing but status of this loan.
+
+27
+00:01:45,160 --> 00:01:48,820
+So zero one two, that means the same thing, right?
+
+28
+00:01:48,850 --> 00:01:49,420
+Sam is right.
+
+29
+00:01:50,110 --> 00:01:54,550
+So we are smartly capturing that into two different lists and then using the index.
+
+30
+00:01:54,550 --> 00:01:56,350
+We are trying to figure out that now.
+
+31
+00:01:56,650 --> 00:01:58,000
+So once you understood that.
+
+32
+00:01:59,110 --> 00:02:08,290
+I'm coming on one index now on this list, stats, stats just give that index number because this holds
+
+33
+00:02:09,160 --> 00:02:14,450
+about status, loan status of the same loan status to.
+
+34
+00:02:17,640 --> 00:02:18,180
+Brent.
+
+35
+00:02:20,200 --> 00:02:23,650
+Sam Malone status is.
+
+36
+00:02:26,300 --> 00:02:28,120
+Give this very long status.
+
+37
+00:02:32,590 --> 00:02:34,570
+OK, so let's give capital letters.
+
+38
+00:02:35,720 --> 00:02:42,680
+Just to follow coding standards, OK, now if you run this, then it will give you a perfectly Sam Malone
+
+39
+00:02:42,680 --> 00:02:45,920
+status is rejected, right?
+
+40
+00:02:46,220 --> 00:02:50,360
+Similarly, if you want to know the status and just give that down here.
+
+41
+00:02:51,700 --> 00:02:52,780
+Let's keep in genetic.
+
+42
+00:02:56,940 --> 00:02:59,250
+Launch status is rejected for as well.
+
+43
+00:02:59,280 --> 00:03:00,640
+You see that Joe is rejected.
+
+44
+00:03:00,900 --> 00:03:08,220
+So like this, you can build a logic and you can read CSFI file and then extract the values so you can
+
+45
+00:03:08,220 --> 00:03:13,740
+play around like this with The Cafferty File getting into last night right into it and push them into
+
+46
+00:03:14,430 --> 00:03:15,870
+one more list with the index.
+
+47
+00:03:16,090 --> 00:03:18,110
+OK, it's up to your imagination again.
+
+48
+00:03:18,120 --> 00:03:19,020
+How do you want to play?
+
+49
+00:03:19,170 --> 00:03:21,810
+But this is how you can read the values in CSFI.
+
+50
+00:03:22,230 --> 00:03:26,790
+OK, in the next lecture I will show how to write the values to CSC.
+
+51
+00:03:27,110 --> 00:03:27,500
+All right.
+
+52
+00:03:27,900 --> 00:03:28,380
+Thank you.

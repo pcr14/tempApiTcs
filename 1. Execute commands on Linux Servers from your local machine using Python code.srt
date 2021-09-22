@@ -1,0 +1,539 @@
+1
+00:00:00,960 --> 00:00:04,290
+OK, and one last thing is you have to initialize the variables.
+
+2
+00:00:04,320 --> 00:00:06,010
+This is not a dictionary format, right?
+
+3
+00:00:06,270 --> 00:00:08,990
+So basically we are creating four variables here.
+
+4
+00:00:09,210 --> 00:00:11,310
+So it should be equal to not Gollan.
+
+5
+00:00:12,180 --> 00:00:15,170
+And the values of these variables are coming from file.
+
+6
+00:00:15,210 --> 00:00:18,930
+And we are now carefully placing in method to connect.
+
+7
+00:00:19,290 --> 00:00:25,420
+OK, so let me run this test and see that will not have any error.
+
+8
+00:00:25,440 --> 00:00:28,140
+So if any of that connection is not success.
+
+9
+00:00:31,790 --> 00:00:37,580
+Perfect, the process finished with exit zero, that means nothing exception is strewn with metal.
+
+10
+00:00:37,850 --> 00:00:41,360
+So that means we have successfully made connection to that server.
+
+11
+00:00:41,840 --> 00:00:42,870
+Now, what should we do?
+
+12
+00:00:43,040 --> 00:00:44,360
+What is our next goal?
+
+13
+00:00:44,630 --> 00:00:52,220
+So first, let's try to execute any command in your server from your Python code.
+
+14
+00:00:52,310 --> 00:00:54,080
+OK, you have made no connection, right?
+
+15
+00:00:54,320 --> 00:00:58,070
+Our next goal is to run commands.
+
+16
+00:00:59,320 --> 00:01:00,730
+And this is like Conexion.
+
+17
+00:01:03,630 --> 00:01:08,910
+Start connection so far that I will go back to my Linux terminal once.
+
+18
+00:01:13,020 --> 00:01:18,750
+So let's log, as I easy to use now, sort of asil hyphen, easy to use.
+
+19
+00:01:19,590 --> 00:01:25,110
+So this will help you to login back as easy to use again, because now we have connected to this user
+
+20
+00:01:25,110 --> 00:01:25,440
+only.
+
+21
+00:01:25,830 --> 00:01:28,990
+So do not touch any road related stuff directly.
+
+22
+00:01:28,990 --> 00:01:32,490
+Come to this user by logging in with your hyphen.
+
+23
+00:01:32,850 --> 00:01:37,560
+So you will be now part of this game so clear it will be on top.
+
+24
+00:01:39,230 --> 00:01:47,280
+Now, to see all the files in this location, there is one comment in line, Ellis hyphen.
+
+25
+00:01:47,300 --> 00:01:53,450
+Yeah, I'm just jealous this will give you the all the files present in this location.
+
+26
+00:01:54,110 --> 00:01:55,160
+So when you give Ellis.
+
+27
+00:01:56,250 --> 00:01:57,450
+No file is present.
+
+28
+00:01:57,630 --> 00:02:03,850
+OK, there are some invisible files also, but to see those invisible files, you have to do with a
+
+29
+00:02:04,080 --> 00:02:04,560
+hyphen.
+
+30
+00:02:05,340 --> 00:02:08,880
+With this extension, you will be able to see those invisible files.
+
+31
+00:02:09,870 --> 00:02:10,170
+Right.
+
+32
+00:02:10,410 --> 00:02:17,850
+So these are the files which are invisible present in this, but OK now.
+
+33
+00:02:19,300 --> 00:02:28,630
+I will try to run this comment from my Python code so that I should be able to see this output in my
+
+34
+00:02:28,630 --> 00:02:29,450
+local system.
+
+35
+00:02:29,920 --> 00:02:30,230
+OK.
+
+36
+00:02:30,250 --> 00:02:32,500
+That's what our ultimate goal is, right.
+
+37
+00:02:32,770 --> 00:02:36,150
+I don't want to hear comments from my Tahmina, from my python.
+
+38
+00:02:36,160 --> 00:02:37,130
+I will operate now.
+
+39
+00:02:37,570 --> 00:02:37,850
+Right.
+
+40
+00:02:38,200 --> 00:02:44,550
+So by default, Python will be accessible here because you locked in securely as easy to happen.
+
+41
+00:02:44,560 --> 00:02:45,080
+User Guide.
+
+42
+00:02:45,340 --> 00:02:46,690
+So you are on the homepage.
+
+43
+00:02:47,020 --> 00:02:52,340
+So whatever comments you get from Python, it will be a dislocation only in the user location.
+
+44
+00:02:52,930 --> 00:02:54,400
+So now I will go back.
+
+45
+00:02:57,430 --> 00:03:04,810
+So we have established a connection, right, and now with this object itself, as I said, there is
+
+46
+00:03:05,110 --> 00:03:11,410
+a method called execute command that's simply passed the command which you want to execute.
+
+47
+00:03:11,950 --> 00:03:18,970
+OK, so what is the Commonwealth syphoned you now when you run this command as it is successfully connected
+
+48
+00:03:18,970 --> 00:03:27,130
+to your server, this command will now get executer and this level, OK, and it gives the output right.
+
+49
+00:03:27,460 --> 00:03:32,260
+So the return type of this execute command is three different variables.
+
+50
+00:03:32,620 --> 00:03:35,000
+One is still am.
+
+51
+00:03:35,590 --> 00:03:37,570
+Let me explain what all this.
+
+52
+00:03:40,700 --> 00:03:48,410
+So some commands require inputs right now, when you go be it easy to have and use it for setting a
+
+53
+00:03:48,410 --> 00:03:48,890
+password.
+
+54
+00:03:49,220 --> 00:03:56,390
+It asks you to enter a new password so that you should again enter so that manuell input can be given
+
+55
+00:03:56,390 --> 00:03:58,980
+through this variable and output.
+
+56
+00:03:59,120 --> 00:04:05,840
+So whatever you received in the output that gets stored in this study out variable.
+
+57
+00:04:06,230 --> 00:04:12,710
+OK, and if there are any errors in running the command and those logs will get stored in this variable
+
+58
+00:04:13,450 --> 00:04:19,550
+like this, all the details once you execute, will get stored on these three variables.
+
+59
+00:04:20,030 --> 00:04:25,750
+Right now, we know that when you run this command, you will get output successfully.
+
+60
+00:04:25,760 --> 00:04:27,200
+And this is the output.
+
+61
+00:04:27,200 --> 00:04:27,410
+Right.
+
+62
+00:04:28,710 --> 00:04:29,760
+Let me go to the terminal.
+
+63
+00:04:30,260 --> 00:04:31,470
+These are the files you get.
+
+64
+00:04:32,180 --> 00:04:37,520
+So those will now carefully get stored in this variable after you run this command.
+
+65
+00:04:37,700 --> 00:04:45,080
+OK, now, once you get stored everything in this variable now to read all the lines, what you got
+
+66
+00:04:45,260 --> 00:04:46,370
+in this variable.
+
+67
+00:04:46,770 --> 00:04:48,820
+So there is a method called read lines.
+
+68
+00:04:49,130 --> 00:04:51,350
+This will read all the lines.
+
+69
+00:04:51,770 --> 00:04:53,300
+What you got in your output.
+
+70
+00:04:54,080 --> 00:04:59,660
+OK, I'll try to print so that you should see your output here.
+
+71
+00:05:00,960 --> 00:05:04,570
+All right, so let me give one more run and let's see what happens.
+
+72
+00:05:08,010 --> 00:05:17,670
+Perfect, you'll see that viscously bass line bass profile I see these are present here, Bartrop Python,
+
+73
+00:05:17,670 --> 00:05:25,650
+you are able to run this command on your server and once you get the output, you are able to get that
+
+74
+00:05:25,650 --> 00:05:28,040
+output into your python lookup.
+
+75
+00:05:28,510 --> 00:05:29,630
+OK, how did you do that?
+
+76
+00:05:29,820 --> 00:05:31,140
+So you executed a command.
+
+77
+00:05:31,200 --> 00:05:33,650
+The output will get stored here in a file.
+
+78
+00:05:33,990 --> 00:05:40,470
+So you are reading that file completely with Redlegs matter that will read all the content percent in
+
+79
+00:05:40,470 --> 00:05:43,860
+this variable file and you are printing it and this is what you got.
+
+80
+00:05:44,340 --> 00:05:45,340
+OK, great.
+
+81
+00:05:45,750 --> 00:05:48,210
+So this is now you can play.
+
+82
+00:05:48,240 --> 00:05:49,260
+Now let me do one thing.
+
+83
+00:05:49,260 --> 00:05:52,490
+I'll create one new text file here.
+
+84
+00:05:52,890 --> 00:05:58,890
+So to create any new text file, you can start with the VA space and.
+
+85
+00:06:00,250 --> 00:06:00,970
+Benmore, fine.
+
+86
+00:06:04,070 --> 00:06:10,040
+OK, this is like not notepad in windows, go to insert more by selecting a and you can type anything.
+
+87
+00:06:10,070 --> 00:06:11,150
+Hello, how are you?
+
+88
+00:06:12,890 --> 00:06:18,570
+And now you save the file with a skip column WQ so that file will be saved.
+
+89
+00:06:18,860 --> 00:06:26,300
+Now to watch and view the contents of that file, which you just created in Lennix, you can do that
+
+90
+00:06:26,300 --> 00:06:27,380
+with cat come in.
+
+91
+00:06:27,720 --> 00:06:32,000
+Cat Command will help you to view the contents present in the file to give him.
+
+92
+00:06:33,670 --> 00:06:34,540
+Hello, how are you?
+
+93
+00:06:34,580 --> 00:06:35,860
+Is sprinting right now.
+
+94
+00:06:35,890 --> 00:06:43,840
+Let's do one thing, this come on, I will give it from my executable command here.
+
+95
+00:06:45,280 --> 00:06:50,630
+So instead of a seven year, I will come into this line and I'll write one more.
+
+96
+00:06:50,860 --> 00:06:51,550
+It's very easy.
+
+97
+00:06:51,550 --> 00:06:54,730
+I guess you just need proper time for Galicians.
+
+98
+00:06:54,730 --> 00:06:54,990
+That's.
+
+99
+00:06:57,020 --> 00:07:00,140
+God, and what is that finding them of Eldrick?
+
+100
+00:07:01,770 --> 00:07:07,340
+OK, so you will run this command in that level now and whatever output you get will start here, right?
+
+101
+00:07:08,510 --> 00:07:10,470
+So hello, how valuable is one limb?
+
+102
+00:07:10,800 --> 00:07:13,720
+So let me add another line also.
+
+103
+00:07:13,850 --> 00:07:20,840
+You can go back to it in that file again with the voice space demo file and insert more and.
+
+104
+00:07:23,090 --> 00:07:32,180
+I read some number seven 120, so three lines of I'll say it with Escalon WQ and we would get all the
+
+105
+00:07:32,180 --> 00:07:33,430
+trillions of awesome.
+
+106
+00:07:33,770 --> 00:07:35,660
+Now I'll come back and I'll run this fight here.
+
+107
+00:07:37,190 --> 00:07:38,110
+Let's see what happens.
+
+108
+00:07:39,780 --> 00:07:40,300
+You see that?
+
+109
+00:07:40,650 --> 00:07:48,480
+Hello, how are you all seven, 120, all the three lanes are actually sent back, but this time they
+
+110
+00:07:48,480 --> 00:07:51,020
+sent back in the list format.
+
+111
+00:07:51,210 --> 00:07:53,250
+That's what we needed, OK?
+
+112
+00:07:53,280 --> 00:07:54,860
+When it sent in the list of format.
+
+113
+00:07:55,230 --> 00:08:00,850
+Now, if you want to extract the second line, it's very easy for you, isn't it?
+
+114
+00:08:01,290 --> 00:08:05,190
+So what you can do started that in one variable.
+
+115
+00:08:07,920 --> 00:08:14,010
+And this is now list of eight in the list, if you want to access the second number, you can see the
+
+116
+00:08:14,790 --> 00:08:16,220
+index of one.
+
+117
+00:08:16,230 --> 00:08:18,360
+So zero index would be, hello, how are you?
+
+118
+00:08:18,630 --> 00:08:20,470
+And first index will be seven and three.
+
+119
+00:08:20,480 --> 00:08:23,310
+Index will be 120 now printed.
+
+120
+00:08:25,160 --> 00:08:27,350
+And you should see the output at seven.
+
+121
+00:08:30,680 --> 00:08:31,550
+Index.
+
+122
+00:08:33,470 --> 00:08:40,010
+I know why this error, because you should not go to times, read lines matter because you already read
+
+123
+00:08:40,010 --> 00:08:45,050
+all the lines, what else you have, because in the content with this method, first you read those
+
+124
+00:08:45,050 --> 00:08:46,200
+three lines, right.
+
+125
+00:08:46,520 --> 00:08:48,170
+And then again, you ask to read them.
+
+126
+00:08:48,170 --> 00:08:48,850
+Nothing left.
+
+127
+00:08:48,860 --> 00:08:49,910
+So it ran into that.
+
+128
+00:08:50,510 --> 00:08:52,840
+So let's come down this good.
+
+129
+00:08:52,940 --> 00:08:57,890
+It's good that it failed because this way you can understand what is the actual wrong here.
+
+130
+00:08:58,610 --> 00:09:02,320
+And now we run again and you should see the seven in your output.
+
+131
+00:09:02,330 --> 00:09:02,960
+Perfect.
+
+132
+00:09:03,320 --> 00:09:12,500
+So that's how you can play and the extract the content of your output to back to your system and also
+
+133
+00:09:12,500 --> 00:09:13,670
+execute commands.
+
+134
+00:09:14,240 --> 00:09:16,440
+OK, so let's continue in the next lecture.
+
+135
+00:09:17,120 --> 00:09:17,600
+Thank you.

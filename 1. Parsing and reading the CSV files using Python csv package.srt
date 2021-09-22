@@ -1,0 +1,659 @@
+1
+00:00:00,830 --> 00:00:01,550
+Welcome, guys.
+
+2
+00:00:01,970 --> 00:00:07,660
+So in this module, we will see how to read and write from CSP files.
+
+3
+00:00:08,180 --> 00:00:16,220
+So this is very important to understand because in back in our server side automation, you will be
+
+4
+00:00:16,220 --> 00:00:19,220
+running some batch files, which I will be talking very soon.
+
+5
+00:00:19,550 --> 00:00:23,840
+So you will connect to some Linux machines and you will run some bad files.
+
+6
+00:00:24,140 --> 00:00:29,930
+So those batch files will generally generate CSFI file or text files.
+
+7
+00:00:30,080 --> 00:00:32,420
+OK, so how to read texta files?
+
+8
+00:00:32,450 --> 00:00:39,140
+We have already seen in the Python basic section so you can refer it so that we have already completed,
+
+9
+00:00:39,290 --> 00:00:42,580
+but we have not yet seen how to read CSB files.
+
+10
+00:00:43,040 --> 00:00:45,680
+And I would also write back to that file.
+
+11
+00:00:45,890 --> 00:00:49,040
+OK, so let's try to understand that in this section.
+
+12
+00:00:49,580 --> 00:00:52,630
+So let me create one new python file.
+
+13
+00:00:54,140 --> 00:00:55,180
+Ceasefire demo.
+
+14
+00:00:56,390 --> 00:01:03,050
+It should be very simple, gets any topic in Python is simple, OK, there is no complex involved in
+
+15
+00:01:03,050 --> 00:01:03,290
+it.
+
+16
+00:01:03,830 --> 00:01:10,430
+No matter how much deep the concept is, that implementation will be very easy.
+
+17
+00:01:11,540 --> 00:01:14,120
+So let me create one CSP file first.
+
+18
+00:01:14,300 --> 00:01:16,280
+You can directly do it from your notepad.
+
+19
+00:01:17,910 --> 00:01:23,370
+So Delimiter is karma what we can select for the CSFI?
+
+20
+00:01:24,340 --> 00:01:28,840
+So I can say name and status.
+
+21
+00:01:31,000 --> 00:01:39,310
+OK, so it's like Laun status, so there are multiple guys who have applied for the loan and their status
+
+22
+00:01:39,940 --> 00:01:45,160
+is approved or rejected, something like this status resectable and.
+
+23
+00:01:47,120 --> 00:01:47,860
+Approver.
+
+24
+00:01:49,470 --> 00:01:49,980
+And.
+
+25
+00:01:54,040 --> 00:02:00,940
+So basically, I am separating each and every value with comma, so I hope you have basic knowledge
+
+26
+00:02:00,940 --> 00:02:01,760
+and to be fine.
+
+27
+00:02:02,020 --> 00:02:07,540
+So if you write like this, even you can open this file from Excel application as well.
+
+28
+00:02:07,930 --> 00:02:08,220
+Right?
+
+29
+00:02:08,440 --> 00:02:11,150
+So basically, there are total four rows here.
+
+30
+00:02:11,170 --> 00:02:12,640
+This is a header name status.
+
+31
+00:02:12,850 --> 00:02:14,710
+Let me add one more and stop this.
+
+32
+00:02:17,940 --> 00:02:18,330
+Jim.
+
+33
+00:02:21,640 --> 00:02:23,820
+All right, so save this file.
+
+34
+00:02:27,100 --> 00:02:33,170
+And you can say we didn't do a project, only back in automation is a project, right?
+
+35
+00:02:33,580 --> 00:02:36,730
+So here itself, let's save this project as.
+
+36
+00:02:38,750 --> 00:02:40,310
+Should we write in utilities?
+
+37
+00:02:40,700 --> 00:02:45,100
+Yeah, let's build it here, because there are some configuration files present here, right?
+
+38
+00:02:48,430 --> 00:02:50,540
+Loan app Dart, CSC.
+
+39
+00:02:52,250 --> 00:02:54,290
+Perfect, so you can.
+
+40
+00:02:55,380 --> 00:03:02,820
+Minimize that and you'll see that loan and NTSB file is created free, so when you open this so this
+
+41
+00:03:02,820 --> 00:03:07,400
+is how the same you have written in your notepad issuing here.
+
+42
+00:03:07,860 --> 00:03:11,630
+So there will be one specific plugin which I already installed.
+
+43
+00:03:11,850 --> 00:03:15,030
+So it will show up for you to install that.
+
+44
+00:03:15,030 --> 00:03:20,170
+Once you install and restart your editor, you will have another tab here.
+
+45
+00:03:21,360 --> 00:03:23,730
+So in that table, Ed, you will see like this.
+
+46
+00:03:25,100 --> 00:03:30,740
+OK, so you will be prompted to have that plug in once you open this file, you'll see that how nice
+
+47
+00:03:30,800 --> 00:03:39,110
+neatly it got organized into one table because we have clearly given that it should be separated using
+
+48
+00:03:39,110 --> 00:03:45,020
+comma delimited automatically, it will choose this delimiter and created a table like this.
+
+49
+00:03:45,640 --> 00:03:50,630
+OK, now you can open this file in Excel format also.
+
+50
+00:03:50,900 --> 00:03:52,040
+So copy the path.
+
+51
+00:03:52,280 --> 00:03:54,110
+And now let's go back to the.
+
+52
+00:03:55,830 --> 00:03:56,910
+We know Explorer.
+
+53
+00:03:58,300 --> 00:04:01,240
+You see that it's opening in Excel standard.
+
+54
+00:04:02,080 --> 00:04:06,100
+Yeah, so this is how it opens up when you try to open.
+
+55
+00:04:06,750 --> 00:04:08,840
+OK, so this is the CSP file.
+
+56
+00:04:09,130 --> 00:04:12,830
+So now our goal is to read this file.
+
+57
+00:04:13,240 --> 00:04:18,070
+So first, let's understand some basics and then do some logical exercises on this file.
+
+58
+00:04:18,670 --> 00:04:19,210
+OK.
+
+59
+00:04:21,560 --> 00:04:23,400
+So go back to see us with our demo.
+
+60
+00:04:23,750 --> 00:04:31,460
+There is already one in the package available in Python to read and write on CSFI files, you just need
+
+61
+00:04:31,460 --> 00:04:33,590
+to import it, import CEV.
+
+62
+00:04:33,950 --> 00:04:34,550
+And that's OK.
+
+63
+00:04:34,570 --> 00:04:36,240
+This is the package available.
+
+64
+00:04:36,980 --> 00:04:42,440
+OK, so now our goal is to read all the rules of that file.
+
+65
+00:04:42,980 --> 00:04:44,470
+OK, so that's our first goal.
+
+66
+00:04:44,990 --> 00:04:48,830
+So to read all the rules first, you have to open that file.
+
+67
+00:04:48,830 --> 00:04:49,130
+Right.
+
+68
+00:04:49,370 --> 00:04:53,850
+And you know how to open any file using Python.
+
+69
+00:04:53,870 --> 00:05:00,740
+You have to start like this with open and take the part of this you can just get.
+
+70
+00:05:02,570 --> 00:05:05,070
+Coffee pot or coffee pot?
+
+71
+00:05:06,290 --> 00:05:09,680
+So better we will take a relative, but this is long.
+
+72
+00:05:10,890 --> 00:05:12,960
+And this will automatically detect that.
+
+73
+00:05:14,160 --> 00:05:16,650
+Nice, and we have to open this file.
+
+74
+00:05:17,670 --> 00:05:24,420
+So let's give one object so that this object will have knowledge of the file content because that opens
+
+75
+00:05:24,420 --> 00:05:25,800
+this file, right?
+
+76
+00:05:27,430 --> 00:05:32,830
+Now, so there is a method in this package.
+
+77
+00:05:34,400 --> 00:05:37,410
+So see, as we Darth Vader.
+
+78
+00:05:37,940 --> 00:05:40,550
+So here you want to read that file, right?
+
+79
+00:05:40,790 --> 00:05:46,070
+So Reader is a method which will help you to read the content of the CSB file.
+
+80
+00:05:46,670 --> 00:05:49,540
+OK, so which file to read this file.
+
+81
+00:05:49,730 --> 00:05:51,810
+So this file is referenced with this object.
+
+82
+00:05:51,830 --> 00:05:52,080
+Right.
+
+83
+00:05:52,280 --> 00:05:58,220
+So you can simply give that object as an argument to this reader matter column here.
+
+84
+00:05:59,140 --> 00:06:05,080
+OK, and you should also tell how should I read basically this is the fine and you should also mention
+
+85
+00:06:05,080 --> 00:06:05,630
+Delimiter.
+
+86
+00:06:05,830 --> 00:06:10,960
+You never guess Delimiter is karma because that's how we created we feel.
+
+87
+00:06:10,960 --> 00:06:11,280
+Right.
+
+88
+00:06:11,290 --> 00:06:15,760
+So if you go to a text, you see that that's how it divided into tables.
+
+89
+00:06:16,360 --> 00:06:21,550
+So you have to give the file object, which it has to read and also the delimiter.
+
+90
+00:06:22,030 --> 00:06:31,360
+These are the two arguments you have to pass for over the other method which is available in CSC package.
+
+91
+00:06:32,140 --> 00:06:37,090
+OK, so this will become an object which have all the rules.
+
+92
+00:06:37,960 --> 00:06:39,960
+OK, so but this is a reader object.
+
+93
+00:06:40,330 --> 00:06:43,590
+This is not a list are tuple or dictionary.
+
+94
+00:06:43,600 --> 00:06:44,790
+This is a real object.
+
+95
+00:06:45,550 --> 00:06:54,990
+So not to convert this reader object into list, you can actually see a list of iest reader so that
+
+96
+00:06:55,000 --> 00:06:58,710
+it will be converted into the list of items and you can print it.
+
+97
+00:07:00,880 --> 00:07:06,670
+So if you are wondering what happens if I print directly this, let's also see that so I can show you
+
+98
+00:07:06,670 --> 00:07:08,380
+how the reader object will display.
+
+99
+00:07:13,370 --> 00:07:13,800
+Awesome.
+
+100
+00:07:14,210 --> 00:07:17,260
+Yeah, so this is the first program, so now let me run this.
+
+101
+00:07:17,300 --> 00:07:22,130
+This has to open this long, obnoxiously fine and it has to read all the content, doesn't it?
+
+102
+00:07:22,610 --> 00:07:24,440
+Rick Santorum's left after.
+
+103
+00:07:26,330 --> 00:07:32,360
+All right, you see that first output is a real object, it does not have any real data, but then we
+
+104
+00:07:32,360 --> 00:07:39,470
+converted this radar object into list and this is how we displayed in the list.
+
+105
+00:07:39,620 --> 00:07:41,490
+There are, again, lists of lists.
+
+106
+00:07:41,510 --> 00:07:44,050
+Basically, this is the main list inside this.
+
+107
+00:07:44,270 --> 00:07:48,630
+The first of all, Cayman's first list them some Ranma.
+
+108
+00:07:48,920 --> 00:07:50,370
+Everything is present here.
+
+109
+00:07:50,800 --> 00:07:51,980
+OK, now.
+
+110
+00:07:52,960 --> 00:08:01,180
+If you want to iterate through that complete list so you can directly do it on a relatively narrow object
+
+111
+00:08:01,180 --> 00:08:07,150
+on it now, fun brought in, see a spirit of object.
+
+112
+00:08:09,730 --> 00:08:11,620
+But what happens?
+
+113
+00:08:12,130 --> 00:08:14,800
+So let me comment on this now, let's not equate.
+
+114
+00:08:16,020 --> 00:08:20,040
+So basically, this horse multiple roles right now.
+
+115
+00:08:22,250 --> 00:08:22,660
+And.
+
+116
+00:08:25,860 --> 00:08:28,950
+Let's understand what the reformat fight, let's do that.
+
+117
+00:08:30,030 --> 00:08:32,880
+Come on, I'll shift into.
+
+118
+00:08:34,890 --> 00:08:39,580
+OK, now, so that either through each and every rule of this one.
+
+119
+00:08:39,810 --> 00:08:42,690
+So there is that Excel sheet, which we just open.
+
+120
+00:08:43,040 --> 00:08:48,630
+OK, so in the first iteration, the law will be having control of this first rule.
+
+121
+00:08:48,930 --> 00:08:54,720
+And when you say print roll, that will be printed, the second iteration it again, closer to my third
+
+122
+00:08:54,770 --> 00:09:00,170
+iteration like this, all the rules will be printed in the output because we are iterating through this
+
+123
+00:09:00,180 --> 00:09:05,250
+reader object and in every iteration, every rule will be picked and we are just printing that rule,
+
+124
+00:09:05,640 --> 00:09:05,940
+OK.
+
+125
+00:09:05,970 --> 00:09:06,990
+So this is just a variable.
+
+126
+00:09:06,990 --> 00:09:08,300
+You can give any variable name here.
+
+127
+00:09:08,800 --> 00:09:09,990
+OK, same thing.
+
+128
+00:09:09,990 --> 00:09:15,420
+Now when you run this, this time it will present and print different products because that's how we
+
+129
+00:09:15,420 --> 00:09:16,050
+are retrieving.
+
+130
+00:09:16,050 --> 00:09:16,320
+Right.
+
+131
+00:09:16,740 --> 00:09:19,220
+First of all, second or third row based on the FADELA.
+
+132
+00:09:20,290 --> 00:09:23,300
+Now, let's do one logic here.
+
+133
+00:09:23,560 --> 00:09:32,440
+So our goal is to push all these names into one list and all this status into another list.
+
+134
+00:09:32,830 --> 00:09:35,290
+OK, let's play around this basically.
+
+135
+00:09:35,530 --> 00:09:37,180
+So I'll create two lists.
+
+136
+00:09:39,960 --> 00:09:49,170
+So names is one list right now, it's a pretty similar list stats, if it is approved, loans are approved
+
+137
+00:09:49,170 --> 00:09:49,770
+or rejected.
+
+138
+00:09:50,190 --> 00:09:51,580
+There are two lists are created.
+
+139
+00:09:51,840 --> 00:09:56,700
+So when we iterate through every rule, you'll see that this is the list, right.
+
+140
+00:09:56,830 --> 00:09:58,000
+Rolls the list.
+
+141
+00:09:58,440 --> 00:10:05,110
+Now, if you want names, how do you axelsson print a roll of zero?
+
+142
+00:10:05,580 --> 00:10:07,960
+OK, for the first generation, this will be big.
+
+143
+00:10:08,310 --> 00:10:16,470
+So when you say zero name blueprinted instead of one status will be printed.
+
+144
+00:10:16,920 --> 00:10:20,880
+OK, so now let me run this again.
+
+145
+00:10:21,060 --> 00:10:23,910
+And this time it has to print all the names.
+
+146
+00:10:27,760 --> 00:10:32,520
+You see that it printed all the names, names and all the names are printed, similarly, when you the
+
+147
+00:10:32,940 --> 00:10:35,250
+one, all the statements will be printed.
+
+148
+00:10:35,490 --> 00:10:41,190
+So now our goal is to push all the names into this names list and all the stats into the stacks list.
+
+149
+00:10:41,590 --> 00:10:47,400
+So instead of printing it, I will add to this names list.
+
+150
+00:10:47,610 --> 00:10:53,510
+So to add a new element into your existing list, because this is our existing list, which is blank.
+
+151
+00:10:53,940 --> 00:10:59,700
+So I would simply say names DOT is a method which will help you to.
+
+152
+00:11:03,310 --> 00:11:13,540
+I the name in the list, similarly stats, let's open Ruoff one because of one, we will get the details
+
+153
+00:11:14,170 --> 00:11:15,130
+about our.
+
+154
+00:11:16,250 --> 00:11:17,000
+Status, right?
+
+155
+00:11:17,450 --> 00:11:18,120
+And that's OK.
+
+156
+00:11:18,560 --> 00:11:27,210
+So basically, we have a president with all the items now once come out of this for loop for lupus iteration
+
+157
+00:11:27,230 --> 00:11:28,580
+has done this names.
+
+158
+00:11:28,580 --> 00:11:33,840
+Listen, I will hold all the names and this tax list will hold all the status.
+
+159
+00:11:34,040 --> 00:11:37,460
+OK, so let's try to print this names.
+
+160
+00:11:38,420 --> 00:11:48,330
+And also print steps, I'm just showing you how to retrieve the data and store it into list tuples.
+
+161
+00:11:48,500 --> 00:11:52,730
+So this way you can manipulate and use whatever use case you have.
+
+162
+00:11:54,120 --> 00:12:01,830
+They let me run this again, perfect, you see that all the names we have securely stored in one list
+
+163
+00:12:02,100 --> 00:12:04,950
+and all stacks we have securely stored in, you know, the list.
+
+164
+00:12:06,240 --> 00:12:09,150
+So let's continue our logic in our next lecture.
+
+165
+00:12:09,630 --> 00:12:10,140
+Thank you.

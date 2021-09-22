@@ -1,0 +1,907 @@
+1
+00:00:01,000 --> 00:00:01,720
+Welcome, guys.
+
+2
+00:00:02,080 --> 00:00:09,490
+So in this section, I will show how we can make and I said connection to Linux, a server from your
+
+3
+00:00:09,490 --> 00:00:10,270
+local mission.
+
+4
+00:00:10,850 --> 00:00:16,390
+OK, so assume that there is a batch job which is present in your server.
+
+5
+00:00:16,810 --> 00:00:17,780
+This is different server.
+
+6
+00:00:18,070 --> 00:00:25,720
+So from your local mission, you have to write the Python code, which should connect, establish connection
+
+7
+00:00:25,720 --> 00:00:33,490
+to that Linux server through its protocol and then execute the batches of present on that server from
+
+8
+00:00:33,490 --> 00:00:35,020
+your local python code.
+
+9
+00:00:35,560 --> 00:00:39,930
+So this is one of the common scenario you will see in backend automation.
+
+10
+00:00:40,300 --> 00:00:41,230
+So this will end.
+
+11
+00:00:41,230 --> 00:00:45,820
+Python is heavily used to solve this problem in any project.
+
+12
+00:00:46,270 --> 00:00:53,550
+So in this section, we're going to see how to achieve and solve this problem with Python code, right.
+
+13
+00:00:53,800 --> 00:00:55,830
+So far that we need Linux server.
+
+14
+00:00:55,840 --> 00:00:56,050
+Right.
+
+15
+00:00:56,600 --> 00:01:01,660
+So when we are making some connection to lambic server and running some bad job, so that means there
+
+16
+00:01:01,660 --> 00:01:05,310
+should be a Linux server for me to show and for you to practice.
+
+17
+00:01:05,800 --> 00:01:10,990
+So I will be using A.W. Linux because that comes for free.
+
+18
+00:01:10,990 --> 00:01:16,780
+Parvenu, though it is free, you will have a minimal charges, which you have to know because if you
+
+19
+00:01:16,780 --> 00:01:20,610
+download or upload, it will give you some minimal charges.
+
+20
+00:01:20,890 --> 00:01:25,740
+So I request you to watch the video very next video about charges.
+
+21
+00:01:26,050 --> 00:01:32,670
+It would be around fifteen hundred to two thousand rupees in Indian currency and around for a dollar
+
+22
+00:01:32,680 --> 00:01:33,520
+in US dollar.
+
+23
+00:01:33,880 --> 00:01:42,190
+So about that much cost, it will be incurred if you launch a new A.W., for instance, and solve this
+
+24
+00:01:42,190 --> 00:01:43,330
+entire assignment.
+
+25
+00:01:43,330 --> 00:01:44,620
+Ballylee with me.
+
+26
+00:01:45,010 --> 00:01:51,090
+OK, so if you are okay to do that, so please go ahead, because for me there is no other solution.
+
+27
+00:01:51,220 --> 00:01:55,300
+So you will not have any server available for free to play around.
+
+28
+00:01:55,810 --> 00:01:59,980
+So L'Avenir something which is free, but this is about like data transfer.
+
+29
+00:02:00,160 --> 00:02:03,910
+If you don't learn anything from Internet, that would take some minimal amount of.
+
+30
+00:02:04,300 --> 00:02:05,610
+What it touches.
+
+31
+00:02:05,830 --> 00:02:11,850
+So I would recommend you to watch the next video and see how to stop it after you complete your operations.
+
+32
+00:02:11,860 --> 00:02:14,110
+That is very, very recommended for you to watch.
+
+33
+00:02:14,110 --> 00:02:16,020
+Next video on this subject.
+
+34
+00:02:16,210 --> 00:02:17,350
+If you are okay to pay this.
+
+35
+00:02:17,470 --> 00:02:24,340
+If not, then just watch this video and have this concept in your memory so that you can use whenever
+
+36
+00:02:24,340 --> 00:02:25,520
+you get in your real time.
+
+37
+00:02:25,900 --> 00:02:29,350
+OK, so now I will show how to Forslund instance.
+
+38
+00:02:29,500 --> 00:02:35,110
+You need an account for that and then you can quickly launch it will go for it and then see about what
+
+39
+00:02:35,110 --> 00:02:39,160
+is the pricing before we actually start with all configurations.
+
+40
+00:02:39,280 --> 00:02:42,460
+First, let's set up our line somewhere, OK?
+
+41
+00:02:43,060 --> 00:02:46,570
+Let's go to the official website management console.
+
+42
+00:02:48,100 --> 00:02:55,240
+Now you can sign up and give all your details great and second, it might ask you credit card details
+
+43
+00:02:55,240 --> 00:02:58,560
+as well or debit card details you should provide them.
+
+44
+00:02:58,870 --> 00:03:03,430
+And once you provide and when you sign into your console, let me sign in.
+
+45
+00:03:04,510 --> 00:03:09,050
+So once you sign in, you will be landing on this page.
+
+46
+00:03:09,370 --> 00:03:15,780
+So these are the different services are provided by 11 years.
+
+47
+00:03:16,150 --> 00:03:20,760
+So we are interested in easy to service, so select services.
+
+48
+00:03:20,980 --> 00:03:27,640
+And here you can select AC2 and then you will be landing on this page.
+
+49
+00:03:29,810 --> 00:03:30,180
+Right.
+
+50
+00:03:30,500 --> 00:03:36,440
+So these are running instances, dedicated host, you will see all these here so you can actually direct
+
+51
+00:03:36,450 --> 00:03:37,130
+launch in.
+
+52
+00:03:37,700 --> 00:03:43,300
+So to get started launching Amazon, easy to instance, which has a virtual server.
+
+53
+00:03:43,310 --> 00:03:44,620
+This is what I am talking about.
+
+54
+00:03:45,990 --> 00:03:50,440
+And in our case, we are interested to have Linux virtual server.
+
+55
+00:03:51,360 --> 00:03:53,430
+So just start with the launch in Stent's.
+
+56
+00:03:54,590 --> 00:04:01,040
+And this way, you will be shown multiple images available in Amazon cloud.
+
+57
+00:04:01,250 --> 00:04:07,160
+OK, so these are different operating systems you have and you can start your server with these operating
+
+58
+00:04:07,160 --> 00:04:07,670
+systems.
+
+59
+00:04:07,880 --> 00:04:11,520
+You have Windows, Linux, Ubuntu, the lot of things here.
+
+60
+00:04:11,810 --> 00:04:17,050
+So here we just need this one, Amazon, Linux, because it have some inbuilt software assessment.
+
+61
+00:04:17,390 --> 00:04:19,490
+So let's use this 64 bit.
+
+62
+00:04:20,670 --> 00:04:27,900
+And there are different versions available, like based upon how much memory it should allocate to your
+
+63
+00:04:27,900 --> 00:04:28,420
+server.
+
+64
+00:04:28,950 --> 00:04:35,490
+So by default, only three dead is eligible for one version and you don't have any other option to just
+
+65
+00:04:35,490 --> 00:04:38,030
+choose that option and select next.
+
+66
+00:04:38,520 --> 00:04:42,270
+And these are a different network related configuration settings.
+
+67
+00:04:42,720 --> 00:04:49,560
+We are all to go with default settings because our goal here is to just practice as a demo and we are
+
+68
+00:04:49,560 --> 00:04:52,350
+not doing any networking to make it secure.
+
+69
+00:04:52,980 --> 00:04:56,160
+OK, so next and storage.
+
+70
+00:04:56,520 --> 00:05:04,050
+So you can add multiple stories like how much do you need, how much ram sized or how much size gigabytes
+
+71
+00:05:04,050 --> 00:05:06,380
+you need to store all your data.
+
+72
+00:05:06,570 --> 00:05:13,290
+So the default, whatever it's showing here, is self sufficient for us to work and play on with this
+
+73
+00:05:15,090 --> 00:05:15,950
+demo concept.
+
+74
+00:05:15,960 --> 00:05:19,830
+So just click on next, but not change any settings here.
+
+75
+00:05:20,370 --> 00:05:20,680
+Right.
+
+76
+00:05:21,090 --> 00:05:22,590
+So here you can give some tax.
+
+77
+00:05:23,670 --> 00:05:28,590
+You can see that you can define back with name and give value to that.
+
+78
+00:05:28,620 --> 00:05:32,930
+So basically name off your server so you can declare a name to a server.
+
+79
+00:05:33,270 --> 00:05:43,080
+So let's say Jenkins C8 server so that one can identify the next mission.
+
+80
+00:05:43,090 --> 00:05:45,720
+What we are using is nothing but Jenkins host.
+
+81
+00:05:46,470 --> 00:05:52,930
+So let us give some related name and that way we can easily identify our salani.
+
+82
+00:05:53,070 --> 00:05:58,140
+If you have fortified Linux servers running in your alias, you don't know really what is installed.
+
+83
+00:05:58,470 --> 00:06:04,950
+So you can have that name to your server, which will exactly relate to what that threat is doing.
+
+84
+00:06:05,220 --> 00:06:05,560
+OK.
+
+85
+00:06:05,580 --> 00:06:07,260
+Add the tag next.
+
+86
+00:06:07,260 --> 00:06:08,640
+Configure Security Group.
+
+87
+00:06:09,770 --> 00:06:15,120
+So here our goal is to launch Jenkins' on this server, right?
+
+88
+00:06:15,150 --> 00:06:19,400
+So Jenkins will be started on 884.
+
+89
+00:06:19,880 --> 00:06:23,010
+So by default, that port is not open.
+
+90
+00:06:23,420 --> 00:06:32,660
+So you have to clearly tell and a rule and stay open for a liati, then only 11 years will open that
+
+91
+00:06:32,660 --> 00:06:34,370
+port so that you can install them.
+
+92
+00:06:34,670 --> 00:06:38,390
+And it can be accessible from any other place.
+
+93
+00:06:38,730 --> 00:06:45,890
+OK, so you need to add that one security rule here and then you can launch it directly with review
+
+94
+00:06:45,890 --> 00:06:46,960
+and launch button.
+
+95
+00:06:47,570 --> 00:06:54,680
+OK, so you can just go with all default settings except that name value bid and adding one new rule
+
+96
+00:06:54,950 --> 00:06:59,270
+of starting and listening to a report of your own lunch.
+
+97
+00:07:00,780 --> 00:07:02,970
+And just see what I learned here.
+
+98
+00:07:03,840 --> 00:07:04,320
+Lunch.
+
+99
+00:07:05,070 --> 00:07:05,640
+Here you go.
+
+100
+00:07:06,090 --> 00:07:16,230
+So here it is for the first time, when you create any limits or when when you create any other server,
+
+101
+00:07:16,620 --> 00:07:21,060
+it will ask you to create one keep it bunfight.
+
+102
+00:07:21,480 --> 00:07:23,150
+What can we call it as dot B?
+
+103
+00:07:24,000 --> 00:07:28,370
+OK, this is a file which is used to authenticate.
+
+104
+00:07:29,130 --> 00:07:35,580
+So for the first time and you do this, you will not have keep it because I already have some sort of
+
+105
+00:07:35,790 --> 00:07:37,170
+in my account.
+
+106
+00:07:37,560 --> 00:07:42,150
+I have my keep it so you can actually create a new keepit.
+
+107
+00:07:42,150 --> 00:07:45,810
+Select this option and give keep your name.
+
+108
+00:07:46,140 --> 00:07:50,120
+And you said download that, keep it OK after that.
+
+109
+00:07:50,130 --> 00:07:56,880
+Any time when you want to come back and access the server again, everybody else will ask you to upload.
+
+110
+00:07:56,880 --> 00:07:57,430
+Keep it.
+
+111
+00:07:58,020 --> 00:08:03,360
+OK, now you create one and download right next time when you want to access it or when you want to
+
+112
+00:08:03,360 --> 00:08:04,820
+use that Linux server.
+
+113
+00:08:05,400 --> 00:08:09,540
+So you have to provide this keypad every time to authenticate you are safe.
+
+114
+00:08:09,990 --> 00:08:10,300
+Right.
+
+115
+00:08:10,590 --> 00:08:16,260
+So make sure you provide one proper name and download it and make sure you save it securely in your
+
+116
+00:08:16,260 --> 00:08:20,130
+system again, to access that server again for the next time.
+
+117
+00:08:20,400 --> 00:08:21,260
+You'll need this.
+
+118
+00:08:21,280 --> 00:08:21,730
+Keep it.
+
+119
+00:08:22,410 --> 00:08:26,990
+So for me, for the second, I already have an existing keeper, which is rather personal.
+
+120
+00:08:27,660 --> 00:08:28,080
+All right.
+
+121
+00:08:28,110 --> 00:08:33,390
+So I am selecting that and I acknowledge this and launch instances.
+
+122
+00:08:34,640 --> 00:08:41,350
+And I said it will take a few seconds, two minutes, maybe in one or two minutes, you can see your
+
+123
+00:08:41,360 --> 00:08:43,340
+instances is running.
+
+124
+00:08:43,790 --> 00:08:44,720
+Select this link.
+
+125
+00:08:45,260 --> 00:08:47,210
+Following instances have been initiated.
+
+126
+00:08:50,060 --> 00:08:54,630
+So right now, instant state is spending, so it will soon come to running state.
+
+127
+00:08:55,070 --> 00:09:00,780
+So that means you are ready to use this server, but how to access the server?
+
+128
+00:09:01,320 --> 00:09:07,690
+Now, it's not easy to log in to the server because that is Nandy way more like Windows.
+
+129
+00:09:07,700 --> 00:09:09,390
+You will not see all that sort of thing.
+
+130
+00:09:09,410 --> 00:09:11,500
+Linux is all with command prompt.
+
+131
+00:09:12,140 --> 00:09:18,680
+OK, just do not assume that you will see another operating system where you have all these folders
+
+132
+00:09:18,680 --> 00:09:25,790
+and you navigate it just by the minute you will be able to access your new virtual machine only with
+
+133
+00:09:25,790 --> 00:09:26,330
+the terminal.
+
+134
+00:09:26,990 --> 00:09:29,720
+There is an option to have the UI as well.
+
+135
+00:09:30,570 --> 00:09:31,700
+That's a different story.
+
+136
+00:09:31,700 --> 00:09:37,690
+You need to have Ubuntu server and you need to install some more things but not required for us in general.
+
+137
+00:09:38,630 --> 00:09:44,160
+People will not use any way to access files, folders in Linux.
+
+138
+00:09:44,190 --> 00:09:47,030
+Everything will go in terminals with comments only.
+
+139
+00:09:47,390 --> 00:09:49,120
+OK, story is different.
+
+140
+00:09:49,580 --> 00:09:50,780
+It's not like Windows.
+
+141
+00:09:51,380 --> 00:09:57,860
+If you are a Mac user, it will be easy for you to grab this concept very fast because Mac also based
+
+142
+00:09:57,860 --> 00:10:00,010
+upon Linux distributionally.
+
+143
+00:10:00,350 --> 00:10:04,280
+So it's easy for you to catch up very speed with a comment waterwheels.
+
+144
+00:10:04,520 --> 00:10:12,410
+But don't worry, I try to teach all the comments from scratch so that no matter even if you are a Windows
+
+145
+00:10:12,410 --> 00:10:16,810
+user and never saw Linux before, you will be able to follow this course.
+
+146
+00:10:17,090 --> 00:10:24,470
+OK, I will try my best to give all those for you so that the patience is what I required from you initially.
+
+147
+00:10:24,470 --> 00:10:26,600
+You may feel everything is new.
+
+148
+00:10:26,720 --> 00:10:27,440
+That's obvious.
+
+149
+00:10:27,650 --> 00:10:31,610
+When you are learning something for the first time, you will feel like rocket science.
+
+150
+00:10:31,820 --> 00:10:38,180
+But slowly, when we are habituated with that, with much practice, we will feel like Lennix is more
+
+151
+00:10:38,180 --> 00:10:40,040
+easy than Windows Trustme.
+
+152
+00:10:41,180 --> 00:10:44,510
+OK, now to access your mission.
+
+153
+00:10:45,320 --> 00:10:47,730
+So there are different softwares to connect to.
+
+154
+00:10:47,730 --> 00:10:52,700
+To any Linux missions you have to connect through such glemp.
+
+155
+00:10:53,330 --> 00:10:55,580
+OK, so you have to make a hit.
+
+156
+00:10:55,580 --> 00:10:58,700
+Execution is what we call contessa's hit.
+
+157
+00:10:59,210 --> 00:11:04,580
+So you have to connect to your Atlantics missions to a secure shell.
+
+158
+00:11:05,480 --> 00:11:07,100
+Glemp All right.
+
+159
+00:11:07,220 --> 00:11:10,100
+And there are different softwares which we call us.
+
+160
+00:11:10,100 --> 00:11:12,770
+As I said, Scholem's one of them is Putti.
+
+161
+00:11:13,190 --> 00:11:17,570
+And there is another famous one, which is called Mobb Extoll.
+
+162
+00:11:17,960 --> 00:11:25,250
+I would recommend using this because these have lesser steps, then put it to connect and communicate
+
+163
+00:11:25,250 --> 00:11:26,690
+with the other Linux machines.
+
+164
+00:11:26,990 --> 00:11:29,240
+All these are associated Glenns.
+
+165
+00:11:29,600 --> 00:11:38,000
+OK, so you can Google very quick to see what this ASUS heads Klank and that will tell you that today
+
+166
+00:11:38,000 --> 00:11:43,760
+is one of that line and that will be used to connect to your line explanation's.
+
+167
+00:11:44,980 --> 00:11:46,990
+So, as I said, I will go with this option.
+
+168
+00:11:49,950 --> 00:11:51,450
+All right, so download.
+
+169
+00:11:52,550 --> 00:11:58,820
+And there are two versions, home and professional, we can stick to the home version, you can just
+
+170
+00:11:58,820 --> 00:12:01,820
+download this I already have in my system.
+
+171
+00:12:01,820 --> 00:12:02,480
+I guess so.
+
+172
+00:12:03,970 --> 00:12:05,920
+Home edition and.
+
+173
+00:12:07,080 --> 00:12:12,390
+Yeah, you can just go with whatever version you have, either portable audience that does not make
+
+174
+00:12:12,390 --> 00:12:13,130
+any difference.
+
+175
+00:12:13,440 --> 00:12:19,320
+So ultimately you should be able to install it and open that file in your system.
+
+176
+00:12:19,740 --> 00:12:27,450
+So it's in deep file and then extracted and you will see an option to open the door to actually file.
+
+177
+00:12:30,090 --> 00:12:37,020
+And this is how you see double click on the audio file, and that will take you to install this software
+
+178
+00:12:37,020 --> 00:12:37,770
+in our machines.
+
+179
+00:12:39,540 --> 00:12:45,930
+So once installed, you will see an app like this, you can just type and will be in your search and
+
+180
+00:12:45,930 --> 00:12:49,490
+you will see the app and double click on that app.
+
+181
+00:12:49,500 --> 00:12:53,400
+And after that you will see a screen, something like this.
+
+182
+00:12:54,500 --> 00:12:59,280
+OK, and these are different how rearms which are already in use.
+
+183
+00:12:59,660 --> 00:13:01,940
+So once you open this.
+
+184
+00:13:03,000 --> 00:13:11,490
+Select session, and that will take you to the speech and hear what is what type of session you are
+
+185
+00:13:11,490 --> 00:13:14,760
+using to connect to your next mission.
+
+186
+00:13:14,790 --> 00:13:20,340
+You have to do essays, Haertsch connection, OK, you see that secure special session.
+
+187
+00:13:20,670 --> 00:13:23,820
+You want to start with your excellent mission.
+
+188
+00:13:24,210 --> 00:13:29,300
+So select this option and then it will give this window remote host.
+
+189
+00:13:29,610 --> 00:13:34,720
+So here you have to provide IP address of your server.
+
+190
+00:13:35,130 --> 00:13:39,560
+OK, so we just started one instance right here.
+
+191
+00:13:39,570 --> 00:13:45,450
+If you come down, you will see an IP address to access your next server.
+
+192
+00:13:45,630 --> 00:13:52,510
+You can copy this and just paste here carefully without any spaces and specify username.
+
+193
+00:13:52,920 --> 00:13:54,780
+So this will be default.
+
+194
+00:13:54,780 --> 00:13:55,560
+Easy to hide.
+
+195
+00:13:55,560 --> 00:13:56,170
+Hyphen user.
+
+196
+00:13:57,120 --> 00:14:02,700
+OK, if you write any other user name here like your name of something, it will not work.
+
+197
+00:14:03,030 --> 00:14:12,120
+So user name by default will be easy to hyphen user for all alias Linux machines ok and select advanced
+
+198
+00:14:12,120 --> 00:14:13,550
+as hits settings.
+
+199
+00:14:14,250 --> 00:14:17,000
+Remember I told you that we need to.
+
+200
+00:14:19,120 --> 00:14:27,310
+Have Bumfights not Billiam extension, so that finally will help you to securely authenticate and will
+
+201
+00:14:27,310 --> 00:14:35,550
+help you to log into your online expression, so you have to select that and upload that thought Benki,
+
+202
+00:14:35,560 --> 00:14:36,580
+into your system.
+
+203
+00:14:36,730 --> 00:14:37,420
+Let's do that.
+
+204
+00:14:39,050 --> 00:14:45,030
+Yeah, I have my liberal partner just open it so that we weren't giving Darton fine.
+
+205
+00:14:45,440 --> 00:14:53,330
+So basically we were asking that let me I to get to this IP because this is my Linux server and to authenticate
+
+206
+00:14:53,330 --> 00:14:57,500
+this is my secret key, which will help you to unlock this mission.
+
+207
+00:14:57,710 --> 00:14:58,040
+Right.
+
+208
+00:14:58,370 --> 00:14:59,480
+And then click on OK.
+
+209
+00:15:01,740 --> 00:15:06,080
+And I think that will create you in your window like this, OK?
+
+210
+00:15:06,150 --> 00:15:08,180
+These two are existing windows in my mission.
+
+211
+00:15:08,190 --> 00:15:09,030
+Let me close them.
+
+212
+00:15:10,900 --> 00:15:16,020
+Right, this is another one, but when you open the first time, you will see something like this.
+
+213
+00:15:17,060 --> 00:15:19,970
+OK, so let me increase the font size.
+
+214
+00:15:21,070 --> 00:15:22,330
+OK, awesome, great.
+
+215
+00:15:22,720 --> 00:15:31,690
+So we have successfully connected to one Linux server throw at has hit glenoid and right now you are
+
+216
+00:15:31,690 --> 00:15:32,630
+in your Linux over.
+
+217
+00:15:33,040 --> 00:15:39,490
+As I said, don't expect any folders or any Douai items like Windows.
+
+218
+00:15:40,090 --> 00:15:45,250
+If you are first time watching this, there, of course, are watching Linux.
+
+219
+00:15:45,640 --> 00:15:49,600
+So you will be a little surprised to see is this the server?
+
+220
+00:15:49,900 --> 00:15:56,830
+Yes, this is how it looks and this is how you need to play around all the software downloads, everything
+
+221
+00:15:56,830 --> 00:15:58,630
+you will be doing to Comensoli.
+
+222
+00:16:00,110 --> 00:16:07,670
+All right, so in the next lecture, I will quickly go over pricing that how would you be charged this
+
+223
+00:16:07,670 --> 00:16:12,200
+amount and how you should stop the server at the end once you complete this project.
+
+224
+00:16:12,530 --> 00:16:13,600
+So that is very important.
+
+225
+00:16:13,620 --> 00:16:14,720
+Guys, please watch it.
+
+226
+00:16:14,960 --> 00:16:20,750
+And then we will continue with configurations to accept, as I said from the subsequent lecture.
+
+227
+00:16:21,320 --> 00:16:21,770
+Thank you.

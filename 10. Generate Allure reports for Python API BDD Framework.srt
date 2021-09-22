@@ -1,0 +1,651 @@
+1
+00:00:01,200 --> 00:00:01,860
+Welcome back.
+
+2
+00:00:02,040 --> 00:00:07,770
+So in this lecture, I will show you how to generate nice history alone reports for durability test
+
+3
+00:00:07,770 --> 00:00:08,160
+results.
+
+4
+00:00:08,850 --> 00:00:10,210
+OK, that's very simple.
+
+5
+00:00:10,320 --> 00:00:18,120
+Guys, you have to install one plugin which can be commonly used for both generating a report and you
+
+6
+00:00:18,120 --> 00:00:18,670
+want to be here.
+
+7
+00:00:18,990 --> 00:00:22,360
+OK, so that plug in them is a lone hyphen here.
+
+8
+00:00:22,590 --> 00:00:24,100
+So let's install that first.
+
+9
+00:00:24,600 --> 00:00:31,390
+So this plug in are we can call it as a python package, which will help you to connect to your behavior
+
+10
+00:00:31,410 --> 00:00:33,770
+results and prepare alone reports.
+
+11
+00:00:35,350 --> 00:00:42,400
+OK, so a little hyphen here, hear this is the package name you need to install it you can install
+
+12
+00:00:42,400 --> 00:00:46,900
+globally and make sure you are pointing to that interpreter in your face.
+
+13
+00:00:47,980 --> 00:00:49,220
+I already have in my mission.
+
+14
+00:00:49,250 --> 00:00:52,290
+That's why I got a message that requirement already said is right.
+
+15
+00:00:52,600 --> 00:00:52,900
+Great.
+
+16
+00:00:53,590 --> 00:00:55,240
+So once you install the.
+
+17
+00:00:56,320 --> 00:01:01,290
+Next step is that you'll have to generate reports, right?
+
+18
+00:01:02,050 --> 00:01:07,530
+So what you can do while running your debts, you need to add another parameter.
+
+19
+00:01:07,990 --> 00:01:12,850
+So Behave will trigger all the features in your feature for the right.
+
+20
+00:01:13,270 --> 00:01:16,030
+And you are using your captor to get the locks.
+
+21
+00:01:16,360 --> 00:01:23,690
+And next thing what you can do here, you can go hyphen F and provide annual reports.
+
+22
+00:01:24,190 --> 00:01:25,290
+So this is the command.
+
+23
+00:01:25,300 --> 00:01:27,010
+Let me show you how different Éluard.
+
+24
+00:01:28,870 --> 00:01:38,180
+Underscore behave so if you want, in that format, so you can save formatter a little for.
+
+25
+00:01:41,020 --> 00:01:48,310
+Right, and you can give the folder where you want to store your results, you can use hyphen or subfolder
+
+26
+00:01:48,310 --> 00:01:53,010
+name and let's create a folder in this project level only.
+
+27
+00:01:53,260 --> 00:01:56,350
+Let's call this as a live report.
+
+28
+00:01:56,680 --> 00:01:58,710
+So this is the folder will get created.
+
+29
+00:01:59,110 --> 00:02:02,040
+OK, Ivan, all stand for giving the folder name.
+
+30
+00:02:02,620 --> 00:02:05,680
+And this is the flag you have to provide alone.
+
+31
+00:02:05,680 --> 00:02:08,710
+Behave, darte Ford Motor Co. formatter.
+
+32
+00:02:10,010 --> 00:02:10,280
+Right.
+
+33
+00:02:10,400 --> 00:02:18,210
+So when you run this, you are all fetus will run again once Deskins execution is done, then this will
+
+34
+00:02:18,720 --> 00:02:23,970
+be here format and reports will get to innovate and they will get stored in this directory.
+
+35
+00:02:24,020 --> 00:02:27,140
+So this directory will now get created in your project level.
+
+36
+00:02:27,410 --> 00:02:29,390
+OK, let's see you then enter.
+
+37
+00:02:30,770 --> 00:02:31,280
+And.
+
+38
+00:02:32,450 --> 00:02:33,850
+It started execution again.
+
+39
+00:02:35,290 --> 00:02:35,600
+Good.
+
+40
+00:02:36,490 --> 00:02:44,630
+So if you see your project, you should see the folder now called Allen Reports.
+
+41
+00:02:45,400 --> 00:02:49,900
+So once you open that report, you will not directly see Hestia Mitchell report.
+
+42
+00:02:50,200 --> 00:02:54,760
+All the reports will first be shown in days files.
+
+43
+00:02:55,210 --> 00:03:02,470
+Now, you have to convert this Jason files to actual history and will report so far that you have to
+
+44
+00:03:02,470 --> 00:03:04,000
+download another package.
+
+45
+00:03:04,000 --> 00:03:04,690
+Kalala.
+
+46
+00:03:05,080 --> 00:03:06,010
+So let me show you.
+
+47
+00:03:07,370 --> 00:03:14,540
+So search for a lower download and you can go to the releases available and pick up the latest release.
+
+48
+00:03:15,980 --> 00:03:22,570
+OK, so this is the latest release and you can go ahead and download the file and that will.
+
+49
+00:03:23,850 --> 00:03:25,110
+Yeah, this is how you can.
+
+50
+00:03:26,750 --> 00:03:28,950
+Select official Allura website.
+
+51
+00:03:29,930 --> 00:03:35,810
+So from here, you can download a lower command line somewhere you needed this to generate Hesterman
+
+52
+00:03:35,840 --> 00:03:39,590
+reports from the Jason files, what you just created.
+
+53
+00:03:39,920 --> 00:03:44,660
+OK, so scroll down and you have different command line options.
+
+54
+00:03:44,660 --> 00:03:47,840
+If you are on Macarius, you can install like this for Windows.
+
+55
+00:03:47,850 --> 00:03:53,060
+They are asking us to use Schoop command line, but instead let's make it simple.
+
+56
+00:03:53,060 --> 00:03:59,810
+We can download AGIP extension file so you can go to this Bindaree in manual installation.
+
+57
+00:04:01,700 --> 00:04:04,250
+Let's get the latest version available.
+
+58
+00:04:04,250 --> 00:04:06,920
+So let's go back to the GitHub alert framework.
+
+59
+00:04:07,460 --> 00:04:09,860
+So that will take to the good HelpAge.
+
+60
+00:04:10,130 --> 00:04:10,460
+Yeah.
+
+61
+00:04:10,470 --> 00:04:13,040
+So from here I think we can get the latest version.
+
+62
+00:04:13,490 --> 00:04:16,600
+We can just directly do it from Schoop installer.
+
+63
+00:04:16,910 --> 00:04:22,130
+But for that first you have to download the scope command line installer and then give this.
+
+64
+00:04:22,400 --> 00:04:27,480
+So let's not download any number of tools just to have a load in our mission.
+
+65
+00:04:27,980 --> 00:04:32,330
+So what I can help you here, you see, then grab it from binary.
+
+66
+00:04:32,760 --> 00:04:35,780
+So when you go to Bentley, you will get the latest.
+
+67
+00:04:35,780 --> 00:04:39,740
+You are also from here, you get the latest version, which is released recently.
+
+68
+00:04:40,130 --> 00:04:43,580
+So select this link to that 13 dot fight.
+
+69
+00:04:43,940 --> 00:04:46,850
+By the time you watching, it could be any other version.
+
+70
+00:04:47,090 --> 00:04:47,330
+Right?
+
+71
+00:04:47,400 --> 00:04:49,340
+Scroll down and get it in the file.
+
+72
+00:04:49,340 --> 00:04:50,990
+You can just directly download this.
+
+73
+00:04:51,440 --> 00:04:57,330
+So I just download it and you unzip this and once you unzip, it looks something like this.
+
+74
+00:04:57,650 --> 00:04:59,960
+OK, so here is a Benfold.
+
+75
+00:05:00,110 --> 00:05:01,400
+Go inside this.
+
+76
+00:05:01,730 --> 00:05:09,890
+You can add this part to your system variables or you can directly generate that Hesterman report by
+
+77
+00:05:09,900 --> 00:05:11,270
+navigating to the spot.
+
+78
+00:05:11,450 --> 00:05:12,880
+OK, so let me show you.
+
+79
+00:05:13,850 --> 00:05:18,210
+So let us directly go to that part from your command prompt through this.
+
+80
+00:05:19,760 --> 00:05:20,240
+Perfect.
+
+81
+00:05:20,480 --> 00:05:23,320
+So from here you can give that command.
+
+82
+00:05:23,510 --> 00:05:29,240
+So the command what you have to give here is a little subtle and that result folder.
+
+83
+00:05:29,630 --> 00:05:33,210
+OK, so I is a keyword is that goal.
+
+84
+00:05:33,500 --> 00:05:36,410
+So basically this will solve all of converting.
+
+85
+00:05:36,410 --> 00:05:41,360
+You want to do some files, what you just got created into his HTML report.
+
+86
+00:05:41,810 --> 00:05:43,150
+OK, so that's the concept.
+
+87
+00:05:43,490 --> 00:05:47,030
+So why I am giving this a load from here.
+
+88
+00:05:47,030 --> 00:05:53,510
+Because if you give it from outside then it will complain, saying that A is not recognized as internal
+
+89
+00:05:53,510 --> 00:05:54,620
+or external command.
+
+90
+00:05:55,100 --> 00:06:00,770
+So to avoid this, if you want to give it from any of it, make sure to add this part in your system
+
+91
+00:06:00,770 --> 00:06:01,350
+variables.
+
+92
+00:06:02,090 --> 00:06:07,560
+OK, so if you don't want to add then you have to come to that Benfold or what you just downloaded.
+
+93
+00:06:08,420 --> 00:06:13,930
+So you need to come to this fold and copy the part, go to your terminal and from here give a load.
+
+94
+00:06:13,940 --> 00:06:17,280
+So and you're project directory.
+
+95
+00:06:18,110 --> 00:06:18,470
+OK.
+
+96
+00:06:18,480 --> 00:06:20,660
+So here is where your project is present.
+
+97
+00:06:20,930 --> 00:06:22,670
+Copy, copy.
+
+98
+00:06:22,670 --> 00:06:25,070
+But you need absolute path.
+
+99
+00:06:26,310 --> 00:06:33,560
+So here with my directory is present, you don't enter and this will start a new server where you generate
+
+100
+00:06:33,570 --> 00:06:35,430
+a report for you, Lexi.
+
+101
+00:06:37,250 --> 00:06:42,800
+We see that report successfully returned and it will open up your browser and it will show that reports
+
+102
+00:06:42,800 --> 00:06:45,100
+like this supercool, right?
+
+103
+00:06:45,290 --> 00:06:51,140
+So you have four test cases, everything pass and you have a sweet Siete session management check,
+
+104
+00:06:51,350 --> 00:06:53,380
+plus indexation management.
+
+105
+00:06:53,400 --> 00:06:56,270
+You have excluding given Wenden everything.
+
+106
+00:06:56,270 --> 00:07:01,250
+It is perfectly showing like how much time it took and verify and book Apaid functionality.
+
+107
+00:07:01,520 --> 00:07:05,600
+This Rantoul two times with two different datasets, one by one 1.0.
+
+108
+00:07:05,900 --> 00:07:06,120
+Right.
+
+109
+00:07:06,170 --> 00:07:12,560
+So everything is really displayed here and it will show how many parts, how many felt, if anything
+
+110
+00:07:12,560 --> 00:07:19,190
+fail, the red number will be upgraded to one and it will show the failed disk is so like this, you
+
+111
+00:07:19,190 --> 00:07:22,100
+can manage entire history and will report.
+
+112
+00:07:22,550 --> 00:07:23,660
+You can share this start.
+
+113
+00:07:23,660 --> 00:07:29,900
+Hestia will report which shared if you want to know, the part here is the part you can go to this part
+
+114
+00:07:29,900 --> 00:07:32,000
+where you will find the report.
+
+115
+00:07:32,340 --> 00:07:35,180
+OK, so these are the four steps you have to follow.
+
+116
+00:07:35,390 --> 00:07:36,510
+But it's easy, right?
+
+117
+00:07:36,740 --> 00:07:44,180
+So a little reporting comes into very handy because you are not putting anything in court to create
+
+118
+00:07:44,180 --> 00:07:44,810
+reports.
+
+119
+00:07:45,120 --> 00:07:47,560
+OK, so you have done four simple steps.
+
+120
+00:07:47,750 --> 00:07:49,910
+Step one alone hyphen behav.
+
+121
+00:07:50,150 --> 00:07:57,140
+So you are installing this package because when you install this package, this will help you to create
+
+122
+00:07:57,140 --> 00:08:03,340
+adjacent files like this, which I can understand to convert, to do Hesterman report.
+
+123
+00:08:03,620 --> 00:08:10,640
+So that's why you installed this package first and then you give this command became a hyphen is a flag,
+
+124
+00:08:10,880 --> 00:08:17,690
+and you have to say that generate in a lot formatter and give you the result folder where you want to
+
+125
+00:08:17,690 --> 00:08:21,350
+generate reports and features.
+
+126
+00:08:21,350 --> 00:08:26,380
+So if you have any features, if you don't give anything, it will blindly run all flutists present
+
+127
+00:08:26,390 --> 00:08:27,310
+in your project.
+
+128
+00:08:27,620 --> 00:08:34,640
+So once those dissin files are created, then you download this command line server and from that directory
+
+129
+00:08:34,730 --> 00:08:41,480
+you have a son and give the results for apart part, just like we have given here, and it will give
+
+130
+00:08:41,480 --> 00:08:42,770
+you the browser open.
+
+131
+00:08:43,040 --> 00:08:45,410
+And this is how it looks like.
+
+132
+00:08:46,490 --> 00:08:47,190
+Awesome, right?
+
+133
+00:08:47,570 --> 00:08:54,880
+So that's how you can prepare a report without rewriting or without writing any new code in your framework.
+
+134
+00:08:55,190 --> 00:08:58,210
+So that concludes discussion about pretty desperate.
+
+135
+00:08:58,220 --> 00:09:00,190
+But I hope we really enjoyed this.
+
+136
+00:09:00,470 --> 00:09:09,350
+And as I told you guys, so we have done only 40 to 50 percent framework optimization in this section.
+
+137
+00:09:09,380 --> 00:09:15,360
+And last all we did already in the previous sections by showing these configurations, properties,
+
+138
+00:09:15,380 --> 00:09:22,180
+resources, because if you look at any code, let's say book details.
+
+139
+00:09:22,550 --> 00:09:25,740
+So all these configurations we did not do in this section.
+
+140
+00:09:25,910 --> 00:09:29,920
+This is like core optimization, which is independent of your framework design.
+
+141
+00:09:30,290 --> 00:09:36,440
+So all the core optimizations like endpoints are coming from configuration files and resources is coming
+
+142
+00:09:36,440 --> 00:09:38,980
+from there and payloads are also dynamically generating.
+
+143
+00:09:39,230 --> 00:09:42,380
+I have also shown how to generate paillard from databases.
+
+144
+00:09:42,650 --> 00:09:44,770
+Everything is properly organized.
+
+145
+00:09:44,990 --> 00:09:48,650
+If you see the structures like here features utilities.
+
+146
+00:09:49,070 --> 00:09:55,220
+So we have a nice folder's which will help you to design and build a framework where you can now extend
+
+147
+00:09:55,220 --> 00:09:58,100
+this and create your own aviator's cases.
+
+148
+00:09:58,340 --> 00:10:00,410
+But this is how you can get started.
+
+149
+00:10:00,920 --> 00:10:07,790
+So I hope this section will help you to understand how the frameworks work in real time.
+
+150
+00:10:08,090 --> 00:10:10,190
+So with this we can this section.
+
+151
+00:10:11,580 --> 00:10:17,120
+We have covered all the important topics, what we generally expect when you dissent within a framework,
+
+152
+00:10:17,640 --> 00:10:18,510
+so that's the rub.
+
+153
+00:10:18,840 --> 00:10:24,870
+So in the next section, we will begin phase two of learning, which is independent of this ABA testing
+
+154
+00:10:24,870 --> 00:10:25,520
+and really ready for.
+
+155
+00:10:25,650 --> 00:10:28,950
+But let's put all this aside with a fresh mind set.
+
+156
+00:10:28,950 --> 00:10:36,840
+I will introduce how to relax we face because that helps you to do battle automation and battered by
+
+157
+00:10:36,840 --> 00:10:39,300
+Dobsonville with some visiting in Linux servers.
+
+158
+00:10:39,540 --> 00:10:45,930
+So using Python, you will connect to those servers remotely and execute its commands.
+
+159
+00:10:45,930 --> 00:10:49,890
+Roundabout's commands that a lot of fun stuff you have in the coming sections.
+
+160
+00:10:50,070 --> 00:10:55,980
+But we are wrapping up phase one discussion here and starting fresh with phase two discussion from our
+
+161
+00:10:56,250 --> 00:10:57,040
+next section.
+
+162
+00:10:57,570 --> 00:10:58,040
+All right.
+
+163
+00:10:58,350 --> 00:10:58,890
+Thank you.

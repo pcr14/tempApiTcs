@@ -1,0 +1,407 @@
+1
+00:00:01,200 --> 00:00:01,920
+Welcome back.
+
+2
+00:00:02,190 --> 00:00:09,780
+So in this section, let us create a framework for all the APA automation test, what we have written
+
+3
+00:00:10,020 --> 00:00:13,570
+and wrap over this desk on top of this reality framework.
+
+4
+00:00:13,890 --> 00:00:14,700
+It's very easy.
+
+5
+00:00:15,390 --> 00:00:22,170
+OK, so the next 90 minutes I will go over all these steps and will help you to create your own BGT
+
+6
+00:00:22,170 --> 00:00:24,600
+framework from scratch using Python.
+
+7
+00:00:24,900 --> 00:00:25,310
+All right.
+
+8
+00:00:25,740 --> 00:00:26,790
+So let's get started.
+
+9
+00:00:27,480 --> 00:00:28,830
+So what tools does.
+
+10
+00:00:29,770 --> 00:00:36,910
+Python support for BGT frame, but first you need to understand this, so let's go to the official website
+
+11
+00:00:36,910 --> 00:00:37,660
+of Cucumber.
+
+12
+00:00:39,520 --> 00:00:43,690
+So Cucumber is officially supportability automation tool.
+
+13
+00:00:44,530 --> 00:00:47,140
+OK, so cucumber, not evil.
+
+14
+00:00:49,060 --> 00:00:56,500
+I hope most of you know that cucumber is commonly used whenever there is a scope of BGT for legal framework.
+
+15
+00:00:57,190 --> 00:01:00,130
+OK, so let's go to the dogs.
+
+16
+00:01:01,170 --> 00:01:02,400
+And installation.
+
+17
+00:01:05,100 --> 00:01:05,430
+Right.
+
+18
+00:01:05,460 --> 00:01:14,550
+So we are now in Paten Automation, so we have to get dependencies, are dots related to python cucumber,
+
+19
+00:01:14,550 --> 00:01:14,830
+right?
+
+20
+00:01:15,300 --> 00:01:16,190
+So scroll down.
+
+21
+00:01:16,920 --> 00:01:21,570
+These are the third party plugins available for their respective programming language.
+
+22
+00:01:21,840 --> 00:01:26,930
+So for Java, you can use to combat and for JavaScript, you can convert deice.
+
+23
+00:01:27,180 --> 00:01:29,440
+So like this for Python.
+
+24
+00:01:30,120 --> 00:01:34,500
+So there is a third party tool called behav.
+
+25
+00:01:34,800 --> 00:01:41,640
+So that tool is giving you the support of BGT automation in Python language.
+
+26
+00:01:41,910 --> 00:01:49,470
+OK, so you see that it's not official product after combat, but Cucumber's supports this behav tool
+
+27
+00:01:49,710 --> 00:01:50,460
+for Python.
+
+28
+00:01:50,700 --> 00:01:56,460
+OK, you cannot directly use cucumber for Python, so we don't have dependencies.
+
+29
+00:01:56,460 --> 00:02:00,080
+Are jobs available to directly work Python Lutsenko combat.
+
+30
+00:02:00,390 --> 00:02:04,740
+So Cucumber extends its support with the help of behere.
+
+31
+00:02:05,700 --> 00:02:07,460
+So let's go to the official website.
+
+32
+00:02:07,650 --> 00:02:11,820
+So when you select this, this will take you to the official website.
+
+33
+00:02:11,940 --> 00:02:19,950
+Before you see that, please see the Behere website if you want to active in your framework and get
+
+34
+00:02:19,950 --> 00:02:23,330
+there again to explain what exactly is BGT.
+
+35
+00:02:23,700 --> 00:02:25,850
+OK, so you can see the definition here.
+
+36
+00:02:26,280 --> 00:02:29,330
+Behave is a behavior driven development.
+
+37
+00:02:29,460 --> 00:02:38,670
+Stabilities stands for Behavioral Drayman so you can try your best guess in terms of a normal plain
+
+38
+00:02:38,670 --> 00:02:44,070
+English and you can connect all your English language to the actual code.
+
+39
+00:02:44,500 --> 00:02:46,890
+OK, I will show you some examples of that.
+
+40
+00:02:46,890 --> 00:02:51,360
+You will understand what exactly it is and how that will help.
+
+41
+00:02:51,930 --> 00:02:59,100
+So in agile mobility is commonly used because if you describe your requirements in plain English, so
+
+42
+00:02:59,100 --> 00:03:07,230
+when I say plain English, you have to follow some standards to describe that so that anyone can understand
+
+43
+00:03:07,380 --> 00:03:13,560
+if you put that in that specific standard, so that there will not be any confusion in the way you describe
+
+44
+00:03:13,560 --> 00:03:14,860
+your requirements.
+
+45
+00:03:15,030 --> 00:03:19,170
+So that is why people choose this behavior driven development practice.
+
+46
+00:03:20,070 --> 00:03:22,590
+OK, so I can show you a quick example.
+
+47
+00:03:22,590 --> 00:03:27,030
+How does it look like so here there is something called feature test setup.
+
+48
+00:03:27,540 --> 00:03:28,710
+Let's go here.
+
+49
+00:03:28,830 --> 00:03:30,930
+And there are some examples given here.
+
+50
+00:03:31,990 --> 00:03:32,360
+Right.
+
+51
+00:03:32,740 --> 00:03:40,270
+So this is how you have to define given some condition, like in our case, if you take the example
+
+52
+00:03:40,840 --> 00:03:42,970
+of the project, what we have done.
+
+53
+00:03:44,150 --> 00:03:49,760
+So given we have all the details of headers, you all to add the book.
+
+54
+00:03:50,260 --> 00:03:56,390
+OK, so we have basically book details with us, so we have to send those details in the form of a bit
+
+55
+00:03:56,420 --> 00:04:01,930
+of ad book so that, you know, details will be submitted to the back end and you get a response back.
+
+56
+00:04:02,420 --> 00:04:04,910
+So you have to describe that like this.
+
+57
+00:04:04,910 --> 00:04:15,980
+Given how all the details when I execute an eBay method, then book is successfully added to the database.
+
+58
+00:04:16,430 --> 00:04:19,130
+OK, that is what our actual requirement here is.
+
+59
+00:04:19,790 --> 00:04:20,120
+Right.
+
+60
+00:04:20,150 --> 00:04:21,260
+So we have the data.
+
+61
+00:04:21,260 --> 00:04:23,870
+We had the advocate and we got the message.
+
+62
+00:04:23,870 --> 00:04:25,580
+That book is successfully added.
+
+63
+00:04:26,120 --> 00:04:31,990
+OK, so same thing we were describe in this standard in the given when then.
+
+64
+00:04:32,300 --> 00:04:34,880
+So this language is called Gerkin language.
+
+65
+00:04:35,450 --> 00:04:38,840
+OK, so people, some people call it Gurkin Zipkin.
+
+66
+00:04:38,840 --> 00:04:39,680
+It's up to you.
+
+67
+00:04:39,930 --> 00:04:41,390
+How do you pronounce that.
+
+68
+00:04:41,540 --> 00:04:43,740
+It varies based upon which country you live.
+
+69
+00:04:44,150 --> 00:04:48,080
+So this kind of standards are frightening given Wenden format.
+
+70
+00:04:48,290 --> 00:04:49,910
+We call it Gerkin language.
+
+71
+00:04:50,090 --> 00:04:55,670
+So basically this is like what you have, what you are going to do and what you are expecting you should
+
+72
+00:04:55,670 --> 00:05:00,080
+give in this fashion so that we call as a gerkin language.
+
+73
+00:05:00,290 --> 00:05:04,250
+And we also describe this as a feature in general.
+
+74
+00:05:04,580 --> 00:05:10,280
+When you have a test, I guess you would call it as a test case are sculpturing in which it is standard.
+
+75
+00:05:10,430 --> 00:05:12,460
+If you like something like this, we call it.
+
+76
+00:05:12,460 --> 00:05:13,640
+Does it feature.
+
+77
+00:05:14,440 --> 00:05:20,560
+OK, so one feature file can have multiple scenarios, so this is one test case and you can have another
+
+78
+00:05:20,560 --> 00:05:28,180
+condition, like another test, like given I have details when the action is taken, then verifying
+
+79
+00:05:28,180 --> 00:05:30,040
+that book is successfully deleted.
+
+80
+00:05:30,430 --> 00:05:36,780
+So describe what a test in this way and then write the actual cord and plug in that code to these lines.
+
+81
+00:05:37,060 --> 00:05:38,620
+Also, how to do that as well.
+
+82
+00:05:38,900 --> 00:05:40,670
+OK, so this feature file.
+
+83
+00:05:41,230 --> 00:05:44,190
+So basically a collection of scenarios is called one feature file.
+
+84
+00:05:45,010 --> 00:05:50,910
+So just like how you say a test is how a collection of tests, a feature file collection of scenarios,
+
+85
+00:05:51,190 --> 00:05:57,160
+and here you can write and will the book, but make sure you have to write in the standards of given
+
+86
+00:05:57,160 --> 00:05:57,630
+vendor.
+
+87
+00:05:58,000 --> 00:06:03,790
+OK, we will do a practical example and then you will understand how I am going to describe this in
+
+88
+00:06:03,790 --> 00:06:04,630
+Gurkin language.
+
+89
+00:06:05,020 --> 00:06:05,320
+Right.
+
+90
+00:06:06,010 --> 00:06:08,410
+So let's get started with that.
+
+91
+00:06:08,830 --> 00:06:16,150
+So in this section we will define we will pick up one of two scenarios of automation test, what we
+
+92
+00:06:16,150 --> 00:06:22,870
+have written for the EPA and we will describe them in this feature file standards and then connect this
+
+93
+00:06:22,870 --> 00:06:25,830
+to actual code and implement one BGT framework.
+
+94
+00:06:26,470 --> 00:06:31,730
+This will be very, very easy and you will get all the features, a framework.
+
+95
+00:06:32,110 --> 00:06:38,620
+So in general, what all one can expect in a framework design, everything can be achieved with the
+
+96
+00:06:38,620 --> 00:06:42,590
+help of this behav, with the plain simple English language.
+
+97
+00:06:42,970 --> 00:06:44,900
+So let's see how to achieve that.
+
+98
+00:06:45,910 --> 00:06:50,300
+So in the next lecture, let's get started with installation and take it from there.
+
+99
+00:06:50,590 --> 00:06:58,750
+OK, so we have decided that we are going to use the became a tool to create our behavior driven development
+
+100
+00:06:58,990 --> 00:07:02,180
+rest API automation framework for Python language.
+
+101
+00:07:02,440 --> 00:07:03,400
+Let us continue here.
+
+102
+00:07:03,790 --> 00:07:04,270
+Thank you.

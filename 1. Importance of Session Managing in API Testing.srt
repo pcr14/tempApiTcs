@@ -1,0 +1,431 @@
+1
+00:00:01,320 --> 00:00:07,290
+All right, so in this election, we will see some miscellaneous concepts in the testing, like how
+
+2
+00:00:07,290 --> 00:00:11,970
+to create session manager and how to send and manage cookies, redirection time.
+
+3
+00:00:12,460 --> 00:00:18,550
+And as I told in the last lecture, how to send attachments through your API calls.
+
+4
+00:00:18,920 --> 00:00:19,200
+Right.
+
+5
+00:00:19,530 --> 00:00:26,250
+So let's get started with what is station manager and how do we use that in our API request.
+
+6
+00:00:27,480 --> 00:00:32,620
+OK, so let me go back to the editor.
+
+7
+00:00:33,270 --> 00:00:37,860
+So earlier we have written one test enforced API example.
+
+8
+00:00:38,920 --> 00:00:48,340
+OK, so let's take this example now here of so you hit this end point, GitHub, dot com slash user
+
+9
+00:00:48,820 --> 00:00:57,130
+saw to hit this end point, you actually need to authenticate yourself, because to get that specific
+
+10
+00:00:57,130 --> 00:01:03,370
+user, you have to give credentials so that, you know, you got a proper response here in the output
+
+11
+00:01:03,370 --> 00:01:05,140
+of its data score 200.
+
+12
+00:01:05,470 --> 00:01:09,910
+OK, so now let's say you want to hit another GitHub API.
+
+13
+00:01:11,090 --> 00:01:14,340
+So get her a beer.
+
+14
+00:01:15,350 --> 00:01:18,680
+So let's get started with just 13, you'd have a.
+
+15
+00:01:22,620 --> 00:01:27,160
+OK, so here I will choose a repositories.
+
+16
+00:01:31,560 --> 00:01:39,360
+So there are a number of API requests you have in GitHub, so let's say you want to hit this request
+
+17
+00:01:39,540 --> 00:01:42,930
+list repositories for the authenticated user.
+
+18
+00:01:43,260 --> 00:01:51,630
+So this is an API, which will give you the list of repositories for the user right now to use this
+
+19
+00:01:52,020 --> 00:01:52,680
+API.
+
+20
+00:01:52,860 --> 00:01:54,240
+This is an end.
+
+21
+00:01:55,320 --> 00:01:58,370
+This is a resource basically slash user slash repos.
+
+22
+00:01:58,740 --> 00:02:02,660
+So you already have an API GitHub.
+
+23
+00:02:02,700 --> 00:02:05,780
+Dotcom is the best you are on this Bestival.
+
+24
+00:02:05,790 --> 00:02:09,210
+You have to add this resource to this end point.
+
+25
+00:02:09,600 --> 00:02:10,800
+OK, let me show that.
+
+26
+00:02:11,670 --> 00:02:14,250
+Let's say you are two equals two.
+
+27
+00:02:16,390 --> 00:02:18,150
+So this is a big and point.
+
+28
+00:02:20,120 --> 00:02:28,520
+And after this, they were asking to use the slash you use up and slash the rebels, so basically.
+
+29
+00:02:29,760 --> 00:02:36,930
+This end point will give you the information about a list of repositories for the user you logged in.
+
+30
+00:02:38,130 --> 00:02:38,450
+OK.
+
+31
+00:02:42,870 --> 00:02:43,270
+Right.
+
+32
+00:02:44,400 --> 00:02:49,080
+So for this, you are sequel to Let's Hit the Request.
+
+33
+00:02:49,740 --> 00:02:52,260
+So this is a get request, right?
+
+34
+00:02:52,590 --> 00:02:54,480
+Or requests dark.
+
+35
+00:02:56,010 --> 00:02:57,600
+Get and.
+
+36
+00:03:00,420 --> 00:03:02,700
+So you just need to pass this, you are an.
+
+37
+00:03:03,870 --> 00:03:10,200
+OK, right, so you can hear this request, obviously, it will give you the Adam with the four one
+
+38
+00:03:10,200 --> 00:03:12,430
+four one stands for unauthorized.
+
+39
+00:03:12,840 --> 00:03:16,820
+So if you get the status of Roven forever AIPA constant.
+
+40
+00:03:16,890 --> 00:03:22,870
+So that means there is some authentication required, which you have not sent while making your request
+
+41
+00:03:22,870 --> 00:03:22,920
+to.
+
+42
+00:03:24,060 --> 00:03:31,080
+So let me get a response equals two and print response.
+
+43
+00:03:31,470 --> 00:03:33,000
+Dark status scope.
+
+44
+00:03:35,340 --> 00:03:43,500
+Like, so here I did not stilson any authentication, because if you see here, so this is a list of
+
+45
+00:03:43,500 --> 00:03:48,140
+repositories for authenticated user of which user you are asking.
+
+46
+00:03:48,510 --> 00:03:52,930
+So if you don't give the details, how would you have known for the tools that we are asking?
+
+47
+00:03:53,220 --> 00:03:59,730
+So obviously you will you will have to add this authentication, just like we have done in the previous
+
+48
+00:03:59,730 --> 00:04:01,500
+lecture based authentication.
+
+49
+00:04:01,830 --> 00:04:04,620
+OK, so let me comment about all this code.
+
+50
+00:04:06,040 --> 00:04:08,950
+So this is related to the of a great.
+
+51
+00:04:10,040 --> 00:04:15,650
+So I will just run this course, first of all, and see what is the output I am getting.
+
+52
+00:04:21,360 --> 00:04:28,240
+You see that you guard for one as output because you are not authorized.
+
+53
+00:04:28,980 --> 00:04:32,350
+So let's authorize and give the proper 200 status.
+
+54
+00:04:32,850 --> 00:04:35,570
+So if we get 200 documents or request access.
+
+55
+00:04:36,590 --> 00:04:41,530
+OK, so here we tend to use that name in the last the economy.
+
+56
+00:04:42,110 --> 00:04:47,750
+This is the correct username and you have to send authentication articles to.
+
+57
+00:04:48,800 --> 00:04:49,730
+Get password.
+
+58
+00:04:53,320 --> 00:04:54,790
+So now we're on this again.
+
+59
+00:04:58,000 --> 00:04:59,510
+Selective Service to 200.
+
+60
+00:04:59,860 --> 00:05:06,500
+But one thing to observe here is it's redundant every time when you make a good call for that user.
+
+61
+00:05:06,820 --> 00:05:09,190
+Now, here, for example, there are a lot of apps.
+
+62
+00:05:09,190 --> 00:05:16,390
+You have a list repositories for authenticated user or updated repository get replace the repository
+
+63
+00:05:16,390 --> 00:05:17,460
+disable alerts.
+
+64
+00:05:17,710 --> 00:05:19,450
+So, so many apps have that.
+
+65
+00:05:19,600 --> 00:05:23,950
+If you want to use all this for the average user, you have to end up writing authentication.
+
+66
+00:05:24,220 --> 00:05:31,330
+So why can't the general generalize this and write it on that globally so that it applies to all GitHub
+
+67
+00:05:31,330 --> 00:05:32,490
+related words?
+
+68
+00:05:32,830 --> 00:05:36,140
+OK, so that's the station manager comes into the picture.
+
+69
+00:05:36,970 --> 00:05:41,320
+So here, if you want to create a session, first of all requests.
+
+70
+00:05:41,860 --> 00:05:47,980
+So whatever you want to come, you have to start with requests only because from this library only you
+
+71
+00:05:47,980 --> 00:05:50,140
+have all the matters available.
+
+72
+00:05:50,500 --> 00:05:53,290
+So requests start session.
+
+73
+00:05:53,540 --> 00:05:59,740
+You see, that section is a method which will help you to create one session for you so you can just
+
+74
+00:05:59,740 --> 00:06:02,050
+really see any variable name you can give.
+
+75
+00:06:02,560 --> 00:06:04,240
+So on this session.
+
+76
+00:06:04,720 --> 00:06:11,770
+OK, so this session is nothing but like requests only, but it created one session stream for you on
+
+77
+00:06:11,770 --> 00:06:14,370
+this session as C dot org.
+
+78
+00:06:15,220 --> 00:06:19,410
+So there is a method available for authentication of equal stuff.
+
+79
+00:06:19,780 --> 00:06:26,320
+Then you can carefully password authentication as an input to this session.
+
+80
+00:06:26,830 --> 00:06:33,140
+OK, so now this session is aware that it has to do some authentication.
+
+81
+00:06:33,790 --> 00:06:42,310
+OK, so now in your actual test you can get rid of requests and you can see it's dark get.
+
+82
+00:06:43,350 --> 00:06:43,660
+Right.
+
+83
+00:06:43,890 --> 00:06:46,980
+So what is the difference between a reckless target and session target?
+
+84
+00:06:47,400 --> 00:06:54,310
+So both are safe, but this shouldn't have a capability and it has knowledge of authentication as well.
+
+85
+00:06:54,780 --> 00:06:59,960
+So decision equals to request a normal request library plus any other.
+
+86
+00:06:59,970 --> 00:07:04,020
+It is still configuration you provide as part of your decision.
+
+87
+00:07:04,740 --> 00:07:10,070
+OK, so here, when you say AC, this will already have authentication knowledge.
+
+88
+00:07:10,320 --> 00:07:14,670
+So you need not again provide this in your test.
+
+89
+00:07:15,180 --> 00:07:21,800
+OK, you can directly send with you order so automatically when you make a off target you want to do
+
+90
+00:07:22,170 --> 00:07:22,410
+so.
+
+91
+00:07:22,410 --> 00:07:27,620
+This will first authenticate because we have added that property to your session object.
+
+92
+00:07:28,260 --> 00:07:30,370
+It will have to get and then hit this you are.
+
+93
+00:07:30,810 --> 00:07:33,990
+So this way you can ever writing it in your all get help.
+
+94
+00:07:34,440 --> 00:07:39,100
+You are in places OK, because this is a common Faryab request.
+
+95
+00:07:39,300 --> 00:07:41,600
+So there is no point in repeating it all the time.
+
+96
+00:07:41,610 --> 00:07:46,530
+So create a section manager like this and your property and reuse this instead of request.
+
+97
+00:07:46,620 --> 00:07:47,060
+That's OK.
+
+98
+00:07:47,430 --> 00:07:52,410
+So when you run this again, it should still show you two hundred.
+
+99
+00:07:52,470 --> 00:07:57,780
+You see that there is no change even after your remote authentication because everything is taken over
+
+100
+00:07:57,780 --> 00:07:58,800
+by station manager.
+
+101
+00:07:59,190 --> 00:08:00,870
+You can actually remove here also.
+
+102
+00:08:01,870 --> 00:08:06,770
+You can also you can read more and you can use that, so just for a sample example.
+
+103
+00:08:06,820 --> 00:08:07,810
+I'm not changing it.
+
+104
+00:08:08,050 --> 00:08:13,060
+So this is how we can continue to work on all of have apps using such monitor.
+
+105
+00:08:13,420 --> 00:08:17,860
+So I hope this helps you to understand how to use this.
+
+106
+00:08:18,020 --> 00:08:23,020
+I will still use this when I talk about cookies, you can still add cookies to your station manager,
+
+107
+00:08:23,030 --> 00:08:27,730
+so you need not add cookies to your request every time we are talking minutes later.
+
+108
+00:08:28,240 --> 00:08:28,720
+Thank you.

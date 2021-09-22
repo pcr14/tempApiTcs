@@ -1,0 +1,511 @@
+1
+00:00:01,190 --> 00:00:01,960
+Welcome back.
+
+2
+00:00:02,500 --> 00:00:09,000
+Right, so in the last lecture, we have set up my sequel server and we have successfully opened Workbench.
+
+3
+00:00:09,440 --> 00:00:18,620
+So in this lecture, I will first add a few tables in my sequel server so that we can then use Python
+
+4
+00:00:18,620 --> 00:00:22,940
+Automation to query into that tables and get the results.
+
+5
+00:00:23,280 --> 00:00:31,940
+OK, so I already have one complete sequel query, which you can directly copy into your workbench.
+
+6
+00:00:32,180 --> 00:00:38,690
+You can download this query from this lecture and directly submit this so that it will create a new
+
+7
+00:00:38,690 --> 00:00:39,290
+database.
+
+8
+00:00:39,770 --> 00:00:40,560
+It's very simple.
+
+9
+00:00:40,820 --> 00:00:48,140
+So as we are not going in depth into understanding how to create a database or how to write a query
+
+10
+00:00:48,140 --> 00:00:50,600
+to create a table, because that is out of scope.
+
+11
+00:00:50,930 --> 00:01:00,200
+The overall point of this section is to explain how can we call the queries from Python language into
+
+12
+00:01:00,200 --> 00:01:05,780
+our database and how we read the output data tables using Python.
+
+13
+00:01:05,990 --> 00:01:07,840
+OK, so that's fine.
+
+14
+00:01:07,860 --> 00:01:14,960
+So you can use this second query from this lecture so that it creates a new database called Python Automation
+
+15
+00:01:14,990 --> 00:01:16,090
+in your SQL Server.
+
+16
+00:01:16,310 --> 00:01:22,760
+And we are creating two tables, customer info table, and we are adding fuel records into that customer
+
+17
+00:01:22,760 --> 00:01:23,120
+info.
+
+18
+00:01:23,540 --> 00:01:29,450
+OK, and then I'm creating another table called books and I'm adding fuel records into that books table.
+
+19
+00:01:29,480 --> 00:01:29,930
+That's all.
+
+20
+00:01:29,960 --> 00:01:30,800
+It's very simple.
+
+21
+00:01:31,090 --> 00:01:32,600
+OK, right.
+
+22
+00:01:32,620 --> 00:01:37,040
+So I will execute this so that it will run Step-By-Step.
+
+23
+00:01:37,280 --> 00:01:40,280
+It creates a database and it does all the operations.
+
+24
+00:01:40,550 --> 00:01:40,940
+Great.
+
+25
+00:01:41,480 --> 00:01:47,790
+So you can see that now when you run this entire query, you can download this from this lecture.
+
+26
+00:01:47,890 --> 00:01:54,030
+OK, and after you can see that one table is created with books.
+
+27
+00:01:54,500 --> 00:01:59,520
+So when you do select start from books, then you will get output like this.
+
+28
+00:01:59,690 --> 00:02:03,710
+So these are the books present in our table.
+
+29
+00:02:04,870 --> 00:02:10,760
+So table name is a box, which is present in Python Automation database, right?
+
+30
+00:02:11,050 --> 00:02:15,360
+So similarly, we created the table called customer info.
+
+31
+00:02:16,000 --> 00:02:17,200
+So let me.
+
+32
+00:02:18,560 --> 00:02:19,970
+Can I maximize this?
+
+33
+00:02:26,680 --> 00:02:28,000
+I would put it right.
+
+34
+00:02:28,240 --> 00:02:31,900
+Yeah, similarly, there is one more called select star.
+
+35
+00:02:33,140 --> 00:02:33,790
+Another table.
+
+36
+00:02:33,820 --> 00:02:35,830
+What we created is customary in full.
+
+37
+00:02:41,080 --> 00:02:47,620
+OK, so when you try to go through this, then that will give you the records presenting this customer
+
+38
+00:02:47,620 --> 00:02:48,310
+in people.
+
+39
+00:02:48,700 --> 00:02:54,730
+OK, now first, let's start with this table, OK, so we know that these are the different rules present
+
+40
+00:02:54,730 --> 00:02:55,410
+in this table.
+
+41
+00:02:55,690 --> 00:03:04,060
+So now our goal is to connect to this database through our Python Automation Corp. And from our code,
+
+42
+00:03:04,060 --> 00:03:08,530
+we will give this query so that these results should be retrieved.
+
+43
+00:03:08,530 --> 00:03:08,760
+Right.
+
+44
+00:03:08,980 --> 00:03:13,750
+And our goal is to read this results from our Python code.
+
+45
+00:03:14,170 --> 00:03:21,760
+OK, so if we are able to do that, then tomorrow, if there is any requirement of reading the values
+
+46
+00:03:21,760 --> 00:03:27,210
+from database and or any operations with your Python code, you can easily do it.
+
+47
+00:03:27,430 --> 00:03:34,340
+So key point here is to understand how can we connect to database and how can we hit queries?
+
+48
+00:03:34,360 --> 00:03:37,660
+Right now I am giving this query from Markwayne today.
+
+49
+00:03:37,810 --> 00:03:43,350
+I should be able to give this from Python and I should be able to read all the results from the python.
+
+50
+00:03:43,360 --> 00:03:48,730
+Let's try to understand everything and then we will go back to our previous APA project and say, how
+
+51
+00:03:48,730 --> 00:03:52,150
+can we build the payload dynamically from this bookstaber?
+
+52
+00:03:52,600 --> 00:03:58,550
+OK, so when you do select start from books, you have book name, ISBN Island Ottery.
+
+53
+00:03:58,840 --> 00:04:04,260
+So from these details, let's construct a design for an API.
+
+54
+00:04:04,540 --> 00:04:10,690
+OK, so before going that, let's now understand a basics about Python, my sequel.
+
+55
+00:04:10,990 --> 00:04:17,860
+So first thing, what you need to do is to download a package which supports Python, my sequel Connection.
+
+56
+00:04:18,840 --> 00:04:26,960
+OK, so you can just go to the Google and search for Python, my connector, and we will have yeah,
+
+57
+00:04:26,970 --> 00:04:30,790
+this is the right if you go to their official website.
+
+58
+00:04:31,020 --> 00:04:34,590
+This is the command you have to provide to install.
+
+59
+00:04:36,230 --> 00:04:39,960
+Packets of Misick will connect, select Scoppetta, this clipboard.
+
+60
+00:04:40,340 --> 00:04:42,230
+I already have in my mission.
+
+61
+00:04:43,710 --> 00:04:45,570
+So you can go to terminal.
+
+62
+00:04:48,830 --> 00:04:50,240
+And then give this guy.
+
+63
+00:04:52,660 --> 00:04:54,370
+So that will install.
+
+64
+00:04:55,580 --> 00:05:04,610
+The plug in for you, if not even you can start typing in your file, so automatically this pipe tapping
+
+65
+00:05:04,620 --> 00:05:07,210
+will suggest to you to install that package, you can do that.
+
+66
+00:05:08,060 --> 00:05:11,630
+OK, so we have successfully installed my signal connector python.
+
+67
+00:05:12,020 --> 00:05:15,870
+Now it's time to see one test so far.
+
+68
+00:05:15,890 --> 00:05:20,840
+Now for this lecture, until we understand everything, I will build one standalone test.
+
+69
+00:05:21,050 --> 00:05:26,060
+Thereafter, we will make changes and do all configurations in framework standards.
+
+70
+00:05:26,180 --> 00:05:30,970
+OK, so if I directly start from framework's standards, we will get a little confused.
+
+71
+00:05:30,980 --> 00:05:32,240
+So I don't want to do that.
+
+72
+00:05:33,360 --> 00:05:35,460
+So Python fame and.
+
+73
+00:05:36,600 --> 00:05:39,510
+The name we can give as DB demo.
+
+74
+00:05:44,680 --> 00:05:52,060
+Right, so first of all, you need to import a package called my sequel, Dot Connector.
+
+75
+00:05:52,570 --> 00:05:54,610
+So this is the package you need to import.
+
+76
+00:05:55,720 --> 00:06:02,390
+Mixed, so there is a method in this package, my second dot connector dot.
+
+77
+00:06:03,530 --> 00:06:08,260
+OK, so this method will help you to connect to the database.
+
+78
+00:06:08,650 --> 00:06:12,370
+But this method expects, I think, four parameters.
+
+79
+00:06:12,580 --> 00:06:14,040
+One is a host.
+
+80
+00:06:14,430 --> 00:06:19,980
+So that means where you are database server is present, OK?
+
+81
+00:06:20,020 --> 00:06:21,170
+It is a equal number.
+
+82
+00:06:21,190 --> 00:06:23,170
+Basically that is the first parameter.
+
+83
+00:06:23,380 --> 00:06:26,620
+And next parameter is you have to provide a database name.
+
+84
+00:06:27,280 --> 00:06:30,640
+We'll get one MySQL server can have multiple databases.
+
+85
+00:06:31,030 --> 00:06:36,850
+OK, it can host a number of databases so you can simply create database by giving this commensal.
+
+86
+00:06:38,060 --> 00:06:41,130
+Create a database, and that's all one baby will be created.
+
+87
+00:06:41,630 --> 00:06:43,100
+So that's the second parameter.
+
+88
+00:06:43,520 --> 00:06:46,040
+You have to go, which is you want to conduct.
+
+89
+00:06:46,300 --> 00:06:51,190
+The third one is authentication username and password.
+
+90
+00:06:51,410 --> 00:06:55,080
+So these two details we have to provide to connect to you.
+
+91
+00:06:55,100 --> 00:06:56,930
+One of my sequel server database.
+
+92
+00:06:57,350 --> 00:07:02,930
+OK, so while installing this MySQL server, we have provided one username and password.
+
+93
+00:07:02,930 --> 00:07:03,190
+Right?
+
+94
+00:07:03,500 --> 00:07:11,510
+So those details you have to send in this matter so that don't automatically create one connection string
+
+95
+00:07:11,510 --> 00:07:17,450
+based upon all these details and it will return you the connection object with which you can talk to
+
+96
+00:07:17,450 --> 00:07:19,430
+your database.
+
+97
+00:07:19,880 --> 00:07:20,120
+Right.
+
+98
+00:07:20,420 --> 00:07:22,280
+So let's start giving those values.
+
+99
+00:07:23,350 --> 00:07:29,380
+So as I said, the first one is the host most equals two as it is hosted in our local seven, you can
+
+100
+00:07:29,380 --> 00:07:32,800
+simply give a local host because that's when I was is there.
+
+101
+00:07:32,800 --> 00:07:33,130
+Right.
+
+102
+00:07:33,160 --> 00:07:34,300
+It's now a local mission.
+
+103
+00:07:35,260 --> 00:07:39,150
+Mixed database details database equals two.
+
+104
+00:07:39,970 --> 00:07:41,710
+We just created one database.
+
+105
+00:07:41,710 --> 00:07:43,660
+The name of that is applied on automation.
+
+106
+00:07:44,320 --> 00:07:45,790
+So by dawn automation.
+
+107
+00:07:46,000 --> 00:07:46,360
+Good.
+
+108
+00:07:46,900 --> 00:07:49,150
+And next user.
+
+109
+00:07:50,800 --> 00:07:52,270
+Yuzu is the road.
+
+110
+00:07:54,710 --> 00:08:02,770
+And password, the password, what I have given to establish connection is that I should be economy.com.
+
+111
+00:08:03,200 --> 00:08:06,740
+So this password is nothing but the one which you give to install.
+
+112
+00:08:07,490 --> 00:08:07,910
+OK.
+
+113
+00:08:12,770 --> 00:08:17,300
+OK, so now this method returns a connection object.
+
+114
+00:08:20,520 --> 00:08:27,270
+OK, and now you can simply see if connection is successful or not, you can run and return with this
+
+115
+00:08:27,270 --> 00:08:30,080
+object object that is connected.
+
+116
+00:08:30,270 --> 00:08:34,980
+So this method will return true if connection is successfully established.
+
+117
+00:08:35,350 --> 00:08:37,120
+If not, it will return false.
+
+118
+00:08:37,500 --> 00:08:38,940
+Lizzi Alperin.
+
+119
+00:08:44,540 --> 00:08:50,060
+So make sure you have these details, so you should be doing that because you just installed in the
+
+120
+00:08:50,060 --> 00:08:50,880
+previous lecture.
+
+121
+00:08:51,410 --> 00:08:53,210
+So let me run this past.
+
+122
+00:08:55,040 --> 00:08:55,820
+Perfect, Drew.
+
+123
+00:08:56,030 --> 00:09:01,390
+So that means we have successfully connected to the database called Python Automation.
+
+124
+00:09:01,580 --> 00:09:08,240
+So in this database we created two tables, great customer info and books, so you can happily access
+
+125
+00:09:08,240 --> 00:09:11,470
+it by calling what is on this database.
+
+126
+00:09:11,840 --> 00:09:12,710
+So let's do that.
+
+127
+00:09:14,370 --> 00:09:15,520
+Now our next picture.
+
+128
+00:09:15,840 --> 00:09:16,860
+All right, thank you.

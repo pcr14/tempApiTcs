@@ -1,0 +1,467 @@
+1
+00:00:01,400 --> 00:00:02,120
+Welcome, guys.
+
+2
+00:00:02,420 --> 00:00:09,750
+So in this section, let us see how to perform AIPA automation testing using Biton.
+
+3
+00:00:10,310 --> 00:00:15,280
+OK, so far that we have to download one library available by Python.
+
+4
+00:00:15,680 --> 00:00:18,200
+So the requests library Python.
+
+5
+00:00:19,230 --> 00:00:25,320
+So when you search for this, you will have something in their official documentation request.
+
+6
+00:00:26,040 --> 00:00:35,010
+OK, so this library we were using to automate all our API related testing.
+
+7
+00:00:35,990 --> 00:00:41,810
+So you can just download this from the official website, you need to basically add this package to
+
+8
+00:00:41,810 --> 00:00:45,310
+your Python request to that seven zero.
+
+9
+00:00:45,590 --> 00:00:52,700
+So you just need to install requests that it will automatically get the latest version of Python and
+
+10
+00:00:52,700 --> 00:00:55,740
+it will say to your local Python package.
+
+11
+00:00:56,500 --> 00:01:00,950
+OK, so you can read the documentation here of how to automate all this.
+
+12
+00:01:00,950 --> 00:01:01,580
+But don't worry.
+
+13
+00:01:01,580 --> 00:01:05,530
+I will explain you what all we need to automate.
+
+14
+00:01:06,530 --> 00:01:06,790
+Right.
+
+15
+00:01:06,830 --> 00:01:13,890
+So I will go back to my editor and here I would say in style.
+
+16
+00:01:15,290 --> 00:01:20,180
+So we have configured Python part globally in our system variable rate.
+
+17
+00:01:20,420 --> 00:01:27,110
+So you can start installing it from any part because there is already a global variable part setup for
+
+18
+00:01:27,110 --> 00:01:27,900
+this python and.
+
+19
+00:01:29,520 --> 00:01:37,410
+So fight instead of requests I already have in my mission, so it might tell me that it's installed,
+
+20
+00:01:37,410 --> 00:01:41,040
+but in your case it will get downloaded when you get this.
+
+21
+00:01:41,430 --> 00:01:47,430
+OK, so you need to download this package, then only you will be able to use this package and it.
+
+22
+00:01:48,770 --> 00:01:52,360
+So it's downloading, things are going fine.
+
+23
+00:01:55,200 --> 00:01:57,180
+All right, so it's successfully installed.
+
+24
+00:01:57,600 --> 00:01:59,120
+OK, good.
+
+25
+00:02:00,650 --> 00:02:09,860
+It's trying to index, so let me create one new file on file, and this time I would say a validations.
+
+26
+00:02:13,150 --> 00:02:19,960
+OK, so you first start with import costs, so this is the first thing you have to give.
+
+27
+00:02:20,680 --> 00:02:26,890
+So here it complains that unused imports statement because because we have not yet used this variable
+
+28
+00:02:26,890 --> 00:02:27,330
+anyway.
+
+29
+00:02:27,640 --> 00:02:31,410
+So that's why you will see this growing body that will go away very soon.
+
+30
+00:02:32,470 --> 00:02:38,550
+Right now, where is the EPA, so we just thought we have to perform EPA testing right so far.
+
+31
+00:02:38,740 --> 00:02:40,690
+Let me take one real time example.
+
+32
+00:02:41,930 --> 00:02:46,680
+Let's go back to our website and Iowa City Academy dot com and come to practice projects.
+
+33
+00:02:46,760 --> 00:02:49,910
+So here I have given a bunch of apps to practice.
+
+34
+00:02:50,240 --> 00:02:51,800
+So let's select a library, eBay.
+
+35
+00:02:52,790 --> 00:02:59,180
+And that will redirect you to one Google Drive page where you have access, I have prepared this API
+
+36
+00:02:59,190 --> 00:03:00,170
+just for practice.
+
+37
+00:03:01,100 --> 00:03:01,850
+OK, nice.
+
+38
+00:03:03,340 --> 00:03:06,020
+So this is the best you all.
+
+39
+00:03:06,040 --> 00:03:10,890
+So that means this is the server where my appx is hosting.
+
+40
+00:03:11,620 --> 00:03:17,500
+So I have taken one server and this is the IP address of that server and here where I hosted this library.
+
+41
+00:03:18,370 --> 00:03:26,860
+So to access this appx basically this is about adding the books into the database and deleting the books
+
+42
+00:03:26,860 --> 00:03:29,840
+and retrieving the books, using the alternate.
+
+43
+00:03:30,220 --> 00:03:36,430
+So I will explain what this API does in high level in this lecture, and then we will start automating
+
+44
+00:03:36,430 --> 00:03:37,480
+from our next lecture.
+
+45
+00:03:37,720 --> 00:03:42,700
+OK, the first API, what we have used to add book into that database.
+
+46
+00:03:42,890 --> 00:03:50,910
+So if I provide this endpoint and if I call this API and you have to send the body payload like this,
+
+47
+00:03:51,400 --> 00:03:59,170
+OK, and the method by this post, then this payload will be sent to this API and that will get stored
+
+48
+00:03:59,170 --> 00:03:59,640
+back in.
+
+49
+00:04:00,220 --> 00:04:05,230
+So that way you will get this output in the response from your API.
+
+50
+00:04:05,260 --> 00:04:10,210
+So when you call this API with this payload, it will get a response saying Bookit successfully added
+
+51
+00:04:10,480 --> 00:04:13,510
+and it will assign a unique idea for your book.
+
+52
+00:04:14,080 --> 00:04:17,110
+So that unique idea is a combination of ISBN and.
+
+53
+00:04:18,460 --> 00:04:24,760
+So similarly, if you want to retrieve the books from your database using the author's name, you can
+
+54
+00:04:24,760 --> 00:04:29,760
+prevent the other name and that will give you all the books written by that other.
+
+55
+00:04:31,160 --> 00:04:34,100
+And you can retrieve the book based upon the 80 number.
+
+56
+00:04:34,520 --> 00:04:40,370
+OK, so first, when you add a book, you get a response like this, right, with 80 captured daily.
+
+57
+00:04:40,420 --> 00:04:45,710
+And if you want to retrieve the details, that is another AIPA, which you can just need to send that
+
+58
+00:04:45,860 --> 00:04:49,190
+80 and automatically it gives you the complete book details.
+
+59
+00:04:49,760 --> 00:04:52,490
+And fourth one is it the first one is adding.
+
+60
+00:04:52,490 --> 00:04:59,900
+And last you can delete the book by sending this book in as an input and then you get this as a response.
+
+61
+00:04:59,920 --> 00:05:01,090
+The book will get deleted.
+
+62
+00:05:01,280 --> 00:05:01,520
+Right.
+
+63
+00:05:01,540 --> 00:05:03,470
+So these are the bunch of operations we have.
+
+64
+00:05:03,890 --> 00:05:04,610
+So I have a.
+
+65
+00:05:05,490 --> 00:05:10,240
+A postman told where I can show you visually how this app works, guys.
+
+66
+00:05:10,530 --> 00:05:16,320
+One thing you need to understand here, I'm not going in depth to explain what is what is and point
+
+67
+00:05:16,320 --> 00:05:21,330
+what is requestion response, because that is out of scope of discourse.
+
+68
+00:05:21,630 --> 00:05:28,560
+In this course, we are only seeing about how to automate manual API testing process.
+
+69
+00:05:29,130 --> 00:05:34,560
+But if you are not aware of what is API testing, then I would recommend you to watch my YouTube to
+
+70
+00:05:34,560 --> 00:05:41,340
+the audience because that is one playlist which explains what is API and how does it work in real time.
+
+71
+00:05:41,700 --> 00:05:45,660
+So you can get the basics there and you can come back to see how to test it.
+
+72
+00:05:45,870 --> 00:05:46,150
+Right.
+
+73
+00:05:46,440 --> 00:05:51,570
+Because if I start talking about what is API, that itself will take a few hours of time, which we
+
+74
+00:05:51,570 --> 00:05:52,910
+will completely get deviated.
+
+75
+00:05:53,460 --> 00:05:59,850
+So but still, I mean, high level explain what is the API we are going to do in the schools and then
+
+76
+00:05:59,850 --> 00:06:01,140
+we'll see how to automate it.
+
+77
+00:06:01,860 --> 00:06:02,130
+Right.
+
+78
+00:06:02,160 --> 00:06:09,180
+So this is the Adbul and this is the end point where you need to hit you need to call this API from
+
+79
+00:06:09,180 --> 00:06:09,810
+this end point.
+
+80
+00:06:09,930 --> 00:06:12,030
+So that book will be added into the database.
+
+81
+00:06:12,510 --> 00:06:15,660
+So these are the details you have to send as a body, right.
+
+82
+00:06:16,230 --> 00:06:18,870
+So let me say a real city to the other.
+
+83
+00:06:19,680 --> 00:06:25,740
+And you can give any ISP and I'll make sure you give the unique combination because the book is already
+
+84
+00:06:25,740 --> 00:06:29,480
+present with this combination, it will tell you that existing database.
+
+85
+00:06:30,360 --> 00:06:35,720
+So once you give the readings by the unit and Henders.
+
+86
+00:06:36,750 --> 00:06:43,040
+Request so that it will talk to back in September and it gives a response like this successfully added.
+
+87
+00:06:43,650 --> 00:06:45,680
+So using Python we have the automated.
+
+88
+00:06:45,720 --> 00:06:51,360
+So we have to create one request which have all these details, and we have to submit to the API so
+
+89
+00:06:51,360 --> 00:06:53,850
+that you will get a response like this back, Anderson.
+
+90
+00:06:54,120 --> 00:06:57,510
+And you have to pass the Gissen and retrieve the idea out of it.
+
+91
+00:06:58,160 --> 00:06:59,910
+OK, that's an ebook.
+
+92
+00:07:00,890 --> 00:07:05,490
+And if you want to get any book by attorney so you can simply give the other name.
+
+93
+00:07:05,810 --> 00:07:12,810
+So right now you're are a book of Travelocity to write so you can provide an opportunity to sort out
+
+94
+00:07:12,820 --> 00:07:13,900
+a name and submit.
+
+95
+00:07:14,210 --> 00:07:19,030
+So it will give you all the books present in the database with this other right.
+
+96
+00:07:19,700 --> 00:07:24,990
+So in the ad book, ISBN Bases at 227 is what you just added.
+
+97
+00:07:25,340 --> 00:07:26,920
+So in response, we got back.
+
+98
+00:07:27,170 --> 00:07:27,480
+Right.
+
+99
+00:07:27,530 --> 00:07:29,810
+But there is another book also with the same guy.
+
+100
+00:07:30,550 --> 00:07:32,240
+So like this this is how we get a response.
+
+101
+00:07:32,480 --> 00:07:37,270
+And here we are using get request for and for and what we are doing post request.
+
+102
+00:07:37,640 --> 00:07:43,400
+Similarly, you can delete the book so once you get a combination of it.
+
+103
+00:07:43,970 --> 00:07:51,020
+So take this and you can pass inside the book and the subject and that book will get deleted and you
+
+104
+00:07:51,020 --> 00:07:52,130
+will get a message.
+
+105
+00:07:53,510 --> 00:08:00,350
+OK, so book does not exist because you see that around the Economy.com is that you are using, but
+
+106
+00:08:00,370 --> 00:08:04,980
+previously this is the you are we have used OK, so let's replace it.
+
+107
+00:08:05,240 --> 00:08:09,630
+I actually have this AIPA in that to serve as one on my own website.
+
+108
+00:08:09,770 --> 00:08:14,570
+I was at the Academy dot com and I have here as well and both databases are different.
+
+109
+00:08:14,990 --> 00:08:18,110
+OK, so the database video added book is in the server.
+
+110
+00:08:19,050 --> 00:08:24,720
+But when you try to retrieve from that server, that's why I'm saying I don't have that book and now
+
+111
+00:08:24,720 --> 00:08:30,220
+it will give you the correct one because you are hitting a database so bogus, successfully deleted.
+
+112
+00:08:31,200 --> 00:08:31,560
+All right.
+
+113
+00:08:31,780 --> 00:08:36,060
+So that's about how you can test manually this library app.
+
+114
+00:08:36,690 --> 00:08:42,630
+Our goal is to automate this, which we will start from our next lecture because we have already downloaded
+
+115
+00:08:42,630 --> 00:08:45,510
+this request package, which will help us to automate that.
+
+116
+00:08:46,010 --> 00:08:46,260
+Right.
+
+117
+00:08:46,710 --> 00:08:47,220
+Thank you.

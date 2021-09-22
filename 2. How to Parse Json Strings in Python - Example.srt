@@ -1,0 +1,531 @@
+1
+00:00:01,480 --> 00:00:02,160
+Welcome this.
+
+2
+00:00:02,410 --> 00:00:11,410
+So now let's get started with our first project of automating the manual apparatus cases using Python
+
+3
+00:00:11,560 --> 00:00:12,340
+libraries.
+
+4
+00:00:12,550 --> 00:00:15,100
+OK, so we will get started with this project one.
+
+5
+00:00:15,250 --> 00:00:25,060
+But before you start with API automation, you first of all have to understand how to pass a requests
+
+6
+00:00:25,060 --> 00:00:26,560
+are decent responses.
+
+7
+00:00:27,160 --> 00:00:33,430
+OK, so in the next two, three lectures, I will show what are different Python packages or modules
+
+8
+00:00:33,430 --> 00:00:39,680
+available to pass you over to Jason files and then extract the values out of it.
+
+9
+00:00:39,970 --> 00:00:46,600
+So no matter how complex you are dishonest, you can still be able to pass it with very simple techniques
+
+10
+00:00:46,840 --> 00:00:48,080
+using Python models.
+
+11
+00:00:48,400 --> 00:00:53,800
+So once a good enough knowledge on this isn't passing, then I can directly jump in to show how API
+
+12
+00:00:53,800 --> 00:00:54,820
+automation works.
+
+13
+00:00:55,180 --> 00:00:55,590
+All right.
+
+14
+00:00:55,900 --> 00:01:02,500
+But before that, make sure you have enough knowledge on list tables and big data types.
+
+15
+00:01:02,800 --> 00:01:06,780
+These three data types we will use heavily in this first project.
+
+16
+00:01:07,120 --> 00:01:11,800
+So be aware of having that knowledge and let's get started.
+
+17
+00:01:12,160 --> 00:01:19,060
+So in this lecture, let's start understanding passing Jason files so far that I would create one new
+
+18
+00:01:19,060 --> 00:01:23,050
+Python file and let's call it as Jason passing.
+
+19
+00:01:26,390 --> 00:01:34,250
+OK, now, by default, there is one package available in Python to pass all over this incanting.
+
+20
+00:01:34,580 --> 00:01:37,040
+So that package name is nothing but a.
+
+21
+00:01:38,000 --> 00:01:45,050
+So first you need to import that package into your Python file so that you can perform the operations
+
+22
+00:01:45,320 --> 00:01:47,540
+using this as an object.
+
+23
+00:01:48,180 --> 00:01:52,340
+OK, now, for example, I have this dissin file with me.
+
+24
+00:01:53,130 --> 00:01:53,390
+Right.
+
+25
+00:01:53,690 --> 00:01:59,990
+So if you see this, doesn't it have to kiss your name and language?
+
+26
+00:02:00,560 --> 00:02:08,240
+And in Python terminology here, language just is a list because it have a square bracket, isn't it?
+
+27
+00:02:08,660 --> 00:02:15,170
+So key value is languages, but the value of these languages is a list.
+
+28
+00:02:15,740 --> 00:02:17,920
+OK, so that's how this Jason is done.
+
+29
+00:02:18,410 --> 00:02:18,900
+That's fine.
+
+30
+00:02:19,070 --> 00:02:23,540
+So our overall goal is to pass this Gissen and extract value out of it.
+
+31
+00:02:24,230 --> 00:02:28,040
+So first, let's try to understand how to get the first language.
+
+32
+00:02:29,020 --> 00:02:30,250
+Present this, Jason.
+
+33
+00:02:31,280 --> 00:02:40,220
+OK, so I will take this complaint, Jason, and there is a method in Python which will help you to
+
+34
+00:02:40,220 --> 00:02:45,810
+pass the decent string and it will convert it into a dictionary.
+
+35
+00:02:46,190 --> 00:02:52,610
+So before that, first I would declare one variable and inside this variable, I will paste my Jason's
+
+36
+00:02:52,610 --> 00:02:52,940
+string.
+
+37
+00:02:53,870 --> 00:02:58,640
+OK, so if you do the string you should have pursued in courts and inside this, the courts, you can
+
+38
+00:02:58,640 --> 00:03:01,020
+give you a decent canting.
+
+39
+00:03:02,270 --> 00:03:07,140
+OK, so let's write all this in one single line for now, because it's a simple one, right?
+
+40
+00:03:07,550 --> 00:03:08,930
+So I would.
+
+41
+00:03:10,310 --> 00:03:11,210
+Right back.
+
+42
+00:03:12,680 --> 00:03:13,610
+OK, awesome.
+
+43
+00:03:13,910 --> 00:03:20,490
+So this is your Jason and you have stored your and as a string variable.
+
+44
+00:03:20,900 --> 00:03:25,790
+OK, so this causes string variable is holding UBA days and counting.
+
+45
+00:03:26,210 --> 00:03:35,840
+Now, to parse this, there is a method available in Python cartloads which will help you to pass Jason's
+
+46
+00:03:35,840 --> 00:03:40,550
+string and it returns dictionary.
+
+47
+00:03:41,920 --> 00:03:48,340
+OK, so the whole Jayson's doing whatever you saw now will be returned as one big snotty object.
+
+48
+00:03:48,940 --> 00:03:55,480
+OK, so once you get that into a dictionary object, it's easy for us to access the content in the dictionary.
+
+49
+00:03:55,480 --> 00:03:55,730
+Right.
+
+50
+00:03:55,840 --> 00:03:58,660
+Which we have already seen in our previous sections.
+
+51
+00:03:59,110 --> 00:04:03,730
+So that's why I keep on stressing that couples list and dictionary.
+
+52
+00:04:04,000 --> 00:04:06,280
+These three are more important data types.
+
+53
+00:04:06,460 --> 00:04:13,570
+You need to understand how to retrieve the content from it because in real time, all formats we have,
+
+54
+00:04:13,570 --> 00:04:19,780
+ultimately we will convert all these farmers into dictionaries on the list and try to access them from
+
+55
+00:04:19,780 --> 00:04:21,310
+those lists.
+
+56
+00:04:21,640 --> 00:04:22,450
+It's very simple.
+
+57
+00:04:22,840 --> 00:04:29,320
+So using the distant object, which you just imported, Jason Dark, that is the method cartloads.
+
+58
+00:04:29,790 --> 00:04:32,590
+OK, so use this method and insert this method.
+
+59
+00:04:32,600 --> 00:04:37,440
+You need to pass this string, which is having a decent content.
+
+60
+00:04:37,870 --> 00:04:38,170
+Right.
+
+61
+00:04:38,440 --> 00:04:44,770
+So when you run this method now, it will extract the decent string content and it will convert that
+
+62
+00:04:44,770 --> 00:04:45,700
+into a dictionary.
+
+63
+00:04:46,390 --> 00:04:48,820
+OK, so let me throw this into one variable.
+
+64
+00:04:50,680 --> 00:04:50,810
+Right.
+
+65
+00:04:50,950 --> 00:04:55,780
+So right now I have this entire content in dictionary database.
+
+66
+00:04:56,440 --> 00:05:02,860
+So how would you confirm if it's written in dictionary are not you know, that there is one method in
+
+67
+00:05:02,860 --> 00:05:10,930
+Python, which is correct type, which will tell you what kind of data about the variable you pass inside
+
+68
+00:05:10,930 --> 00:05:11,260
+of this.
+
+69
+00:05:12,110 --> 00:05:13,540
+OK, so let me put this.
+
+70
+00:05:15,630 --> 00:05:21,370
+All right, so I can run this python file with the shark out of control shift and the.
+
+71
+00:05:24,160 --> 00:05:24,590
+Awesome.
+
+72
+00:05:24,960 --> 00:05:31,750
+You see that glass dictionary, so it clearly tells us that whatever we have is a dictionary now.
+
+73
+00:05:32,410 --> 00:05:33,310
+OK, nice.
+
+74
+00:05:33,610 --> 00:05:41,920
+So if you print again the complete variable, this time it will again return the same content, whatever
+
+75
+00:05:41,920 --> 00:05:43,060
+you have in your Gissen.
+
+76
+00:05:43,250 --> 00:05:45,080
+But this time this is a dictionary.
+
+77
+00:05:45,640 --> 00:05:52,480
+Now, when you have it as a dictionary, you know how to access items in dictionary, right?
+
+78
+00:05:52,870 --> 00:06:00,400
+So in dictionary, let's say this is the one name is the key value is the.
+
+79
+00:06:01,510 --> 00:06:08,410
+Our value of the name, right, similarly, there is another key totally in this study, there are to
+
+80
+00:06:08,410 --> 00:06:14,540
+kiss me and language and the value of these languages is not strength.
+
+81
+00:06:15,250 --> 00:06:17,170
+So what is the value of this name?
+
+82
+00:06:17,200 --> 00:06:19,020
+It's a just a string called Rovell.
+
+83
+00:06:19,030 --> 00:06:24,340
+Should be, but the value of these languages is a list.
+
+84
+00:06:24,620 --> 00:06:26,160
+You see that square brackets.
+
+85
+00:06:26,470 --> 00:06:26,930
+OK.
+
+86
+00:06:27,730 --> 00:06:28,210
+OK.
+
+87
+00:06:28,240 --> 00:06:36,370
+Now using this, if our goal is to extract the name present in the gissen, as you have got that in
+
+88
+00:06:36,370 --> 00:06:43,990
+two dictionaries, you can simply say the dictionary of the name and that's it.
+
+89
+00:06:44,260 --> 00:06:50,580
+So this will put into the content because it's so simple, right.
+
+90
+00:06:53,640 --> 00:07:00,300
+You see that so you have successfully access to your first variable from the descent to do that, you
+
+91
+00:07:00,300 --> 00:07:05,700
+have smartly converted this entire system into a dictionary format using this slots matter.
+
+92
+00:07:05,850 --> 00:07:10,300
+And then you are simply accessing the values present in this, Jason.
+
+93
+00:07:10,860 --> 00:07:13,900
+Now, let me give you one trigger scenario.
+
+94
+00:07:14,340 --> 00:07:21,360
+So my goal here is to get me the first language taught by an object.
+
+95
+00:07:23,730 --> 00:07:27,520
+So in our case, it's a Java.
+
+96
+00:07:27,690 --> 00:07:29,860
+So how would you pull this, let's say?
+
+97
+00:07:30,780 --> 00:07:38,310
+Again, let us stick to our basics, first of all, to access any content, you have to call it with
+
+98
+00:07:38,310 --> 00:07:38,790
+the key, right?
+
+99
+00:07:39,210 --> 00:07:41,700
+So if I call with languages.
+
+100
+00:07:42,420 --> 00:07:44,460
+OK, so if I print this, what happens?
+
+101
+00:07:44,790 --> 00:07:52,470
+It will simply print the value present in this key because you are calling the key and this is how the
+
+102
+00:07:52,470 --> 00:07:53,520
+value will be printed.
+
+103
+00:07:54,440 --> 00:07:56,390
+OK, now let's see.
+
+104
+00:07:57,330 --> 00:07:59,440
+Right, so it printed me up.
+
+105
+00:08:00,240 --> 00:08:04,710
+So by seeing this output, I understood that this is a list, right?
+
+106
+00:08:04,950 --> 00:08:13,740
+So this is nothing but the whatever you have extracted with this score written that list.
+
+107
+00:08:13,900 --> 00:08:20,070
+So I will carefully copy this into another variable now, because the output of this is a list, right.
+
+108
+00:08:20,160 --> 00:08:23,880
+List of languages, something like this.
+
+109
+00:08:26,150 --> 00:08:33,120
+OK, now what is this return to this return by now should be obviously lost because of square brackets.
+
+110
+00:08:33,420 --> 00:08:35,570
+Let's let's check again, babe.
+
+111
+00:08:36,140 --> 00:08:40,960
+I'm telling you from Root so that, you know, you can understand once you get familiar, you can basically
+
+112
+00:08:41,510 --> 00:08:42,560
+everything in one step.
+
+113
+00:08:43,010 --> 00:08:49,400
+So to understand how to pass this step by step, I'm showing you all this process and let's run.
+
+114
+00:08:50,800 --> 00:08:52,200
+You see that written list?
+
+115
+00:08:52,480 --> 00:08:57,800
+It's obvious because when you access this dictionary, the value of this dictionary is nothing but list.
+
+116
+00:08:58,120 --> 00:08:59,810
+OK, fine, regardless.
+
+117
+00:09:00,010 --> 00:09:01,250
+But what is our ultimate goal?
+
+118
+00:09:01,630 --> 00:09:09,250
+So we understood that it returns the list, but now we need to print first item in that list because
+
+119
+00:09:09,250 --> 00:09:10,600
+that's what our overall goal is.
+
+120
+00:09:10,600 --> 00:09:10,850
+Right.
+
+121
+00:09:10,870 --> 00:09:12,130
+Get me the first language.
+
+122
+00:09:12,140 --> 00:09:13,060
+Start by the trainer.
+
+123
+00:09:13,450 --> 00:09:21,130
+So if this is the list, if you want to access the first item and again, it's simple language.
+
+124
+00:09:22,350 --> 00:09:28,840
+How do you access the first zero when you call zero, then first item will be retrieved?
+
+125
+00:09:29,100 --> 00:09:32,370
+So this is how you can actually retrieve the Java.
+
+126
+00:09:33,660 --> 00:09:38,600
+OK, so now when you're under, your output will be Jawa, perfect, you see that?
+
+127
+00:09:38,610 --> 00:09:40,290
+How did we approach the logic?
+
+128
+00:09:40,620 --> 00:09:46,970
+First we converted into a big study and then when we call the key the study of this key, the value,
+
+129
+00:09:46,980 --> 00:09:48,120
+whatever it into the list.
+
+130
+00:09:48,300 --> 00:09:52,410
+And again, we pass through to this list and brought up the zeroth index.
+
+131
+00:09:52,890 --> 00:09:57,620
+And this is how you need to pass over Jason using locksmithing.
+
+132
+00:09:57,840 --> 00:10:03,340
+So that is one approach that a number of ways to pass this, which will be seeing in our next lecture.
+
+133
+00:10:03,660 --> 00:10:04,140
+Thank you.

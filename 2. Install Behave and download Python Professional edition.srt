@@ -1,0 +1,591 @@
+1
+00:00:01,060 --> 00:00:07,120
+OK, so let's get started with installation of the hip, so I will point you to the official website
+
+2
+00:00:07,120 --> 00:00:13,150
+so that tomorrow, if something changed, you can just follow how I am doing and repeat the same process
+
+3
+00:00:13,360 --> 00:00:14,740
+to get the latest changes.
+
+4
+00:00:14,980 --> 00:00:20,130
+OK, so once you have installed here, we did not install yet.
+
+5
+00:00:20,140 --> 00:00:22,170
+So let's click on this and see what's going on.
+
+6
+00:00:23,150 --> 00:00:31,250
+OK, so here they have clearly given instructions of how to download behave so you can take this comment
+
+7
+00:00:31,550 --> 00:00:32,300
+install.
+
+8
+00:00:33,560 --> 00:00:36,890
+Get history dubious so you can go ahead and install it.
+
+9
+00:00:37,070 --> 00:00:40,810
+I already have in my mission, so I don't install this.
+
+10
+00:00:41,240 --> 00:00:45,400
+So when you click and enter, you will get installed in your system.
+
+11
+00:00:46,070 --> 00:00:47,240
+So behave.
+
+12
+00:00:48,350 --> 00:00:49,580
+OK, that is a step one.
+
+13
+00:00:50,920 --> 00:00:59,260
+So once you install it, the next step is to have an ED to continue your framework, and you might wonder,
+
+14
+00:00:59,260 --> 00:01:02,130
+like, why would I need a ED?
+
+15
+00:01:02,140 --> 00:01:04,620
+Because I already have this fight on.
+
+16
+00:01:05,200 --> 00:01:12,800
+But one problem with Paten is that it do not support really framework.
+
+17
+00:01:13,150 --> 00:01:15,370
+OK, you don't support FITA fights.
+
+18
+00:01:15,880 --> 00:01:21,490
+When I say fights and don't support, that means fight some community work and don't support.
+
+19
+00:01:21,850 --> 00:01:25,220
+There are two versions of it available in their website.
+
+20
+00:01:25,480 --> 00:01:30,140
+One is community version, which is a free to download and another is a professional version.
+
+21
+00:01:30,520 --> 00:01:39,360
+OK, so these guys have the ability, framework, support only for better uses for professional edition.
+
+22
+00:01:39,850 --> 00:01:44,950
+But don't worry, it's touchiness free trial is that we can still downloading this course and we can
+
+23
+00:01:44,950 --> 00:01:45,640
+do practice.
+
+24
+00:01:46,150 --> 00:01:51,340
+But after that ludus, it might ask you to provide latency.
+
+25
+00:01:51,550 --> 00:01:58,390
+OK, so the free version is not having support to create future files because future files is what we
+
+26
+00:01:58,390 --> 00:01:59,360
+are going to create.
+
+27
+00:01:59,560 --> 00:02:02,190
+I just explained in the previous lecture.
+
+28
+00:02:02,200 --> 00:02:02,460
+Right.
+
+29
+00:02:03,100 --> 00:02:09,850
+So every test we describe in terms of Gurkin language by creating a feature file like this and when
+
+30
+00:02:09,850 --> 00:02:14,590
+you create a feature file, that extension, that of that file is DARD Fetim.
+
+31
+00:02:15,100 --> 00:02:19,590
+So till now, when we create any file here, the extension here is dart player.
+
+32
+00:02:19,600 --> 00:02:19,840
+Right?
+
+33
+00:02:20,170 --> 00:02:27,060
+So that feature extension files are not supported in that community version of Biton.
+
+34
+00:02:27,490 --> 00:02:30,460
+So that's why I downloaded a professional version.
+
+35
+00:02:30,790 --> 00:02:33,610
+So you can see about Paten professional is there.
+
+36
+00:02:33,880 --> 00:02:35,140
+So you can also get it.
+
+37
+00:02:35,170 --> 00:02:36,100
+I can picture.
+
+38
+00:02:36,100 --> 00:02:37,540
+How does that happen.
+
+39
+00:02:38,140 --> 00:02:40,510
+So I download.
+
+40
+00:02:41,860 --> 00:02:47,830
+So we have to do this free version so you can still practice it and thereafter, if you are working
+
+41
+00:02:47,830 --> 00:02:53,870
+in any company, obviously they will provide if they have really a framework developed.
+
+42
+00:02:54,960 --> 00:02:58,020
+So, yeah, you can see that free trial.
+
+43
+00:02:58,690 --> 00:03:01,530
+You can go ahead and download this for 30 days.
+
+44
+00:03:02,050 --> 00:03:07,630
+I think you can still extend also after 30 days for every 10 days, it will ask to extend.
+
+45
+00:03:07,630 --> 00:03:13,630
+So you can still continue in practice because I have this for more than a month and I'm still using
+
+46
+00:03:13,630 --> 00:03:15,460
+it happening somewhere it stuff.
+
+47
+00:03:15,460 --> 00:03:17,380
+But meanwhile, let's complete this.
+
+48
+00:03:17,560 --> 00:03:22,960
+OK, so once you download and then you can open your project, you have already this project created.
+
+49
+00:03:22,960 --> 00:03:23,200
+Right.
+
+50
+00:03:23,410 --> 00:03:29,680
+So fine, you can stay open and then you can choose that project which you already created and open
+
+51
+00:03:29,680 --> 00:03:31,870
+in your by some professional edition.
+
+52
+00:03:32,650 --> 00:03:40,420
+So once you open that, Ed, you are done with having a nice editor with you because only this election
+
+53
+00:03:40,420 --> 00:03:42,360
+is going to support plugins.
+
+54
+00:03:42,970 --> 00:03:49,600
+All right, guys, you have the hip installed with the installation of the camera on you and you have
+
+55
+00:03:49,600 --> 00:03:50,220
+additions as well.
+
+56
+00:03:50,440 --> 00:03:52,690
+Now, let's get started with our actual call.
+
+57
+00:03:53,750 --> 00:03:57,350
+So for this, I will create one folder under this package.
+
+58
+00:03:58,400 --> 00:03:58,710
+Right.
+
+59
+00:03:59,000 --> 00:04:06,250
+So right, like new I would directory and directory, let's call it as a fetus.
+
+60
+00:04:06,560 --> 00:04:14,970
+So that way I am creating project is very important because we expect you to follow some conventions.
+
+61
+00:04:15,230 --> 00:04:20,290
+So it checks for all the future files only in the fetus directory.
+
+62
+00:04:20,570 --> 00:04:22,950
+So you have to create a directory like this.
+
+63
+00:04:23,300 --> 00:04:24,770
+So make sure you create one.
+
+64
+00:04:26,910 --> 00:04:34,380
+And under this fetus, let's create a new feature file new and scroll down and you will see Gurkin feature
+
+65
+00:04:34,380 --> 00:04:34,650
+five.
+
+66
+00:04:35,250 --> 00:04:41,220
+As I told you, this option will not be available if you try to use quite some community edition.
+
+67
+00:04:41,560 --> 00:04:41,850
+OK.
+
+68
+00:04:43,170 --> 00:04:44,670
+And let's say does.
+
+69
+00:04:47,220 --> 00:04:49,860
+Book AIPA is a feature film.
+
+70
+00:04:51,840 --> 00:04:52,170
+Right.
+
+71
+00:04:52,410 --> 00:04:56,040
+You see that pretty far in our data is already there here.
+
+72
+00:04:56,070 --> 00:04:58,410
+So this is the syntax feature.
+
+73
+00:04:59,310 --> 00:05:01,740
+It's like you are best Sweetenham.
+
+74
+00:05:01,740 --> 00:05:06,830
+You can treat it as a test case because one feature will have multiple test cases.
+
+75
+00:05:07,170 --> 00:05:07,840
+So better.
+
+76
+00:05:07,860 --> 00:05:11,330
+Let's have let's treat future as one test to sleep, OK?
+
+77
+00:05:11,370 --> 00:05:17,250
+At best, a suite which actually verifies and validates the book at a library.
+
+78
+00:05:18,210 --> 00:05:23,220
+OK, so you can say verify your books.
+
+79
+00:05:26,240 --> 00:05:29,570
+Are anger and deleted
+
+80
+00:05:32,180 --> 00:05:33,300
+using library.
+
+81
+00:05:34,160 --> 00:05:35,770
+So this is our filter.
+
+82
+00:05:35,870 --> 00:05:42,180
+Mmm, something like this, a description now scenario is what you are actually a test case.
+
+83
+00:05:42,590 --> 00:05:47,360
+So let's say we have one test available here.
+
+84
+00:05:47,370 --> 00:05:47,650
+Right.
+
+85
+00:05:47,660 --> 00:05:50,310
+Let's dig this ad payload.
+
+86
+00:05:50,720 --> 00:05:52,990
+So here I'm not using beebee interaction.
+
+87
+00:05:53,000 --> 00:05:56,210
+I'm using the interaction which we have created with this.
+
+88
+00:05:56,510 --> 00:06:03,410
+OK, so let's assume that we need to provide data from our file, not from the database.
+
+89
+00:06:03,800 --> 00:06:10,310
+OK, so we can drive this data from cucumber filter files instead of driving it from the files like
+
+90
+00:06:10,310 --> 00:06:10,550
+this.
+
+91
+00:06:10,770 --> 00:06:11,340
+I'll show you.
+
+92
+00:06:12,290 --> 00:06:13,460
+So I will pick this.
+
+93
+00:06:14,660 --> 00:06:16,860
+And what does this test against us?
+
+94
+00:06:17,150 --> 00:06:24,140
+So this will add a book and then it will immediately delete again and it is validating if book is successfully
+
+95
+00:06:24,140 --> 00:06:24,640
+deleted.
+
+96
+00:06:24,650 --> 00:06:24,920
+Right.
+
+97
+00:06:25,310 --> 00:06:29,770
+So this is what this test against us are and delete it immediately.
+
+98
+00:06:29,990 --> 00:06:33,290
+So this way we are relating to add and delete.
+
+99
+00:06:33,680 --> 00:06:35,690
+So let's start with an ebook here.
+
+100
+00:06:36,660 --> 00:06:39,600
+So I will describe a scenario like this.
+
+101
+00:06:44,120 --> 00:06:51,650
+But if I add Apria functionality, so this is my desk is.
+
+102
+00:06:53,840 --> 00:07:00,700
+So enter steps here and you can start by giving in given when then standard, I show you right.
+
+103
+00:07:00,710 --> 00:07:02,180
+How given Wendon standards.
+
+104
+00:07:02,210 --> 00:07:09,470
+Well, OK, so you have downloaded behav with install.
+
+105
+00:07:09,860 --> 00:07:16,430
+So make sure the compiler what you are community and professional edition have matches with that because
+
+106
+00:07:16,430 --> 00:07:18,350
+you downloaded it globally.
+
+107
+00:07:18,890 --> 00:07:21,850
+OK, so pippins done is done globally.
+
+108
+00:07:22,340 --> 00:07:30,710
+So that means you have to make sure the Python compiler, which is used globally, is also pointing
+
+109
+00:07:30,710 --> 00:07:31,220
+to this.
+
+110
+00:07:31,520 --> 00:07:32,050
+Ed.
+
+111
+00:07:32,390 --> 00:07:33,490
+OK, let's confirm that.
+
+112
+00:07:33,860 --> 00:07:38,750
+So fine settings and you can come to
+
+113
+00:07:41,300 --> 00:07:50,660
+Project Python interpreter and make sure you select the compiler, which it's globally there, because
+
+114
+00:07:51,170 --> 00:07:53,420
+there is the one you have installed usability.
+
+115
+00:07:53,420 --> 00:07:53,660
+Right?
+
+116
+00:07:54,560 --> 00:07:59,760
+So this is the one guy's user owner data programs Python.
+
+117
+00:07:59,780 --> 00:08:02,420
+This is a global python interpreter.
+
+118
+00:08:02,600 --> 00:08:06,090
+So when you download it from command prompt here where it will get installed.
+
+119
+00:08:06,440 --> 00:08:10,250
+So select this because this package have the information about him.
+
+120
+00:08:11,390 --> 00:08:14,630
+OK, so after you select, make sure that packet is displayed here.
+
+121
+00:08:14,960 --> 00:08:16,640
+This is the one behave is displaying.
+
+122
+00:08:17,030 --> 00:08:18,100
+It's all set up.
+
+123
+00:08:18,770 --> 00:08:20,390
+OK, right.
+
+124
+00:08:22,090 --> 00:08:29,230
+And he didn't enter from the scenario and you can start giving given so given what do we have?
+
+125
+00:08:29,230 --> 00:08:30,610
+We have the details right.
+
+126
+00:08:31,090 --> 00:08:39,910
+Given the details which needs to be added to the library.
+
+127
+00:08:40,960 --> 00:08:42,930
+OK, so we have the book details with us.
+
+128
+00:08:43,240 --> 00:08:47,260
+So what we need to do is then.
+
+129
+00:08:48,530 --> 00:08:52,700
+We execute that and ad book to Mr..
+
+130
+00:08:56,390 --> 00:09:00,900
+When we execute, I post ABC Post API method.
+
+131
+00:09:01,160 --> 00:09:03,500
+Then what happens when we do that?
+
+132
+00:09:03,500 --> 00:09:12,010
+Then it should be caps, then book is successfully added.
+
+133
+00:09:12,470 --> 00:09:15,160
+So this is what our scenario.
+
+134
+00:09:15,220 --> 00:09:16,350
+That's OK.
+
+135
+00:09:17,390 --> 00:09:18,230
+Success.
+
+136
+00:09:19,370 --> 00:09:19,810
+Perfect.
+
+137
+00:09:20,300 --> 00:09:23,940
+Now, this is really the standard scenario.
+
+138
+00:09:24,010 --> 00:09:30,470
+OK, here, when you read it tells the behavior of your test case, like given what you have, then
+
+139
+00:09:30,470 --> 00:09:33,180
+what do you perform and then what is the output you get?
+
+140
+00:09:33,620 --> 00:09:37,770
+OK, now for this, we have to plug in with our actual code.
+
+141
+00:09:38,240 --> 00:09:41,810
+So this is the worst scenario, which we return in future file.
+
+142
+00:09:42,090 --> 00:09:45,190
+And we we know that we're exactly what actual code is there.
+
+143
+00:09:45,410 --> 00:09:47,430
+And here in our actual code is present.
+
+144
+00:09:47,810 --> 00:09:52,610
+Now, in the next lecture, I will show how to plug in this code with each and every step here.
+
+145
+00:09:52,910 --> 00:09:59,420
+And from the integration between the code and your are Frankton interface of scenarios.
+
+146
+00:09:59,810 --> 00:10:00,200
+All right.
+
+147
+00:10:00,470 --> 00:10:01,460
+See in the next lecture.
+
+148
+00:10:01,940 --> 00:10:02,390
+Thank you.

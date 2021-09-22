@@ -1,0 +1,371 @@
+1
+00:00:01,070 --> 00:00:01,730
+Welcome back.
+
+2
+00:00:02,030 --> 00:00:08,330
+So in the last lecture, I have shown you how to spin up a rebellious Linux server and you need to do
+
+3
+00:00:08,330 --> 00:00:14,240
+a few more configurations to make this available for you to connect from your Python code.
+
+4
+00:00:14,690 --> 00:00:16,130
+And let's see what all those.
+
+5
+00:00:17,490 --> 00:00:18,150
+Not this one.
+
+6
+00:00:19,170 --> 00:00:19,530
+Yeah.
+
+7
+00:00:20,730 --> 00:00:26,950
+So firstly, it is by default, will not enable password authentication.
+
+8
+00:00:27,420 --> 00:00:33,180
+Now, for example, we decided that we will soon connect from overpacked on to this server, which we
+
+9
+00:00:33,180 --> 00:00:33,810
+just created.
+
+10
+00:00:34,410 --> 00:00:44,490
+In general, we will make hits collection from Python to your server so far.
+
+11
+00:00:44,520 --> 00:00:46,860
+This is a search connection we need to give host.
+
+12
+00:00:47,130 --> 00:00:54,210
+That means IP address of your server so that it will understand and username password.
+
+13
+00:00:54,900 --> 00:00:56,880
+These are the details you have to send.
+
+14
+00:00:57,270 --> 00:01:03,870
+But by default, NWS will not allow anyone to login with password authentication.
+
+15
+00:01:04,350 --> 00:01:06,350
+OK, that's default set to off.
+
+16
+00:01:06,720 --> 00:01:13,830
+So as we are going to connect to that server with password, so we should make sure that we have to
+
+17
+00:01:13,830 --> 00:01:14,350
+enable it.
+
+18
+00:01:14,760 --> 00:01:15,810
+So how to enable it?
+
+19
+00:01:16,110 --> 00:01:21,000
+So there are some set of comments which we need to run to enable the password in the server.
+
+20
+00:01:21,300 --> 00:01:22,230
+Let's do that now.
+
+21
+00:01:24,120 --> 00:01:29,690
+Right, so right now you are logged in as the easy to hyphen user because this is the user.
+
+22
+00:01:29,740 --> 00:01:33,730
+Now, there are two users in any other.
+
+23
+00:01:33,960 --> 00:01:40,950
+One is the road user, just like in your Windows machine, you will have seen users and a bunch of names.
+
+24
+00:01:40,950 --> 00:01:41,210
+Right.
+
+25
+00:01:41,220 --> 00:01:42,560
+If you have two different accounts.
+
+26
+00:01:43,110 --> 00:01:48,150
+Similarly, Mirabilis, also by default, you will get one as a road user and another one is easy to
+
+27
+00:01:48,150 --> 00:01:48,760
+hyphen user.
+
+28
+00:01:49,260 --> 00:01:55,470
+So by default, all configuration software installations you have to do as a rule user only, not as
+
+29
+00:01:55,500 --> 00:01:56,640
+easy to have one user.
+
+30
+00:01:57,240 --> 00:02:03,540
+OK, so when you log in, you will be by default, easy to hyphen user now to log back as a road user.
+
+31
+00:02:03,570 --> 00:02:04,290
+This is the command.
+
+32
+00:02:04,290 --> 00:02:06,510
+You have to give pseudo your hyphen.
+
+33
+00:02:06,930 --> 00:02:13,320
+OK, I have given the documentation so you need to blindly follow this documentation to make things
+
+34
+00:02:13,320 --> 00:02:13,680
+work.
+
+35
+00:02:14,160 --> 00:02:21,210
+But again, please do not expect again my new details about all of this, because that's a whole different
+
+36
+00:02:21,210 --> 00:02:24,690
+story and it will be like another complete course.
+
+37
+00:02:24,930 --> 00:02:28,010
+That is already one, though, of course, where I have explained all this clearly.
+
+38
+00:02:28,260 --> 00:02:31,530
+So this lecture is just for setting up again.
+
+39
+00:02:31,530 --> 00:02:35,520
+I repeat that in real time you will do all this work as automation engineer.
+
+40
+00:02:35,820 --> 00:02:39,450
+You will be given the server ready with all its assets, connections open.
+
+41
+00:02:39,520 --> 00:02:43,790
+You just need to write a code to connect, which will be seen from later.
+
+42
+00:02:44,190 --> 00:02:46,260
+Just that you will practice with me, Baddeley.
+
+43
+00:02:46,260 --> 00:02:51,120
+I'm doing all this so that you can also have one set up and get some confidence.
+
+44
+00:02:52,310 --> 00:02:57,240
+OK, right, so you see that when you do like this, you will be now logged in as a road user.
+
+45
+00:02:58,250 --> 00:03:02,330
+So there is one file, as I suggested, configuration file.
+
+46
+00:03:02,780 --> 00:03:08,350
+You need to open that file and make a change to enable password authentication.
+
+47
+00:03:08,690 --> 00:03:18,000
+It will open like this and select a button, which means insert right after, insert more when you select
+
+48
+00:03:18,030 --> 00:03:20,180
+and then only it will be able to edit this file.
+
+49
+00:03:20,750 --> 00:03:25,810
+So scroll down and you should see password authentication.
+
+50
+00:03:25,820 --> 00:03:26,090
+Yeah.
+
+51
+00:03:26,090 --> 00:03:31,440
+Here, easy to use as keys for remote access.
+
+52
+00:03:31,940 --> 00:03:36,140
+So by default, password authentication is set to know.
+
+53
+00:03:36,920 --> 00:03:38,710
+OK, so let's think it through.
+
+54
+00:03:38,720 --> 00:03:39,200
+Yes.
+
+55
+00:03:40,530 --> 00:03:47,040
+Right, so the password is said to us and now you can make a connection with username and password.
+
+56
+00:03:48,300 --> 00:03:54,090
+So once Americans click on Escape Button, then give column WQ.
+
+57
+00:03:54,390 --> 00:04:01,620
+So this is the command to step escape Collen WQ so that it file will be saved no good.
+
+58
+00:04:02,250 --> 00:04:06,390
+And next thing, what you have to do, you need to reload the service.
+
+59
+00:04:06,630 --> 00:04:08,740
+So you have made configuration changes, right.
+
+60
+00:04:09,090 --> 00:04:12,020
+You have to refresh your server with these changes.
+
+61
+00:04:12,210 --> 00:04:14,010
+So in Linux don't have to reload.
+
+62
+00:04:14,490 --> 00:04:16,750
+So service SAHD reload.
+
+63
+00:04:17,070 --> 00:04:20,760
+So this will reload and changes will be applied successfully.
+
+64
+00:04:21,240 --> 00:04:21,750
+OK.
+
+65
+00:04:23,550 --> 00:04:27,040
+And next, you have to create a password for easy to hide from user.
+
+66
+00:04:27,270 --> 00:04:33,780
+I just told you that you need to connect to your Linux Servatius to make, as I said, the connection.
+
+67
+00:04:33,780 --> 00:04:35,430
+It needs username and password.
+
+68
+00:04:35,850 --> 00:04:38,660
+So you enable the password authentication.
+
+69
+00:04:38,820 --> 00:04:40,200
+But what is the password?
+
+70
+00:04:40,470 --> 00:04:41,250
+We don't know that.
+
+71
+00:04:41,700 --> 00:04:45,290
+OK, so by default, user name is created for you.
+
+72
+00:04:45,300 --> 00:04:50,400
+Easy to hyphen user when you create an instance, but for this user we should give password also.
+
+73
+00:04:50,760 --> 00:04:54,900
+But we should not try to login for the root username and password.
+
+74
+00:04:55,390 --> 00:05:01,860
+OK, we're not allowed to securely connect with the credentials user to create another user and then
+
+75
+00:05:01,860 --> 00:05:02,970
+connected to that server.
+
+76
+00:05:03,390 --> 00:05:08,100
+So by default, easy to hyphen user is the name which will be created.
+
+77
+00:05:08,130 --> 00:05:10,400
+So you just need to set a password for this game.
+
+78
+00:05:10,800 --> 00:05:12,870
+OK, and to get a password.
+
+79
+00:05:12,900 --> 00:05:15,800
+This is the command versus WD.
+
+80
+00:05:16,140 --> 00:05:17,670
+You can simply write this.
+
+81
+00:05:21,190 --> 00:05:25,670
+Password, easy to have use user, and it will ask you to set new password.
+
+82
+00:05:26,050 --> 00:05:31,030
+Here I'm sitting easy to use only as password again one more time.
+
+83
+00:05:32,140 --> 00:05:33,850
+I made it round, I guess.
+
+84
+00:05:35,320 --> 00:05:38,740
+Yeah, plus did not match because I clicked on another button.
+
+85
+00:05:42,070 --> 00:05:42,550
+Perfect.
+
+86
+00:05:42,580 --> 00:05:47,540
+So when you give two times, then it will say ID tokens updated successfully.
+
+87
+00:05:47,950 --> 00:05:48,800
+So we are all set.
+
+88
+00:05:48,970 --> 00:05:51,270
+So basically these two are the details we need.
+
+89
+00:05:51,280 --> 00:05:55,660
+One is to create a password and then enable that from alias, which we did.
+
+90
+00:05:55,840 --> 00:05:58,690
+OK, so with this configuration, we are done.
+
+91
+00:05:58,900 --> 00:06:04,960
+So in the next lecture, let's start with Python court tools connect securely to the server and play
+
+92
+00:06:04,960 --> 00:06:06,040
+around with documents.
+
+93
+00:06:06,370 --> 00:06:07,330
+OK, thank you.

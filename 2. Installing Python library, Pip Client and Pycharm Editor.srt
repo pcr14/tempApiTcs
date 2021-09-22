@@ -1,0 +1,983 @@
+1
+00:00:01,540 --> 00:00:02,260
+Welcome, guys.
+
+2
+00:00:02,500 --> 00:00:10,430
+So in this lecture, I will show you how to set up Python and write a letter to write your Python script.
+
+3
+00:00:10,940 --> 00:00:15,880
+OK, so let's first get started to install this Python software in our system.
+
+4
+00:00:16,750 --> 00:00:17,100
+Right.
+
+5
+00:00:17,110 --> 00:00:23,330
+So you can go to their official website by OAG to download the latest version available.
+
+6
+00:00:23,800 --> 00:00:32,290
+So let's quickly go to there and say by the download, and that will give you the prompt to the official
+
+7
+00:00:32,290 --> 00:00:32,860
+website.
+
+8
+00:00:34,570 --> 00:00:41,140
+Yeah, so from here, you can download it if if you are logged in using MacMillian, then you will see
+
+9
+00:00:41,140 --> 00:00:43,290
+something like download the version for Mac.
+
+10
+00:00:43,720 --> 00:00:50,410
+OK, so this website is intelligent to detect your operating system and provide your dart the file based
+
+11
+00:00:50,410 --> 00:00:50,920
+upon that.
+
+12
+00:00:51,340 --> 00:00:51,730
+All right.
+
+13
+00:00:52,120 --> 00:00:57,640
+So one click will help you to download this dart file into your system.
+
+14
+00:00:58,240 --> 00:01:05,500
+And once you have this Darbee XP value, you just need to open it and do some next, next next clicks
+
+15
+00:01:05,680 --> 00:01:08,990
+so that, you know, Python will get installed in your system.
+
+16
+00:01:09,580 --> 00:01:09,790
+See?
+
+17
+00:01:13,550 --> 00:01:17,520
+So this is the first window and gets open when you start the.
+
+18
+00:01:18,380 --> 00:01:21,270
+And this is the most important you have to remember.
+
+19
+00:01:21,680 --> 00:01:29,180
+So here we're Python is getting installed, user, owner and data local programs.
+
+20
+00:01:29,390 --> 00:01:30,170
+And here.
+
+21
+00:01:31,030 --> 00:01:36,500
+OK, so you can see from the annotation here for Mac users where the part will be.
+
+22
+00:01:37,120 --> 00:01:41,820
+So this is the part by default, it will get downloaded from Windows.
+
+23
+00:01:42,130 --> 00:01:48,560
+You can submit this and click on next so that, you know, this version will get installed in your system.
+
+24
+00:01:49,090 --> 00:01:51,820
+I already have this, so that's why I don't proceed it.
+
+25
+00:01:51,820 --> 00:01:52,950
+I just click on cancer.
+
+26
+00:01:53,530 --> 00:01:58,500
+So simple clicks will help you to set up Python in your system.
+
+27
+00:01:58,690 --> 00:02:03,940
+So once Python is installed, let's go to that path and see if it is successfully installed.
+
+28
+00:02:05,940 --> 00:02:08,700
+So I'm a user, owner, operator, local.
+
+29
+00:02:09,000 --> 00:02:12,960
+So in your case, owner will be replaced by your computer.
+
+30
+00:02:13,560 --> 00:02:16,300
+OK, so programs and Python.
+
+31
+00:02:16,680 --> 00:02:18,280
+So I have different versions here.
+
+32
+00:02:18,510 --> 00:02:20,730
+So it depends upon what version you download.
+
+33
+00:02:20,760 --> 00:02:21,750
+That was a no.
+
+34
+00:02:21,750 --> 00:02:22,500
+You will see here.
+
+35
+00:02:22,710 --> 00:02:24,660
+And this is the python home.
+
+36
+00:02:24,670 --> 00:02:31,890
+But OK, so here where it got installed, now you'll have to set this part in your system variables,
+
+37
+00:02:32,460 --> 00:02:32,800
+right.
+
+38
+00:02:32,820 --> 00:02:39,930
+So let's do that so you can copy this entire pod, because if you set in your system variables, then
+
+39
+00:02:39,930 --> 00:02:45,990
+from anywhere you can run your python test so that your system will recognize that Python software.
+
+40
+00:02:46,530 --> 00:02:53,550
+So in Mac, you need not set any part variable because by default, the user local bin will be in your
+
+41
+00:02:53,550 --> 00:02:54,930
+part directory.
+
+42
+00:02:55,260 --> 00:03:03,000
+So in Windows you have to do it so you can go to edit system, environment, variables, environment
+
+43
+00:03:03,030 --> 00:03:07,030
+variables, go to the part variable and edit this.
+
+44
+00:03:07,720 --> 00:03:11,720
+OK, so here, let's add the part from Python.
+
+45
+00:03:12,030 --> 00:03:18,000
+So I knew and then just add the part and this is the form part of your python directory.
+
+46
+00:03:19,480 --> 00:03:22,100
+Similarly, you need to add one more part.
+
+47
+00:03:22,480 --> 00:03:24,190
+So come back to your python.
+
+48
+00:03:25,470 --> 00:03:25,920
+Home they.
+
+49
+00:03:26,280 --> 00:03:28,990
+And here you see another folder called scripts, right?
+
+50
+00:03:29,430 --> 00:03:31,500
+So you need this part as well.
+
+51
+00:03:31,860 --> 00:03:34,140
+I will just tell you, why do you need this?
+
+52
+00:03:34,140 --> 00:03:37,240
+Because you will really work on this PIP installer.
+
+53
+00:03:37,710 --> 00:03:41,770
+So for that reason, you have to add this part as well.
+
+54
+00:03:42,210 --> 00:03:43,560
+So make sure you add this.
+
+55
+00:03:44,070 --> 00:03:47,610
+I will now explain what is.
+
+56
+00:03:48,150 --> 00:03:50,730
+Now, let's go to the our documentation.
+
+57
+00:03:51,390 --> 00:03:58,410
+So we have seen how to install Python and we have successfully set Python in our missions and we know
+
+58
+00:03:58,410 --> 00:04:00,750
+where exactly Python will be located.
+
+59
+00:04:00,780 --> 00:04:02,790
+So we have said that in our system variables.
+
+60
+00:04:03,150 --> 00:04:06,530
+So first, let's see if Python is installed.
+
+61
+00:04:06,840 --> 00:04:11,330
+So go to the command prompt and then go Python hyphen hyphenation.
+
+62
+00:04:11,550 --> 00:04:14,370
+You will see the version, what you just installed.
+
+63
+00:04:14,580 --> 00:04:15,750
+So that conforms.
+
+64
+00:04:16,080 --> 00:04:21,520
+You are system variables are correctly updated with Python home right now.
+
+65
+00:04:21,930 --> 00:04:22,850
+What is it?
+
+66
+00:04:22,860 --> 00:04:29,680
+I just told that we need to give the part of scripts for that as well because we have picked out Bekesi,
+
+67
+00:04:29,700 --> 00:04:31,860
+which needs to be detected by our windows.
+
+68
+00:04:32,340 --> 00:04:33,300
+So what is Pip?
+
+69
+00:04:33,870 --> 00:04:36,490
+So Pip is a standard package manager.
+
+70
+00:04:36,960 --> 00:04:44,820
+So if you want to download any Python package now, for example, in this course you will download a
+
+71
+00:04:44,820 --> 00:04:46,390
+package called Requests.
+
+72
+00:04:46,590 --> 00:04:48,900
+This will help us to do API automation.
+
+73
+00:04:49,170 --> 00:04:49,480
+OK.
+
+74
+00:04:49,650 --> 00:04:56,570
+And when we are developing a testing framework, I will download a load behaviour package.
+
+75
+00:04:56,880 --> 00:05:01,040
+OK, this will help us to give me a load reports for my apparatus us.
+
+76
+00:05:01,470 --> 00:05:01,750
+Right.
+
+77
+00:05:01,950 --> 00:05:09,720
+So these are the packages of what Python support to get that into your system you will use and get them
+
+78
+00:05:09,720 --> 00:05:18,660
+using come in so you can simply say pip install and then you can give that package name so that automatically
+
+79
+00:05:18,990 --> 00:05:21,830
+it gets this package into your system.
+
+80
+00:05:22,320 --> 00:05:31,810
+And one great thing about Python is once you download this package, as you think, Pip, what do you
+
+81
+00:05:32,190 --> 00:05:36,730
+get this software and inject that into your python environment?
+
+82
+00:05:37,200 --> 00:05:40,870
+OK, so you have your Python software sitting in this location, right?
+
+83
+00:05:41,280 --> 00:05:48,800
+So automatically when you download any package using PIP, this package will be injected into this environment.
+
+84
+00:05:49,140 --> 00:05:55,380
+So you need not separately again, import them when you are working with any testing projects.
+
+85
+00:05:56,040 --> 00:06:03,270
+OK, so if you take DAFWA as an example in Java, you download Java separately and then if you want
+
+86
+00:06:03,270 --> 00:06:10,110
+to work with any selenium dots are WIPA dots, you download them and import into your project.
+
+87
+00:06:10,710 --> 00:06:16,890
+OK, and then you project supports the code related to those afterwards.
+
+88
+00:06:17,160 --> 00:06:17,470
+Right.
+
+89
+00:06:17,550 --> 00:06:19,800
+Two different things in starting Java is different.
+
+90
+00:06:20,160 --> 00:06:24,000
+And in your project you have to import the dots, which you download it.
+
+91
+00:06:24,630 --> 00:06:29,510
+If it isn't Java now, you have to import this tool in your project when you are working and editor.
+
+92
+00:06:29,940 --> 00:06:32,210
+But in Python you need not do that.
+
+93
+00:06:32,580 --> 00:06:41,250
+So when you download Python and when you download these software using Bip, bip automatically injects
+
+94
+00:06:41,250 --> 00:06:48,240
+all this software into your python so that you can directly start working in your project without using
+
+95
+00:06:48,240 --> 00:06:51,720
+any input because you are Project No is Python.
+
+96
+00:06:51,900 --> 00:06:55,560
+And despite having knowledge of all these packages.
+
+97
+00:06:55,600 --> 00:07:02,870
+Troopship OK, so you need not worry about importing the packages or getting the dependencies once.
+
+98
+00:07:02,880 --> 00:07:05,010
+If you look between stuff that is enough.
+
+99
+00:07:05,370 --> 00:07:08,870
+OK, so that's the cool thing, what you have in Python, right.
+
+100
+00:07:09,990 --> 00:07:18,090
+So when you use Pip, so now, for example, here, when you use PIP, install this, PIP belongs to
+
+101
+00:07:18,090 --> 00:07:20,100
+this python environment, right?
+
+102
+00:07:20,400 --> 00:07:25,280
+So this bit will inject that software into this Python package.
+
+103
+00:07:25,800 --> 00:07:28,940
+Right now, I have two different Python softwares in my system.
+
+104
+00:07:29,340 --> 00:07:31,670
+I deliberately downloaded it for explanation.
+
+105
+00:07:32,070 --> 00:07:33,810
+So if you do pip install.
+
+106
+00:07:34,560 --> 00:07:41,100
+So if that pet is pointing to this project, then it will inject into the software, but not into the
+
+107
+00:07:41,100 --> 00:07:41,640
+software.
+
+108
+00:07:42,090 --> 00:07:48,420
+OK, so if you were a project users, the Python, a first folder, then that will not have any knowledge
+
+109
+00:07:48,420 --> 00:07:52,480
+of the packages you downloaded because that installation is done here.
+
+110
+00:07:52,950 --> 00:07:58,560
+So make sure the PIP installation, what you are doing and the python environment, what you are using
+
+111
+00:07:58,560 --> 00:07:59,430
+should be simple.
+
+112
+00:07:59,550 --> 00:08:03,990
+Make sure they are in sync so that you need not worry about importing anything.
+
+113
+00:08:04,350 --> 00:08:04,750
+Right.
+
+114
+00:08:05,160 --> 00:08:06,500
+So let's do one thing, guys.
+
+115
+00:08:08,040 --> 00:08:16,050
+So in our upcoming lectures, I will again show you what is the cost package and from where will we
+
+116
+00:08:16,080 --> 00:08:21,660
+get that when I am talking about AIBA automation, but for now, just for a demonstration of what is
+
+117
+00:08:21,930 --> 00:08:23,740
+and how to download software.
+
+118
+00:08:24,060 --> 00:08:27,000
+So I will now download a package called Request.
+
+119
+00:08:27,420 --> 00:08:29,850
+Basically, this will help us to do API automation.
+
+120
+00:08:30,120 --> 00:08:30,420
+Right.
+
+121
+00:08:31,110 --> 00:08:33,030
+So I already have in my mission.
+
+122
+00:08:33,030 --> 00:08:34,620
+So that's why I got this message.
+
+123
+00:08:34,620 --> 00:08:35,990
+That equipment already satisfied.
+
+124
+00:08:36,300 --> 00:08:41,340
+But from your site you will see some logs and it will get installed.
+
+125
+00:08:41,580 --> 00:08:41,830
+Right.
+
+126
+00:08:41,890 --> 00:08:47,940
+So once it is getting installed carefully observe in which Python software it is installed, Python
+
+127
+00:08:47,940 --> 00:08:51,260
+37 that so it is automatically injected.
+
+128
+00:08:52,170 --> 00:08:55,170
+OK, great, because this is what we have given in our system variables.
+
+129
+00:08:55,170 --> 00:09:00,750
+But when you say Pip, it is pointing to your system variable given part ASM.
+
+130
+00:09:00,960 --> 00:09:06,360
+So we have successfully downloaded one package and now you understood what is PIP and how to download
+
+131
+00:09:06,360 --> 00:09:06,960
+softwares.
+
+132
+00:09:07,650 --> 00:09:12,150
+So you might be wondered at this time, like how would I know that this is the packet?
+
+133
+00:09:12,150 --> 00:09:14,460
+So that information again, we will go deep dive.
+
+134
+00:09:14,850 --> 00:09:21,000
+When we talk about API automation, I'm just giving you a brief idea now that we will get back to that
+
+135
+00:09:21,000 --> 00:09:21,300
+again.
+
+136
+00:09:22,170 --> 00:09:27,600
+OK, so this is a syntax which I just showed you, pip install in the package name, if you want to
+
+137
+00:09:27,600 --> 00:09:34,450
+know if it is successfully installed in your system, then you can show request.
+
+138
+00:09:35,310 --> 00:09:38,770
+So this will tell you if the package is present or not.
+
+139
+00:09:38,790 --> 00:09:39,210
+Yes.
+
+140
+00:09:39,210 --> 00:09:44,360
+Package is that and it clearly tell you the location and everything else on base.
+
+141
+00:09:44,550 --> 00:09:47,640
+So that's how we'll install packages.
+
+142
+00:09:47,970 --> 00:09:51,900
+And the next important thing is to download Ed.
+
+143
+00:09:52,380 --> 00:09:54,420
+So where do we write our Python code?
+
+144
+00:09:54,840 --> 00:10:00,000
+We need one editor to write all our automation related code.
+
+145
+00:10:00,000 --> 00:10:00,300
+Right.
+
+146
+00:10:00,720 --> 00:10:03,840
+So Python will be our prime choice to do that.
+
+147
+00:10:06,160 --> 00:10:08,260
+So let's download this editor, Arsalan.
+
+148
+00:10:11,110 --> 00:10:13,570
+Buy some download.
+
+149
+00:10:14,610 --> 00:10:20,470
+And if you go to their official website, Gelperin Starcom, so you have two different versions of by
+
+150
+00:10:20,470 --> 00:10:20,820
+chance.
+
+151
+00:10:21,060 --> 00:10:25,170
+One is community, which you can download for free and one is professional.
+
+152
+00:10:25,650 --> 00:10:34,230
+Some in some point in the course, you may need this professional for explaining one section so you
+
+153
+00:10:34,230 --> 00:10:36,250
+can still download free trade.
+
+154
+00:10:36,270 --> 00:10:39,410
+But now let's go with community version free or open source only.
+
+155
+00:10:39,660 --> 00:10:44,370
+I tell you when you need this professional version just for practicing free trade.
+
+156
+00:10:45,060 --> 00:10:47,700
+So now let's get started with community opensource.
+
+157
+00:10:47,970 --> 00:10:51,510
+Obviously, there will be a difference rate for prevention and opensource.
+
+158
+00:10:51,510 --> 00:10:54,840
+You get some extra filters when you go with a paid professional.
+
+159
+00:10:55,620 --> 00:10:55,830
+Right.
+
+160
+00:10:56,100 --> 00:10:58,300
+So you download this and that's all.
+
+161
+00:10:58,320 --> 00:11:01,330
+One more data file will be installed in your system.
+
+162
+00:11:01,710 --> 00:11:04,080
+OK, so that looks something like this.
+
+163
+00:11:06,400 --> 00:11:11,770
+OK, so I'm passing it because I already have in my system, so once you download and this is how it
+
+164
+00:11:11,770 --> 00:11:12,130
+looks.
+
+165
+00:11:13,880 --> 00:11:16,070
+So bite the bullet that looks like this.
+
+166
+00:11:16,460 --> 00:11:22,540
+So just open it and that's it, you will be in an editor to start writing your code.
+
+167
+00:11:25,270 --> 00:11:32,170
+So initially, when you open for quite some first time, this is how a window opens for you, asking
+
+168
+00:11:32,170 --> 00:11:36,410
+to create a new project so you can give the new project name.
+
+169
+00:11:37,060 --> 00:11:42,190
+So in my case, I would call it as a back and automation.
+
+170
+00:11:46,680 --> 00:11:53,870
+OK, and this is my project, and you have to set a project interpretor that's important.
+
+171
+00:11:56,220 --> 00:12:02,780
+So what Python software you want to choose so by default, so when you create a new project in your
+
+172
+00:12:02,790 --> 00:12:07,980
+Python supply, Pritam also creates one python environment for you.
+
+173
+00:12:08,380 --> 00:12:16,380
+OK, so you have to be very careful because when you download PIP, install all software into one python
+
+174
+00:12:16,380 --> 00:12:22,980
+environment, and if you choose another Python environment here, this python will not have the knowledge
+
+175
+00:12:23,310 --> 00:12:25,480
+on the software where you download it.
+
+176
+00:12:25,950 --> 00:12:34,950
+So when selecting new environment, make sure you choose the path of your python where you have installed
+
+177
+00:12:34,950 --> 00:12:37,840
+locally and where you are Pip is pointing to.
+
+178
+00:12:38,310 --> 00:12:44,730
+So that way you can download any software using PIP install from your terminal and that will reflect
+
+179
+00:12:44,730 --> 00:12:46,740
+in your pajamas on Mesfin.
+
+180
+00:12:47,220 --> 00:12:52,450
+So this is the part where exactly we have our install software.
+
+181
+00:12:52,710 --> 00:12:57,750
+So if you don't see here for the first time, then you can click on these three darts and then just
+
+182
+00:12:57,750 --> 00:12:58,680
+go and.
+
+183
+00:13:00,160 --> 00:13:03,770
+Select the part of the python what you want.
+
+184
+00:13:04,120 --> 00:13:08,590
+You have to go to that home homeport and in that form part, that will be fine.
+
+185
+00:13:09,010 --> 00:13:11,510
+OK, so basically I'm talking about this one.
+
+186
+00:13:11,830 --> 00:13:14,410
+So if this is your software, this is the python.
+
+187
+00:13:15,700 --> 00:13:19,960
+So this part you have to give here and then say create.
+
+188
+00:13:20,350 --> 00:13:27,820
+So this way, you are quite certain, is now pointing to the python environment, which you install
+
+189
+00:13:27,820 --> 00:13:30,940
+locally and all your installs will reflect that.
+
+190
+00:13:31,390 --> 00:13:31,810
+OK.
+
+191
+00:13:33,910 --> 00:13:40,150
+For the first time, it takes some time to create a virtual environment, so please be patient and once
+
+192
+00:13:40,150 --> 00:13:48,040
+you are done drastic, if your project is pointing to the right Python interpreter, so we call it as
+
+193
+00:13:48,040 --> 00:13:50,020
+an interpreter or environment.
+
+194
+00:13:50,680 --> 00:13:51,730
+So file.
+
+195
+00:13:52,680 --> 00:13:55,230
+Settings go to the settings.
+
+196
+00:13:56,240 --> 00:14:00,200
+And come to the project, the project, what you selected.
+
+197
+00:14:02,280 --> 00:14:05,130
+Select Project Interpreter and then.
+
+198
+00:14:06,410 --> 00:14:15,230
+OK, you'll see that again, it has changed the default of the plates on Project Interpretor, so the
+
+199
+00:14:15,230 --> 00:14:20,420
+project where this is using is not the python.
+
+200
+00:14:20,420 --> 00:14:21,760
+What we installed in local.
+
+201
+00:14:22,010 --> 00:14:22,820
+I told you right.
+
+202
+00:14:22,820 --> 00:14:27,960
+Plates are also will create one project, Python software.
+
+203
+00:14:28,220 --> 00:14:31,880
+So this is pointing to that back and automation script slash Python.
+
+204
+00:14:32,780 --> 00:14:37,700
+So that's why in this python environment, there is no request packet.
+
+205
+00:14:37,700 --> 00:14:39,680
+You see that there are only two packages.
+
+206
+00:14:39,680 --> 00:14:41,030
+Get big and set up.
+
+207
+00:14:41,660 --> 00:14:43,240
+This is not a great interpreter.
+
+208
+00:14:43,880 --> 00:14:47,660
+So you can actually show all.
+
+209
+00:14:47,960 --> 00:14:53,650
+You will definitely see us here because you just created a new environment by creating the project.
+
+210
+00:14:54,020 --> 00:14:55,930
+So you should see something like this.
+
+211
+00:14:56,540 --> 00:15:01,650
+This is the local software where you are doing all installations, right?
+
+212
+00:15:02,060 --> 00:15:08,970
+If you don't see here, then simply select plus icon and select the part of that project.
+
+213
+00:15:09,400 --> 00:15:12,940
+OK, so select Plesac on there and then give the best interpreter.
+
+214
+00:15:13,040 --> 00:15:16,110
+We already did this before we land up on that page.
+
+215
+00:15:16,340 --> 00:15:18,290
+So definitely you will see it here.
+
+216
+00:15:18,680 --> 00:15:25,700
+So once you see that, select that interpreter and click on OK, and then you will see the different
+
+217
+00:15:25,700 --> 00:15:29,010
+packages because I have a lot of packages in my local software.
+
+218
+00:15:29,030 --> 00:15:33,620
+That's why, you see, once I change interpreters, so many software start coming and here you will
+
+219
+00:15:33,620 --> 00:15:34,320
+see a request.
+
+220
+00:15:34,610 --> 00:15:36,140
+This is the one we just downloaded.
+
+221
+00:15:36,140 --> 00:15:36,410
+Right.
+
+222
+00:15:36,680 --> 00:15:38,260
+And the package is reflecting here.
+
+223
+00:15:38,660 --> 00:15:39,470
+This is what we need.
+
+224
+00:15:39,650 --> 00:15:42,230
+And now when you click on apply and.
+
+225
+00:15:42,230 --> 00:15:44,690
+OK, so what I'll call you right here.
+
+226
+00:15:44,930 --> 00:15:52,400
+All this code is pointing to that python and that python, how all those requests are libraries so it
+
+227
+00:15:52,400 --> 00:15:55,120
+can support automation of your APIs.
+
+228
+00:15:55,340 --> 00:15:56,520
+So that's the concept.
+
+229
+00:15:56,780 --> 00:16:02,450
+So make sure you select the right project interpreter before you start anything so pointed to your local
+
+230
+00:16:02,630 --> 00:16:09,140
+and then happily download all software from either terminal from your Windows command prompt are from
+
+231
+00:16:09,140 --> 00:16:09,430
+here.
+
+232
+00:16:10,100 --> 00:16:14,630
+So we will again see how to download our requests and go to their official website later.
+
+233
+00:16:15,440 --> 00:16:17,070
+All right, guys, so that's pretty much.
+
+234
+00:16:17,090 --> 00:16:23,660
+So this is a big election, but in this election year, we have seen all the little things which are
+
+235
+00:16:23,690 --> 00:16:24,010
+setup.
+
+236
+00:16:24,380 --> 00:16:30,590
+We have how to set up Python software, and we understood the importance of people to download customized
+
+237
+00:16:30,590 --> 00:16:31,160
+packages.
+
+238
+00:16:31,400 --> 00:16:40,570
+And we have also downloaded by Ed and we are pointing out Python, local interpreter to our Bryton project.
+
+239
+00:16:40,940 --> 00:16:41,530
+Awesome.
+
+240
+00:16:41,540 --> 00:16:44,800
+With this, we can get started in the next section.
+
+241
+00:16:44,810 --> 00:16:49,810
+Let's go through the basics of Python before we actually jump into API automation.
+
+242
+00:16:50,030 --> 00:16:56,120
+So if you think you're already aware of Python basics, then you can skip next to section and then directly
+
+243
+00:16:56,120 --> 00:16:59,730
+jump to Section three to get started with API automation.
+
+244
+00:17:00,020 --> 00:17:00,960
+It's up to you guys.
+
+245
+00:17:01,250 --> 00:17:01,660
+All right.
+
+246
+00:17:01,940 --> 00:17:02,420
+Thank you.

@@ -1,0 +1,539 @@
+1
+00:00:01,120 --> 00:00:01,710
+Welcome back.
+
+2
+00:00:02,050 --> 00:00:07,300
+So once you are done with your work, make sure you close the connection with as Head Start, because
+
+3
+00:00:07,660 --> 00:00:12,110
+if not, multiple connections will be opened up and you will remember it will be filled, right.
+
+4
+00:00:12,730 --> 00:00:20,230
+OK, next, we will try to see how to upload file from your local system to the server because we thought
+
+5
+00:00:20,230 --> 00:00:21,700
+of one project initially.
+
+6
+00:00:21,700 --> 00:00:22,910
+Let's solve this project.
+
+7
+00:00:23,470 --> 00:00:25,640
+I have one batch file.
+
+8
+00:00:25,930 --> 00:00:27,130
+So this is the best file.
+
+9
+00:00:27,520 --> 00:00:32,740
+Basically, this batch file will expect a copy file, which is also here.
+
+10
+00:00:33,490 --> 00:00:41,410
+So this takes the CSP file and then update status of all the accounts displayed there, either approved
+
+11
+00:00:41,410 --> 00:00:42,100
+or rejected.
+
+12
+00:00:42,340 --> 00:00:43,870
+So let me show you here first.
+
+13
+00:00:48,020 --> 00:00:49,370
+So I'll save this.
+
+14
+00:00:50,470 --> 00:00:52,690
+So this is the fight now.
+
+15
+00:00:52,700 --> 00:00:53,770
+You can run this fine.
+
+16
+00:00:54,830 --> 00:01:02,610
+In your server, and that time when it runs, it expects this file also right as a CSP so that it updates.
+
+17
+00:01:02,840 --> 00:01:07,040
+So basically these two files now should be in your Linux server.
+
+18
+00:01:07,610 --> 00:01:14,900
+The reason why we need that in daylight in that server is when it tries to scan the profile details
+
+19
+00:01:14,900 --> 00:01:17,450
+of the account number and implement the logic.
+
+20
+00:01:17,810 --> 00:01:22,320
+All those should be accessed from database, but that database is not in your system.
+
+21
+00:01:22,640 --> 00:01:27,340
+So far, this batch file to work correctly, this should be in the server database.
+
+22
+00:01:28,370 --> 00:01:32,580
+So as we are assuming that our databases are present in this Linux server.
+
+23
+00:01:33,080 --> 00:01:36,980
+So let's actually move these two files from our local system to that.
+
+24
+00:01:37,490 --> 00:01:45,110
+So just assume that you are a developer, gave you the banks file and asked you to run that broad database.
+
+25
+00:01:45,500 --> 00:01:52,190
+So now your goal is to write a Python script that will take this batch file and deployed it along with
+
+26
+00:01:52,190 --> 00:01:56,360
+The Cafferty File and then run your batch file there to update us.
+
+27
+00:01:56,400 --> 00:01:58,150
+Yes, OK, we'll see that.
+
+28
+00:01:58,160 --> 00:01:58,700
+It's a fun.
+
+29
+00:01:59,730 --> 00:02:06,870
+So overall, you have to know how to upload files from your local system to Linux, so I copy these
+
+30
+00:02:06,870 --> 00:02:07,410
+two files.
+
+31
+00:02:09,090 --> 00:02:10,950
+I'll come back to my editor.
+
+32
+00:02:13,330 --> 00:02:17,080
+But I will create a new package.
+
+33
+00:02:18,360 --> 00:02:23,730
+Or you can say directress, well, let's see how that actually comes back to face.
+
+34
+00:02:26,780 --> 00:02:30,020
+So instead of this batch files, I copy those two files.
+
+35
+00:02:31,470 --> 00:02:31,770
+So.
+
+36
+00:02:37,440 --> 00:02:38,080
+Copy.
+
+37
+00:02:38,970 --> 00:02:42,290
+And you can download the code by end of the section Greenberry.
+
+38
+00:02:47,180 --> 00:02:49,940
+All right, so there are two files here.
+
+39
+00:02:49,970 --> 00:02:54,710
+One is a CSFI and there are no status yet because bad job elaborated.
+
+40
+00:02:55,610 --> 00:02:59,360
+Now, I will go back to my associate misconnect.
+
+41
+00:03:00,530 --> 00:03:06,190
+And here, where I have to right now go to applaud these two files in the server, it's very easy,
+
+42
+00:03:06,190 --> 00:03:07,310
+I guess, for that.
+
+43
+00:03:07,340 --> 00:03:13,920
+There is another protocol which you have to use for uploading that is SFP.
+
+44
+00:03:14,530 --> 00:03:23,300
+OK, so that is another protocol available to upload or download the files, just like how SFH is used
+
+45
+00:03:23,300 --> 00:03:27,440
+to connect and that protocol will help you to upload or download.
+
+46
+00:03:27,980 --> 00:03:31,180
+OK, so first you need to import that.
+
+47
+00:03:31,880 --> 00:03:34,810
+However, with paramedical you will get it by default.
+
+48
+00:03:35,240 --> 00:03:39,830
+So you have to open that SFP connection through your Secich.
+
+49
+00:03:41,230 --> 00:03:41,830
+I'll show you.
+
+50
+00:03:44,420 --> 00:03:53,000
+Upload files so we can accidentally open another connection, which will help you to transfer files,
+
+51
+00:03:53,540 --> 00:03:54,230
+vice versa.
+
+52
+00:03:54,260 --> 00:03:56,690
+OK, that can be done with this safety protocol.
+
+53
+00:03:58,030 --> 00:04:04,510
+And once you open that protocol, store it in one variable so that this object is now responsible to
+
+54
+00:04:04,510 --> 00:04:06,120
+transfer the files.
+
+55
+00:04:07,060 --> 00:04:10,800
+Now, where is the path you have to install it?
+
+56
+00:04:11,230 --> 00:04:13,330
+So let's say two parts.
+
+57
+00:04:13,330 --> 00:04:14,800
+One is the destination, but
+
+58
+00:04:17,920 --> 00:04:18,750
+the destination.
+
+59
+00:04:18,770 --> 00:04:25,860
+But as I told you, that by default, Python will have access to that home path of easy to happen user.
+
+60
+00:04:26,140 --> 00:04:27,430
+So an explicit here only.
+
+61
+00:04:27,850 --> 00:04:28,180
+Right.
+
+62
+00:04:28,420 --> 00:04:31,020
+And what is the final?
+
+63
+00:04:31,240 --> 00:04:32,830
+So how would you need to pass it?
+
+64
+00:04:33,760 --> 00:04:35,780
+So this is our final script.
+
+65
+00:04:35,830 --> 00:04:37,930
+Not be a script.
+
+66
+00:04:38,140 --> 00:04:38,530
+Not.
+
+67
+00:04:40,640 --> 00:04:45,410
+So basically, this fine will get stored in their destination, but as they are not giving any delay
+
+68
+00:04:45,410 --> 00:04:47,240
+little, but it will take place in the home.
+
+69
+00:04:47,280 --> 00:04:50,500
+But and from there you have to place that down.
+
+70
+00:04:50,510 --> 00:04:52,340
+So you need to give that the local pub.
+
+71
+00:04:52,850 --> 00:04:57,210
+I didn't get this sort of spot and it is present here.
+
+72
+00:04:57,530 --> 00:05:00,850
+So, again, the relative part copied and pasted here.
+
+73
+00:05:01,340 --> 00:05:01,700
+Great.
+
+74
+00:05:02,830 --> 00:05:10,840
+OK, so there is a simple matter now to send files, because this object is aware of such a connection
+
+75
+00:05:10,840 --> 00:05:16,870
+and also it open panel to send files, right, so that this object.
+
+76
+00:05:18,400 --> 00:05:27,700
+Dart put what is a matter which will help you to take the file from your local pot and it will place
+
+77
+00:05:27,700 --> 00:05:28,960
+it in the destination pot.
+
+78
+00:05:29,350 --> 00:05:33,970
+So basically this method expects to arguments one.
+
+79
+00:05:34,210 --> 00:05:41,530
+The first one is a local pot to pick the fight and the destination pot in places like.
+
+80
+00:05:42,740 --> 00:05:53,390
+So now, right now and a seven year, there is no final later with script be right now after running
+
+81
+00:05:53,390 --> 00:05:57,110
+this court, there should be a filed Lexi.
+
+82
+00:06:02,250 --> 00:06:04,000
+Perfect execution is done.
+
+83
+00:06:04,410 --> 00:06:11,220
+Now let's come back here and do a little funnier, and you'll see that script to be very fine.
+
+84
+00:06:11,250 --> 00:06:19,380
+So that means we have successfully more of our file from our local system to our line, except now you
+
+85
+00:06:19,380 --> 00:06:20,850
+need to just run this file.
+
+86
+00:06:21,240 --> 00:06:24,450
+But for this file needs to be filed as an input.
+
+87
+00:06:24,450 --> 00:06:24,670
+Right.
+
+88
+00:06:24,930 --> 00:06:27,920
+So that is also present in our local system.
+
+89
+00:06:27,930 --> 00:06:29,550
+So you need to push that as well.
+
+90
+00:06:31,470 --> 00:06:33,210
+Let me write another.
+
+91
+00:06:35,050 --> 00:06:43,690
+Three folders, you can create a method to wrap all this and simply pass a local bar, the destination
+
+92
+00:06:43,690 --> 00:06:46,580
+part as an input so that you can reuse that matter.
+
+93
+00:06:46,800 --> 00:06:53,650
+OK, because we already discussed a number of examples of how to drive the usable components from configuration
+
+94
+00:06:53,650 --> 00:06:54,150
+files.
+
+95
+00:06:54,400 --> 00:06:55,510
+You see that in utilities.
+
+96
+00:06:55,510 --> 00:06:57,760
+We have already discussed so many files like this.
+
+97
+00:06:58,250 --> 00:07:05,080
+OK, so use similar way because there is no point in me showing storing that in separate glass because
+
+98
+00:07:05,080 --> 00:07:07,050
+we already discussed such kind of mechanism.
+
+99
+00:07:07,940 --> 00:07:08,320
+OK.
+
+100
+00:07:10,880 --> 00:07:12,710
+Is the search going to Daymo?
+
+101
+00:07:14,900 --> 00:07:15,770
+Is that fight here?
+
+102
+00:07:15,900 --> 00:07:18,560
+OK, I would now give one more part.
+
+103
+00:07:20,240 --> 00:07:22,010
+And destination file is the.
+
+104
+00:07:25,860 --> 00:07:31,320
+Take this as an assignment, OK, write this in separate utility file, upload file should be a method
+
+105
+00:07:31,440 --> 00:07:36,330
+and that should accept local port and destination port and it should do the work for you, OK, instead
+
+106
+00:07:36,330 --> 00:07:37,550
+of doing it here every day.
+
+107
+00:07:42,740 --> 00:07:44,030
+Loan Assir.
+
+108
+00:07:47,030 --> 00:07:47,570
+CSP.
+
+109
+00:07:48,910 --> 00:07:56,800
+Now we are pushing this file as well, so we destination is the same file and we are giving it from
+
+110
+00:07:56,860 --> 00:07:58,010
+our veterans.
+
+111
+00:07:58,690 --> 00:08:04,290
+OK, so now with this one, it will also push this file as well.
+
+112
+00:08:04,300 --> 00:08:04,720
+Let's see.
+
+113
+00:08:06,960 --> 00:08:12,360
+Great comeback back and you see that, yes, we find ourselves already.
+
+114
+00:08:12,720 --> 00:08:13,870
+So what is the next step?
+
+115
+00:08:14,610 --> 00:08:18,520
+So you have to preserve this batch file, as does a python file.
+
+116
+00:08:18,870 --> 00:08:23,460
+You can trigger with a command core python space copy.
+
+117
+00:08:23,490 --> 00:08:23,630
+Right.
+
+118
+00:08:24,100 --> 00:08:28,200
+OK, so all these files can be triggered with Python space filing.
+
+119
+00:08:28,350 --> 00:08:33,790
+So as we are using this python monitor, we are clicking as Ranaudo using controls.
+
+120
+00:08:34,770 --> 00:08:40,590
+But ultimately, if you want to execute all these files from command prompt the syntax is python space
+
+121
+00:08:40,590 --> 00:08:41,250
+and the file.
+
+122
+00:08:41,870 --> 00:08:51,240
+OK, and now we should execute this file so that this loan records will get the new status.
+
+123
+00:08:51,420 --> 00:08:56,030
+Now, if I see the cat, I will give Katamon to see what our contents are having CSFI.
+
+124
+00:08:56,930 --> 00:08:58,700
+Right now, status is blank.
+
+125
+00:08:59,390 --> 00:09:05,190
+OK, there is no status if the loan account is approved or rejected for this account.
+
+126
+00:09:05,480 --> 00:09:11,600
+Now, when you've got a bad job, that bad job will update this CSFI with all the values.
+
+127
+00:09:11,930 --> 00:09:18,150
+OK, and that by double standards to go from this file only, let's not do it from anything from terminal.
+
+128
+00:09:18,710 --> 00:09:20,700
+We'll see that in our next letter, OK.
+
+129
+00:09:20,930 --> 00:09:27,210
+Meanwhile, try to write a reusable matter which will pick this upload file from configuration file.
+
+130
+00:09:27,680 --> 00:09:33,500
+OK, and you should also drive all this connection also from another configuration file.
+
+131
+00:09:33,530 --> 00:09:37,370
+So this way your car looks more clean, which we already did for database.
+
+132
+00:09:37,550 --> 00:09:38,480
+Just replicate.
+
+133
+00:09:38,480 --> 00:09:39,920
+Same for this section as well.
+
+134
+00:09:40,520 --> 00:09:40,930
+All right.
+
+135
+00:09:41,240 --> 00:09:41,750
+Thank you.
