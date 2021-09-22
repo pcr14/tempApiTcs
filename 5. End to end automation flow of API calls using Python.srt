@@ -1,0 +1,599 @@
+1
+00:00:00,860 --> 00:00:09,740
+Welcome back and let's quickly right up for the book as well, and if you check out that book documentation,
+
+2
+00:00:10,010 --> 00:00:11,280
+it should be very simple.
+
+3
+00:00:11,720 --> 00:00:15,430
+I think that's the last AIPA we have here is.
+
+4
+00:00:17,670 --> 00:00:24,120
+Like, so the same baseball, 216, whatever you have, and you have to add this resource and that will
+
+5
+00:00:24,120 --> 00:00:28,950
+be the post, and this time, as in December alone, you have to send 80 of the book.
+
+6
+00:00:29,280 --> 00:00:32,330
+OK, earlier you have sent the details of the book, which needs to add it.
+
+7
+00:00:32,610 --> 00:00:34,950
+And for the book, it is expecting this.
+
+8
+00:00:35,430 --> 00:00:37,350
+So basically, this is how you get a contract.
+
+9
+00:00:37,360 --> 00:00:42,840
+As I told in my previous lectures, if somebody tells you to do Abia testing, they have to give all
+
+10
+00:00:42,840 --> 00:00:47,120
+these details for you, then only you can test and write automation for it.
+
+11
+00:00:47,400 --> 00:00:52,470
+So you yourself do not have any knowledge about what should be your input payload and what should be
+
+12
+00:00:52,470 --> 00:00:55,170
+the result and what kind of history department that it is.
+
+13
+00:00:55,440 --> 00:01:00,810
+It is the duty of a developer to share all of this so that you can properly test and write a script
+
+14
+00:01:00,810 --> 00:01:01,170
+for it.
+
+15
+00:01:01,540 --> 00:01:06,390
+OK, so this documentation is a must and you can just demand from you.
+
+16
+00:01:06,570 --> 00:01:07,140
+There have been.
+
+17
+00:01:10,540 --> 00:01:15,710
+So requests start forced and you're not the best you are.
+
+18
+00:01:16,720 --> 00:01:18,400
+So this is the best you all.
+
+19
+00:01:21,950 --> 00:01:27,500
+And slash and library, the lead book, this is a resource.
+
+20
+00:01:28,430 --> 00:01:31,540
+OK, and next you have to pass to Jason, right?
+
+21
+00:01:31,850 --> 00:01:35,150
+Jason Carroll still so you can.
+
+22
+00:01:37,360 --> 00:01:45,490
+Give does Jason, but the key point here is that according to Station Fastforward, the fatal error
+
+23
+00:01:45,490 --> 00:01:49,280
+is gone and the idea here is not death.
+
+24
+00:01:49,510 --> 00:01:52,800
+So basically, your goal is to delete the book, which you just added.
+
+25
+00:01:53,170 --> 00:01:56,700
+So you order this book and idea of this book.
+
+26
+00:01:56,710 --> 00:01:59,470
+We have smartly grabbed into this variable rate.
+
+27
+00:01:59,920 --> 00:02:07,720
+So let's bring that variable here so that at runtime first it will add the book, it will store that
+
+28
+00:02:07,720 --> 00:02:12,490
+book in this variable, and then when it tries to delete the book, the boogity, what you stored there
+
+29
+00:02:12,520 --> 00:02:16,930
+will be placed here so that it gets this will get deleted.
+
+30
+00:02:17,290 --> 00:02:20,120
+OK, so this is the data driven mechanism, right?
+
+31
+00:02:20,410 --> 00:02:23,640
+So this data we are getting from our previous just variable.
+
+32
+00:02:24,130 --> 00:02:24,610
+Awesome.
+
+33
+00:02:25,330 --> 00:02:27,400
+And you can pass again.
+
+34
+00:02:27,520 --> 00:02:31,330
+That's just like how you have done in your case.
+
+35
+00:02:32,290 --> 00:02:39,460
+And that's it, and this is how you can send another post request, because this is also a post request,
+
+36
+00:02:39,700 --> 00:02:46,240
+if you have any other operation like food or delayed, then you can choose that aspect of and request
+
+37
+00:02:46,250 --> 00:02:48,600
+or you will get the latest GDP matter.
+
+38
+00:02:49,060 --> 00:02:51,940
+And if you have put history department, you can simply request.
+
+39
+00:02:52,780 --> 00:02:58,090
+So right now, in our case, we have to actually we might have to get and post the concept the same
+
+40
+00:02:58,090 --> 00:02:58,510
+guys.
+
+41
+00:02:58,520 --> 00:03:03,700
+You just need to change the history department, their name based upon the EPA matter.
+
+42
+00:03:04,180 --> 00:03:08,410
+Whatever you are, you have if it's a post and you post here.
+
+43
+00:03:09,630 --> 00:03:19,350
+All right, so I will take the response of the book into one variable, and my next goal is to see if
+
+44
+00:03:19,350 --> 00:03:22,070
+this operation is a success.
+
+45
+00:03:22,530 --> 00:03:24,840
+So I would say not a status called.
+
+46
+00:03:25,980 --> 00:03:29,540
+And then it should be 200, right?
+
+47
+00:03:30,030 --> 00:03:36,180
+Let's see are the work is a 200 status like having a session?
+
+48
+00:03:39,480 --> 00:03:45,420
+Right, next, once the book is deleted, you will get response, something like this.
+
+49
+00:03:46,850 --> 00:03:49,770
+Output responsable book is successfully deleted.
+
+50
+00:03:50,270 --> 00:03:58,010
+So let's have a session which will try to get the value of this message to be equal to book is successfully
+
+51
+00:03:58,010 --> 00:03:58,460
+deleted.
+
+52
+00:03:58,760 --> 00:03:59,200
+OK.
+
+53
+00:04:00,280 --> 00:04:08,710
+So for that, first of all, you have to convert that into Jason formatter, Jason, and then take that
+
+54
+00:04:08,980 --> 00:04:09,640
+let's.
+
+55
+00:04:10,910 --> 00:04:13,100
+Jess, Jason, some variable name.
+
+56
+00:04:13,580 --> 00:04:22,490
+OK, now this Holstead Jason response, and you can see that the response, what you got is in big study
+
+57
+00:04:22,500 --> 00:04:24,790
+format because it's not in square brackets list.
+
+58
+00:04:25,130 --> 00:04:28,180
+So obviously this is not header.
+
+59
+00:04:28,310 --> 00:04:28,610
+Right.
+
+60
+00:04:28,700 --> 00:04:29,950
+And this is the response.
+
+61
+00:04:30,290 --> 00:04:31,790
+Yeah, it's still in the dictionary.
+
+62
+00:04:32,000 --> 00:04:33,830
+So if you want to access this message.
+
+63
+00:04:34,840 --> 00:04:41,860
+So you have your extended I with you, with you and Jason, and you can simply pass the message key.
+
+64
+00:04:43,510 --> 00:04:45,150
+So that valuable military.
+
+65
+00:04:45,730 --> 00:04:56,590
+So let's bring this first and then I will write one assertion that Assir whatever the message I retrieved.
+
+66
+00:04:58,200 --> 00:05:03,140
+Should be equal stole, our book is successfully deleted.
+
+67
+00:05:07,700 --> 00:05:14,870
+OK, so when you run this, I think this time it should fail because it's trying to add the book again
+
+68
+00:05:14,870 --> 00:05:20,690
+with the same details, you already ran the score and you have added the book with the same details.
+
+69
+00:05:20,690 --> 00:05:20,930
+Right.
+
+70
+00:05:21,260 --> 00:05:29,090
+Whenever you try to add again, then it will complain that our book already exist, then you won't get
+
+71
+00:05:29,090 --> 00:05:29,300
+it.
+
+72
+00:05:29,540 --> 00:05:32,000
+So it will fail here, then you won't get it.
+
+73
+00:05:32,210 --> 00:05:33,350
+You can't understand it.
+
+74
+00:05:34,430 --> 00:05:39,350
+So to create a unique book, you have to give the unique combination of ISBN.
+
+75
+00:05:39,350 --> 00:05:43,340
+And I'll also make some changes here so that it will return as a unit.
+
+76
+00:05:44,090 --> 00:05:52,130
+And also we have seen running the test by having the body of the design inside the file.
+
+77
+00:05:52,490 --> 00:05:58,500
+But in real time, it's not good practice to have this entire descent in your testified.
+
+78
+00:05:58,760 --> 00:06:00,870
+So they should drive it from externally.
+
+79
+00:06:01,220 --> 00:06:08,570
+OK, so right now I would try to create one more class and I will drive this different data from there.
+
+80
+00:06:08,960 --> 00:06:10,480
+OK, so let me show you.
+
+81
+00:06:11,120 --> 00:06:15,710
+It should be a simple fix, but this way we will have some cleaner code here.
+
+82
+00:06:16,190 --> 00:06:21,500
+Paillard So basically all the ballots for our test will come from this file.
+
+83
+00:06:21,740 --> 00:06:24,810
+OK, let's create a simple function here.
+
+84
+00:06:25,340 --> 00:06:28,250
+So I would say our book.
+
+85
+00:06:29,290 --> 00:06:29,920
+Payload.
+
+86
+00:06:32,160 --> 00:06:41,140
+OK, so inside this function, I will first create one string equals two, and then you have your bell.
+
+87
+00:06:41,160 --> 00:06:46,710
+All right, so let's call it from our word document so you can access this document from Rovell.
+
+88
+00:06:46,710 --> 00:06:49,290
+Should be Economy.com slash practice projects.
+
+89
+00:06:52,530 --> 00:06:54,930
+Awesome, and then finally, we will return this.
+
+90
+00:06:59,170 --> 00:07:00,650
+Return 40.
+
+91
+00:07:04,870 --> 00:07:10,040
+So currently, file is not formatted, so we are concerned it will ask you to reformat file.
+
+92
+00:07:10,390 --> 00:07:13,870
+So this way it will be exactly in the correct format.
+
+93
+00:07:14,410 --> 00:07:17,800
+OK, so make sure this court indentation is properly aligned.
+
+94
+00:07:18,190 --> 00:07:19,300
+You need not do anything.
+
+95
+00:07:19,300 --> 00:07:21,880
+So it will steal, just like I did here.
+
+96
+00:07:22,510 --> 00:07:28,540
+OK, so there is a function which will accept you payload and return it.
+
+97
+00:07:28,750 --> 00:07:34,660
+OK, so you are storing the entire payload in one variable and you're returning it so you can quickly
+
+98
+00:07:34,660 --> 00:07:38,840
+call this method directly in your API example.
+
+99
+00:07:39,040 --> 00:07:40,110
+So remove all this.
+
+100
+00:07:40,480 --> 00:07:40,770
+Yeah.
+
+101
+00:07:41,410 --> 00:07:43,450
+And this and the payload.
+
+102
+00:07:43,690 --> 00:07:49,300
+So right now we don't have available of this function reading here because.
+
+103
+00:07:49,840 --> 00:07:51,140
+So this isn't another file.
+
+104
+00:07:51,310 --> 00:07:55,810
+How would you tell your Python file to imported from that special file.
+
+105
+00:07:55,840 --> 00:08:04,870
+OK, so far that from payload is seven and under the filing right from payload you can simply say import
+
+106
+00:08:04,870 --> 00:08:05,350
+stuff.
+
+107
+00:08:05,360 --> 00:08:12,610
+So that means it will import all the functions or methods present in this payload file.
+
+108
+00:08:13,000 --> 00:08:16,660
+So you need to write the syntax like from payload import start.
+
+109
+00:08:17,240 --> 00:08:21,720
+OK, reformat the file and everything looks good.
+
+110
+00:08:22,390 --> 00:08:29,880
+And so if you want to send the unique values every time instead of going here, let's parametrized this.
+
+111
+00:08:30,460 --> 00:08:33,970
+So we need some Espin and I'll combination unique.
+
+112
+00:08:33,970 --> 00:08:34,260
+Right?
+
+113
+00:08:34,630 --> 00:08:43,990
+So far I would directly call here I SBM and this is when I would drive it from my test.
+
+114
+00:08:46,330 --> 00:08:48,770
+OK, so this is coming as a barometer.
+
+115
+00:08:48,970 --> 00:08:52,940
+So from my actual test, I would send that SVM value.
+
+116
+00:08:53,260 --> 00:09:00,550
+So let me send some random value so that at runtime this value will come and fall here and from here
+
+117
+00:09:00,550 --> 00:09:02,430
+it will be placed in this area.
+
+118
+00:09:02,620 --> 00:09:10,420
+So that very unique book details will be created every time so that you won't get and Branning to duplicate
+
+119
+00:09:10,420 --> 00:09:10,800
+things.
+
+120
+00:09:11,020 --> 00:09:13,280
+So make sure you update this parameter.
+
+121
+00:09:13,330 --> 00:09:13,750
+That's it.
+
+122
+00:09:13,770 --> 00:09:14,770
+So that will take it.
+
+123
+00:09:15,910 --> 00:09:17,600
+So, all right, so that's all we have.
+
+124
+00:09:17,620 --> 00:09:22,980
+So let's run this test, because we made a little optimization of having this payload from another funnel.
+
+125
+00:09:23,410 --> 00:09:25,470
+Make sure you have only a single slash here.
+
+126
+00:09:25,480 --> 00:09:27,930
+So I still believe we have given one.
+
+127
+00:09:27,940 --> 00:09:30,010
+What's left apart from that?
+
+128
+00:09:30,010 --> 00:09:31,320
+Everything looks good.
+
+129
+00:09:31,900 --> 00:09:33,520
+So let's run this test.
+
+130
+00:09:38,000 --> 00:09:43,840
+Perfect, you see that book is added and it is also successfully deleted.
+
+131
+00:09:44,660 --> 00:09:52,010
+You did not fail because it ran and got data scored as 200 and we are accepting into it.
+
+132
+00:09:52,400 --> 00:09:55,210
+OK, so you added the book and you deleted.
+
+133
+00:09:55,370 --> 00:10:01,330
+So you need not worry about changing this ISBN every time because that book did not exist.
+
+134
+00:10:01,610 --> 00:10:05,280
+So when you ran again, it will firstly add and delete it immediately.
+
+135
+00:10:05,510 --> 00:10:08,870
+So this way you can validate both ad and delete book apps.
+
+136
+00:10:09,620 --> 00:10:09,940
+Right.
+
+137
+00:10:10,250 --> 00:10:14,360
+But right now you have driven this entire payload from this file.
+
+138
+00:10:14,720 --> 00:10:21,920
+But in coming sections, I will introduce database and we will dynamically build this from the values
+
+139
+00:10:21,920 --> 00:10:23,150
+present in database.
+
+140
+00:10:23,330 --> 00:10:25,190
+That will be very interesting topic.
+
+141
+00:10:25,580 --> 00:10:32,790
+OK, so in real time, when someone are you to ask to add any books every time a stock will be there.
+
+142
+00:10:32,790 --> 00:10:33,020
+Right.
+
+143
+00:10:33,320 --> 00:10:35,680
+All those details may be present in database.
+
+144
+00:10:35,840 --> 00:10:40,430
+So basically you should add them from database and push it to some other service.
+
+145
+00:10:40,700 --> 00:10:47,000
+OK, so you need to dynamically drive all this from your baby tables and construct this design out of
+
+146
+00:10:47,000 --> 00:10:49,120
+it, which will be seeing incoming sections.
+
+147
+00:10:49,430 --> 00:10:53,240
+So for now, this is how you can achieve this concept.
+
+148
+00:10:53,240 --> 00:10:59,510
+And then we'll leverage this with more optimization by removing this endpoint and obsessing over the
+
+149
+00:10:59,510 --> 00:11:00,170
+next lecture.
+
+150
+00:11:00,920 --> 00:11:01,430
+Thank you.

@@ -1,0 +1,707 @@
+1
+00:00:01,360 --> 00:00:09,280
+OK, so our goal is to sum the all the records amount so far that we have to fit all.
+
+2
+00:00:10,000 --> 00:00:11,170
+So let me do one thing.
+
+3
+00:00:11,950 --> 00:00:13,870
+Should I comment on this?
+
+4
+00:00:13,900 --> 00:00:14,950
+Yes, let's come in.
+
+5
+00:00:17,910 --> 00:00:24,780
+Right, and then I will execute Curser, not fit all.
+
+6
+00:00:24,900 --> 00:00:30,810
+So this will get me the all the rules, so let me have it one variable.
+
+7
+00:00:32,130 --> 00:00:39,690
+OK, so we know that when you run this virtual rossville written a list, so if you are not sure.
+
+8
+00:00:40,290 --> 00:00:49,170
+So first try printing it print type of loss because it returns a list of tuples.
+
+9
+00:00:49,290 --> 00:00:49,670
+Lexi.
+
+10
+00:00:51,210 --> 00:00:52,590
+I can see that it's the last.
+
+11
+00:00:54,440 --> 00:00:58,900
+Next, we have to read through that list now, OK?
+
+12
+00:00:58,970 --> 00:01:00,980
+Our goal is to either read that list.
+
+13
+00:01:02,070 --> 00:01:08,160
+So let's also bring Rose to see how that list displays so that we can try it better.
+
+14
+00:01:08,580 --> 00:01:12,060
+So one thing, one, you started that connection at the end.
+
+15
+00:01:12,210 --> 00:01:19,700
+Let's close it, because if not, it will open many connections and that will slow down your sexual
+
+16
+00:01:19,770 --> 00:01:20,380
+integrity.
+
+17
+00:01:20,400 --> 00:01:23,860
+So, OK, let me close the connection at the end.
+
+18
+00:01:23,880 --> 00:01:25,110
+Let's give it the last step.
+
+19
+00:01:25,380 --> 00:01:25,740
+OK.
+
+20
+00:01:27,690 --> 00:01:28,120
+Right.
+
+21
+00:01:28,140 --> 00:01:30,520
+So this is the list we need to pass.
+
+22
+00:01:30,900 --> 00:01:33,300
+So let me iterate through this list.
+
+23
+00:01:33,310 --> 00:01:41,070
+So once we understand this is the list to iterate, I would use one for loop for a row in a row.
+
+24
+00:01:42,390 --> 00:01:49,920
+So basically now this for loop I direct and for every iteration, one row will be picked for the first
+
+25
+00:01:49,920 --> 00:01:50,130
+time.
+
+26
+00:01:50,130 --> 00:01:54,630
+Facebook will be picked and that will be stored in this role.
+
+27
+00:01:55,400 --> 00:01:57,000
+OK, right.
+
+28
+00:01:57,390 --> 00:01:58,760
+So here what you have to do.
+
+29
+00:01:59,040 --> 00:02:03,030
+So once it's stored in the row, basically row is a couple.
+
+30
+00:02:03,690 --> 00:02:06,690
+OK, so let's say I iteration starting first time.
+
+31
+00:02:06,720 --> 00:02:09,600
+This complete roll is picked from this list.
+
+32
+00:02:10,020 --> 00:02:12,960
+Now what you should do, you have to pick a moment.
+
+33
+00:02:12,960 --> 00:02:17,000
+Right, because you need to sum up so amount is zero.
+
+34
+00:02:17,010 --> 00:02:17,940
+First, second.
+
+35
+00:02:19,160 --> 00:02:21,150
+OK, so this is a couple now.
+
+36
+00:02:21,440 --> 00:02:23,360
+So basically it is nothing but this one.
+
+37
+00:02:25,040 --> 00:02:26,010
+That middle aged here.
+
+38
+00:02:29,120 --> 00:02:32,390
+So every iteration, you will get something like this.
+
+39
+00:02:33,540 --> 00:02:39,660
+Right now from this, you want to get em out again, this is a couple, so I would simply say a rule
+
+40
+00:02:39,660 --> 00:02:40,190
+of two.
+
+41
+00:02:40,590 --> 00:02:44,790
+So this will give me the amount, OK, and.
+
+42
+00:02:46,730 --> 00:02:51,590
+Let's print this and see if it is correctly giving amounts.
+
+43
+00:02:51,890 --> 00:02:57,640
+So now if I underscored it should simply display the amounts of every arrow, OK?
+
+44
+00:02:59,590 --> 00:03:05,380
+Awesome, you see that one twenty forty five, ninety nine, all right, now our goal is to sum this
+
+45
+00:03:05,500 --> 00:03:05,770
+up.
+
+46
+00:03:06,520 --> 00:03:13,990
+OK, so try to understand I'm just making you hands on free to understand how to retrieve the results
+
+47
+00:03:13,990 --> 00:03:15,830
+from database by having the queries.
+
+48
+00:03:16,410 --> 00:03:16,720
+OK.
+
+49
+00:03:19,120 --> 00:03:24,010
+All right, so I will initialised one variable called sum equals to zero.
+
+50
+00:03:26,180 --> 00:03:31,730
+And simple logic, what I would like is some equals to some place.
+
+51
+00:03:35,100 --> 00:03:38,190
+Rule of two, this is not a.
+
+52
+00:03:39,420 --> 00:03:42,570
+Yeah, so now first iteration 120 will be picked.
+
+53
+00:03:42,720 --> 00:03:51,690
+So some zero zero plus 120, some will become 120 in next iteration of those forty five previous summits,
+
+54
+00:03:51,690 --> 00:03:52,290
+120.
+
+55
+00:03:52,290 --> 00:03:54,660
+So 120 plus 45 will be stored here.
+
+56
+00:03:55,350 --> 00:04:01,950
+And next iteration 99 will come here is ninety nine ninety nine plus previously some of 120 plus forty
+
+57
+00:04:01,950 --> 00:04:02,140
+four.
+
+58
+00:04:02,520 --> 00:04:09,270
+So like this for every iteration, this number will be summed up with the previous sum and once you
+
+59
+00:04:09,270 --> 00:04:15,720
+complete the full up, finally you will have some value of all the elements.
+
+60
+00:04:15,910 --> 00:04:19,890
+Like I think we have done this example already in Python basics.
+
+61
+00:04:21,150 --> 00:04:22,470
+So let's come out of our loop.
+
+62
+00:04:22,770 --> 00:04:25,460
+So this will basically be an incremental or some value.
+
+63
+00:04:25,710 --> 00:04:29,640
+And finally, once you come out, bring that some value.
+
+64
+00:04:30,980 --> 00:04:39,080
+I know when you run this, this will give you the final sum of 361, great, so that's how you can play
+
+65
+00:04:39,080 --> 00:04:41,980
+with the data of database, right?
+
+66
+00:04:42,110 --> 00:04:48,530
+Using a python without depending upon any l'état like this, without relying on this, you can simply
+
+67
+00:04:48,530 --> 00:04:54,080
+form the connection and get all the good results by giving the commands.
+
+68
+00:04:54,260 --> 00:05:02,090
+Now we just saw only select right now let's say update that are a few more current operations like insert
+
+69
+00:05:02,090 --> 00:05:03,040
+update, delete.
+
+70
+00:05:03,230 --> 00:05:10,330
+So let's also see that now, for example, I want to update our customer info table.
+
+71
+00:05:11,390 --> 00:05:13,580
+So this is our customer info table, right?
+
+72
+00:05:17,430 --> 00:05:20,430
+So I want to set location.
+
+73
+00:05:23,250 --> 00:05:24,180
+To us.
+
+74
+00:05:26,750 --> 00:05:35,990
+To what so we're basically for Dimitar, I want to set location to us, so they, of course, mean I
+
+75
+00:05:35,990 --> 00:05:38,280
+assume that you have basic knowledge on Cequent.
+
+76
+00:05:39,010 --> 00:05:45,110
+OK, so we I'm not going in depth to explain, like, what of the Kuwaitis and how good I did the basic
+
+77
+00:05:45,110 --> 00:05:46,690
+assumption of, you know, this Kuwaiti.
+
+78
+00:05:46,950 --> 00:05:47,200
+Right.
+
+79
+00:05:47,420 --> 00:05:48,710
+So basically, this is a table.
+
+80
+00:05:48,890 --> 00:05:55,240
+I'm updating location to use their codes name equals to Daym so far, the middle class name.
+
+81
+00:05:55,250 --> 00:06:01,850
+We are changing the location from Asia to U.S. So when you under Squaddie, then that will update it
+
+82
+00:06:01,850 --> 00:06:03,530
+to the U.S..
+
+83
+00:06:06,040 --> 00:06:07,800
+Yeah, that is an error here.
+
+84
+00:06:07,910 --> 00:06:12,600
+What happened, you are using safe mode, updating or trying to update the table.
+
+85
+00:06:12,620 --> 00:06:14,410
+OK, let's change that.
+
+86
+00:06:16,330 --> 00:06:24,460
+So give this guy a reset sequel, save up next to zero so that he will be given permission to update
+
+87
+00:06:24,640 --> 00:06:25,780
+values and tables.
+
+88
+00:06:25,990 --> 00:06:28,380
+OK, let me run this again.
+
+89
+00:06:29,310 --> 00:06:29,800
+Perfect.
+
+90
+00:06:30,270 --> 00:06:31,620
+So it got changed.
+
+91
+00:06:31,740 --> 00:06:39,630
+Now I call this the results again, now this time for Dimitar, you'll see that it updated to us.
+
+92
+00:06:40,110 --> 00:06:45,480
+OK, so that's that's how you can update the value in tables using the query.
+
+93
+00:06:45,790 --> 00:06:50,440
+Now, our goal is to update this from Python.
+
+94
+00:06:50,950 --> 00:06:52,050
+OK, it should be simple.
+
+95
+00:06:52,050 --> 00:06:53,500
+Yes, very, very simple.
+
+96
+00:06:53,520 --> 00:06:54,840
+Same mechanism.
+
+97
+00:06:54,840 --> 00:06:55,590
+What you have done.
+
+98
+00:06:59,180 --> 00:07:00,710
+Cinder blocks liquidated here.
+
+99
+00:07:02,770 --> 00:07:12,670
+So I will write that query in one variable, so let me write it in here, so put it in strings, so
+
+100
+00:07:12,670 --> 00:07:17,500
+write your code and have it in strings like this, like mixed.
+
+101
+00:07:17,770 --> 00:07:20,800
+So basically you can go hard core values.
+
+102
+00:07:21,990 --> 00:07:28,950
+In your string, or you can drive it externally now, for example, here, location equals two percentile.
+
+103
+00:07:28,980 --> 00:07:29,340
+Yes.
+
+104
+00:07:30,510 --> 00:07:33,090
+So that means one spring should come here.
+
+105
+00:07:33,300 --> 00:07:35,150
+So we have not hard according the values.
+
+106
+00:07:35,340 --> 00:07:43,840
+This is the core QUERREY work, which is not having values, values that we will pass in another percentiles.
+
+107
+00:07:43,980 --> 00:07:48,660
+Again, when you use our percentile as it stands for one string will come and replace it.
+
+108
+00:07:48,840 --> 00:07:49,160
+Right.
+
+109
+00:07:49,320 --> 00:07:50,430
+And this is your body.
+
+110
+00:07:50,790 --> 00:07:56,580
+So write your query and store it in one variable so that queries should be generic without hard coding.
+
+111
+00:07:56,580 --> 00:07:59,820
+Any values now create one tuple.
+
+112
+00:08:00,780 --> 00:08:02,530
+So you know how to create double right.
+
+113
+00:08:02,820 --> 00:08:07,020
+Double syntax of creating something like this.
+
+114
+00:08:07,300 --> 00:08:13,680
+OK, if it is the list, as I told it this way, now you need two values here for this.
+
+115
+00:08:14,220 --> 00:08:16,730
+One is the location and one is the code name.
+
+116
+00:08:16,740 --> 00:08:16,940
+Right.
+
+117
+00:08:17,460 --> 00:08:18,570
+So location.
+
+118
+00:08:20,040 --> 00:08:22,020
+Now, U.S. is the one it's already there.
+
+119
+00:08:22,050 --> 00:08:23,580
+Let me turn into UK.
+
+120
+00:08:25,230 --> 00:08:32,200
+Gunma and of course, name and let's use the same Jimm, right, and store this stuff all in one variable.
+
+121
+00:08:33,120 --> 00:08:35,340
+So basically you have two variables here.
+
+122
+00:08:35,490 --> 00:08:43,620
+One is a string of generic query and the another is a data which holds the actual values of what you
+
+123
+00:08:43,620 --> 00:08:44,530
+have to provide here.
+
+124
+00:08:45,390 --> 00:08:49,310
+You can connect these two smartly with your cousin, right.
+
+125
+00:08:49,560 --> 00:08:53,740
+You know how to execute query that we have already done concertante execute.
+
+126
+00:08:54,270 --> 00:08:54,960
+So same thing.
+
+127
+00:08:54,960 --> 00:09:02,160
+You can provide a game Cassard Dart execute, but this time you'll first send this query so either you
+
+128
+00:09:02,160 --> 00:09:07,250
+can directly align this inside our store it in one variable and you can call like this also.
+
+129
+00:09:07,650 --> 00:09:15,810
+But if you think this query needs some values to input and make sure you have a variable as a table
+
+130
+00:09:15,810 --> 00:09:19,530
+and send that tuple as you get to that argument, that's it.
+
+131
+00:09:19,800 --> 00:09:25,500
+So then at one time automatically Findon have intelligence of taking this tuple and it will place in
+
+132
+00:09:25,500 --> 00:09:28,940
+this query in this percentiles in the order place.
+
+133
+00:09:29,250 --> 00:09:36,060
+So you can sit here and then we will sit here so that my data and query should be separated.
+
+134
+00:09:36,210 --> 00:09:37,200
+That's the best practice.
+
+135
+00:09:37,200 --> 00:09:42,160
+You should not hardcourt so that tomorrow, if anyone want to use for another location and of course
+
+136
+00:09:42,180 --> 00:09:44,310
+name, they can still use this query variable.
+
+137
+00:09:44,490 --> 00:09:46,050
+And since the second argument.
+
+138
+00:09:47,100 --> 00:09:47,360
+Right.
+
+139
+00:09:47,910 --> 00:09:51,100
+So once you do that, you have to commit Eurocorps.
+
+140
+00:09:51,180 --> 00:09:53,790
+So basically we're updating it right after update.
+
+141
+00:09:53,800 --> 00:09:59,610
+You have to come in to commit that so that it should be done on connection.
+
+142
+00:10:00,300 --> 00:10:02,190
+So connection is gone.
+
+143
+00:10:02,190 --> 00:10:02,390
+Right.
+
+144
+00:10:03,090 --> 00:10:09,330
+So as I told, Casser will help you to streamline between your baby to your python.
+
+145
+00:10:09,330 --> 00:10:11,660
+It can send a query and it can return results.
+
+146
+00:10:12,000 --> 00:10:18,150
+But if you want to connect, commit database level, you have to again choose connection, your main
+
+147
+00:10:18,150 --> 00:10:18,600
+object.
+
+148
+00:10:19,580 --> 00:10:20,620
+Not coming.
+
+149
+00:10:23,320 --> 00:10:23,930
+And that's all.
+
+150
+00:10:24,250 --> 00:10:33,780
+And now when you run this query, this will now update the table and right now it is showing as us,
+
+151
+00:10:33,790 --> 00:10:33,990
+right?
+
+152
+00:10:34,570 --> 00:10:35,680
+So let me run this.
+
+153
+00:10:36,890 --> 00:10:38,950
+Program and bold shift after.
+
+154
+00:10:40,360 --> 00:10:46,920
+Perfect, so it's updated to know that you call this stable a game and watch out for this location.
+
+155
+00:10:50,060 --> 00:10:58,700
+It's U.K., it's no more U.S. So that's how you can also update your other database tables from your
+
+156
+00:10:58,700 --> 00:11:06,560
+Painton with a query and making a smart data driving externally front table and you can delete also.
+
+157
+00:11:06,740 --> 00:11:08,770
+Now, that is it's all the same, guys.
+
+158
+00:11:08,780 --> 00:11:10,070
+So I gave you syntax.
+
+159
+00:11:10,220 --> 00:11:11,840
+You can use any Quirino.
+
+160
+00:11:12,380 --> 00:11:16,240
+OK, so no matter what you do, you have a pretty direct one.
+
+161
+00:11:16,250 --> 00:11:21,620
+You can go like this if it expects any values to be part of quality, you can use this way.
+
+162
+00:11:22,190 --> 00:11:24,410
+So as an assignment I will give you a delete.
+
+163
+00:11:24,830 --> 00:11:25,130
+Right.
+
+164
+00:11:25,400 --> 00:11:31,130
+So if you want to delete this web services rule, this is the command, right.
+
+165
+00:11:31,280 --> 00:11:33,260
+Delete Web services.
+
+166
+00:11:36,980 --> 00:11:42,950
+And give the condition where God's name equals to live services.
+
+167
+00:11:47,280 --> 00:11:49,530
+OK, so this query will help you to.
+
+168
+00:11:53,440 --> 00:12:00,620
+And so this is a table in, right, sorry, so delayed from this table where Qassemi services will now
+
+169
+00:12:00,640 --> 00:12:06,180
+you're right, you are a python executed method, just like how I have done here.
+
+170
+00:12:06,730 --> 00:12:07,120
+Is that.
+
+171
+00:12:09,400 --> 00:12:10,040
+Yeah, right.
+
+172
+00:12:10,060 --> 00:12:17,500
+One more method which can delete regard from your database, so this way you can play around with your
+
+173
+00:12:17,500 --> 00:12:20,130
+database table results using Python.
+
+174
+00:12:20,650 --> 00:12:27,310
+OK, in the next lecture, let's see how can we optimize by doing this connection externally in another
+
+175
+00:12:27,320 --> 00:12:27,600
+fight.
+
+176
+00:12:28,440 --> 00:12:28,640
+Right.
+
+177
+00:12:28,750 --> 00:12:29,260
+Thank you.

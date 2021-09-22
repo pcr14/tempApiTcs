@@ -1,0 +1,507 @@
+1
+00:00:01,180 --> 00:00:01,930
+Welcome back.
+
+2
+00:00:02,290 --> 00:00:08,470
+Now, if you check out our previous guest, we are adding the book and at the end we are deleting as
+
+3
+00:00:08,470 --> 00:00:10,430
+a bigger down step, right.
+
+4
+00:00:10,960 --> 00:00:14,790
+So now we have to make sure we add this step as well.
+
+5
+00:00:15,250 --> 00:00:22,840
+But instead of adding here, if you think that that delete is as a cleaning script, because we have
+
+6
+00:00:22,840 --> 00:00:26,680
+written that because we don't want to mess our database with multiple ads.
+
+7
+00:00:26,980 --> 00:00:30,190
+So we will add the book and we will clean up the data by deleting it.
+
+8
+00:00:30,490 --> 00:00:34,300
+OK, so that clean up thing you can write in separate files.
+
+9
+00:00:34,510 --> 00:00:38,900
+So Cucumber provides us some hooks which can help us to do that.
+
+10
+00:00:39,340 --> 00:00:48,170
+Let me show you, if you go to the official Web page antidotal so you can create an environment file.
+
+11
+00:00:48,640 --> 00:00:51,580
+Let's see where it is barometer's.
+
+12
+00:00:51,610 --> 00:00:51,910
+Yeah.
+
+13
+00:00:52,510 --> 00:01:00,300
+So this environment controls file may define code to run before and after certain events during your
+
+14
+00:01:00,310 --> 00:01:00,820
+testing.
+
+15
+00:01:01,180 --> 00:01:08,350
+OK, so here our event is that when we run the scenario after successful execution of the scenario,
+
+16
+00:01:08,650 --> 00:01:12,010
+we want to clean this data by deleting that book again.
+
+17
+00:01:12,280 --> 00:01:20,650
+OK, so far that there is one method after scenario and in that method, if you write that code to delete
+
+18
+00:01:20,800 --> 00:01:27,310
+so automatically when the scenario is executed, it will check if there are any hooks like after scenario
+
+19
+00:01:27,460 --> 00:01:28,270
+before scenario.
+
+20
+00:01:28,780 --> 00:01:35,380
+OK, so if you write any code in before scenario, so that means before starting this scenario execution
+
+21
+00:01:35,680 --> 00:01:41,490
+that will run that before the scenario matter and then it will come to the scenario and execute this.
+
+22
+00:01:42,010 --> 00:01:46,900
+But in our case, in our example, we want to clean up the delete book.
+
+23
+00:01:47,050 --> 00:01:53,260
+So in our case, ideal thing is to use this after scenario and write the book code inside it.
+
+24
+00:01:53,440 --> 00:01:54,310
+OK, let's do this.
+
+25
+00:01:54,640 --> 00:01:58,050
+So like this you can have a for before step.
+
+26
+00:01:58,360 --> 00:02:06,310
+So that means before you run any step here, you that God will get executed and similarly before Fetim.
+
+27
+00:02:07,150 --> 00:02:09,910
+So a future is nothing but a collection of scenarios.
+
+28
+00:02:09,910 --> 00:02:10,140
+Right.
+
+29
+00:02:10,180 --> 00:02:17,200
+If you have five scenarios here then you can use before, after that so that before it executes anything
+
+30
+00:02:17,200 --> 00:02:22,180
+in this file, first it will run that method and after each end will run at the end.
+
+31
+00:02:22,750 --> 00:02:26,910
+OK, we will see a few examples in this section to demonstrate that.
+
+32
+00:02:27,190 --> 00:02:32,530
+So we will get started with after scenario because this is ideal in our case to use to clean up that
+
+33
+00:02:32,530 --> 00:02:33,060
+data.
+
+34
+00:02:33,280 --> 00:02:40,810
+What we just added so far that you have to write that environment would be very smart.
+
+35
+00:02:41,050 --> 00:02:47,350
+If you write like that, then only you are behav can search and find it.
+
+36
+00:02:47,650 --> 00:02:52,090
+OK, so before running, any scenarios are running anything.
+
+37
+00:02:52,390 --> 00:02:57,670
+It will take an environment that private file, python file, if there is any hooke's defined.
+
+38
+00:02:58,300 --> 00:03:01,150
+So that is the only file this behavior.
+
+39
+00:03:01,510 --> 00:03:08,900
+So you have to mandatorily create your file with that name and that file should go under.
+
+40
+00:03:08,920 --> 00:03:11,400
+This features directory only.
+
+41
+00:03:11,410 --> 00:03:13,930
+OK, so right now it features directory.
+
+42
+00:03:14,440 --> 00:03:16,570
+There is a feature file and steps.
+
+43
+00:03:16,870 --> 00:03:20,710
+So creating another new this is Python file.
+
+44
+00:03:20,710 --> 00:03:20,980
+Right.
+
+45
+00:03:21,370 --> 00:03:23,840
+This does not have anything to do with features and a bit.
+
+46
+00:03:27,440 --> 00:03:27,950
+Awesome.
+
+47
+00:03:28,250 --> 00:03:32,910
+So in this file now, let's write about that after scenario, what we need.
+
+48
+00:03:33,290 --> 00:03:36,170
+So if you aren't Syntex, you can get it from here.
+
+49
+00:03:37,010 --> 00:03:40,490
+This is how you have to define after senario.
+
+50
+00:03:43,080 --> 00:03:46,170
+OK, so how deaf is that mandatory?
+
+51
+00:03:48,270 --> 00:03:51,390
+And in fairness, now, you can blame the court what you want to do.
+
+52
+00:03:51,720 --> 00:03:57,720
+OK, so in our case, we have to write that book.
+
+53
+00:03:58,680 --> 00:04:03,860
+Yeah, this one book is successfully the leader, this part we should know right here.
+
+54
+00:04:05,670 --> 00:04:07,430
+Let's come back and pasted here.
+
+55
+00:04:08,780 --> 00:04:09,210
+Awesome.
+
+56
+00:04:09,860 --> 00:04:13,250
+OK, so you need to import this request.
+
+57
+00:04:14,990 --> 00:04:22,490
+Good and any more of us, so this will go and hit that end point and so here we are not partitioning
+
+58
+00:04:22,490 --> 00:04:25,760
+anything as perfect because this is just a roll or it will execute.
+
+59
+00:04:26,630 --> 00:04:28,760
+So one important thing here is a.
+
+60
+00:04:29,930 --> 00:04:37,330
+So earlier we created a new book and we stored that book into one variable and then we realized it right
+
+61
+00:04:37,460 --> 00:04:39,070
+to delete, you know?
+
+62
+00:04:39,080 --> 00:04:39,290
+Right.
+
+63
+00:04:39,590 --> 00:04:44,890
+So if you want to delete the book, you have to provide that book idea again as an input parameter,
+
+64
+00:04:44,900 --> 00:04:46,600
+funny little force to request a method.
+
+65
+00:04:47,090 --> 00:04:47,950
+We already saw that.
+
+66
+00:04:47,960 --> 00:04:51,020
+So I'm not going, again, in depth to explain what exactly this does.
+
+67
+00:04:51,880 --> 00:04:59,350
+Now, problem is the book, what you added, we are collecting that value in our step definition final
+
+68
+00:04:59,740 --> 00:05:00,100
+here.
+
+69
+00:05:01,130 --> 00:05:08,150
+Well, it is, yeah, but you want to use it in the environment file, because same book has to come
+
+70
+00:05:08,150 --> 00:05:10,100
+here so that you can delete the book.
+
+71
+00:05:10,110 --> 00:05:13,420
+What just got created, how to do that again?
+
+72
+00:05:13,430 --> 00:05:14,510
+It's very simple, guys.
+
+73
+00:05:15,110 --> 00:05:17,710
+Just trust on this context.
+
+74
+00:05:17,720 --> 00:05:19,250
+This will take care of everything.
+
+75
+00:05:19,430 --> 00:05:26,240
+I told you, right, that the object will start on the initiation of a script and then it will be active
+
+76
+00:05:26,240 --> 00:05:26,870
+until the end.
+
+77
+00:05:27,200 --> 00:05:29,700
+So if you stored anything there, you can read it here.
+
+78
+00:05:30,100 --> 00:05:31,010
+OK, it's so simple.
+
+79
+00:05:31,220 --> 00:05:35,240
+So now let's go back to our step implementation file and.
+
+80
+00:05:36,890 --> 00:05:38,690
+Store this as context.
+
+81
+00:05:41,470 --> 00:05:50,560
+Look, Heidi, let's bring this to context also so we are adding new property to this context right
+
+82
+00:05:50,860 --> 00:05:53,980
+now, come back to the environment file and simply use it here.
+
+83
+00:05:54,940 --> 00:05:56,020
+And let's start.
+
+84
+00:05:56,140 --> 00:05:56,830
+What is that?
+
+85
+00:05:56,990 --> 00:05:58,740
+I missed Bogarde.
+
+86
+00:06:02,560 --> 00:06:08,350
+And that's automatically the context will be activated because you already stored those right, and
+
+87
+00:06:08,350 --> 00:06:09,640
+you can simply it here.
+
+88
+00:06:09,820 --> 00:06:16,540
+So this is how you can form a connection between Neuralstem definition, phials and your environment.
+
+89
+00:06:16,540 --> 00:06:18,210
+Fites grid.
+
+90
+00:06:18,400 --> 00:06:20,700
+So this will just go and delete it, right.
+
+91
+00:06:20,710 --> 00:06:23,400
+And it will finally take such a successful image.
+
+92
+00:06:23,870 --> 00:06:25,030
+OK, looks good.
+
+93
+00:06:25,330 --> 00:06:27,040
+So let's come back to our future.
+
+94
+00:06:28,450 --> 00:06:34,400
+So we'll still modify this store by implementing data driven parameterization.
+
+95
+00:06:34,590 --> 00:06:35,630
+A lot of things still there.
+
+96
+00:06:36,430 --> 00:06:40,280
+So let's change this book and name because this book is already added.
+
+97
+00:06:40,300 --> 00:06:47,890
+No, I'm just giving another ISBN so that it can get notes and gives you a new idea so that it will
+
+98
+00:06:47,890 --> 00:06:57,360
+add by this time you file on this, it has to run at the book and at the same time it has to go to Environment
+
+99
+00:06:57,360 --> 00:07:01,750
+DAFWA and see for after scenario, and it should execute that as well.
+
+100
+00:07:02,380 --> 00:07:03,790
+So that is what we are expecting.
+
+101
+00:07:03,820 --> 00:07:09,270
+So it should ideally, but from front and center, you see that how clean it is.
+
+102
+00:07:09,550 --> 00:07:12,780
+We are not really bothered about cleaning up details.
+
+103
+00:07:13,030 --> 00:07:16,230
+Everything is handled silently, environment file.
+
+104
+00:07:16,570 --> 00:07:22,570
+But if you write a plain python got here, this looks everything in one single place.
+
+105
+00:07:22,570 --> 00:07:22,870
+Right.
+
+106
+00:07:23,140 --> 00:07:24,830
+And that's the beauty of the framework.
+
+107
+00:07:25,720 --> 00:07:27,330
+Let's run this again.
+
+108
+00:07:27,670 --> 00:07:30,340
+So behave with future and the logs.
+
+109
+00:07:33,710 --> 00:07:35,400
+Awesome, guys, the work is done.
+
+110
+00:07:36,170 --> 00:07:43,880
+You see that perfect message successfully actor and you see book successfully deleted from where is
+
+111
+00:07:43,880 --> 00:07:44,480
+this coming?
+
+112
+00:07:44,660 --> 00:07:47,200
+This is coming from our environment file.
+
+113
+00:07:47,390 --> 00:07:50,890
+We are printing that message and then we are accepting it.
+
+114
+00:07:51,320 --> 00:07:57,500
+So this way set up and cleaner methods can be successfully implemented from an environment that people.
+
+115
+00:07:57,890 --> 00:08:04,340
+So similarly, you can extend the testing by adding anything what you need based upon a situation of
+
+116
+00:08:04,340 --> 00:08:06,200
+context of what you are testing.
+
+117
+00:08:06,770 --> 00:08:11,500
+If you want to run something globally before executing any scenario you can use before feature.
+
+118
+00:08:12,230 --> 00:08:19,100
+And do remember, the difference between these two is if you have multiple scenarios here, if you write
+
+119
+00:08:19,100 --> 00:08:23,770
+it in before scenario, that will execute before each and every scenario of this file.
+
+120
+00:08:24,320 --> 00:08:30,020
+But if you write in before with that level, that will run only once before running any scenario in
+
+121
+00:08:30,020 --> 00:08:30,670
+the feature film.
+
+122
+00:08:31,310 --> 00:08:31,780
+That's it.
+
+123
+00:08:32,330 --> 00:08:33,560
+So it's self-explanatory.
+
+124
+00:08:33,570 --> 00:08:34,360
+You can read this.
+
+125
+00:08:34,790 --> 00:08:38,310
+So that's how you can manage government controls in your framework.
+
+126
+00:08:38,750 --> 00:08:40,450
+OK, let's continue in up next.
+
+127
+00:08:41,060 --> 00:08:41,540
+Thank you.

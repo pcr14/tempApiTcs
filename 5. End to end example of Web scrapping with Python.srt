@@ -1,0 +1,459 @@
+1
+00:00:01,080 --> 00:00:01,710
+Welcome back.
+
+2
+00:00:02,490 --> 00:00:08,170
+So there is an Arab price to do for most of the cases, but for some cases it failed.
+
+3
+00:00:08,670 --> 00:00:12,240
+So that means you really want to carefully it's online?
+
+4
+00:00:12,240 --> 00:00:12,750
+No.
+
+5
+00:00:13,860 --> 00:00:18,070
+So it says that money type object has no attribute it.
+
+6
+00:00:18,660 --> 00:00:24,880
+So that means for each and every title here, it's going to take place right on the page.
+
+7
+00:00:25,290 --> 00:00:27,000
+We were trying to find Genom.
+
+8
+00:00:27,390 --> 00:00:33,360
+So in one of that time, the page basically this is not displaying we don't know which pages.
+
+9
+00:00:33,360 --> 00:00:34,400
+There are so many records.
+
+10
+00:00:34,410 --> 00:00:34,620
+Right.
+
+11
+00:00:35,070 --> 00:00:37,280
+So this is not displaying.
+
+12
+00:00:37,620 --> 00:00:39,840
+So this object is returning money.
+
+13
+00:00:40,590 --> 00:00:47,310
+So when you are trying to go to the anchor from none, it thrown another thing man type object.
+
+14
+00:00:47,670 --> 00:00:54,620
+So whenever it fails to find any element on your webpage, then you will generally see this error.
+
+15
+00:00:55,320 --> 00:00:57,090
+So how can you and why did this set up?
+
+16
+00:00:57,510 --> 00:01:02,270
+So when you are retrieving thousands of moveit is somewhere, one or two may not have that.
+
+17
+00:01:02,490 --> 00:01:04,990
+So you are scripter should not stop because of it.
+
+18
+00:01:05,430 --> 00:01:05,650
+Right.
+
+19
+00:01:06,120 --> 00:01:09,000
+So one simple trick, what you can do here.
+
+20
+00:01:10,380 --> 00:01:16,480
+If let's have one if condition, if this condition is true.
+
+21
+00:01:17,040 --> 00:01:23,310
+So basically, if there are results, then this will give us a clue.
+
+22
+00:01:23,730 --> 00:01:27,330
+If there are no results, then it will give us a number.
+
+23
+00:01:28,230 --> 00:01:37,260
+So if of this condition so if no results are written, then these two steps will get skipped.
+
+24
+00:01:37,770 --> 00:01:41,070
+So that's how you can simply avoid that issue.
+
+25
+00:01:41,760 --> 00:01:44,390
+OK, here's polling convention matters.
+
+26
+00:01:44,580 --> 00:01:47,070
+So when you write this condition, this should go inside of that.
+
+27
+00:01:48,590 --> 00:01:56,320
+So tomorrow, whenever you run this game, when it will see if it's written on paper or not written
+
+28
+00:01:56,360 --> 00:01:58,210
+sometime, it won't go inside this.
+
+29
+00:01:58,580 --> 00:02:00,480
+So you want to run is actually this land, right?
+
+30
+00:02:00,980 --> 00:02:05,380
+So it will all go inside because we have given this condition.
+
+31
+00:02:05,390 --> 00:02:09,620
+If it is true, if you find element, then only execute all this.
+
+32
+00:02:09,960 --> 00:02:11,540
+OK, this way you can apply to the up.
+
+33
+00:02:12,560 --> 00:02:12,920
+Right.
+
+34
+00:02:13,040 --> 00:02:17,840
+And let's put some condition so we know how to read through all the cards.
+
+35
+00:02:17,840 --> 00:02:18,160
+Right.
+
+36
+00:02:18,170 --> 00:02:20,210
+You are retrieving now.
+
+37
+00:02:20,930 --> 00:02:25,040
+Generally scrapping is something that you want your desired results.
+
+38
+00:02:25,400 --> 00:02:27,290
+So you are getting all the generals here.
+
+39
+00:02:27,800 --> 00:02:30,410
+Let's say you want a documented results.
+
+40
+00:02:30,800 --> 00:02:36,230
+So there are thousands of movies, but you are a guy who is most interested in watching documentary
+
+41
+00:02:36,470 --> 00:02:38,630
+category TV episodes.
+
+42
+00:02:38,900 --> 00:02:44,420
+So what you can do, you can write a script and say that gave me the movie titles.
+
+43
+00:02:44,690 --> 00:02:47,810
+If that movie title Agenor is documentary.
+
+44
+00:02:48,140 --> 00:02:53,540
+So you are scrapping script should automatically scan all these titles, go to the pages, find out
+
+45
+00:02:53,540 --> 00:02:54,950
+the gender and give you the output.
+
+46
+00:02:55,340 --> 00:02:55,580
+Right.
+
+47
+00:02:55,970 --> 00:02:59,410
+So here we are printing blindly all the Jenners.
+
+48
+00:02:59,660 --> 00:03:01,130
+So let me put some condition.
+
+49
+00:03:02,510 --> 00:03:11,040
+If gender, whatever it got for you with dot dot text right here is where you get you it out.
+
+50
+00:03:11,150 --> 00:03:13,310
+But if it is equal to.
+
+51
+00:03:15,140 --> 00:03:16,070
+Documentary.
+
+52
+00:03:18,520 --> 00:03:23,160
+I think one space is required here because you'll see that it's coming with one space in the beginning.
+
+53
+00:03:23,380 --> 00:03:26,080
+So that's how our developers have written this.
+
+54
+00:03:30,740 --> 00:03:31,040
+Right.
+
+55
+00:03:31,670 --> 00:03:35,850
+So when it is documentary, then we are asking you to print it.
+
+56
+00:03:36,050 --> 00:03:39,820
+So basically this will not help us.
+
+57
+00:03:40,100 --> 00:03:46,880
+So I will comment out of title, which is the title we are waiting for in print.
+
+58
+00:03:48,750 --> 00:03:51,210
+Here, so let me cover this.
+
+59
+00:03:52,380 --> 00:03:53,820
+And I like it here.
+
+60
+00:04:00,270 --> 00:04:08,760
+So this time it will not blindly print each and every TV episode, and it's it, so it will only print
+
+61
+00:04:09,000 --> 00:04:12,890
+TV episode title if that Agenor is a documentary.
+
+62
+00:04:12,960 --> 00:04:15,210
+This is how I designed with this condition.
+
+63
+00:04:15,660 --> 00:04:18,990
+OK, so this is now having some real shape.
+
+64
+00:04:19,230 --> 00:04:26,350
+Our web scrapping script is intelligent to find, but TV episodes of are documentaries.
+
+65
+00:04:26,730 --> 00:04:28,500
+That's where we build our script now.
+
+66
+00:04:29,010 --> 00:04:32,280
+OK, you can actually print it out real time.
+
+67
+00:04:32,280 --> 00:04:32,550
+You will.
+
+68
+00:04:32,560 --> 00:04:34,280
+People generally take it into list.
+
+69
+00:04:35,090 --> 00:04:41,880
+OK, so if you are aware of Python, you can actually create one list with any variable like OK, so
+
+70
+00:04:41,890 --> 00:04:44,950
+I would give a small little L I equals two.
+
+71
+00:04:45,510 --> 00:04:46,770
+This is a blank list.
+
+72
+00:04:47,950 --> 00:04:55,120
+So I'll print it at the same time, I will take all the title names into one list.
+
+73
+00:04:57,240 --> 00:05:04,620
+So that by end of this fallopian list will be ready, which have all the titles of movies with the Jenner
+
+74
+00:05:04,620 --> 00:05:05,320
+documentary.
+
+75
+00:05:05,610 --> 00:05:08,130
+And finally, I'll print this list, OK?
+
+76
+00:05:08,730 --> 00:05:09,160
+Right.
+
+77
+00:05:10,170 --> 00:05:12,410
+So let me run this again.
+
+78
+00:05:14,440 --> 00:05:19,420
+And if you are researching further in your data science projects, you will take this list because now
+
+79
+00:05:19,420 --> 00:05:24,370
+this list holds all the data of your documentary generally and you can use it.
+
+80
+00:05:25,850 --> 00:05:28,150
+OK, so what's happening here?
+
+81
+00:05:31,670 --> 00:05:37,340
+So let me comment on all the remaining prints, so this time it should only print out four different
+
+82
+00:05:37,340 --> 00:05:41,210
+documentary matches, I'm sure that I commented about everything.
+
+83
+00:05:41,870 --> 00:05:42,980
+All right, let me run.
+
+84
+00:05:46,730 --> 00:05:53,510
+So it will take some time because earlier every second you used to say output, because we are blindly
+
+85
+00:05:53,510 --> 00:05:59,440
+printing our TV episodes, but this time you see that it's coming only if that channel is documentary.
+
+86
+00:06:00,020 --> 00:06:05,020
+So it takes them around three to four minutes because there are some hundreds of results here.
+
+87
+00:06:05,150 --> 00:06:11,540
+It has to make service calls to your main page and also submit and retrieve the results.
+
+88
+00:06:11,540 --> 00:06:11,710
+Right.
+
+89
+00:06:11,990 --> 00:06:17,930
+So it will take around three to five minutes based upon how much data you have to scrap and it will
+
+90
+00:06:17,930 --> 00:06:18,740
+give you the results.
+
+91
+00:06:19,020 --> 00:06:24,770
+You see that only document related TV episodes are coming into your output.
+
+92
+00:06:25,340 --> 00:06:27,790
+So that's the coolest future of scrapping.
+
+93
+00:06:28,070 --> 00:06:34,310
+So as a tool in data science projects, people will do all this clapping and take the results into one
+
+94
+00:06:34,310 --> 00:06:39,920
+list or tuple or any other Python data types, and then they play with it.
+
+95
+00:06:40,160 --> 00:06:41,330
+So it's the key principle.
+
+96
+00:06:41,330 --> 00:06:43,300
+Find the data and play with it.
+
+97
+00:06:43,430 --> 00:06:50,210
+They get the data using web scrapping and then use it for the algorithms and they will start writing
+
+98
+00:06:50,420 --> 00:06:53,780
+real data science related algorithms on the data.
+
+99
+00:06:53,810 --> 00:06:58,880
+What you found and they built all research report on that.
+
+100
+00:06:59,180 --> 00:06:59,480
+Right.
+
+101
+00:06:59,660 --> 00:07:02,160
+And that's why people heavily use web scrapping.
+
+102
+00:07:02,540 --> 00:07:08,450
+So if your goal is to extract only content, I would recommend you to use this instead of using any
+
+103
+00:07:08,660 --> 00:07:10,340
+affronting test automation frameworks.
+
+104
+00:07:10,850 --> 00:07:16,970
+So this will take some time to then I'll put on a bus and I'll bring back again once you see the complete
+
+105
+00:07:16,970 --> 00:07:17,330
+output.
+
+106
+00:07:19,230 --> 00:07:25,140
+All right, execution is completed, and you'll see that one list is prepared with all the movie titles,
+
+107
+00:07:25,260 --> 00:07:26,470
+with documentaries in it.
+
+108
+00:07:27,030 --> 00:07:31,080
+So this is how you can play around using web scrapping.
+
+109
+00:07:31,410 --> 00:07:35,600
+So I will give you one example as an assignment in the next lecture.
+
+110
+00:07:35,790 --> 00:07:40,520
+And that is one more topic left that also we will discuss and wrap up this discussion.
+
+111
+00:07:40,950 --> 00:07:45,420
+So by the end of this lecture, now you'll understand how to control the classes.
+
+112
+00:07:45,780 --> 00:07:56,520
+Also using that you are in construction and you also now know how to get attribute of any e-mail with
+
+113
+00:07:56,520 --> 00:08:00,410
+the help of words that we have had today.
+
+114
+00:08:00,480 --> 00:08:06,360
+Yeah, this is the method you have to use and square bracket to get the attribute like this are the
+
+115
+00:08:06,360 --> 00:08:09,150
+two takeaways you have to take from the last two letters.

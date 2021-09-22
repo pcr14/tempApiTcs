@@ -1,0 +1,307 @@
+1
+00:00:00,840 --> 00:00:01,500
+Welcome back.
+
+2
+00:00:01,830 --> 00:00:07,260
+So in this lecture, I will quickly show you how to compare to Gessen's, because that is also one of
+
+3
+00:00:07,260 --> 00:00:11,550
+the requirement you frequently get when you are trying to pass Gissen files.
+
+4
+00:00:12,070 --> 00:00:14,220
+OK, so it should be very simple.
+
+5
+00:00:14,490 --> 00:00:18,300
+Right now I have two different files with me.
+
+6
+00:00:19,420 --> 00:00:26,230
+Soccer star Jason and I have created another file called Courts One Dardis, and both are in the same
+
+7
+00:00:26,230 --> 00:00:29,550
+pot as just different files, right.
+
+8
+00:00:29,830 --> 00:00:32,980
+So I would write for 50 here.
+
+9
+00:00:33,760 --> 00:00:38,620
+However, I think we have updated the index right now comes on the 1st.
+
+10
+00:00:38,890 --> 00:00:40,790
+So obviously these two are different points.
+
+11
+00:00:41,050 --> 00:00:44,410
+So you want to compare these two files and tell if they are correct?
+
+12
+00:00:44,630 --> 00:00:44,900
+Right.
+
+13
+00:00:45,220 --> 00:00:48,810
+So for that, you have to open second file also.
+
+14
+00:00:49,240 --> 00:00:56,440
+Basically, you have open court dates and file as read more and you have read it and you read all that
+
+15
+00:00:56,440 --> 00:00:58,450
+and you have stored in one dictionary.
+
+16
+00:00:58,720 --> 00:01:06,220
+Our overall goal is that like there we will open another file and that file also we will read the content
+
+17
+00:01:06,220 --> 00:01:08,290
+and we will store in another dictionary.
+
+18
+00:01:08,560 --> 00:01:13,600
+And finally, we will compare this to dictionary objects that say it's simple.
+
+19
+00:01:14,110 --> 00:01:17,440
+OK, so first, let's create two dictionary objects.
+
+20
+00:01:17,710 --> 00:01:24,100
+One dictionary will hold the content, of course, Dodgson, and let's create another dictionary, which
+
+21
+00:01:24,100 --> 00:01:24,940
+will hold it up.
+
+22
+00:01:25,150 --> 00:01:27,150
+Content, of course, one Dargis.
+
+23
+00:01:27,700 --> 00:01:30,570
+So we already have one dictionary data with Goldstar Decem.
+
+24
+00:01:30,820 --> 00:01:37,060
+So just like the previous example, start from the beginning because you are no more in the in this
+
+25
+00:01:38,320 --> 00:01:39,300
+F object loop.
+
+26
+00:01:39,730 --> 00:01:41,250
+So same step, no change.
+
+27
+00:01:41,260 --> 00:01:50,050
+I would it here because one dot, this is the new film and you can give me another object called a fight
+
+28
+00:01:50,650 --> 00:01:55,710
+and you should simply now convert this file content into this study.
+
+29
+00:01:55,710 --> 00:01:56,690
+You know how to do that.
+
+30
+00:01:56,920 --> 00:02:04,090
+So there is a method, Courreges and Dark Lord, which will dig that a file object and we can simply
+
+31
+00:02:04,090 --> 00:02:05,500
+store in another study.
+
+32
+00:02:05,500 --> 00:02:06,760
+I can say this too.
+
+33
+00:02:07,360 --> 00:02:07,700
+Right?
+
+34
+00:02:07,930 --> 00:02:13,290
+So I have now two dictionaries or you can say Datatel because we have declared one dictionary as data.
+
+35
+00:02:13,300 --> 00:02:13,510
+Right.
+
+36
+00:02:13,870 --> 00:02:20,380
+So this object stores this content and this object stores this content correspondent adjacent.
+
+37
+00:02:20,890 --> 00:02:23,680
+So what you do now, you need to compare these to dictionaries.
+
+38
+00:02:24,100 --> 00:02:25,360
+OK, it's very, very simple.
+
+39
+00:02:25,360 --> 00:02:25,630
+Yes.
+
+40
+00:02:26,080 --> 00:02:28,970
+So data equals to the title.
+
+41
+00:02:29,080 --> 00:02:29,570
+That's it.
+
+42
+00:02:31,360 --> 00:02:39,040
+So here you are comparing two different dictionary objects, so this will return true if the competition
+
+43
+00:02:39,040 --> 00:02:40,540
+is equal.
+
+44
+00:02:40,900 --> 00:02:44,800
+Obviously, this will not be equal because we have changed the content.
+
+45
+00:02:44,800 --> 00:02:46,050
+And correspondent Jason.
+
+46
+00:02:46,390 --> 00:02:48,490
+So let me run this file and see.
+
+47
+00:02:49,680 --> 00:02:55,080
+You'll see that it returned false, so that means these descents are not the same.
+
+48
+00:02:55,930 --> 00:03:01,930
+OK, so if you want to achieve the same in Java language, you have to end up writing a lot of code
+
+49
+00:03:01,930 --> 00:03:04,030
+to compare to different files.
+
+50
+00:03:04,390 --> 00:03:06,630
+But in Python, it's very simple.
+
+51
+00:03:06,850 --> 00:03:12,520
+You have a superb method called law, which will simply convert all your content into a dictionary.
+
+52
+00:03:12,730 --> 00:03:15,240
+And then you can just compare dictionaries, isn't it?
+
+53
+00:03:15,490 --> 00:03:21,970
+But to make your test pass or fail for you are back on the automation, you have to use a statement
+
+54
+00:03:22,210 --> 00:03:28,720
+asset, right, so that, you know, if you are asked to compare distance and return the output test.
+
+55
+00:03:29,740 --> 00:03:31,360
+So this will return.
+
+56
+00:03:31,900 --> 00:03:32,290
+True.
+
+57
+00:03:32,560 --> 00:03:40,030
+And if it returns false, what test will fail because you are using assumption of false is false.
+
+58
+00:03:40,250 --> 00:03:40,530
+Right.
+
+59
+00:03:41,260 --> 00:03:44,130
+So let me run one more time and you will see failure.
+
+60
+00:03:44,380 --> 00:03:46,070
+You see that assertion error.
+
+61
+00:03:46,420 --> 00:03:49,690
+So now I will go back and update the content.
+
+62
+00:03:51,290 --> 00:03:55,580
+So whatever I have in this file, I would just replace it here.
+
+63
+00:04:00,750 --> 00:04:01,860
+Is it replaced?
+
+64
+00:04:02,430 --> 00:04:08,970
+Looks good, and now I should not receive any error if I had done this one more time to see that everything
+
+65
+00:04:08,970 --> 00:04:11,880
+is bust, so that how you can compare to Jason.
+
+66
+00:04:12,960 --> 00:04:17,340
+I think we covered pretty much about how to partizan.
+
+67
+00:04:17,670 --> 00:04:22,620
+We also understood the logic of passing it without relying on indexes.
+
+68
+00:04:22,920 --> 00:04:27,210
+And we have also seen how to retrieve how complex the decision is.
+
+69
+00:04:27,390 --> 00:04:30,300
+It could be a list dictionary or a string.
+
+70
+00:04:30,690 --> 00:04:34,690
+And we have also seen the difference between Lord and the Lord's methods.
+
+71
+00:04:35,120 --> 00:04:42,660
+OK, so with this knowledge we will jump into AIPA testing and then also we will use some Jassam responses
+
+72
+00:04:42,660 --> 00:04:43,530
+as validation.
+
+73
+00:04:43,870 --> 00:04:46,690
+OK, there we will try to implement this knowledge as well.
+
+74
+00:04:47,070 --> 00:04:51,740
+So this way you can learn both API testing as well as complex tests, decent passing.
+
+75
+00:04:52,080 --> 00:04:56,300
+OK, and once after this, we would introduce database step by step.
+
+76
+00:04:56,310 --> 00:05:03,110
+We will build on our automation suite and how powerful utility is ready by end of this class.
+
+77
+00:05:03,590 --> 00:05:05,130
+OK, thank you.

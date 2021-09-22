@@ -1,0 +1,839 @@
+1
+00:00:01,320 --> 00:00:01,950
+Welcome back.
+
+2
+00:00:02,520 --> 00:00:09,930
+So let's create our future file, so instead of an ebook I want to showcase now and another topic,
+
+3
+00:00:10,320 --> 00:00:13,400
+because from that topic, I want to explain new concept here.
+
+4
+00:00:13,650 --> 00:00:19,020
+So we have seen data driven parameterization that are still another way of doing data, which I will
+
+5
+00:00:19,020 --> 00:00:19,550
+talk now.
+
+6
+00:00:19,920 --> 00:00:28,110
+And we also saw backs and hooks which are environment python files, and we will see how to set up and
+
+7
+00:00:28,110 --> 00:00:31,110
+deal down matters with combination of tags and hooks.
+
+8
+00:00:31,110 --> 00:00:36,150
+Now, so far that I can demonstrate you with another example.
+
+9
+00:00:37,080 --> 00:00:41,750
+So let's go back to our airplane called what we have written earlier.
+
+10
+00:00:42,480 --> 00:00:46,800
+And so there is a GitHub stuff we have done right using session.
+
+11
+00:00:47,400 --> 00:00:49,420
+So let's do this now.
+
+12
+00:00:49,920 --> 00:00:52,380
+I will create another feature file for this.
+
+13
+00:00:54,160 --> 00:00:56,170
+And let's call it as a.
+
+14
+00:00:58,560 --> 00:00:59,220
+Get help.
+
+15
+00:01:02,570 --> 00:01:04,740
+OK, now you can give that to me here.
+
+16
+00:01:05,120 --> 00:01:05,990
+It's up to you.
+
+17
+00:01:08,040 --> 00:01:10,080
+So featured name here is.
+
+18
+00:01:12,270 --> 00:01:12,840
+It helped.
+
+19
+00:01:16,000 --> 00:01:22,430
+AP evaluation and scenario, you can save session management, check something like this.
+
+20
+00:01:25,670 --> 00:01:28,970
+And you want to give your steps here, start with given.
+
+21
+00:01:36,360 --> 00:01:39,300
+You have to have your credentials with you.
+
+22
+00:01:39,520 --> 00:01:45,210
+You think I have GitHub, you need to have credentials.
+
+23
+00:01:49,640 --> 00:01:51,710
+So what do you want to do when?
+
+24
+00:01:53,810 --> 00:02:05,780
+Remember that it should always be gaps when I hit Get Raipur, because that's what we used here is slash
+
+25
+00:02:05,780 --> 00:02:07,450
+user slash, right.
+
+26
+00:02:08,120 --> 00:02:10,870
+So let's call it as it gets.
+
+27
+00:02:12,890 --> 00:02:22,340
+So when I hit get triple AIPA of GitHub, then what happens then?
+
+28
+00:02:22,340 --> 00:02:24,860
+Let's verify that status called.
+
+29
+00:02:26,200 --> 00:02:33,970
+Of response should be two hundred, so this is what we want to verify.
+
+30
+00:02:34,180 --> 00:02:40,300
+OK, so this is the feature file in American language now of you have to write the actual implementation
+
+31
+00:02:40,570 --> 00:02:44,080
+by defining that in step definitions file.
+
+32
+00:02:44,590 --> 00:02:47,110
+OK, so I don't want to write it from scratch.
+
+33
+00:02:47,350 --> 00:02:53,040
+So what I will do so behave in features.
+
+34
+00:02:53,260 --> 00:02:56,950
+I will just ask to run get that feature then.
+
+35
+00:02:56,950 --> 00:02:59,500
+We did not have any step methods for this.
+
+36
+00:02:59,500 --> 00:02:59,750
+Right.
+
+37
+00:03:00,310 --> 00:03:07,150
+So this complaint me with the logs saying that you have to implement all this so that I can blindly
+
+38
+00:03:07,150 --> 00:03:11,400
+copy all of this and write the actual implementations.
+
+39
+00:03:11,620 --> 00:03:12,820
+So syntax is ready.
+
+40
+00:03:12,830 --> 00:03:13,860
+You have already here.
+
+41
+00:03:14,470 --> 00:03:16,600
+So let's go to the standard definition file.
+
+42
+00:03:17,200 --> 00:03:18,310
+And here.
+
+43
+00:03:21,580 --> 00:03:23,050
+That's right, there are some.
+
+44
+00:03:23,950 --> 00:03:32,650
+OK, so given I have GitHub credentials, so let's bring that actual record of having that credentials.
+
+45
+00:03:34,090 --> 00:03:41,830
+So let me copy all these authentications stuff and then we can partition this just like we have done
+
+46
+00:03:41,840 --> 00:03:42,880
+earlier for our Arabic.
+
+47
+00:03:46,430 --> 00:03:49,040
+OK, so let me and I did hear.
+
+48
+00:03:51,350 --> 00:03:53,630
+So we are now creating one session.
+
+49
+00:03:55,260 --> 00:03:57,000
+Requests darte session.
+
+50
+00:03:58,180 --> 00:03:58,960
+And.
+
+51
+00:04:00,690 --> 00:04:02,570
+These are the authentication details.
+
+52
+00:04:03,750 --> 00:04:07,650
+So what we need not need this.
+
+53
+00:04:10,150 --> 00:04:11,860
+OK, let's remove all this.
+
+54
+00:04:12,190 --> 00:04:14,810
+Basically, this is the court we want to check.
+
+55
+00:04:15,340 --> 00:04:21,480
+So we created such an object and for that session we are authentication and then we directly call this
+
+56
+00:04:21,490 --> 00:04:26,630
+GitHub user you and we are seeing this data skorton if it is 200 or not.
+
+57
+00:04:26,890 --> 00:04:30,640
+So this is the code what our get confused file system.
+
+58
+00:04:30,880 --> 00:04:32,390
+So now let's partition this.
+
+59
+00:04:32,800 --> 00:04:40,270
+So this step is about having GitHub credentials, so make sure you as an object is set up with all the
+
+60
+00:04:40,270 --> 00:04:40,900
+details.
+
+61
+00:04:41,260 --> 00:04:43,720
+OK, so what you need here is just an authentication.
+
+62
+00:04:43,990 --> 00:04:49,750
+So you have certain authentication here and you create a decision and the next step is a hip GitHub
+
+63
+00:04:49,750 --> 00:04:50,110
+repo.
+
+64
+00:04:50,110 --> 00:04:56,740
+So that means this one is the don't get is what is actually hitting that to then get upset about it.
+
+65
+00:04:57,040 --> 00:05:03,250
+And you get a response back and once you get a response back, you have to print that and make sure
+
+66
+00:05:03,250 --> 00:05:11,500
+that status code is 200 Zinder so you can write it here, state a score and you can have an assertion.
+
+67
+00:05:11,500 --> 00:05:18,520
+Check that a third respon star status for 200.
+
+68
+00:05:22,410 --> 00:05:28,560
+All right, now let's fix the issues, what we have here, context we have to make.
+
+69
+00:05:29,010 --> 00:05:33,460
+So we are creating a session and we are using that session to make a call.
+
+70
+00:05:33,780 --> 00:05:36,720
+So this session is not shared with multiple steps.
+
+71
+00:05:36,720 --> 00:05:39,900
+So you have to store that bit of context to not see.
+
+72
+00:05:40,470 --> 00:05:41,580
+So same thing.
+
+73
+00:05:41,580 --> 00:05:42,570
+You have to do it here.
+
+74
+00:05:45,340 --> 00:05:47,960
+OK, and you all, too.
+
+75
+00:05:48,310 --> 00:05:56,610
+So why is this here generally all the what we are writing it in some files here, right?
+
+76
+00:05:56,860 --> 00:05:58,020
+I think resources.
+
+77
+00:05:58,390 --> 00:05:58,650
+Yeah.
+
+78
+00:05:58,670 --> 00:06:00,410
+Here where we are writing that resource files.
+
+79
+00:06:00,430 --> 00:06:00,630
+Right.
+
+80
+00:06:01,020 --> 00:06:02,020
+I would say GitHub.
+
+81
+00:06:03,340 --> 00:06:07,110
+Rapport equals two, right?
+
+82
+00:06:07,150 --> 00:06:09,160
+This is what you are in.
+
+83
+00:06:10,050 --> 00:06:15,940
+So you can call that directly in your step implementation, just like how you call a resources start
+
+84
+00:06:15,960 --> 00:06:17,820
+and book, so.
+
+85
+00:06:20,540 --> 00:06:27,100
+If resources start, get habitable perfect and you can get rid of this, you.
+
+86
+00:06:28,830 --> 00:06:36,990
+And Sishen, we can call it with context, darte session douget, and you get a response back and response
+
+87
+00:06:36,990 --> 00:06:42,990
+also, you should store it in context variable so that you can access this response.
+
+88
+00:06:45,590 --> 00:06:52,250
+And then finally, you can make sick perfect, I think we have fixed all the issues and you see how
+
+89
+00:06:52,400 --> 00:06:54,720
+cleaner our core looks like now.
+
+90
+00:06:55,130 --> 00:07:00,250
+OK, so if you go back to a future, fine, given I have odd credentials.
+
+91
+00:07:00,260 --> 00:07:06,530
+Yes, we have loaded our station object nicely with all the credentials of what we have and the next
+
+92
+00:07:06,860 --> 00:07:08,650
+we are hitting that API request.
+
+93
+00:07:08,720 --> 00:07:12,660
+Yes, the is made and the finally the future.
+
+94
+00:07:12,690 --> 00:07:18,320
+What we have is check status quo should be two hundred and see that we are seeing stereoscope should
+
+95
+00:07:18,320 --> 00:07:22,470
+be two hundred so we can generalize this as well.
+
+96
+00:07:22,790 --> 00:07:26,480
+Now for example, STADA scored here.
+
+97
+00:07:28,750 --> 00:07:35,140
+You can give any number here, let's say, if you want to check state escort four zero four, then you
+
+98
+00:07:35,140 --> 00:07:37,950
+need not right again in your definition here.
+
+99
+00:07:38,170 --> 00:07:40,810
+So I will show you how to make it generic.
+
+100
+00:07:41,080 --> 00:07:42,430
+So I'll put 200 here.
+
+101
+00:07:42,700 --> 00:07:47,290
+And in my definition file, I'll have this.
+
+102
+00:07:47,800 --> 00:07:49,240
+And this is like this.
+
+103
+00:07:49,660 --> 00:07:51,920
+So let's call this as a status quo.
+
+104
+00:07:52,420 --> 00:07:57,130
+OK, so this way, we are not recording that 200 number.
+
+105
+00:07:57,520 --> 00:08:00,540
+We are driving it through a variable.
+
+106
+00:08:00,760 --> 00:08:02,480
+So 200 is an integer, right.
+
+107
+00:08:02,680 --> 00:08:08,860
+So for integer you have to be so that it treats it as an integer.
+
+108
+00:08:09,740 --> 00:08:10,100
+Nice.
+
+109
+00:08:10,400 --> 00:08:17,450
+So if you have any other status to check, check the status quo is 400 or four of you can still use
+
+110
+00:08:17,450 --> 00:08:17,960
+this method.
+
+111
+00:08:19,330 --> 00:08:28,090
+Now, for example, the state scored what you think 200 number will come here member will be, let's
+
+112
+00:08:28,090 --> 00:08:31,410
+call this a C and I can use this here.
+
+113
+00:08:32,280 --> 00:08:32,730
+Perfect.
+
+114
+00:08:33,160 --> 00:08:35,530
+So this method is not genetic.
+
+115
+00:08:35,770 --> 00:08:40,840
+This can check any status, but it can be two hundred four hundred two, not one four, not four.
+
+116
+00:08:41,080 --> 00:08:42,410
+If you have any code.
+
+117
+00:08:42,580 --> 00:08:44,180
+We are just checking the status quo.
+
+118
+00:08:44,320 --> 00:08:45,520
+You can still use this.
+
+119
+00:08:45,820 --> 00:08:49,600
+Now, for example, here, the status quo should be two hundred.
+
+120
+00:08:49,600 --> 00:08:49,830
+Right.
+
+121
+00:08:49,990 --> 00:08:55,390
+I can reuse this in book AIPA then book is successfully added.
+
+122
+00:08:55,390 --> 00:08:55,690
+Right.
+
+123
+00:08:55,990 --> 00:09:01,960
+You can have and if you have multiple validations you can use any operator and you can write that step
+
+124
+00:09:01,960 --> 00:09:02,230
+here.
+
+125
+00:09:02,410 --> 00:09:08,920
+OK, it will be still treated as part of then only because you are using convection with it then isn't
+
+126
+00:09:08,920 --> 00:09:09,040
+it.
+
+127
+00:09:09,220 --> 00:09:15,490
+So here it's giving us two zero zero as a response, but let's still put to zero one and see what happens.
+
+128
+00:09:15,490 --> 00:09:16,150
+It will fit.
+
+129
+00:09:16,660 --> 00:09:18,010
+OK, remove this then.
+
+130
+00:09:18,610 --> 00:09:19,750
+Then is the keyword.
+
+131
+00:09:19,750 --> 00:09:23,590
+Right now I am reusing this step again here.
+
+132
+00:09:23,590 --> 00:09:24,700
+It is not complaining.
+
+133
+00:09:24,700 --> 00:09:26,200
+That's the definition is missing.
+
+134
+00:09:26,210 --> 00:09:32,080
+If I click on this link, it is still taking me to this method because we made this data score genetic
+
+135
+00:09:32,080 --> 00:09:34,540
+so that I can reuse it anywhere.
+
+136
+00:09:34,780 --> 00:09:36,570
+You just it's the status Kotick.
+
+137
+00:09:37,000 --> 00:09:42,880
+OK, but if I don't make a genetic like if I say it should be two hundred only by hard coding here like
+
+138
+00:09:42,880 --> 00:09:43,090
+this.
+
+139
+00:09:43,300 --> 00:09:47,500
+So for every state I scored I will end up writing a letter like this.
+
+140
+00:09:47,680 --> 00:09:49,450
+So I had made it genetic here.
+
+141
+00:09:49,660 --> 00:09:56,950
+So this way if it is two zero zero two zero one four four for any record, I will blindly reuse this
+
+142
+00:09:56,950 --> 00:09:58,970
+step and then change the number.
+
+143
+00:09:59,500 --> 00:10:01,150
+OK, now what book?
+
+144
+00:10:01,150 --> 00:10:02,080
+API feature.
+
+145
+00:10:02,080 --> 00:10:03,480
+I'm using two zero one here.
+
+146
+00:10:03,610 --> 00:10:04,630
+Let's see what happens.
+
+147
+00:10:05,200 --> 00:10:09,760
+But it returns to zero zero, so it should report as a failure.
+
+148
+00:10:10,000 --> 00:10:16,600
+And also one thing you have to remember here, if you go to the STEM definition file.
+
+149
+00:10:17,690 --> 00:10:24,500
+So the state has scored a divorce verifying for Pondexter dot response, so GitHub is giving you that
+
+150
+00:10:24,500 --> 00:10:29,200
+response property so it gets the status quo out of it.
+
+151
+00:10:29,510 --> 00:10:36,830
+But if you want to reuse this for any other methods like Adblock, make sure that ad will also written
+
+152
+00:10:36,830 --> 00:10:38,720
+in context dot response only.
+
+153
+00:10:38,990 --> 00:10:43,760
+But here it is reading different response, context, dot and underscore response.
+
+154
+00:10:44,150 --> 00:10:51,800
+OK, so if your response is getting stored in this property called ad book and direct response, so
+
+155
+00:10:51,800 --> 00:10:54,890
+how will you how will you utilize that here?
+
+156
+00:10:55,100 --> 00:11:02,840
+Because this is looking for a status called front response property, not from the ad book underscore
+
+157
+00:11:02,850 --> 00:11:04,000
+response property.
+
+158
+00:11:04,550 --> 00:11:08,840
+So if you want to reuse, you have to maintain some consistency in your framework.
+
+159
+00:11:09,140 --> 00:11:15,800
+So for every response you get, let's keep some convention that it should always look like this context
+
+160
+00:11:15,800 --> 00:11:16,690
+dot response.
+
+161
+00:11:16,970 --> 00:11:21,050
+So make sure you update everywhere for your ad council.
+
+162
+00:11:21,410 --> 00:11:26,180
+So this way you can use it for other definition methods as well.
+
+163
+00:11:26,630 --> 00:11:32,210
+I hope you understand if you try to run this without changing book, let's see what is the error we
+
+164
+00:11:32,210 --> 00:11:36,850
+get so that, you know, you will get some confidence on the things you are doing.
+
+165
+00:11:38,670 --> 00:11:40,770
+All right, so behave.
+
+166
+00:11:42,650 --> 00:11:45,770
+Very that no captivities book being.
+
+167
+00:11:49,520 --> 00:11:50,800
+So it should fail.
+
+168
+00:11:51,730 --> 00:12:01,540
+And capturing the response, OK, you'll see that these guard failed why they failed at line number
+
+169
+00:12:01,540 --> 00:12:03,400
+51 and here it is.
+
+170
+00:12:03,430 --> 00:12:11,050
+Why why it is failing at number 51, because this context to object have no attribute called response.
+
+171
+00:12:11,380 --> 00:12:11,910
+Correct, only.
+
+172
+00:12:11,920 --> 00:12:12,160
+Right.
+
+173
+00:12:12,460 --> 00:12:16,890
+Because we did not store any response properties here.
+
+174
+00:12:17,350 --> 00:12:20,690
+What we saw this to underscore response.
+
+175
+00:12:21,070 --> 00:12:27,940
+OK, so that's why you are not able to reuse it with the method which we used to get help so far, that
+
+176
+00:12:27,940 --> 00:12:30,390
+you have to maintain some consistency in that framework.
+
+177
+00:12:30,610 --> 00:12:36,430
+So use context, dot response everywhere for any response you get for any AIPA.
+
+178
+00:12:36,460 --> 00:12:42,370
+So this way you can reuse some methods without recreating it for every test.
+
+179
+00:12:42,370 --> 00:12:42,770
+I guess.
+
+180
+00:12:43,720 --> 00:12:44,530
+So context.
+
+181
+00:12:44,530 --> 00:12:47,700
+Our response here is we are using it.
+
+182
+00:12:48,490 --> 00:12:49,660
+I think that's all right.
+
+183
+00:12:50,350 --> 00:12:58,680
+OK, this looks good now and when you read it now, this time it will pass if you have two zero zero.
+
+184
+00:12:58,690 --> 00:13:00,730
+But this time you wrote us two zero one.
+
+185
+00:13:00,730 --> 00:13:01,030
+Right.
+
+186
+00:13:01,300 --> 00:13:07,450
+It will fail here saying status code is 200, but you are trying to give to zero.
+
+187
+00:13:08,900 --> 00:13:16,250
+Lexi, but before you go and make sure you update us, I told you no, because we have added a book,
+
+188
+00:13:16,400 --> 00:13:20,570
+but before deleting that book, it failed, isn't it?
+
+189
+00:13:20,840 --> 00:13:23,880
+So this is the feature file, right.
+
+190
+00:13:24,290 --> 00:13:27,410
+So after completing all these lines, you were delayed.
+
+191
+00:13:27,410 --> 00:13:32,570
+Book scripts will run from enviornment, that python file, but it failed at this length.
+
+192
+00:13:32,570 --> 00:13:34,540
+So that whole file did not run.
+
+193
+00:13:34,610 --> 00:13:36,590
+So this book got already stalled.
+
+194
+00:13:36,740 --> 00:13:42,470
+When you try to rerun, it will complain that book is already there with some issues.
+
+195
+00:13:42,710 --> 00:13:47,420
+OK, so make sure you put it on unit one and let's run this one more time.
+
+196
+00:13:47,630 --> 00:13:50,060
+And this time it has to give proper error.
+
+197
+00:13:52,350 --> 00:13:59,370
+OK, so one failed and the reason this time here assertion, and this is what we need, because it 200
+
+198
+00:13:59,820 --> 00:14:03,570
+baht in your record, you are saying today went to zero.
+
+199
+00:14:04,050 --> 00:14:11,400
+So this way I am reusing this in my book, AIBA Asphalt and the same method I am using here as well
+
+200
+00:14:11,400 --> 00:14:12,420
+with the 200.
+
+201
+00:14:13,590 --> 00:14:13,800
+Right.
+
+202
+00:14:14,160 --> 00:14:22,290
+So that's how we did a framework help us to avoid duplication of court by rewriting that definition
+
+203
+00:14:22,290 --> 00:14:22,740
+methods.
+
+204
+00:14:23,130 --> 00:14:24,590
+You can use the future Vilem.
+
+205
+00:14:24,600 --> 00:14:27,380
+Exactly so that you can use these methods.
+
+206
+00:14:27,570 --> 00:14:30,170
+So that's why make sure you don't hardcourt anything here.
+
+207
+00:14:30,630 --> 00:14:36,220
+Parametrized they don't drive these values from your feature file only.
+
+208
+00:14:37,110 --> 00:14:38,070
+OK, from here.
+
+209
+00:14:38,640 --> 00:14:40,900
+Let's continue running this in our next lecture.
+
+210
+00:14:41,280 --> 00:14:41,700
+Thank you.

@@ -1,0 +1,655 @@
+1
+00:00:01,120 --> 00:00:01,870
+Welcome back.
+
+2
+00:00:02,410 --> 00:00:09,670
+So let's go to our agenda and see what we have accomplished a lot so we know what our future definition
+
+3
+00:00:09,670 --> 00:00:10,400
+files and behave.
+
+4
+00:00:10,870 --> 00:00:18,130
+We also created we really structured in our project so we can return existing EPA test also in military
+
+5
+00:00:18,130 --> 00:00:18,520
+style.
+
+6
+00:00:19,120 --> 00:00:22,030
+We also understood the importance of context available.
+
+7
+00:00:22,150 --> 00:00:22,460
+Right.
+
+8
+00:00:22,750 --> 00:00:30,640
+And the next one is to see how to achieve data driven and how to do parameterization of your test with
+
+9
+00:00:30,640 --> 00:00:31,870
+multiple datasets.
+
+10
+00:00:32,380 --> 00:00:33,340
+This is interesting.
+
+11
+00:00:35,160 --> 00:00:40,840
+Now, so if you see this step, you are actually hard coating the data here.
+
+12
+00:00:41,280 --> 00:00:46,290
+OK, every time we are coming and changing the data, you need not change because you are cleaning the
+
+13
+00:00:46,290 --> 00:00:47,120
+data at the end.
+
+14
+00:00:47,280 --> 00:00:48,300
+So that should be fine.
+
+15
+00:00:48,780 --> 00:00:52,920
+But what if you want to run any EPA test with multiple data sets?
+
+16
+00:00:53,510 --> 00:00:59,250
+OK, so that it could be a scenario that you want to repeat during a test with different data sets every
+
+17
+00:00:59,250 --> 00:00:59,530
+time.
+
+18
+00:01:00,120 --> 00:01:00,720
+Let's see that.
+
+19
+00:01:00,720 --> 00:01:01,190
+How to do.
+
+20
+00:01:01,810 --> 00:01:10,410
+OK, so in our case, let's assume that we want to run over a big test with different Aspendale combinations
+
+21
+00:01:10,410 --> 00:01:10,980
+every time.
+
+22
+00:01:11,400 --> 00:01:12,960
+OK, so let's do one thing.
+
+23
+00:01:13,650 --> 00:01:22,110
+We will add I'll also and put it here so that this method now will accept two parameters.
+
+24
+00:01:22,410 --> 00:01:31,010
+I spin and I'll let slide one which find from that file we will make sure this feature file ran with
+
+25
+00:01:31,020 --> 00:01:36,390
+a different data sets each time it has to pick one ISBN and I'll combination.
+
+26
+00:01:36,810 --> 00:01:38,310
+OK, let's see how to do that.
+
+27
+00:01:38,930 --> 00:01:45,060
+Before that, let me give some numbers here because we just changed that method signature so that it
+
+28
+00:01:45,060 --> 00:01:47,440
+also will be now sent as part of your method.
+
+29
+00:01:48,600 --> 00:01:48,900
+Great.
+
+30
+00:01:49,290 --> 00:01:55,050
+So if you want to add to parameterization, then here you have to.
+
+31
+00:01:56,040 --> 00:01:56,690
+Give me a second.
+
+32
+00:01:59,610 --> 00:02:07,960
+Yeah, so you have to use another key word here instead of scenario use scenario outlined.
+
+33
+00:02:08,280 --> 00:02:14,430
+So this is the key word you want to use if you want to parametrized who are testing multiple datasets.
+
+34
+00:02:14,760 --> 00:02:16,200
+OK, so select this.
+
+35
+00:02:17,140 --> 00:02:24,970
+And it will show an error, so if you more about cancer, then it will create examples s. what is this?
+
+36
+00:02:25,570 --> 00:02:29,370
+So let's see that before that, let me do one thing.
+
+37
+00:02:29,380 --> 00:02:33,010
+I'll copy paste the same scenario.
+
+38
+00:02:34,300 --> 00:02:34,910
+I'm done.
+
+39
+00:02:35,350 --> 00:02:40,160
+Make sure you go back one step, because when you got a scenario, it should be here.
+
+40
+00:02:40,900 --> 00:02:42,340
+This should not mix with this.
+
+41
+00:02:43,310 --> 00:02:43,650
+Right.
+
+42
+00:02:44,230 --> 00:02:46,960
+But I want to repeat this test with multiple data sets.
+
+43
+00:02:46,960 --> 00:02:47,180
+Right.
+
+44
+00:02:47,200 --> 00:02:49,210
+So I will add a scenario outlined.
+
+45
+00:02:50,080 --> 00:02:54,480
+And when you add this, it will complain to an example section.
+
+46
+00:02:54,490 --> 00:02:55,630
+So let's create that.
+
+47
+00:02:56,620 --> 00:03:02,830
+So what is this so here where you can send your combinations, so I just thought that let's run this
+
+48
+00:03:02,830 --> 00:03:12,550
+just with ESPN and I'll combination so you can send those values here instead of hard coding in your
+
+49
+00:03:12,910 --> 00:03:13,670
+test methods.
+
+50
+00:03:14,110 --> 00:03:19,420
+So now we are sending these values by hard calling it from here.
+
+51
+00:03:19,450 --> 00:03:19,720
+Right.
+
+52
+00:03:19,930 --> 00:03:21,000
+Let's change that.
+
+53
+00:03:21,310 --> 00:03:23,500
+Let's bring these values from our feet.
+
+54
+00:03:23,500 --> 00:03:30,460
+And finally, because this is the best practice the values data should be in your scenario so that,
+
+55
+00:03:30,460 --> 00:03:34,000
+you know, you want to be a business analyst, product developer.
+
+56
+00:03:34,000 --> 00:03:40,360
+Anyone can come and give the data here because they don't want to really care about what exactly is
+
+57
+00:03:40,360 --> 00:03:40,700
+doing.
+
+58
+00:03:41,080 --> 00:03:46,660
+Let's say you are a business analyst, knows the data, so you can just share this copy and she can
+
+59
+00:03:46,660 --> 00:03:52,200
+read it because it's plain English so she can read it at ESPN and Elle values for you.
+
+60
+00:03:52,540 --> 00:03:58,000
+But if you read somewhere like this here, she can understand where exactly she has to act because this
+
+61
+00:03:58,000 --> 00:03:59,530
+is a technical write.
+
+62
+00:04:00,530 --> 00:04:02,770
+OK, so let's add those values here.
+
+63
+00:04:02,810 --> 00:04:07,320
+It's very simple, guys are just like smart people have you create Excel.
+
+64
+00:04:07,790 --> 00:04:09,620
+So under this ISBN value will go.
+
+65
+00:04:09,950 --> 00:04:15,970
+Let me give some random spin and as a gift pipe symbol so that it separates from ESPN.
+
+66
+00:04:16,490 --> 00:04:17,600
+Give any I lember.
+
+67
+00:04:18,740 --> 00:04:20,940
+And that's say this is one combination.
+
+68
+00:04:21,350 --> 00:04:28,170
+Now, if you want to run this dust scenario with the another combination, then add another.
+
+69
+00:04:29,030 --> 00:04:37,780
+OK, so another data sets and this is a new data set and you can give new and perfect the see.
+
+70
+00:04:38,600 --> 00:04:40,560
+So you have two data sets now.
+
+71
+00:04:40,760 --> 00:04:44,090
+So this test will run two different times each time.
+
+72
+00:04:44,240 --> 00:04:46,210
+It will run with one row.
+
+73
+00:04:46,730 --> 00:04:50,750
+OK, so with the first row, it will run the list and again, it will end with this test.
+
+74
+00:04:51,140 --> 00:04:56,930
+But no actual problem here is how these values will now come into this method.
+
+75
+00:04:57,790 --> 00:04:59,530
+OK, so let's not hardcourt now.
+
+76
+00:04:59,580 --> 00:05:00,820
+Let's load this in this way.
+
+77
+00:05:03,840 --> 00:05:07,800
+Our values should come and fall here, which is a tricky.
+
+78
+00:05:10,040 --> 00:05:10,930
+OK, let's see.
+
+79
+00:05:12,620 --> 00:05:21,620
+I will go back to feature file again, so the changes, what you have to do here instead of giving this
+
+80
+00:05:21,620 --> 00:05:22,390
+plane line.
+
+81
+00:05:22,460 --> 00:05:28,970
+Let's modify this line like this, given the details with ISBN.
+
+82
+00:05:30,800 --> 00:05:32,470
+And I OK.
+
+83
+00:05:32,540 --> 00:05:36,070
+Make sure you write the same keyword, what you see here.
+
+84
+00:05:37,030 --> 00:05:46,990
+Exactly here and put them between arrows, if you do like this, then behave, treat this as a barometer.
+
+85
+00:05:47,900 --> 00:05:48,220
+Right.
+
+86
+00:05:48,400 --> 00:05:54,460
+And now when you run the scenario, given the details with these two, Aspendale, I'll write whenever
+
+87
+00:05:54,460 --> 00:05:59,980
+it sees Arrow, then it will immediately come to the role, what it is executing, and it will try to
+
+88
+00:05:59,980 --> 00:06:04,360
+match once a match found, it will take that value and place it here.
+
+89
+00:06:05,050 --> 00:06:10,720
+Similarly, when it's IAL because it is in arrows, it will again search in the same room and when the
+
+90
+00:06:10,720 --> 00:06:14,420
+rule matches, it will take this number and place it here.
+
+91
+00:06:14,590 --> 00:06:21,130
+So this way from here you can send these values to your definition and write the logic there.
+
+92
+00:06:21,810 --> 00:06:27,640
+OK, so right now we don't have the same definition implementation for this because this is a new method
+
+93
+00:06:27,640 --> 00:06:28,450
+which we just did.
+
+94
+00:06:28,450 --> 00:06:28,700
+Right.
+
+95
+00:06:29,050 --> 00:06:34,170
+So let's add that I'll come to some definition.
+
+96
+00:06:34,720 --> 00:06:35,920
+Let's not disturb this.
+
+97
+00:06:36,100 --> 00:06:38,110
+For that, I will create another given.
+
+98
+00:06:41,190 --> 00:06:41,910
+Given.
+
+99
+00:06:43,870 --> 00:06:50,860
+Yeah, the book details right here, you have two cats with curly braces, so the value want to have
+
+100
+00:06:50,860 --> 00:06:58,140
+provided they're ISBN will just come and sit in this cuddly bracers value here, right?
+
+101
+00:06:59,510 --> 00:07:05,720
+Let me show you let's try it amateur here so you can use a the same def.
+
+102
+00:07:08,040 --> 00:07:15,600
+Step, Bill, you can you see same name doesn't matter only thing which is here is this one.
+
+103
+00:07:17,460 --> 00:07:23,580
+So fast parameter should be context by default, because context value is past now two values you have
+
+104
+00:07:23,580 --> 00:07:24,080
+to give here.
+
+105
+00:07:24,090 --> 00:07:30,800
+One is Isbin and aisle, because this line is sending you two parameters to your meter.
+
+106
+00:07:31,260 --> 00:07:31,590
+Right.
+
+107
+00:07:31,860 --> 00:07:38,940
+So these two parameters are coming from your feature file because supertitles like this, this will
+
+108
+00:07:39,060 --> 00:07:40,940
+feed with these two values.
+
+109
+00:07:41,250 --> 00:07:45,810
+So once these are freed it now, those two values will come here and from here.
+
+110
+00:07:45,810 --> 00:07:48,600
+This will fit into your method in these locations.
+
+111
+00:07:48,870 --> 00:07:51,600
+I aspinwall exactly same word.
+
+112
+00:07:51,610 --> 00:07:52,150
+Give it here.
+
+113
+00:07:52,440 --> 00:07:58,530
+So the value, what it comes from feature will come here and you can use all this inside now.
+
+114
+00:07:58,830 --> 00:08:03,380
+So you have a combination of SBN and I'll with you and that's all.
+
+115
+00:08:03,390 --> 00:08:07,530
+If you have these details, you can just directly reuse this code.
+
+116
+00:08:11,400 --> 00:08:18,920
+OK, and instead of this, instead of hard core values, you can send ISBN somewhere else.
+
+117
+00:08:19,260 --> 00:08:27,150
+So this is how you can write a generic script which big the values of Isbin and able to create new book
+
+118
+00:08:27,150 --> 00:08:30,210
+ideas from your feature file only.
+
+119
+00:08:30,670 --> 00:08:34,950
+OK, so now if you go back to your future file now the book.
+
+120
+00:08:35,880 --> 00:08:41,100
+These two values are constructed from the values of your past, from your future file.
+
+121
+00:08:41,640 --> 00:08:47,400
+You understand, right, how we connected all this from this add also connected and from it's coming
+
+122
+00:08:47,400 --> 00:08:51,080
+here from here to here and then here to actual matter.
+
+123
+00:08:51,300 --> 00:08:58,580
+And once you get into this matter, we are again feeling it in our dictionary object.
+
+124
+00:08:58,590 --> 00:09:00,850
+And from there we are sending the body.
+
+125
+00:09:01,020 --> 00:09:03,170
+So this is how everything is connected.
+
+126
+00:09:03,420 --> 00:09:06,710
+But we are doing it nicely from frontin with these values.
+
+127
+00:09:07,050 --> 00:09:14,280
+And if you provide another layer like this, the same scenario will repeat a second time so that with
+
+128
+00:09:14,400 --> 00:09:17,880
+multiple datasets now your book will be added.
+
+129
+00:09:18,270 --> 00:09:20,600
+OK, let's do one thing.
+
+130
+00:09:20,610 --> 00:09:23,030
+Let's run this and see how this goes.
+
+131
+00:09:23,310 --> 00:09:25,770
+This time it has to run through scenarios.
+
+132
+00:09:25,920 --> 00:09:26,910
+This is one scenario.
+
+133
+00:09:27,360 --> 00:09:32,790
+And here with the two rows, two different scenarios with two different datasets total three scenarios
+
+134
+00:09:32,790 --> 00:09:33,420
+has to them.
+
+135
+00:09:33,960 --> 00:09:39,840
+After every scenario, we have a condition to go and delete that book.
+
+136
+00:09:40,030 --> 00:09:40,410
+Right.
+
+137
+00:09:41,190 --> 00:09:42,450
+So it looks good.
+
+138
+00:09:43,480 --> 00:09:45,410
+Is there any changes what we need to do here?
+
+139
+00:09:45,640 --> 00:09:46,240
+Let's see.
+
+140
+00:09:48,840 --> 00:09:55,440
+Nothing, these two are common matters, adding the book and book is deleting it can be commonly used
+
+141
+00:09:55,560 --> 00:09:59,990
+because once you have your all contact details, it will just take the values here.
+
+142
+00:10:00,530 --> 00:10:05,360
+OK, let me run this time and see how that goes.
+
+143
+00:10:08,580 --> 00:10:14,820
+OK, execution is going on good, as I told total three scenarios around this time, if you see feature
+
+144
+00:10:14,820 --> 00:10:15,180
+file.
+
+145
+00:10:16,850 --> 00:10:20,810
+Because this ran two times with two different data sets, total nine steps for.
+
+146
+00:10:21,880 --> 00:10:27,550
+Three here, three plus three, six plus three main steps and nothing is fail, and you can see every
+
+147
+00:10:27,550 --> 00:10:33,760
+time it created a new first time, it's the data which is directly present in their definition and it
+
+148
+00:10:33,760 --> 00:10:34,230
+is deleted.
+
+149
+00:10:34,780 --> 00:10:38,350
+And next time you'll see that the device.
+
+150
+00:10:39,740 --> 00:10:46,660
+That is that, yeah, FBI eight four eight nine four, and this is the beginning because the logic of
+
+151
+00:10:46,660 --> 00:10:52,550
+creating it is a combination of ESPN and I right to see that book is at it and it is deleted.
+
+152
+00:10:52,840 --> 00:10:58,480
+Similarly, there is another book with the word seven six three is atter and deleted in.
+
+153
+00:10:59,510 --> 00:11:01,320
+Clean up environment.
+
+154
+00:11:02,150 --> 00:11:10,070
+So this is how you can data drive your test cases with the different data and you can also parametrized
+
+155
+00:11:10,070 --> 00:11:13,160
+them using examples, keyword and scenario outlaying.
+
+156
+00:11:13,670 --> 00:11:17,140
+If you don't mention all Glenden parameterization will not happen here.
+
+157
+00:11:17,630 --> 00:11:21,380
+You have to make sure that you write this line and give me a number of photos.
+
+158
+00:11:21,410 --> 00:11:28,770
+If you have 100 datasets, you want to run your test, then provide 100 Russia and that's Cucumber's
+
+159
+00:11:28,970 --> 00:11:31,670
+or behave takes care of running it 100 times.
+
+160
+00:11:32,450 --> 00:11:36,460
+You'll see that without writing any follow ups are conditions.
+
+161
+00:11:36,490 --> 00:11:39,690
+We are able to achieve it simply by writing in plain English.
+
+162
+00:11:39,710 --> 00:11:41,900
+So that's the beauty of reality brainwork.
+
+163
+00:11:42,740 --> 00:11:44,810
+All right, let's continue the next lecture.
+
+164
+00:11:45,230 --> 00:11:45,620
+Thank you.

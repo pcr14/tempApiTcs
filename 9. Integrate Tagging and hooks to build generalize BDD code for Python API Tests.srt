@@ -1,0 +1,499 @@
+1
+00:00:01,170 --> 00:00:06,390
+All right, so let's run this feature file, which we have implemented in the last lecture.
+
+2
+00:00:07,020 --> 00:00:09,060
+So will this pass if I run?
+
+3
+00:00:09,990 --> 00:00:12,960
+So just think for a minute, will this pass?
+
+4
+00:00:14,220 --> 00:00:17,490
+Do you think that we have written everything correctly here?
+
+5
+00:00:18,400 --> 00:00:27,190
+And also to remember to check all other files as well, and we don't mind feature file step implementation,
+
+6
+00:00:27,640 --> 00:00:34,330
+if you consider all these files, then you will know that this test will fail.
+
+7
+00:00:35,440 --> 00:00:36,070
+Let's see.
+
+8
+00:00:36,520 --> 00:00:40,550
+Let me and I hope you got that idea right now.
+
+9
+00:00:41,200 --> 00:00:42,310
+So let me do one thing.
+
+10
+00:00:43,600 --> 00:00:45,850
+I will run all the test cases.
+
+11
+00:00:45,880 --> 00:00:47,420
+I will just use behav keyword.
+
+12
+00:00:47,710 --> 00:00:50,560
+So this should trigger all tests.
+
+13
+00:00:50,560 --> 00:00:50,890
+Right.
+
+14
+00:00:51,380 --> 00:00:53,950
+So I'll just use behavioral capture.
+
+15
+00:00:55,300 --> 00:01:01,990
+If I don't mention any feature file folder names, it will default when everything.
+
+16
+00:01:05,380 --> 00:01:12,540
+All right, so let's see, Tuffield, so obviously get will fail and there is another failure book about
+
+17
+00:01:12,580 --> 00:01:13,070
+feature.
+
+18
+00:01:13,810 --> 00:01:17,740
+Oh yeah, this is obvious because data scores should be 200.
+
+19
+00:01:17,790 --> 00:01:18,740
+That's why it failed.
+
+20
+00:01:19,150 --> 00:01:21,730
+So then why did it have that feature failed?
+
+21
+00:01:22,750 --> 00:01:23,320
+OK.
+
+22
+00:01:24,200 --> 00:01:28,160
+Let's investigate, and this is saying that who elab?
+
+23
+00:01:29,270 --> 00:01:37,130
+Do you remember that we have written something here that after every scenario, it has to go and delete
+
+24
+00:01:37,130 --> 00:01:37,630
+the book?
+
+25
+00:01:38,210 --> 00:01:43,510
+So obviously for this scenario, also session management, it's trying to delete the book.
+
+26
+00:01:43,910 --> 00:01:44,890
+There is the book.
+
+27
+00:01:45,230 --> 00:01:46,940
+Both are different apps.
+
+28
+00:01:46,940 --> 00:01:47,300
+Right.
+
+29
+00:01:47,670 --> 00:01:49,380
+Where is the book concept here?
+
+30
+00:01:49,400 --> 00:01:55,160
+So that's why when it is trying to delete, it did not have any book I attribute.
+
+31
+00:01:55,310 --> 00:01:57,470
+So that's what it complaint's context.
+
+32
+00:01:57,470 --> 00:01:59,660
+Object has no attribute card book.
+
+33
+00:02:00,260 --> 00:02:07,600
+OK, so remaining a feature files have the attribute because when we ran them we are creating one book
+
+34
+00:02:07,820 --> 00:02:11,750
+attribute so that becomes a deadlock us.
+
+35
+00:02:11,930 --> 00:02:16,090
+So how should we refactor our after scenario then.
+
+36
+00:02:16,850 --> 00:02:17,210
+So.
+
+37
+00:02:18,460 --> 00:02:27,520
+If you have some scenarios which are not related to your scenario, after all scenarios, you can actually
+
+38
+00:02:27,520 --> 00:02:29,670
+smartly skip them using tax.
+
+39
+00:02:30,010 --> 00:02:39,180
+Now, for example, for book AIPA, let's write back as a library because this belongs to library areas.
+
+40
+00:02:39,190 --> 00:02:39,410
+Right.
+
+41
+00:02:40,120 --> 00:02:47,350
+So whenever you encounter in new library a scenario, there will be obviously we will add some book
+
+42
+00:02:47,350 --> 00:02:48,880
+or we need to clean that data.
+
+43
+00:02:48,880 --> 00:02:49,420
+And at the end.
+
+44
+00:02:49,750 --> 00:02:52,330
+Right, let's assume so.
+
+45
+00:02:52,510 --> 00:02:54,250
+This is a getups scenario.
+
+46
+00:02:54,880 --> 00:02:56,950
+OK, I don't want to add any tax here.
+
+47
+00:02:58,030 --> 00:03:08,710
+But I can tell now to my environment fame that run this scenario only when you encounter a tag called
+
+48
+00:03:09,100 --> 00:03:19,030
+library, OK, so it will come right and execute this only when it encounters library time.
+
+49
+00:03:19,060 --> 00:03:20,950
+That's how you should give the knowledge.
+
+50
+00:03:21,160 --> 00:03:27,820
+So this way, this will skip GitHub feature because GitHub scenario does not have library tag.
+
+51
+00:03:28,120 --> 00:03:31,000
+So we can ask you to skip that.
+
+52
+00:03:31,180 --> 00:03:31,470
+Right.
+
+53
+00:03:31,510 --> 00:03:32,920
+That's how you need to build logic.
+
+54
+00:03:33,220 --> 00:03:34,120
+OK, it's very simple.
+
+55
+00:03:34,170 --> 00:03:35,580
+Guys, let's do that now.
+
+56
+00:03:37,720 --> 00:03:38,170
+If.
+
+57
+00:03:41,320 --> 00:03:43,590
+What is our technium debate?
+
+58
+00:03:43,940 --> 00:03:46,330
+Let's get that Diagne library.
+
+59
+00:03:48,030 --> 00:03:57,090
+If library back is in what scenario, if you carefully observed there is one object and variable passed
+
+60
+00:03:57,090 --> 00:03:58,780
+as a parameter to this method.
+
+61
+00:03:59,190 --> 00:04:04,680
+So this parameter will have the knowledge of the scenario, what it just ran.
+
+62
+00:04:05,190 --> 00:04:13,650
+OK, so in what case we will reach here after we execute any scenario successfully, then our control
+
+63
+00:04:13,650 --> 00:04:14,270
+reaches here.
+
+64
+00:04:14,580 --> 00:04:21,780
+OK, when it reaches here, that scenario information will be holding in this object so you can select
+
+65
+00:04:21,780 --> 00:04:23,250
+this scenario.
+
+66
+00:04:25,770 --> 00:04:33,810
+So this scenario object calls all the details of that scenario, so scenario dark bags, so that will
+
+67
+00:04:33,870 --> 00:04:40,860
+get that tag of the scenario, what you just ran, because some scenarios should bring you here in the
+
+68
+00:04:40,860 --> 00:04:41,190
+end.
+
+69
+00:04:41,550 --> 00:04:43,460
+So that scenario information will be here.
+
+70
+00:04:44,010 --> 00:04:46,350
+So when you see a scenario that tags.
+
+71
+00:04:46,680 --> 00:04:51,870
+So which scenario brought to you that let's say you went there after this scenario, so then use a scenario
+
+72
+00:04:51,870 --> 00:04:58,290
+that tax liability will be extracted so that all the information will be automatically passed to this
+
+73
+00:04:58,290 --> 00:04:58,790
+object.
+
+74
+00:04:59,040 --> 00:05:06,300
+And as we have this as an argument you can use like this, if not if library, is that bag present in
+
+75
+00:05:06,300 --> 00:05:10,360
+the scenario what you executed, then go and execute this.
+
+76
+00:05:10,410 --> 00:05:12,180
+This is how we have to build the logic.
+
+77
+00:05:12,570 --> 00:05:17,880
+OK, so let's take care of this cord indentation that these mandatory.
+
+78
+00:05:20,930 --> 00:05:25,170
+OK, so when you close this method, everything gets closed.
+
+79
+00:05:25,910 --> 00:05:30,240
+So that means you have successfully implemented indentation as well.
+
+80
+00:05:30,500 --> 00:05:30,780
+Great.
+
+81
+00:05:31,310 --> 00:05:34,850
+OK, so this one step will solve all our problems now.
+
+82
+00:05:35,210 --> 00:05:38,280
+So get up when the scenario is executed.
+
+83
+00:05:38,300 --> 00:05:41,440
+Yes, obviously it will reach this because that's how we define.
+
+84
+00:05:41,720 --> 00:05:46,090
+But when it's a scenario, not tax library, library is not that here.
+
+85
+00:05:46,280 --> 00:05:53,120
+So it will simply skip this because this complete code will execute only in this if condition matters.
+
+86
+00:05:53,390 --> 00:05:53,670
+Right.
+
+87
+00:05:53,900 --> 00:05:58,020
+So this if conditions do not match up, so it will not execute anything in 30 days.
+
+88
+00:05:58,280 --> 00:06:06,610
+So this is how we are solving the problem of executing the scenarios which are not related to your test.
+
+89
+00:06:07,070 --> 00:06:12,350
+OK, so I hope you now understood how to integrate tags and hooks.
+
+90
+00:06:12,510 --> 00:06:15,420
+That's what I mentioned here in my document.
+
+91
+00:06:15,800 --> 00:06:22,430
+So Bill set up and tear down methods with military tax and the combination of these two is required
+
+92
+00:06:22,730 --> 00:06:26,670
+when you build this, because not every scenario will rely on these hooks.
+
+93
+00:06:26,690 --> 00:06:26,920
+Right.
+
+94
+00:06:27,410 --> 00:06:32,030
+And forget get if you have another book, you can write another method after scenario.
+
+95
+00:06:32,330 --> 00:06:38,960
+OK, so if you have a tackle, get help, then you can get how is in this one this on in the film and
+
+96
+00:06:38,960 --> 00:06:40,490
+then you can have another live condition.
+
+97
+00:06:40,730 --> 00:06:45,170
+If you encounter it back then that will run that specific goal.
+
+98
+00:06:46,010 --> 00:06:51,770
+OK, so this is how you can bring intelligence to human after scenario method.
+
+99
+00:06:52,100 --> 00:06:52,510
+All right.
+
+100
+00:06:52,790 --> 00:06:54,560
+So I will run one more time.
+
+101
+00:06:55,790 --> 00:07:03,050
+And before that, during and when it failed here, isn't it, if it fails, so it did not run after
+
+102
+00:07:03,110 --> 00:07:03,560
+2010.
+
+103
+00:07:03,620 --> 00:07:07,970
+So you have to, again, change and give the latest name for this.
+
+104
+00:07:10,570 --> 00:07:11,860
+So that it will be unique.
+
+105
+00:07:12,250 --> 00:07:19,120
+OK, so let me run this became no captor, so this time it has to learn all the scenarios present in
+
+106
+00:07:19,120 --> 00:07:20,090
+this fetus folder.
+
+107
+00:07:20,680 --> 00:07:22,660
+Look here, everything is past.
+
+108
+00:07:23,010 --> 00:07:24,820
+There are total four scenarios.
+
+109
+00:07:25,090 --> 00:07:25,600
+Yes.
+
+110
+00:07:25,960 --> 00:07:31,030
+To inform of example three here and one is giving up.
+
+111
+00:07:31,600 --> 00:07:32,800
+Everything looks past.
+
+112
+00:07:33,070 --> 00:07:39,580
+And with this examples, you understood many important concepts of BGT framework.
+
+113
+00:07:40,030 --> 00:07:43,180
+You know how to drive and integrate.
+
+114
+00:07:43,420 --> 00:07:46,330
+You will feature five scenarios to start definition's.
+
+115
+00:07:46,510 --> 00:07:53,200
+You also know how to date and drive by sending the values and how to reuse the same method.
+
+116
+00:07:53,350 --> 00:08:00,850
+If you by writing same gurkin language so that you can use this data score here and also here by writing
+
+117
+00:08:00,850 --> 00:08:03,570
+generic methods, you'll also know how to parameterize.
+
+118
+00:08:03,760 --> 00:08:05,670
+You want to test with multiple datasets.
+
+119
+00:08:06,100 --> 00:08:14,320
+We have also seen what are tags and how to use them effectively and we also saw what is what on different
+
+120
+00:08:14,320 --> 00:08:17,860
+hooks available and how to integrate backs with hooks.
+
+121
+00:08:18,190 --> 00:08:24,130
+And at the same time, we also understood the importance of context variable and the also importance
+
+122
+00:08:24,130 --> 00:08:28,290
+of having consistent variable names so that you can reuse in other methods.
+
+123
+00:08:28,660 --> 00:08:31,120
+So that's pretty much about the cucumber concepts.
+
+124
+00:08:31,420 --> 00:08:35,790
+But still, there is one reporting part left which obviously never makes later.
+
+125
+00:08:36,150 --> 00:08:37,210
+All right, thank you.
